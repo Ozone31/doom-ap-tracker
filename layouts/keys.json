@@ -1,0 +1,99 @@
+{
+    "keys_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "item_h_alignment": "center",
+                        "h_alignment": "left",
+                        "rows": [   
+                            [
+                                "e1m2_red",
+                                "e1m3_blue",
+                                "e1m4_blue",
+                                "e1m5_blue",
+                                "e1m6_blue",
+                                "e1m7_blue",
+                                "e1m9_blue",
+                                "e2m1_blue",
+                                "e2m2_blue",
+                                "e2m3_blue",
+                                "e2m4_blue"
+                            ],           
+                            [
+                                "",                        
+                                "e1m3_yellow",
+                                "e1m4_yellow",
+                                "e1m5_yellow",
+                                "e1m6_yellow",
+                                "e1m7_yellow",
+                                "e1m9_yellow",
+                                "e2m1_red",
+                                "e2m2_yellow",
+                                "",
+                                "e2m4_yellow"
+                            ],
+                            [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "e1m6_red",
+                                "e1m7_red",
+                                "e1m9_red",
+                                "",
+                                "e2m2_red",
+                                "",
+                                ""
+                            ],
+                            [
+                                "e2m6_blue",
+                                "e2m7_blue",
+                                "e2m9_blue",
+                                "e3m2_blue",
+                                "e3m3_blue",
+                                "e3m4_blue",
+                                "e3m5_blue",
+                                "e3m6_blue",
+                                "e3m7_blue",
+                                "e3m9_blue"
+                            ],
+                            [
+                                "e2m6_yellow",
+                                "e2m7_yellow",
+                                "e2m9_yellow",
+                                "",
+                                "",
+                                "e3m4_yellow",
+                                "e3m5_yellow",
+                                "",
+                                "e3m7_yellow",
+                                "e3m9_red"
+                            ],
+                            [
+                                "e2m6_red",
+                                "e2m7_red",
+                                "e2m9_red",
+                                "",
+                                "",
+                                "e3m4_red",
+                                "",
+                                "",
+                                "e3m7_red",
+                                ""
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

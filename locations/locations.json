@@ -1,0 +1,1649 @@
+[
+    {
+        "name": "Mars",
+        "chest_unopened_img": "/images/items/cacodemon.png",
+        "chest_opened_img": "/images/items/cacodemon_dead.png",
+        "children": [
+            {
+                "name": "Hangar (E1M1)",
+                "visibility_rules": ["ep1_on"],
+                "sections": [
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Shotgun",
+                        "access_rules": [""]
+                    }
+//                    {
+//                        "name": "Complete",
+//                        "access_rules": [""],
+//                        "hosted_item": "e1m1_complete"
+//                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode1",
+                        "x": 370,
+                        "y": 350
+                    }
+                ]
+            },
+            {
+                "name": "Nuclear Plant (E1M2)",
+                "visibility_rules": ["ep1_on"],
+                "sections": [
+                    {
+                        "name": "Shotgun",
+                        "access_rules": ["e1m2_access"]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": ["e1m2_access"]
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": ["e1m2_access"]
+                    },
+                    {
+                        "name": "Chaingun",
+                        "access_rules": ["e1m2_access"]
+                    },
+                    {
+                        "name": "Red Keycard",
+                        "access_rules": ["e1m2_access"]
+                    },
+                    {
+                        "name": "Armor 2",
+                        "access_rules": ["e1m2_access"]
+                    },
+                    {
+                        "name": "Backpack",
+                        "access_rules": ["e1m2_access"]
+                    },
+                    {
+                        "name": "Chainsaw",
+                        "access_rules": ["$e1m2_redaccess"]
+                    },
+                    {
+                        "name": "Armor 3",
+                        "access_rules": ["$e1m2_redaccess"]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": ["$e1m2_redaccess"]
+                    },
+                    {
+                        "name": "Backpack 2",
+                        "access_rules": ["$e1m2_redaccess"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode1",
+                        "x": 295,
+                        "y": 290
+                    }
+                ]
+            },
+            {
+                "name": "Toxin Refinery (E1M3)",
+                "visibility_rules": ["ep1_on"],
+                "sections": [
+                    {
+                        "name": "Armor",
+                        "access_rules": ["e1m3_access"]
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": ["e1m3_access"]
+                    },
+                    {
+                        "name": "Yellow Keycard",
+                        "access_rules": ["e1m3_access"]
+                    },
+                    {
+                        "name": "Blue Keycard",
+                        "access_rules": ["e1m3_access"]
+                    },
+                    {
+                        "name": "Shotgun",
+                        "access_rules": ["e1m3_access"]
+                    },
+                    {
+                        "name": "Shotgun 2",
+                        "access_rules": ["e1m3_access"]
+                    },
+                    {
+                        "name": "Armor 2",
+                        "access_rules": ["e1m3_access"]
+                    },
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": ["e1m3_access"]
+                    },
+                    {
+                        "name": "Chaingun",
+                        "access_rules": ["e1m3_access"]
+                    },
+                    {
+                        "name": "Backpack",
+                        "access_rules": ["e1m3_access"]
+                    },
+                    {
+                        "name": "Armor 3",
+                        "access_rules": ["$e1m3_blueaccess"]
+                    },
+                    {
+                        "name": "Chainsaw",
+                        "access_rules": ["$e1m3_blueaccess"]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": ["$e1m3_blueyellowaccess"]
+                    },
+                    {
+                        "name": "Supercharge 2",
+                        "access_rules": ["$e1m3_blueyellowaccess"]
+                    },
+                    {
+                        "name": "Partial Invisibility",
+                        "access_rules": ["$e1m3_blueyellowaccess"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode1",
+                        "x": 139,
+                        "y": 250
+                    }
+                ]
+            },
+            {
+                "name": "Command Control (E1M4)",
+                "visibility_rules": ["ep1_on"],
+                "sections": [
+                    {
+                        "name": "Chaingun",
+                        "access_rules": ["e1m4_access"]
+                    },
+                    {
+                        "name": "Blue Keycard",
+                        "access_rules": ["e1m4_access"]
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": ["e1m4_access"]
+                    },
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": ["e1m4_access"]
+                    },
+                    {
+                        "name": "Backpack",
+                        "access_rules": ["e1m4_access"]
+                    },
+                    {
+                        "name": "Shotgun",
+                        "access_rules": ["e1m4_access"]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": ["$e1m4_blueyellowaccess"]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": ["$e1m4_blueyellowaccess"]
+                    },
+                    {
+                        "name": "Yellow Keycard",
+                        "access_rules": ["$e1m4_blueyellowaccess"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode1",
+                        "x": 460,
+                        "y": 215
+                    }
+                ]
+            },
+            {
+                "name": "Phobos Lab (E1M5)",
+                "visibility_rules": ["ep1_on"],
+                "sections": [
+                    {
+                        "name": "Yellow Keycard",
+                        "access_rules": ["e1m5_access"]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": ["e1m5_access"]
+                    },
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": ["e1m5_access"]
+                    },
+                    {
+                        "name": "Shotgun",
+                        "access_rules": ["e1m5_access"]
+                    },
+                    {
+                        "name": "Shotgun 2",
+                        "access_rules": ["e1m5_access"]
+                    },
+                    {
+                        "name": "Backpack",
+                        "access_rules": ["$e1m5_yellowaccess"]
+                    },
+                    {
+                        "name": "Shotgun 3",
+                        "access_rules": ["e1m5_access"]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": ["e1m5_access"]
+                    },
+                    {
+                        "name": "Blue Keycard",
+                        "access_rules": ["$e1m5_yellowaccess"]
+                    },
+                    {
+                        "name": "Mega Armor 2",
+                        "access_rules": ["$e1m5_yellowaccess"]
+                    },
+                    {
+                        "name": "Chainsaw",
+                        "access_rules": ["$e1m5_yellowaccess"]
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": ["$e1m5_yellowaccess"]
+                    },
+                    {
+                        "name": "Chaingun",
+                        "access_rules": ["$e1m5_yellowaccess"]
+                    },
+                    {
+                        "name": "Computer Area Map",
+                        "access_rules": ["$e1m5_yellowaccess"]
+                    },
+                    {
+                        "name": "Partial Invisibility",
+                        "access_rules": ["$e1m5_yellowaccess"]
+                    },
+                    {
+                        "name": "Armor 2",
+                        "access_rules": ["$e1m5_yellowaccess"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode1",
+                        "x": 232,
+                        "y": 180
+                    }
+                ]
+            },
+            {
+                "name": "Central Processing (E1M6)",
+                "visibility_rules": ["ep1_on"],
+                "sections": [
+                    {
+                        "name": "Red Keycard",
+                        "access_rules": ["e1m6_access"]
+                    },
+                    {
+                        "name": "Partial Invisibility",
+                        "access_rules": ["e1m6_access"]
+                    },
+                    {
+                        "name": "Chaingun",
+                        "access_rules": ["e1m6_access"]
+                    },
+                    {
+                        "name": "Shotgun",
+                        "access_rules": ["e1m6_access"]
+                    },
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": ["e1m6_access"]
+                    },
+                    {
+                        "name": "Backpack",
+                        "access_rules": ["e1m6_access"]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": ["e1m6_access"]
+                    },
+                    {
+                        "name": "Armor 4",
+                        "access_rules": ["e1m6_access"]
+                    },
+                    {
+                        "name": "Supercharge 2",
+                        "access_rules": ["$e1m6_blueaccess"]
+                    },
+                    {
+                        "name": "Yellow Keycard",
+                        "access_rules": ["$e1m6_blueaccess"]
+                    },
+                    {
+                        "name": "Computer Area Map",
+                        "access_rules": ["$e1m6_blueaccess"]
+                    },
+                    {
+                        "name": "Backpack 2",
+                        "access_rules": ["$e1m6_blueaccess"]
+                    },
+                    {
+                        "name": "Backpack 3",
+                        "access_rules": ["$e1m6_blueaccess"]
+                    },
+                    {
+                        "name": "Armor 2",
+                        "access_rules": ["$e1m6_blueaccess"]
+                    },
+                    {
+                        "name": "Armor 3",
+                        "access_rules": ["$e1m6_blueyellowaccess"]
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": ["$e1m6_redaccess"]
+                    },
+                    {
+                        "name": "Blue Keycard",
+                        "access_rules": ["$e1m6_redaccess"]
+                    },
+                    {
+                        "name": "Partial Invisibility 2",
+                        "access_rules": ["$e1m6_redaccess"]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": ["$e1m6_redaccess"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode1",
+                        "x": 357,
+                        "y": 105
+                    }
+                ]
+            },
+            {
+                "name": "Computer Station (E1M7)",
+                "visibility_rules": ["ep1_on"],
+                "sections": [
+                    {
+                        "name": "Shotgun 2",
+                        "access_rules": ["e1m7_access"]
+                    },
+                    {
+                        "name": "Yellow Keycard",
+                        "access_rules": ["e1m7_access"]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": ["e1m7_access"]
+                    },
+                    {
+                        "name": "Shotgun",
+                        "access_rules": ["$e1m7_blueyellowaccess"]
+                    },
+                    {
+                        "name": "Chainsaw",
+                        "access_rules": ["$e1m7_yellowaccess"]
+                    },
+                    {
+                        "name": "Chaingun",
+                        "access_rules": ["$e1m7_yellowaccess"]
+                    },
+                    {
+                        "name": "Red Keycard",
+                        "access_rules": ["$e1m7_yellowaccess"]
+                    },
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": ["$e1m7_yellowaccess"]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": ["$e1m7_yellowaccess"]
+                    },
+                    {
+                        "name": "Computer Area Map",
+                        "access_rules": ["$e1m7_yellowaccess"]
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": ["$e1m7_yellowaccess"]
+                    },
+                    {
+                        "name": "Backpack",
+                        "access_rules": ["$e1m7_yellowaccess"]
+                    },
+                    {
+                        "name": "Armor 2",
+                        "access_rules": ["$e1m7_yellowaccess"]
+                    },
+                    {
+                        "name": "Blue Keycard",
+                        "access_rules": ["$e1m7_redaccess"]
+                    },
+                    {
+                        "name": "Partial Invisibility",
+                        "access_rules": ["$e1m7_yellowredaccess"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode1",
+                        "x": 150,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Phobos Anomaly (E1M8)",
+                "visibility_rules": ["ep1_on"],
+                "sections": [
+                    {
+                        "name": "Supercharge",
+                        "access_rules": ["e1m8_access"]
+                    },
+                    {
+                        "name": "Shotgun",
+                        "access_rules": ["e1m8_access"]
+                    },
+                    {
+                        "name": "Shotgun 2",
+                        "access_rules": ["e1m8_access"]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": ["e1m8_access"]
+                    },
+                    {
+                        "name": "Chaingun",
+                        "access_rules": ["e1m8_access"]
+                    },
+                    {
+                        "name": "Partial Invisibility",
+                        "access_rules": ["e1m8_access"]
+                    },
+                    {
+                        "name": "Computer Area Map",
+                        "access_rules": ["e1m8_access"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode1",
+                        "x": 271,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Military Base (E1M9)",
+                "visibility_rules": ["ep1_on"],
+                "sections": [
+                    {
+                        "name": "Yellow Keycard",
+                        "access_rules": ["e1m9_access"]
+                    },
+                    {
+                        "name": "Chaingun",
+                        "access_rules": ["e1m9_access"]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": ["e1m9_access"]
+                    },
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": ["e1m9_access"]
+                    },
+                    {
+                        "name": "Backpack",
+                        "access_rules": ["$e1m9_blueaccess"]
+                    },
+                    {
+                        "name": "Shotgun",
+                        "access_rules": ["$e1m9_blueaccess"]
+                    },
+                    {
+                        "name": "Chainsaw",
+                        "access_rules": ["$e1m9_blueaccess"]
+                    },
+                    {
+                        "name": "Red Keycard",
+                        "access_rules": ["$e1m9_yellowaccess"]
+                    },
+                    {
+                        "name": "Blue Keycard",
+                        "access_rules": ["$e1m9_redaccess"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode1",
+                        "x": 150,
+                        "y": 50
+                    }
+                ]
+            },
+            {
+                "name": "Deimos Anomaly (E2M1)",
+                "visibility_rules": ["ep2_on"],
+                "sections": [
+                    {
+                        "name": "Shotgun",
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Shotgun 2",
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Red Keycard",
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Blue Keycard",
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Plasma Gun",
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Computer Area Map",
+                        "access_rules": ["e2m1_red"]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": ["e2m1_red"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode2",
+                        "x": 509,
+                        "y": 42
+                    }
+                ]
+            },
+            {
+                "name": "Containment Area (E2M2)",
+                "visibility_rules": ["ep2_on"],
+                "sections": [
+                    {
+                        "name": "Shotgun",
+                        "access_rules": [ "e2m2_access" ]
+                    },
+                    {
+                        "name": "Shotgun 2",
+                        "access_rules": ["e2m2_access"]
+                    },
+                    {
+                        "name": "Berserk",
+                        "access_rules": ["e2m2_access"]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": ["e2m2_access"]
+                    },
+                    {
+                        "name": "Armor 2",
+                        "access_rules": ["e2m2_access"]
+                    },
+                    {
+                        "name": "Armor 3",
+                        "access_rules": [ "e2m2_access" ]
+                    },
+                    {
+                        "name": "Armor 4",
+                        "access_rules": ["e2m2_access"]
+                    },
+                    {
+                        "name": "Yellow Keycard",
+                        "access_rules": ["e2m2_access"]
+                    },
+                    {
+                        "name": "Backpack",
+                        "access_rules": ["e2m2_access"]
+                    },
+                    {
+                        "name": "Computer Area Map",
+                        "access_rules": ["e2m2_access"]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": [ "e2m2_access" ]
+                    },
+                    {
+                        "name": "Plasma Gun",
+                        "access_rules": ["e2m2_access"]
+                    },
+                    {
+                        "name": "Chainsaw",
+                        "access_rules": ["e2m2_access"]
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": ["e2m2_access"]
+                    },
+                    {
+                        "name": "Blue Keycard",
+                        "access_rules": ["e2m2_access"]
+                    },
+                    {
+                        "name": "Red Keycard",
+                        "access_rules": ["$e2m2_blueaccess"]
+                    },
+                    {
+                        "name": "Chaingun",
+                        "access_rules": ["$e2m2_yellowaccess"]
+                    },
+                    {
+                        "name": "Backpack 2",
+                        "access_rules": ["$e2m2_yellowaccess"]
+                    },
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": ["$e2m2_yellowaccess"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode2",
+                        "x": 193,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Refinery (E2M3)",
+                "visibility_rules": ["ep2_on"],
+                "sections": [
+                    {
+                        "name": "Chaingun",
+                        "access_rules": [ "e2m3_access" ]
+                    },
+                    {
+                        "name": "Shotgun",
+                        "access_rules": ["e2m3_access"]
+                    },
+                    {
+                        "name": "Berserk",
+                        "access_rules": ["e2m3_access"]
+                    },
+                    {
+                        "name": "Partial Invisibility 2",
+                        "access_rules": ["e2m3_access"]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": ["e2m3_access"]
+                    },
+                    {
+                        "name": "Backpack",
+                        "access_rules": [ "e2m3_access" ]
+                    },
+                    {
+                        "name": "Plasma Gun",
+                        "access_rules": ["e2m3_access"]
+                    },
+                    {
+                        "name": "Blue Keycard",
+                        "access_rules": ["e2m3_access"]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": ["e2m3_access"]
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": ["$e2m3_blueaccess"]
+                    },
+                    {
+                        "name": "Partial Invisibility",
+                        "access_rules": [ "$e2m3_blueaccess" ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode2",
+                        "x": 382,
+                        "y": 135
+                    }
+                ]
+            },
+            {
+                "name": "Deimos Lab (E2M4)",
+                "visibility_rules": ["ep2_on"],
+                "sections": [
+                    {
+                        "name": "Shotgun",
+                        "access_rules": [ "e2m4_access" ]
+                    },
+                    {
+                        "name": "Computer Area Map",
+                        "access_rules": [ "e2m4_access" ]
+                    },
+                    {
+                        "name": "Armor 2",
+                        "access_rules": [ "e2m4_access" ]
+                    },
+                    {
+                        "name": "Partial Invisibility",
+                        "access_rules": [ "e2m4_access" ]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": [ "e2m4_access" ]
+                    },
+                    {
+                        "name": "Berserk",
+                        "access_rules": [ "e2m4_access" ]
+                    },
+                    {
+                        "name": "Backpack",
+                        "access_rules": [ "e2m4_access" ]
+                    },
+                    {
+                        "name": "Supercharge 2",
+                        "access_rules": [ "e2m4_access" ]
+                    },
+                    {
+                        "name": "Partial Invisibility 2",
+                        "access_rules": [ "e2m4_access" ]
+                    },
+                    {
+                        "name": "Chaingun",
+                        "access_rules": [ "e2m4_access" ]
+                    },
+                    {
+                        "name": "Armor 3",
+                        "access_rules": [ "e2m4_access" ]
+                    },
+                    {
+                        "name": "Blue Keycard",
+                        "access_rules": [ "e2m4_access" ]
+                    },
+                    {
+                        "name": "Yellow Keycard",
+                        "access_rules": ["$e2m4_blueaccess"]
+                    },
+                    {
+                        "name": "Plasma Gun",
+                        "access_rules": ["$e2m4_blueyellowaccess"]
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": ["$e2m4_blueyellowaccess"]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": ["$e2m4_blueyellowaccess"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode2",
+                        "x": 258,
+                        "y": 170
+                    }
+                ]
+            },
+            {
+                "name": "Command Center (E2M5)",
+                "visibility_rules": ["ep2_on"],
+                "sections": [
+                    {
+                        "name": "Backpack",
+                        "access_rules": [ "e2m5_access" ]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": [ "e2m5_access" ]
+                    },
+                    {
+                        "name": "Berserk",
+                        "access_rules": [ "e2m5_access" ]
+                    },
+                    {
+                        "name": "Chaingun",
+                        "access_rules": [ "e2m5_access" ]
+                    },
+                    {
+                        "name": "Chainsaw",
+                        "access_rules": [ "e2m5_access" ]
+                    },
+                    {
+                        "name": "Plasma Gun",
+                        "access_rules": [ "e2m5_access" ]
+                    },
+                    {
+                        "name": "Computer Area Map",
+                        "access_rules": [ "e2m5_access" ]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": [ "e2m5_access" ]
+                    },
+                    {
+                        "name": "Armor 2",
+                        "access_rules": [ "e2m5_access" ]
+                    },
+                    {
+                        "name": "Partial Invisibility",
+                        "access_rules": [ "e2m5_access" ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode2",
+                        "x": 430,
+                        "y": 190
+                    }
+                ]
+            },
+            {
+                "name": "Halls of the Damned (E2M6)",
+                "visibility_rules": ["ep2_on"],
+                "sections": [
+                    {
+                        "name": "Shotgun",
+                        "access_rules": [ "e2m6_access" ]
+                    },
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": [ "e2m6_access" ]
+                    },
+                    {
+                        "name": "Berserk",
+                        "access_rules": [ "e2m6_access" ]
+                    },
+                    {
+                        "name": "Chainsaw",
+                        "access_rules": [ "e2m6_access" ]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": [ "e2m6_access" ]
+                    },
+                    {
+                        "name": "Backpack",
+                        "access_rules": [ "e2m6_access" ]
+                    },
+                    {
+                        "name": "Plasma Gun",
+                        "access_rules": [ "e2m6_access" ]
+                    },
+                    {
+                        "name": "Yellow Skull Key",
+                        "access_rules": [ "e2m6_access" ]
+                    },
+                    {
+                        "name": "Partial Invisibility 3",
+                        "access_rules": [ "e2m6_access" ]
+                    },
+                    {
+                        "name": "Partial Invisibility",
+                        "access_rules": [ "e2m6_access" ]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": [ "e2m6_access" ]
+                    },
+                    {
+                        "name": "Chaingun",
+                        "access_rules": [ "e2m6_access" ]
+                    },
+                    {
+                        "name": "Red Skull Key",
+                        "access_rules": [ "e2m6_access" ]
+                    },
+                    {
+                        "name": "Blue Skull Key",
+                        "access_rules": [ "e2m6_access" ]
+                    },
+                    {
+                        "name": "Partial Invisibility 2",
+                        "access_rules": [ "e2m6_access" ]
+                    },
+                    {
+                        "name": "Computer Area Map",
+                        "access_rules": [ "$e2m6_yellowaccess" ]
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": [ "$e2m6_yellowaccess" ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode2",
+                        "x": 267,
+                        "y": 260
+                    }
+                ]
+            },
+            {
+                "name": "Spawning Vats (E2M7)",
+                "visibility_rules": ["ep2_on"],
+                "sections": [
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": [ "e2m7_access" ]
+                    },
+                    {
+                        "name": "Partial Invisibility",
+                        "access_rules": [ "e2m7_access" ]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": [ "e2m7_access" ]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": [ "e2m7_access" ]
+                    },
+                    {
+                        "name": "Blue Keycard",
+                        "access_rules": [ "e2m7_access" ]
+                    },
+                    {
+                        "name": "Invulnerability",
+                        "access_rules": [ "e2m7_access" ]
+                    },
+                    {
+                        "name": "Berserk",
+                        "access_rules": [ "e2m7_access" ]
+                    },
+                    {
+                        "name": "Chainsaw",
+                        "access_rules": [ "e2m7_access" ]
+                    },
+                    {
+                        "name": "Invulnerability 2",
+                        "access_rules": [ "e2m7_access" ]
+                    },
+                    {
+                        "name": "Computer Area Map",
+                        "access_rules": [ "e2m7_access" ]
+                    },
+                    {
+                        "name": "Plasma Gun",
+                        "access_rules": [ "e2m7_access" ]
+                    },
+                    {
+                        "name": "Yellow Keycard",
+                        "access_rules": [ "$e2m7_blueaccess" ]
+                    },
+                    {
+                        "name": "Chaingun",
+                        "access_rules": [ "$e2m7_blueaccess" ]
+                    },
+                    {
+                        "name": "Backpack",
+                        "access_rules": [ "$e2m7_blueaccess" ]
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": [ "$e2m7_blueaccess" ]
+                    },
+                    {
+                        "name": "Red Keycard",
+                        "access_rules": [ "$e2m7_yellowaccess" ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode2",
+                        "x": 413,
+                        "y": 270
+                    }
+                ]
+            },
+            {
+                "name": "Tower of Babel (E2M8)",
+                "visibility_rules": ["ep2_on"],
+                "sections": [
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": [ "e2m8_access" ]
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": [ "e2m8_access" ]
+                    },
+                    {
+                        "name": "Supercharge 2",
+                        "access_rules": [ "e2m8_access" ]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": [ "e2m8_access" ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode2",
+                        "x": 300,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Fortress of Mystery (E2M9)",
+                "visibility_rules": ["ep2_on"],
+                "sections": [
+                    {
+                        "name": "Supercharge",
+                        "access_rules": [ "e2m9_access" ]
+                    },
+                    {
+                        "name": "Blue Skull Key",
+                        "access_rules": [ "e2m9_access" ]
+                    },
+                    {
+                        "name": "Backpack",
+                        "access_rules": [ "e2m9_access" ]
+                    },
+                    {
+                        "name": "Chaingun",
+                        "access_rules": [ "e2m9_access" ]
+                    },
+                    {
+                        "name": "Plasma Gun",
+                        "access_rules": [ "e2m9_access" ]
+                    },
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": [ "e2m9_access" ]
+                    },
+                    {
+                        "name": "Shotgun",
+                        "access_rules": [ "e2m9_access" ]
+                    },
+                    {
+                        "name": "Chainsaw",
+                        "access_rules": [ "e2m9_access" ]
+                    },
+                    {
+                        "name": "Computer Area Map",
+                        "access_rules": [ "e2m9_access" ]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": [ "e2m9_access" ]
+                    },
+                    {
+                        "name": "Red Skull Key",
+                        "access_rules": [ "$e2m9_blueaccess" ]
+                    },
+                    {
+                        "name": "Yellow Skull Key",
+                        "access_rules": [ "$e2m9_redaccess" ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode2",
+                        "x": 470,
+                        "y": 320
+                    }
+                ]
+            },
+            {
+                "name": "Hell Keep (E3M1)",
+                "visibility_rules": ["ep3_on"],
+                "sections": [
+                    {
+                        "name": "Shotgun",
+                        "access_rules": [""]
+                    },
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": [""]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode3",
+                        "x": 311,
+                        "y": 325
+                    }
+                ]
+            },
+            {
+                "name": "Slough of Despair (E3M2)",
+                "visibility_rules": ["ep3_on"],
+                "sections": [
+                    {
+                        "name": "Chaingun",
+                        "access_rules": ["e3m2_access"]
+                    },
+                    {
+                        "name": "Berserk",
+                        "access_rules": ["e3m2_access"]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": ["e3m2_access"]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": ["e3m2_access"]
+                    },
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": ["e3m2_access"]
+                    },
+                    {
+                        "name": "Plasma Gun",
+                        "access_rules": ["e3m2_access"]
+                    },
+                    {
+                        "name": "Computer Area Map",
+                        "access_rules": ["e3m2_access"]
+                    },
+                    {
+                        "name": "Blue Skull Key",
+                        "access_rules": ["e3m2_access"]
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": ["e3m2_access"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode3",
+                        "x": 95,
+                        "y": 305
+                    }
+                ]
+            },
+            {
+                "name": "Pandemonium (E3M3)",
+                "visibility_rules": ["ep3_on"],
+                "sections": [
+                    {
+                        "name": "Berserk",
+                        "access_rules": ["e3m3_access"]
+                    },
+                    {
+                        "name": "Chaingun",
+                        "access_rules": ["e3m3_access"]
+                    },
+                    {
+                        "name": "BFG9000",
+                        "access_rules": ["e3m3_access"]
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": ["e3m3_access"]
+                    },
+                    {
+                        "name": "Invulnerability",
+                        "access_rules": ["e3m3_access"]
+                    },
+                    {
+                        "name": "Blue Skull Key",
+                        "access_rules": ["e3m3_access"]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": ["e3m3_access"]
+                    },
+                    {
+                        "name": "Shotgun",
+                        "access_rules": ["e3m3_access"]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": ["e3m3_access"]
+                    },
+                    {
+                        "name": "Backpack",
+                        "access_rules": ["e3m3_access"]
+                    },
+                    {
+                        "name": "Computer Area Map",
+                        "access_rules": ["e3m3_access"]
+                    },
+                    {
+                        "name": "Mega Armor 2",
+                        "access_rules": ["e3m3_access"]
+                    },
+                    {
+                        "name": "Shotgun 2",
+                        "access_rules": ["e3m3_access"]
+                    },
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": ["e3m3_access"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode3",
+                        "x": 352,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "House of Pain (E3M4)",
+                "visibility_rules": ["ep3_on"],
+                "sections": [
+                    {
+                        "name": "Shotgun",
+                        "access_rules": ["e3m4_access"]
+                    },
+                    {
+                        "name": "Berserk",
+                        "access_rules": ["e3m4_access"]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": ["e3m4_access"]
+                    },
+                    {
+                        "name": "Chaingun",
+                        "access_rules": ["e3m4_access"]
+                    },
+                    {
+                        "name": "Invulnerability",
+                        "access_rules": ["e3m4_access"]
+                    },
+                    {
+                        "name": "Blue Skull Key",
+                        "access_rules": ["e3m4_access"]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": ["e3m4_access"]
+                    },
+                    {
+                        "name": "Armor 2",
+                        "access_rules": ["e3m4_access"]
+                    },
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": ["e3m4_access"]
+                    },
+                    {
+                        "name": "Armor 3",
+                        "access_rules": ["e3m4_access"]
+                    },
+                    {
+                        "name": "Yellow Skull Key",
+                        "access_rules": ["$e3m4_blueaccess"]
+                    },
+                    {
+                        "name": "Partial Invisibility",
+                        "access_rules": ["$e3m4_blueaccess"]
+                    },
+                    {
+                        "name": "BFG9000",
+                        "access_rules": ["$e3m4_blueaccess"]
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": ["$e3m4_blueaccess"]
+                    },
+                    {
+                        "name": "Invulnerability 2",
+                        "access_rules": ["$e3m4_blueaccess"]
+                    },
+                    {
+                        "name": "Red Skull Key",
+                        "access_rules": ["$e3m4_blueyellowaccess"]
+                    },
+                    {
+                        "name": "Backpack",
+                        "access_rules": ["$e3m4_blueredaccess"]
+                    },
+                    {
+                        "name": "Mega Armor 2",
+                        "access_rules": ["$e3m4_blueredaccess"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode3",
+                        "x": 532,
+                        "y": 160
+                    }
+                ]
+            },
+            {
+                "name": "Unholy Cathedral (E3M5)",
+                "visibility_rules": ["ep3_on"],
+                "sections": [
+                    {
+                        "name": "Blue Skull Key",
+                        "access_rules": ["e3m5_access"]
+                    },
+                    {
+                        "name": "Chaingun",
+                        "access_rules": ["e3m5_access"]
+                    },
+                    {
+                        "name": "Plasma Gun",
+                        "access_rules": ["e3m5_access"]
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": ["e3m5_access"]
+                    },
+                    {
+                        "name": "Yellow Skull Key",
+                        "access_rules": ["e3m5_access"]
+                    },
+                    {
+                        "name": "Invulnerability",
+                        "access_rules": ["e3m5_access"]
+                    },
+                    {
+                        "name": "Berserk",
+                        "access_rules": ["e3m5_access"]
+                    },
+                    {
+                        "name": "Partial Invisibility",
+                        "access_rules": ["e3m5_access"]
+                    },
+                    {
+                        "name": "Shotgun",
+                        "access_rules": ["e3m5_access"]
+                    },
+                    {
+                        "name": "Shotgun 2",
+                        "access_rules": ["e3m5_access"]
+                    },
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": ["e3m5_access"]
+                    },
+                    {
+                        "name": "BFG9000",
+                        "access_rules": ["$e3m5_blueaccess"]
+                    },
+                    {
+                        "name": "Chainsaw",
+                        "access_rules": ["$e3m5_yellowaccess"]
+                    },
+                    {
+                        "name": "Supercharge 2",
+                        "access_rules": ["$e3m5_yellowaccess"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode3",
+                        "x": 265,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Mt. Erebus (E3M6)",
+                "visibility_rules": ["ep3_on"],
+                "sections": [
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": ["e3m6_access"]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": ["e3m6_access"]
+                    },
+                    {
+                        "name": "Backpack",
+                        "access_rules": ["e3m6_access"]
+                    },
+                    {
+                        "name": "Invulnerability",
+                        "access_rules": ["e3m6_access"]
+                    },
+                    {
+                        "name": "Chaingun",
+                        "access_rules": ["e3m6_access"]
+                    },
+                    {
+                        "name": "Shotgun",
+                        "access_rules": ["e3m6_access"]
+                    },
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": ["e3m6_access"]
+                    },
+                    {
+                        "name": "Plasma Gun",
+                        "access_rules": ["e3m6_access"]
+                    },
+                    {
+                        "name": "Armor 2",
+                        "access_rules": ["e3m6_access"]
+                    },
+                    {
+                        "name": "Berserk",
+                        "access_rules": ["e3m6_access"]
+                    },
+                    {
+                        "name": "Invulnerability 2",
+                        "access_rules": ["e3m6_access"]
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": ["e3m6_access"]
+                    },
+                    {
+                        "name": "Blue Skull Key",
+                        "access_rules": ["e3m6_access"]
+                    },
+                    {
+                        "name": "Blue Skull Key 2",
+                        "access_rules": ["e3m6_access"]
+                    },
+                    {
+                        "name": "Computer Area Map",
+                        "access_rules": ["e3m6_access"]
+                    },
+                    {
+                        "name": "Chainsaw",
+                        "access_rules": ["e3m6_access"]
+                    },
+                    {
+                        "name": "Supercharge 2",
+                        "access_rules": ["e3m6_access"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode3",
+                        "x": 558,
+                        "y": 43
+                    }
+                ]
+            },
+            {
+                "name": "Limbo (E3M7)",
+                "visibility_rules": ["ep3_on"],
+                "sections": [
+                    {
+                        "name": "Blue Skull Key",
+                        "access_rules": ["e3m7_access"]
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": ["e3m7_access"]
+                    },
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": ["e3m7_access"]
+                    },
+                    {
+                        "name": "Backpack",
+                        "access_rules": ["e3m7_access"]
+                    },
+                    {
+                        "name": "Armor 2",
+                        "access_rules": ["e3m7_access"]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": ["e3m7_access"]
+                    },
+                    {
+                        "name": "BFG9000",
+                        "access_rules": ["$e3m7_blueaccess"]
+                    },
+                    {
+                        "name": "Red Skull Key",
+                        "access_rules": ["$e3m7_blueaccess"]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": ["$e3m7_redaccess"]
+                    },
+                    {
+                        "name": "Yellow Skull Key",
+                        "access_rules": ["$e3m7_redaccess"]
+                    },
+                    {
+                        "name": "Plasma Gun",
+                        "access_rules": ["$e3m7_redaccess"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode3",
+                        "x": 400,
+                        "y": 105
+                    }
+                ]
+            },
+            {
+                "name": "Dis (E3M8)",
+                "visibility_rules": ["ep3_on"],
+                "sections": [
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": ["e3m8_access"]
+                    },
+                    {
+                        "name": "Plasma Gun",
+                        "access_rules": ["e3m8_access"]
+                    },
+                    {
+                        "name": "Mega Armor",
+                        "access_rules": ["e3m8_access"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode3",
+                        "x": 280,
+                        "y": 50
+                    }
+                ]
+            },
+            {
+                "name": "Warrens (E3M9)",
+                "visibility_rules": ["ep3_on"],
+                "sections": [
+                    {
+                        "name": "Shotgun",
+                        "access_rules": ["e3m9_access"]
+                    },
+                    {
+                        "name": "Rocket Launcher",
+                        "access_rules": ["e3m9_access"]
+                    },
+                    {
+                        "name": "Rocket Launcher 2",
+                        "access_rules": ["e3m9_access"]
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": ["e3m9_access"]
+                    },
+                    {
+                        "name": "Blue Skull Key",
+                        "access_rules": ["e3m9_access"]
+                    },
+                    {
+                        "name": "Berserk",
+                        "access_rules": ["e3m9_access"]
+                    },
+                    {
+                        "name": "Invulnerability",
+                        "access_rules": ["e3m9_access"]
+                    },
+                    {
+                        "name": "Partial Invisibility",
+                        "access_rules": ["e3m9_access"]
+                    },
+                    {
+                        "name": "Chaingun",
+                        "access_rules": ["e3m9_access"]
+                    },
+                    {
+                        "name": "Plasma Gun",
+                        "access_rules": ["e3m9_access"]
+                    },
+                    {
+                        "name": "Invulnerability 2",
+                        "access_rules": ["e3m9_access"]
+                    },
+                    {
+                        "name": "Armor",
+                        "access_rules": ["e3m9_access"]
+                    },
+                    {
+                        "name": "Chainsaw",
+                        "access_rules": ["e3m9_access"]
+                    },
+                    {
+                        "name": "BFG9000",
+                        "access_rules": ["e3m9_access"]
+                    },
+                    {
+                        "name": "Red Skull Key",
+                        "access_rules": ["e3m9_access"]
+                    },
+                    {
+                        "name": "Supercharge 2",
+                        "access_rules": ["e3m9_access"]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "episode3",
+                        "x": 565,
+                        "y": 280
+                    }
+                ]
+            }
+        ]
+    }
+]
