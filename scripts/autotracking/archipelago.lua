@@ -130,9 +130,6 @@ function onClear(slot_data)
     if slot_data['difficulty'] then
         local obj = Tracker:FindObjectForCode("difficulty")
         local stage = slot_data['difficulty']
-        if (stage >=2) then
-            stage = 2
-        end
         if obj then
             obj.CurrentStage = stage
         end
