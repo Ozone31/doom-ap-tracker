@@ -238,10 +238,6 @@
                         "access_rules": ["e1m5_access"]
                     },
                     {
-                        "name": "Backpack",
-                        "access_rules": ["$e1m5_yellowaccess"]
-                    },
-                    {
                         "name": "Shotgun 3",
                         "access_rules": ["e1m5_access"]
                     },
@@ -279,6 +275,10 @@
                     },
                     {
                         "name": "Armor 2",
+                        "access_rules": ["$e1m5_yellowaccess"]
+                    },
+                    {
+                        "name": "Backpack",
                         "access_rules": ["$e1m5_yellowaccess"]
                     }
                 ],
@@ -1291,10 +1291,6 @@
                         "access_rules": ["e3m4_access"]
                     },
                     {
-                        "name": "Armor 3",
-                        "access_rules": ["e3m4_access"]
-                    },
-                    {
                         "name": "Yellow Skull Key",
                         "access_rules": ["$e3m4_blueaccess"]
                     },
@@ -1312,6 +1308,10 @@
                     },
                     {
                         "name": "Invulnerability 2",
+                        "access_rules": ["$e3m4_blueaccess"]
+                    },
+                    {
+                        "name": "Armor 3",
                         "access_rules": ["$e3m4_blueaccess"]
                     },
                     {
