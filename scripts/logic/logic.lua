@@ -140,6 +140,18 @@ function e2m7_blueaccess()
     )
 end
 
+function e2m7_yellowaccess()
+    return (
+        has("e2m7_access") and has("e2m7_yellow")
+    )
+end
+
+function e2m7_blueredaccess()
+    return (
+        has("e2m7_access") and (has("e2m7_blue") and has("e2m7_red"))
+    )
+end
+
 function e2m9_blueaccess()
     return (
         has("e2m9_access") and has("e2m9_blue")
@@ -149,12 +161,6 @@ end
 function e2m9_redaccess()
     return (
         has("e2m9_access") and has("e2m9_red")
-    )
-end
-
-function e2m7_yellowaccess()
-    return (
-        has("e2m7_access") and has("e2m7_yellow")
     )
 end
 
@@ -204,91 +210,4 @@ function e3m7_redaccess()
     return (
         has("e3m7_access") and has("e3m7_red")
     )
-end
-
-function lavaridge_access()
-    return (can_freefly("9") or (pass_cablecar() and fallarbor_access()))
-end
-
-function rt119_south_access()
-    return (
-        mauville_access() 
-        and can_surf()
-    ) 
-    or (
-        rt121_access() 
-        and pass_weatherins()
-    )
-end
-
-function fortree_side_access()
-    return can_freefly("10") 
-    or (
-        mauville_access() 
-        and can_surf() 
-        and pass_weatherins()
-    )
-end
-
-function rt121_access()
-    return fortree_side_access() 
-    or (
-        lilycove_access() 
-        and (
-            can_cut() 
-            or can_surf()
-        )
-    )
-end
-
-function fly_to_rt124()
-    return can_surf() 
-    and (
-        can_freefly("12") 
-        or can_freefly("15") 
-        or (
-            can_freefly("13") 
-            and can_dive()
-        )
-    )
-end
-
-function lilycove_access()
-    return can_freefly("11") 
-    or fortree_side_access() 
-    or ferry_from_slateport() 
-    or (
-        fly_to_rt124() 
-        and pass_wailmers()
-    )
-end
-
-function rt124_access()
-    return fly_to_rt124() 
-    or (
-        lilycove_access() 
-        and can_surf() 
-        and pass_wailmers()
-    )
-end
-
-function mossdeep_access()
-    return can_freefly("12") or rt124_access()
-end
-
-function sootopolis_access()
-    return can_freefly("13") or (rt124_access() and can_dive())
-end
-
-function victory_road_access()
-    return can_freefly("15") or (rt124_access() and can_waterfall())
-end
-
-function elite_four()
-    return e4_open() 
-    and victory_road_access() 
-    and can_waterfall() 
-    and can_flash() 
-    and can_strength() 
-    and can_rocksmash()
 end
