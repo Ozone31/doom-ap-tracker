@@ -1005,13 +1005,13 @@
                         "access_rules": [ "$e2m7_blueaccess" ]
                     },
                     {
-                        "name": "Supercharge",
-                        "access_rules": [ "$e2m7_blueaccess" ]
-                    },
-                    {
                         "name": "Red Keycard",
                         "access_rules": [ "$e2m7_yellowaccess" ]
-                    }
+                    },
+                    {
+                        "name": "Supercharge",
+                        "access_rules": [ "$e2m7_blueredaccess" ]
+                    },
                 ],
                 "map_locations": [
                     {
