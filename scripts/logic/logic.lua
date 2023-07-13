@@ -38,6 +38,12 @@ function e1m5_yellowaccess()
     )
 end
 
+function e1m5_blueyellowaccess()
+    return (
+        has("e1m5_access") and (has("e1m5_blue)") and has("e1m5_yellow"))
+    )
+end
+
 function e1m6_blueaccess()
     return (
         has("e1m6_access") and has("e1m6_blue")
@@ -110,6 +116,12 @@ function e2m2_yellowaccess()
     )
 end
 
+function e2m2_redaccess()
+    return (
+        has("e2m2_access") and has("e2m2_red")
+    )
+end
+
 function e2m3_blueaccess()
     return (
         has("e2m3_access") and has("e2m3_blue")
@@ -134,6 +146,12 @@ function e2m6_yellowaccess()
     )
 end
 
+function e2m6_blueyellowredaccess()
+    return (
+        has("e2m6_access") and (has("e2m6_blue") and has("e2m6_yellow") and has("e2m6_red"))
+    )
+end
+
 function e2m7_blueaccess()
     return (
         has("e2m7_access") and has("e2m7_blue")
@@ -152,6 +170,12 @@ function e2m7_blueredaccess()
     )
 end
 
+function e2m7_redaccess()
+    return (
+        has("e2m7_access") and has("e2m7_red")
+    )
+end
+
 function e2m9_blueaccess()
     return (
         has("e2m9_access") and has("e2m9_blue")
@@ -164,9 +188,27 @@ function e2m9_redaccess()
     )
 end
 
+function e2m9_yellowaccess()
+    return (
+        has("e2m9_access") and has("e2m9_yellow")
+    )
+end
+
 function narrow_access()
     return (
         has("shotgun") or has("chaingun")
+    )
+end
+
+function e3m2_blueaccess()
+    return (
+        has("e3m2_access") and has("e3m2_blue")
+    )
+end
+
+function e3m3_blueaccess()
+    return (
+        has("e3m3_access") and has("e3m3_blue")
     )
 end
 
@@ -200,6 +242,12 @@ function e3m5_yellowaccess()
     )
 end
 
+function e3m6_blueaccess()
+    return (
+        has("e3m6_access") and has("e3m6_blue")
+    )
+end
+
 function e3m7_blueaccess()
     return (
         has("e3m7_access") and has("e3m7_blue")
@@ -209,5 +257,17 @@ end
 function e3m7_redaccess()
     return (
         has("e3m7_access") and has("e3m7_red")
+    )
+end
+
+function e3m7_yellowredaccess()
+    return (
+        has("e3m7_access") and (has("e3m7_yellow") and has("e3m7_red"))
+    )
+end
+
+function e3m9_redaccess()
+    return (
+        has("e3m9_access") and has("e3m9_red")
     )
 end
