@@ -19,12 +19,12 @@
           {
             "name": "Shotgun",
             "access_rules": [ "" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "" ],
+            "hosted_item": "e1m1_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "" ],
-          //  "hosted_item": "e1m1_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -81,12 +81,12 @@
           {
             "name": "Backpack 2",
             "access_rules": [ "$e1m2_redaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e1m2_redaccess" ],
+            "hosted_item": "e1m2_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "$e1m2_redaccess" ],
-          //  "hosted_item": "e1m2_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -159,12 +159,12 @@
           {
             "name": "Partial Invisibility",
             "access_rules": [ "$e1m3_blueyellowaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e1m3_blueaccess" ],
+            "hosted_item": "e1m3_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "$e1m3_blueaccess" ],
-          //  "hosted_item": "e1m3_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -213,12 +213,12 @@
           {
             "name": "Yellow Keycard",
             "access_rules": [ "$e1m4_blueyellowaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "e1m4_access" ],
+            "hosted_item": "e1m4_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "e1m4_access" ],
-          //  "hosted_item": "e1m4_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -295,12 +295,12 @@
           {
             "name": "Backpack",
             "access_rules": [ "$e1m5_yellowaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e1m5_blueyellowaccess" ],
+            "hosted_item": "e1m5_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "$e1m5_blueyellowaccess" ],
-          //  "hosted_item": "e1m5_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -389,12 +389,12 @@
           {
             "name": "Mega Armor",
             "access_rules": [ "$e1m6_redaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e1m6_blueyellowaccess" ],
+            "hosted_item": "e1m6_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "$e1m6_blueyellowaccess" ],
-          //  "hosted_item": "e1m6_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -467,12 +467,12 @@
           {
             "name": "Partial Invisibility",
             "access_rules": [ "$e1m7_yellowredaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e1m7_blueyellowaccess" ],
+            "hosted_item": "e1m7_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "$e1m7_blueyellowaccess" ],
-          //  "hosted_item": "e1m7_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -513,12 +513,12 @@
           {
             "name": "Computer Area Map",
             "access_rules": [ "e1m8_access" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "e1m8_access" ],
+            "hosted_item": "e1m8_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "e1m8_access" ],
-          //  "hosted_item": "e1m8_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -567,12 +567,12 @@
           {
             "name": "Blue Keycard",
             "access_rules": [ "$e1m9_redaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e1m9_blueaccess" ],
+            "hosted_item": "e1m9_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "$e1m9_blueaccess" ],
-          //  "hosted_item": "e1m9_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -617,12 +617,12 @@
           {
             "name": "Mega Armor",
             "access_rules": [ "e2m1_red" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "e2m1_blue" ],
+            "hosted_item": "e2m1_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "e2m1_blue" ],
-          //  "hosted_item": "e2m1_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -711,12 +711,12 @@
           {
             "name": "Rocket Launcher",
             "access_rules": [ "$e2m2_yellowaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e2m2_redaccess" ],
+            "hosted_item": "e2m2_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "$e2m2_redaccess" ],
-          //  "hosted_item": "e2m2_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -773,12 +773,12 @@
           {
             "name": "Partial Invisibility",
             "access_rules": [ "$e2m3_blueaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e2m3_blueaccess" ],
+            "hosted_item": "e2m3_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "$e2m3_blueaccess" ],
-          //  "hosted_item": "e2m3_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -855,12 +855,12 @@
           {
             "name": "Mega Armor",
             "access_rules": [ "$e2m4_blueyellowaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e2m4_blueyellowaccess" ],
+            "hosted_item": "e2m4_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "$e2m4_blueyellowaccess" ],
-          //  "hosted_item": "e2m4_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -913,12 +913,12 @@
           {
             "name": "Partial Invisibility",
             "access_rules": [ "e2m5_access" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "e2m5_access" ],
+            "hosted_item": "e2m5_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "e2m5_access" ],
-          //  "hosted_item": "e2m5_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -999,12 +999,12 @@
           {
             "name": "Supercharge",
             "access_rules": [ "$e2m6_yellowaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e2m6_blueyellowredaccess" ],
+            "hosted_item": "e2m6_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "$e2m6_blueyellowredaccess" ],
-          //  "hosted_item": "e2m6_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -1081,12 +1081,12 @@
           {
             "name": "Supercharge",
             "access_rules": [ "$e2m7_blueredaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e2m7_redaccess" ],
+            "hosted_item": "e2m7_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "$e2m7_redaccess" ],
-          //  "hosted_item": "e2m7_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -1115,12 +1115,12 @@
           {
             "name": "Mega Armor",
             "access_rules": [ "e2m8_access" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "e2m8_access" ],
+            "hosted_item": "e2m8_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "e2m8_access" ],
-          //  "hosted_item": "e2m8_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -1181,12 +1181,12 @@
           {
             "name": "Yellow Skull Key",
             "access_rules": [ "$e2m9_redaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e2m9_yellowaccess" ],
+            "hosted_item": "e2m9_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "$e2m9_yellowaccess" ],
-          //  "hosted_item": "e2m9_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -1207,12 +1207,12 @@
           {
             "name": "Rocket Launcher",
             "access_rules": [ "" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "" ],
+            "hosted_item": "e3m1_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "" ],
-          //  "hosted_item": "e3m1_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -1261,12 +1261,12 @@
           {
             "name": "Supercharge",
             "access_rules": [ "e3m2_access" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e3m2_blueaccess" ],
+            "hosted_item": "e3m2_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "$e3m2_blueaccess" ],
-          //  "hosted_item": "e3m2_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -1335,12 +1335,12 @@
           {
             "name": "Rocket Launcher",
             "access_rules": [ "e3m3_access" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e3m3_blueaccess" ],
+            "hosted_item": "e3m3_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "$e3m3_blueaccess" ],
-          //  "hosted_item": "e3m3_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -1425,12 +1425,12 @@
           {
             "name": "Mega Armor 2",
             "access_rules": [ "$e3m4_blueredaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e3m4_blueredaccess" ],
+            "hosted_item": "e3m4_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "$e3m4_blueredaccess" ],
-          //  "hosted_item": "e3m4_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -1499,12 +1499,12 @@
           {
             "name": "Supercharge 2",
             "access_rules": [ "$e3m5_yellowaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e3m5_blueaccess" ],
+            "hosted_item": "e3m5_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "$e3m5_blueaccess" ],
-          //  "hosted_item": "e3m5_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -1585,12 +1585,12 @@
           {
             "name": "Supercharge 2",
             "access_rules": [ "e3m6_access" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e3m6_blueaccess" ],
+            "hosted_item": "e3m6_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "$e3m6_blueaccess" ],
-          //  "hosted_item": "e3m6_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -1647,12 +1647,12 @@
           {
             "name": "Plasma Gun",
             "access_rules": [ "$e3m7_redaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e3m7_yellowredaccess" ],
+            "hosted_item": "e3m7_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "$e3m7_yellowredaccess" ],
-          //  "hosted_item": "e3m7_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -1677,12 +1677,12 @@
           {
             "name": "Mega Armor",
             "access_rules": [ "e3m8_access" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "e3m8_access" ],
+            "hosted_item": "e3m8_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "e3m8_access" ],
-          //  "hosted_item": "e3m8_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -1759,12 +1759,12 @@
           {
             "name": "Supercharge 2",
             "access_rules": [ "e3m9_access" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e3m9_redaccess" ],
+            "hosted_item": "e3m9_complete"
           }
-          //{
-          //  "name": "Exit",
-          //  "access_rules": [ "$e3m9_redaccess" ],
-          //  "hosted_item": "e3m9_complete"
-          //}
         ],
         "map_locations": [
           {
@@ -1831,24 +1831,24 @@
             "y": 435
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep1_on"],
+        "sections": [
+          {
+            "ref": "Mars/Hangar (E1M1)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "x": 833,
+            "y": 625
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep1_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Hangar (E1M1)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e1m1",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -2042,24 +2042,24 @@
             "y": 720
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep1_on"],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 495,
+            "y": 97
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep1_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Nuclear Plant (E1M2)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e1m2",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -2321,24 +2321,24 @@
             "y": 595
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep1_on"],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 986,
+            "y": 352
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep1_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Toxin Refinery (E1M3)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e1m3",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -2498,24 +2498,24 @@
             "y": 268
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep1_on"],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 20,
+            "y": 100
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep1_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Command Control (E1M4)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e1m4",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -2794,24 +2794,24 @@
             "y": 449
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep1_on"],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 477,
+            "y": 15
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep1_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Phobos Lab (E1M5)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e1m5",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -3141,24 +3141,24 @@
             "y": 685
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep1_on"],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 75,
+            "y": 83
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep1_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Central Processing (E1M6)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e1m6",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -3420,24 +3420,24 @@
             "y": 403
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep1_on"],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 848,
+            "y": 666
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep1_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Computer Station (E1M7)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e1m7",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -3563,24 +3563,24 @@
             "y": 760
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep1_on"],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Anomaly (E1M8)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "x": 390,
+            "y": 40
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep1_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Phobos Anomaly (E1M8)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e1m8",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -3740,24 +3740,24 @@
             "y": 672
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep1_on"],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 290,
+            "y": 100
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep1_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Military Base (E1M9)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e1m9",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -3900,24 +3900,24 @@
             "y": 445
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep2_on"],
+        "sections": [
+          {
+            "ref": "Mars/Deimos Anomaly (E2M1)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m1",
+            "x": 945,
+            "y": 750
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep2_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Deimos Anomaly (E2M1)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e2m1",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -4247,24 +4247,24 @@
             "y": 121
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep2_on"],
+        "sections": [
+          {
+            "ref": "Mars/Containment Area (E2M2)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m2",
+            "x": 10,
+            "y": 709
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep2_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Containment Area (E2M2)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e2m2",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -4458,24 +4458,24 @@
             "y": 713
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep2_on"],
+        "sections": [
+          {
+            "ref": "Mars/Refinery (E2M3)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m3",
+            "x": 772,
+            "y": 121
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep2_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Refinery (E2M3)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e2m3",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -4754,24 +4754,24 @@
             "y": 258
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep2_on"],
+        "sections": [
+          {
+            "ref": "Mars/Deimos Lab (E2M4)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m4",
+            "x": 790,
+            "y": 730
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep2_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Deimos Lab (E2M4)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e2m4",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -4948,24 +4948,24 @@
             "y": 704
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep2_on"],
+        "sections": [
+          {
+            "ref": "Mars/Command Center (E2M5)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m5",
+            "x": 770,
+            "y": 175
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep2_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Command Center (E2M5)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e2m5",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -5261,24 +5261,24 @@
             "y": 150
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep2_on"],
+        "sections": [
+          {
+            "ref": "Mars/Halls of the Damned (E2M6)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m6",
+            "x": 500,
+            "y": 392
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep2_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Halls of the Damned (E2M6)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e2m6",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -5557,24 +5557,24 @@
             "y": 47
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep2_on"],
+        "sections": [
+          {
+            "ref": "Mars/Spawning Vats (E2M7)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m7",
+            "x": 321,
+            "y": 700
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep2_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Spawning Vats (E2M7)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e2m7",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -5649,24 +5649,24 @@
             "y": 395
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep2_on"],
+        "sections": [
+          {
+            "ref": "Mars/Tower of Babel (E2M8)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m8",
+            "x": 50,
+            "y": 170
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep2_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Tower of Babel (E2M8)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e2m8",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -5877,24 +5877,24 @@
             "y": 294
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep2_on"],
+        "sections": [
+          {
+            "ref": "Mars/Fortress of Mystery (E2M9)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e2m9",
+            "x": 1003,
+            "y": 236
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep2_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Fortress of Mystery (E2M9)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e2m9",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -5935,24 +5935,24 @@
             "y": 95
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep3_on"],
+        "sections": [
+          {
+            "ref": "Mars/Hell Keep (E3M1)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m1",
+            "x": 77,
+            "y": 40
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep3_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Hell Keep (E3M1)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e3m1",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -6112,24 +6112,24 @@
             "y": 78
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep3_on"],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 108,
+            "y": 162
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep3_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Slough of Despair (E3M2)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e3m2",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -6374,24 +6374,24 @@
             "y": 140
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep3_on"],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 525,
+            "y": 15
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep3_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Pandemonium (E3M3)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e3m3",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -6704,24 +6704,24 @@
             "y": 226
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep3_on"],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 835,
+            "y": 60
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep3_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/House of Pain (E3M4)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e3m4",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -6966,24 +6966,24 @@
             "y": 428
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep3_on"],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 659,
+            "y": 346
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep3_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Unholy Cathedral (E3M5)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e3m5",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -7279,24 +7279,24 @@
             "y": 108
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep3_on"],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 163,
+            "y": 356
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep3_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Mt. Erebus (E3M6)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e3m6",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -7490,24 +7490,24 @@
             "y": 44
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep3_on"],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 136,
+            "y": 92
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep3_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Limbo (E3M7)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e3m7",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -7565,24 +7565,24 @@
             "y": 349
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep3_on"],
+        "sections": [
+          {
+            "ref": "Mars/Dis (E3M8)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m8",
+            "x": 670,
+            "y": 640
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep3_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Dis (E3M8)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e3m8",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   },
   {
@@ -7861,24 +7861,24 @@
             "y": 485
           }
         ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": ["ep3_on"],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 299,
+            "y": 554
+          }
+        ]
       }
-      //            {
-      //                "name": "Exit",
-      //                "visibility_rules": ["ep3_on"],
-      //                "sections": [
-      //                  {
-      //                    "ref": "Mars/Warrens (E3M9)/Complete",
-      //                    "name": "Level Completed"
-      //                  }
-      //                ],
-      //                "map_locations": [
-      //                    {
-      //                        "map": "e3m9",
-      //                        "x": 833,
-      //                        "y": 625
-      //                    }
-      //                ]
-      //            }
     ]
   }
 ]
