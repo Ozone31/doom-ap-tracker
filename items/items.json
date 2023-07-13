@@ -1,4 +1,5 @@
 [
+// WEAPONS
     {
         "name": "Chainsaw",
         "type": "toggle",
@@ -35,6 +36,8 @@
         "img": "/images/items/bfg9000.png",
         "codes": "bfg9000"
     },
+
+// EPISODE 1 ACCESS
     {
         "name": "Hangar (E1M1)",
         "type": "toggle",
@@ -90,17 +93,25 @@
         "img": "/images/levels/1_9.png",
         "codes": "e1m9_access"
     },
-//    {
-//        "name": "Hangar (E1M1) - Complete",
-//        "type": "toggle",
-//        "img": "/images/items/redkeycard_1_2.png",
-//        "codes": "e1m1_complete"
-//    },
+
+// EPISODE 1 ITEMS
+    {
+        "name": "Hangar (E1M1) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e1m1_complete"
+    },
     {
         "name": "Nuclear Plant (E1M2) - Red keycard",
         "type": "toggle",
         "img": "/images/items/redkeycard_1_2.png",
         "codes": "e1m2_red"
+    },
+    {
+        "name": "Nuclear Plant (E1M2) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e1m2_complete"
     },
     {
         "name": "Toxin Refinery (E1M3) - Blue keycard",
@@ -115,6 +126,12 @@
         "codes": "e1m3_yellow"
     },
     {
+        "name": "Toxin Refinery (E1M3) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e1m3_complete"
+    },
+    {
         "name": "Command Control (E1M4) - Blue keycard",
         "type": "toggle",
         "img": "/images/items/bluekeycard_1_4.png",
@@ -127,6 +144,12 @@
         "codes": "e1m4_yellow"
     },
     {
+        "name": "Command Control (E1M4) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e1m4_complete"
+    },
+    {
         "name": "Phobos Lab (E1M5) - Blue keycard",
         "type": "toggle",
         "img": "/images/items/bluekeycard_1_5.png",
@@ -137,6 +160,12 @@
         "type": "toggle",
         "img": "/images/items/yellowkeycard_1_5.png",
         "codes": "e1m5_yellow"
+    },
+    {
+        "name": "Phobos Lab (E1M5) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e1m5_complete"
     },
     {
         "name": "Central Processing (E1M6) - Blue keycard",
@@ -157,6 +186,12 @@
         "codes": "e1m6_red"
     },
     {
+        "name": "Central Processing (E1M6) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e1m6_complete"
+    },
+    {
         "name": "Computer Station (E1M7) - Blue keycard",
         "type": "toggle",
         "img": "/images/items/bluekeycard_1_7.png",
@@ -173,6 +208,18 @@
         "type": "toggle",
         "img": "/images/items/redkeycard_1_7.png",
         "codes": "e1m7_red"
+    },
+    {
+        "name": "Computer Station (E1M7) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e1m7_complete"
+    },
+    {
+        "name": "Phobos Anomaly (E1M8) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e1m8_complete"
     },
     {
         "name": "Military Base (E1M9) - Blue keycard",
@@ -192,6 +239,14 @@
         "img": "/images/items/redkeycard_1_9.png",
         "codes": "e1m9_red"
     },
+    {
+        "name": "Military Base (E1M9) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e1m9_complete"
+    },
+
+// EPISODE 2 ACCESS
     {
         "name": "Deimos Anomaly (E2M1)",
         "type": "toggle",
@@ -247,6 +302,8 @@
         "img": "/images/levels/2_9.png",
         "codes": "e2m9_access"
     },
+
+// EPISODE 2 ITEMS
     {
         "name": "Deimos Anomaly (E2M1) - Blue keycard",
         "type": "toggle",
@@ -258,6 +315,12 @@
         "type": "toggle",
         "img": "/images/items/redkeycard_2_1.png",
         "codes": "e2m1_red"
+    },
+    {
+        "name": "Deimos Anomaly (E2M1) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e2m1_complete"
     },
     {
         "name": "Slough of Despair (E3M2) - Blue keycard",
@@ -278,10 +341,22 @@
         "codes": "e2m2_red"
     },
     {
+        "name": "Slough of Despair (E3M2) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e2m2_complete"
+    },
+    {
         "name": "Refinery (E2M3) - Blue keycard",
         "type": "toggle",
         "img": "/images/items/bluekeycard_2_3.png",
         "codes": "e2m3_blue"
+    },
+    {
+        "name": "Refinery (E2M3) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e2m3_complete"
     },
     {
         "name": "Deimos Lab (E2M4) - Blue keycard",
@@ -294,6 +369,18 @@
         "type": "toggle",
         "img": "/images/items/yellowkeycard_2_4.png",
         "codes": "e2m4_yellow"
+    },
+    {
+        "name": "Deimos Lab (E2M4) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e2m4_complete"
+    },
+    {
+        "name": "Command Center (E2M5) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e2m5_complete"
     },
     {
         "name": "Halls of the Damned (E2M6) - Blue skull key",
@@ -314,6 +401,12 @@
         "codes": "e2m6_red"
     },
     {
+        "name": "Halls of the Damned (E2M6) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e2m6_complete"
+    },
+    {
         "name": "Spawning Vats (E2M7) - Blue keycard",
         "type": "toggle",
         "img": "/images/items/bluekeycard_2_7.png",
@@ -330,6 +423,18 @@
         "type": "toggle",
         "img": "/images/items/redkeycard_2_7.png",
         "codes": "e2m7_red"
+    },
+    {
+        "name": "Spawning Vats (E2M7) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e2m7_complete"
+    },
+    {
+        "name": "Tower of Babel (E2M8) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e2m8_complete"
     },
     {
         "name": "Fortress of Mystery (E2M9) - Blue skull key",
@@ -349,6 +454,14 @@
         "img": "/images/items/redskullkey_2_9.png",
         "codes": "e2m9_red"
     },
+    {
+        "name": "Fortress of Mystery (E2M9) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e2m9_complete"
+    },
+
+// EPISODE 3 ACCESS
     {
         "name": "Hell Keep (E3M1)",
         "type": "toggle",
@@ -404,6 +517,14 @@
         "img": "/images/levels/3_9.png",
         "codes": "e3m9_access"
     },
+
+// EPISODE 3 ITEMS
+    {
+        "name": "Hell Keep (E3M1) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e3m1_complete"
+    },
     {
         "name": "Slough of Despair (E3M2) - Blue skull key",
         "type": "toggle",
@@ -411,10 +532,22 @@
         "codes": "e3m2_blue"
     },
     {
+        "name": "Slough of Despair (E3M2) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e3m2_complete"
+    },
+    {
         "name": "Pandemonium (E3M3) - Blue skull key",
         "type": "toggle",
         "img": "/images/items/blueskullkey_3_3.png",
         "codes": "e3m3_blue"
+    },
+    {
+        "name": "Pandemonium (E3M3) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e3m3_complete"
     },
     {
         "name": "House of Pain (E3M4) - Blue skull key",
@@ -435,6 +568,12 @@
         "codes": "e3m4_red"
     },
     {
+        "name": "House of Pain (E3M4) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e3m4_complete"
+    },
+    {
         "name": "Unholy Cathedral (E3M5) - Blue skull key",
         "type": "toggle",
         "img": "/images/items/blueskullkey_3_5.png",
@@ -447,10 +586,22 @@
         "codes": "e3m5_yellow"
     },
     {
+        "name": "Unholy Cathedral (E3M5) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e3m5_complete"
+    },
+    {
         "name": "Mt. Erebus (E3M6) - Blue skull key",
         "type": "toggle",
         "img": "/images/items/blueskullkey_3_6.png",
         "codes": "e3m6_blue"
+    },
+    {
+        "name": "Mt. Erebus (E3M6) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e3m6_complete"
     },
     {
         "name": "Limbo (E3M7) - Blue skull key",
@@ -471,6 +622,18 @@
         "codes": "e3m7_red"
     },
     {
+        "name": "Limbo (E3M7) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e3m7_complete"
+    },
+    {
+        "name": "Dis (E3M8) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e3m8_complete"
+    },
+    {
         "name": "Warrens (E3M9) - Blue skull key",
         "type": "toggle",
         "img": "/images/items/blueskullkey_3_9.png",
@@ -482,6 +645,14 @@
         "img": "/images/items/redskullkey_3_9.png",
         "codes": "e3m9_red"
     },
+    {
+        "name": "Warrens (E3M9) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e3m9_complete"
+    },
+
+// SETTINGS
     {
         "name": "Death Logic",
         "type": "progressive",
