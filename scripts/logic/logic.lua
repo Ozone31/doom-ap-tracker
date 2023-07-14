@@ -40,7 +40,7 @@ end
 
 function e1m5_blueyellowaccess()
     return (
-        has("e1m5_access") and (has("e1m5_blue)") and has("e1m5_yellow"))
+        has("e1m5_access") and (has("e1m5_blue")) and has("e1m5_yellow"))
     )
 end
 
