@@ -1,34 +1,34 @@
 {
-    "setting_grid": {
+  "setting_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
         "content": [
-            {
-                "type": "array",
-                "orientation": "vertical",
-                "margin": "0,0",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "2, 2",
-                        "item_h_alignment": "center",
-                        "h_alignment": "left",
-                        "rows": [             
-                            [
-                              "ep1",
-                              "ep2",
-                              "ep3",
-                              "ep4"
-                            ],
-                            [
-                              "deathlogic",
-                              "difficulty"
-                            ]
-                        ]
-                    }
-                ]
-            }
+          {
+            "type": "itemgrid",
+            "item_margin": "2, 2",
+            "item_h_alignment": "center",
+            "h_alignment": "left",
+            "rows": [
+              [
+                "ep1",
+                "ep2",
+                "ep3",
+                "ep4"
+              ],
+              [
+                "deathlogic",
+                "difficulty"
+              ]
+            ]
+          }
         ]
-    }
+      }
+    ]
+  }
 }
