@@ -47,6 +47,17 @@
                                 "e3m7_access",
                                 "e3m8_access",
                                 "e3m9_access"
+                            ],
+                            [
+                                "e4m1_access",
+                                "e4m2_access",
+                                "e4m3_access",
+                                "e4m4_access",
+                                "e4m5_access",
+                                "e4m6_access",
+                                "e4m7_access",
+                                "e4m8_access",
+                                "e4m9_access"
                             ]
                         ]
                     }
