@@ -1,973 +1,1027 @@
 [
-// WEAPONS
-    {
-        "name": "Chainsaw",
-        "type": "toggle",
-        "img": "/images/items/chainsaw.png",
-        "codes": "chainsaw"
-    },
-    {
-        "name": "Shotgun",
-        "type": "toggle",
-        "img": "/images/items/shotgun.png",
-        "codes": "shotgun"
-    },
-    {
-        "name": "Chaingun",
-        "type": "toggle",
-        "img": "/images/items/chaingun.png",
-        "codes": "chaingun"
-    },
-    {
-        "name": "Rocket Launcher",
-        "type": "toggle",
-        "img": "/images/items/rocketlauncher.png",
-        "codes": "rocketlauncher"
-    },
-    {
-        "name": "Plasma Gun",
-        "type": "toggle",
-        "img": "/images/items/plasmagun.png",
-        "codes": "plasmagun"
-    },
-    {
-        "name": "BFG9000",
-        "type": "toggle",
-        "img": "/images/items/bfg9000.png",
-        "codes": "bfg9000"
-    },
+  // WEAPONS
+  {
+    "name": "Chainsaw",
+    "type": "toggle",
+    "img": "/images/items/chainsaw.png",
+    "codes": "chainsaw"
+  },
+  {
+    "name": "Shotgun",
+    "type": "toggle",
+    "img": "/images/items/shotgun.png",
+    "codes": "shotgun"
+  },
+  {
+    "name": "Chaingun",
+    "type": "toggle",
+    "img": "/images/items/chaingun.png",
+    "codes": "chaingun"
+  },
+  {
+    "name": "Rocket Launcher",
+    "type": "toggle",
+    "img": "/images/items/rocketlauncher.png",
+    "codes": "rocketlauncher"
+  },
+  {
+    "name": "Plasma Gun",
+    "type": "toggle",
+    "img": "/images/items/plasmagun.png",
+    "codes": "plasmagun"
+  },
+  {
+    "name": "BFG9000",
+    "type": "toggle",
+    "img": "/images/items/bfg9000.png",
+    "codes": "bfg9000"
+  },
 
-// EPISODE 1 ACCESS
-    {
-        "name": "Hangar (E1M1)",
-        "type": "toggle",
-        "img": "/images/levels/1_1.png",
-        "codes": "e1m1_access",
-        "allow_disabled": false
-    },
-    {
-        "name": "Nuclear Plant (E1M2)",
-        "type": "toggle",
-        "img": "/images/levels/1_2.png",
-        "codes": "e1m2_access"
-    },
-    {
-        "name": "Toxin Refinery (E1M3)",
-        "type": "toggle",
-        "img": "/images/levels/1_3.png",
-        "codes": "e1m3_access"
-    },
-    {
-        "name": "Command Control (E1M4)",
-        "type": "toggle",
-        "img": "/images/levels/1_4.png",
-        "codes": "e1m4_access"
-    },
-    {
-        "name": "Phobos Lab (E1M5)",
-        "type": "toggle",
-        "img": "/images/levels/1_5.png",
-        "codes": "e1m5_access"
-    },
-    {
-        "name": "Central Processing (E1M6)",
-        "type": "toggle",
-        "img": "/images/levels/1_6.png",
-        "codes": "e1m6_access"
-    },
-    {
-        "name": "Computer Station (E1M7)",
-        "type": "toggle",
-        "img": "/images/levels/1_7.png",
-        "codes": "e1m7_access"
-    },
-    {
-        "name": "Phobos Anomaly (E1M8)",
-        "type": "toggle",
-        "img": "/images/levels/1_8.png",
-        "codes": "e1m8_access"
-    },
-    {
-        "name": "Military Base (E1M9)",
-        "type": "toggle",
-        "img": "/images/levels/1_9.png",
-        "codes": "e1m9_access"
-    },
+  // EPISODE 1 ACCESS
+  {
+    "name": "Hangar (E1M1)",
+    "type": "toggle",
+    "img": "/images/levels/1_1.png",
+    "codes": "e1m1_access",
+    "allow_disabled": false
+  },
+  {
+    "name": "Nuclear Plant (E1M2)",
+    "type": "toggle",
+    "img": "/images/levels/1_2.png",
+    "codes": "e1m2_access"
+  },
+  {
+    "name": "Toxin Refinery (E1M3)",
+    "type": "toggle",
+    "img": "/images/levels/1_3.png",
+    "codes": "e1m3_access"
+  },
+  {
+    "name": "Command Control (E1M4)",
+    "type": "toggle",
+    "img": "/images/levels/1_4.png",
+    "codes": "e1m4_access"
+  },
+  {
+    "name": "Phobos Lab (E1M5)",
+    "type": "toggle",
+    "img": "/images/levels/1_5.png",
+    "codes": "e1m5_access"
+  },
+  {
+    "name": "Central Processing (E1M6)",
+    "type": "toggle",
+    "img": "/images/levels/1_6.png",
+    "codes": "e1m6_access"
+  },
+  {
+    "name": "Computer Station (E1M7)",
+    "type": "toggle",
+    "img": "/images/levels/1_7.png",
+    "codes": "e1m7_access"
+  },
+  {
+    "name": "Phobos Anomaly (E1M8)",
+    "type": "toggle",
+    "img": "/images/levels/1_8.png",
+    "codes": "e1m8_access"
+  },
+  {
+    "name": "Military Base (E1M9)",
+    "type": "toggle",
+    "img": "/images/levels/1_9.png",
+    "codes": "e1m9_access"
+  },
 
-// EPISODE 1 ITEMS
-    {
-        "name": "Hangar (E1M1) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e1m1_complete"
-    },
-    {
-        "name": "Nuclear Plant (E1M2) - Red keycard",
-        "type": "toggle",
-        "img": "/images/items/redkeycard_1_2.png",
-        "codes": "e1m2_red"
-    },
-    {
-        "name": "Nuclear Plant (E1M2) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e1m2_complete"
-    },
-    {
-        "name": "Toxin Refinery (E1M3) - Blue keycard",
-        "type": "toggle",
-        "img": "/images/items/bluekeycard_1_3.png",
-        "codes": "e1m3_blue"
-    },
-    {
-        "name": "Toxin Refinery (E1M3) - Yellow keycard",
-        "type": "toggle",
-        "img": "/images/items/yellowkeycard_1_3.png",
-        "codes": "e1m3_yellow"
-    },
-    {
-        "name": "Toxin Refinery (E1M3) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e1m3_complete"
-    },
-    {
-        "name": "Command Control (E1M4) - Blue keycard",
-        "type": "toggle",
-        "img": "/images/items/bluekeycard_1_4.png",
-        "codes": "e1m4_blue"
-    },
-    {
-        "name": "Command Control (E1M4) - Yellow keycard",
-        "type": "toggle",
-        "img": "/images/items/yellowkeycard_1_4.png",
-        "codes": "e1m4_yellow"
-    },
-    {
-        "name": "Command Control (E1M4) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e1m4_complete"
-    },
-    {
-        "name": "Phobos Lab (E1M5) - Blue keycard",
-        "type": "toggle",
-        "img": "/images/items/bluekeycard_1_5.png",
-        "codes": "e1m5_blue"
-    },
-    {
-        "name": "Phobos Lab (E1M5) - Yellow keycard",
-        "type": "toggle",
-        "img": "/images/items/yellowkeycard_1_5.png",
-        "codes": "e1m5_yellow"
-    },
-    {
-        "name": "Phobos Lab (E1M5) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e1m5_complete"
-    },
-    {
-        "name": "Central Processing (E1M6) - Blue keycard",
-        "type": "toggle",
-        "img": "/images/items/bluekeycard_1_6.png",
-        "codes": "e1m6_blue"
-    },
-    {
-        "name": "Central Processing (E1M6) - Yellow keycard",
-        "type": "toggle",
-        "img": "/images/items/yellowkeycard_1_6.png",
-        "codes": "e1m6_yellow"
-    },
-    {
-        "name": "Central Processing (E1M6) - Red keycard",
-        "type": "toggle",
-        "img": "/images/items/redkeycard_1_6.png",
-        "codes": "e1m6_red"
-    },
-    {
-        "name": "Central Processing (E1M6) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e1m6_complete"
-    },
-    {
-        "name": "Computer Station (E1M7) - Blue keycard",
-        "type": "toggle",
-        "img": "/images/items/bluekeycard_1_7.png",
-        "codes": "e1m7_blue"
-    },
-    {
-        "name": "Computer Station (E1M7) - Yellow keycard",
-        "type": "toggle",
-        "img": "/images/items/yellowkeycard_1_7.png",
-        "codes": "e1m7_yellow"
-    },
-    {
-        "name": "Computer Station (E1M7) - Red keycard",
-        "type": "toggle",
-        "img": "/images/items/redkeycard_1_7.png",
-        "codes": "e1m7_red"
-    },
-    {
-        "name": "Computer Station (E1M7) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e1m7_complete"
-    },
-    {
-        "name": "Phobos Anomaly (E1M8) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e1m8_complete"
-    },
-    {
-        "name": "Military Base (E1M9) - Blue keycard",
-        "type": "toggle",
-        "img": "/images/items/bluekeycard_1_9.png",
-        "codes": "e1m9_blue"
-    },
-    {
-        "name": "Military Base (E1M9) - Yellow keycard",
-        "type": "toggle",
-        "img": "/images/items/yellowkeycard_1_9.png",
-        "codes": "e1m9_yellow"
-    },
-    {
-        "name": "Military Base (E1M9) - Red keycard",
-        "type": "toggle",
-        "img": "/images/items/redkeycard_1_9.png",
-        "codes": "e1m9_red"
-    },
-    {
-        "name": "Military Base (E1M9) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e1m9_complete"
-    },
+  // EPISODE 1 ITEMS
+  {
+    "name": "Hangar (E1M1) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e1m1_complete"
+  },
+  {
+    "name": "Nuclear Plant (E1M2) - Red keycard",
+    "type": "toggle",
+    "img": "/images/items/redkeycard_1_2.png",
+    "codes": "e1m2_red"
+  },
+  {
+    "name": "Nuclear Plant (E1M2) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e1m2_complete"
+  },
+  {
+    "name": "Toxin Refinery (E1M3) - Blue keycard",
+    "type": "toggle",
+    "img": "/images/items/bluekeycard_1_3.png",
+    "codes": "e1m3_blue"
+  },
+  {
+    "name": "Toxin Refinery (E1M3) - Yellow keycard",
+    "type": "toggle",
+    "img": "/images/items/yellowkeycard_1_3.png",
+    "codes": "e1m3_yellow"
+  },
+  {
+    "name": "Toxin Refinery (E1M3) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e1m3_complete"
+  },
+  {
+    "name": "Command Control (E1M4) - Blue keycard",
+    "type": "toggle",
+    "img": "/images/items/bluekeycard_1_4.png",
+    "codes": "e1m4_blue"
+  },
+  {
+    "name": "Command Control (E1M4) - Yellow keycard",
+    "type": "toggle",
+    "img": "/images/items/yellowkeycard_1_4.png",
+    "codes": "e1m4_yellow"
+  },
+  {
+    "name": "Command Control (E1M4) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e1m4_complete"
+  },
+  {
+    "name": "Phobos Lab (E1M5) - Blue keycard",
+    "type": "toggle",
+    "img": "/images/items/bluekeycard_1_5.png",
+    "codes": "e1m5_blue"
+  },
+  {
+    "name": "Phobos Lab (E1M5) - Yellow keycard",
+    "type": "toggle",
+    "img": "/images/items/yellowkeycard_1_5.png",
+    "codes": "e1m5_yellow"
+  },
+  {
+    "name": "Phobos Lab (E1M5) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e1m5_complete"
+  },
+  {
+    "name": "Central Processing (E1M6) - Blue keycard",
+    "type": "toggle",
+    "img": "/images/items/bluekeycard_1_6.png",
+    "codes": "e1m6_blue"
+  },
+  {
+    "name": "Central Processing (E1M6) - Yellow keycard",
+    "type": "toggle",
+    "img": "/images/items/yellowkeycard_1_6.png",
+    "codes": "e1m6_yellow"
+  },
+  {
+    "name": "Central Processing (E1M6) - Red keycard",
+    "type": "toggle",
+    "img": "/images/items/redkeycard_1_6.png",
+    "codes": "e1m6_red"
+  },
+  {
+    "name": "Central Processing (E1M6) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e1m6_complete"
+  },
+  {
+    "name": "Computer Station (E1M7) - Blue keycard",
+    "type": "toggle",
+    "img": "/images/items/bluekeycard_1_7.png",
+    "codes": "e1m7_blue"
+  },
+  {
+    "name": "Computer Station (E1M7) - Yellow keycard",
+    "type": "toggle",
+    "img": "/images/items/yellowkeycard_1_7.png",
+    "codes": "e1m7_yellow"
+  },
+  {
+    "name": "Computer Station (E1M7) - Red keycard",
+    "type": "toggle",
+    "img": "/images/items/redkeycard_1_7.png",
+    "codes": "e1m7_red"
+  },
+  {
+    "name": "Computer Station (E1M7) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e1m7_complete"
+  },
+  {
+    "name": "Phobos Anomaly (E1M8) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e1m8_complete"
+  },
+  {
+    "name": "Military Base (E1M9) - Blue keycard",
+    "type": "toggle",
+    "img": "/images/items/bluekeycard_1_9.png",
+    "codes": "e1m9_blue"
+  },
+  {
+    "name": "Military Base (E1M9) - Yellow keycard",
+    "type": "toggle",
+    "img": "/images/items/yellowkeycard_1_9.png",
+    "codes": "e1m9_yellow"
+  },
+  {
+    "name": "Military Base (E1M9) - Red keycard",
+    "type": "toggle",
+    "img": "/images/items/redkeycard_1_9.png",
+    "codes": "e1m9_red"
+  },
+  {
+    "name": "Military Base (E1M9) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e1m9_complete"
+  },
 
-// EPISODE 2 ACCESS
-    {
-        "name": "Deimos Anomaly (E2M1)",
-        "type": "toggle",
-        "img": "/images/levels/2_1.png",
-        "codes": "e2m1_access",
-        "allow_disabled": false
-    },
-    {
-        "name": "Containment Area (E2M2)",
-        "type": "toggle",
-        "img": "/images/levels/2_2.png",
-        "codes": "e2m2_access"
-    },
-    {
-        "name": "Refinery (E2M3)",
-        "type": "toggle",
-        "img": "/images/levels/2_3.png",
-        "codes": "e2m3_access"
-    },
-    {
-        "name": "Deimos Lab (E2M4)",
-        "type": "toggle",
-        "img": "/images/levels/2_4.png",
-        "codes": "e2m4_access"
-    },
-    {
-        "name": "Command Center (E2M5)",
-        "type": "toggle",
-        "img": "/images/levels/2_5.png",
-        "codes": "e2m5_access"
-    },
-    {
-        "name": "Halls of the Damned (E2M6)",
-        "type": "toggle",
-        "img": "/images/levels/2_6.png",
-        "codes": "e2m6_access"
-    },
-    {
-        "name": "Spawning Vats (E2M7)",
-        "type": "toggle",
-        "img": "/images/levels/2_7.png",
-        "codes": "e2m7_access"
-    },
-    {
-        "name": "Tower of Babel (E2M8)",
-        "type": "toggle",
-        "img": "/images/levels/2_8.png",
-        "codes": "e2m8_access"
-    },
-    {
-        "name": "Fortress of Mystery (E2M9)",
-        "type": "toggle",
-        "img": "/images/levels/2_9.png",
-        "codes": "e2m9_access"
-    },
+  // EPISODE 2 ACCESS
+  {
+    "name": "Deimos Anomaly (E2M1)",
+    "type": "toggle",
+    "img": "/images/levels/2_1.png",
+    "codes": "e2m1_access",
+    "allow_disabled": false
+  },
+  {
+    "name": "Containment Area (E2M2)",
+    "type": "toggle",
+    "img": "/images/levels/2_2.png",
+    "codes": "e2m2_access"
+  },
+  {
+    "name": "Refinery (E2M3)",
+    "type": "toggle",
+    "img": "/images/levels/2_3.png",
+    "codes": "e2m3_access"
+  },
+  {
+    "name": "Deimos Lab (E2M4)",
+    "type": "toggle",
+    "img": "/images/levels/2_4.png",
+    "codes": "e2m4_access"
+  },
+  {
+    "name": "Command Center (E2M5)",
+    "type": "toggle",
+    "img": "/images/levels/2_5.png",
+    "codes": "e2m5_access"
+  },
+  {
+    "name": "Halls of the Damned (E2M6)",
+    "type": "toggle",
+    "img": "/images/levels/2_6.png",
+    "codes": "e2m6_access"
+  },
+  {
+    "name": "Spawning Vats (E2M7)",
+    "type": "toggle",
+    "img": "/images/levels/2_7.png",
+    "codes": "e2m7_access"
+  },
+  {
+    "name": "Tower of Babel (E2M8)",
+    "type": "toggle",
+    "img": "/images/levels/2_8.png",
+    "codes": "e2m8_access"
+  },
+  {
+    "name": "Fortress of Mystery (E2M9)",
+    "type": "toggle",
+    "img": "/images/levels/2_9.png",
+    "codes": "e2m9_access"
+  },
 
-// EPISODE 2 ITEMS
-    {
-        "name": "Deimos Anomaly (E2M1) - Blue keycard",
-        "type": "toggle",
-        "img": "/images/items/bluekeycard_2_1.png",
-        "codes": "e2m1_blue"
-    },
-    {
-        "name": "Deimos Anomaly (E2M1) - Red keycard",
-        "type": "toggle",
-        "img": "/images/items/redkeycard_2_1.png",
-        "codes": "e2m1_red"
-    },
-    {
-        "name": "Deimos Anomaly (E2M1) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e2m1_complete"
-    },
-    {
-        "name": "Slough of Despair (E3M2) - Blue keycard",
-        "type": "toggle",
-        "img": "/images/items/bluekeycard_2_2.png",
-        "codes": "e2m2_blue"
-    },
-    {
-        "name": "Slough of Despair (E3M2) - Yellow keycard",
-        "type": "toggle",
-        "img": "/images/items/yellowkeycard_2_2.png",
-        "codes": "e2m2_yellow"
-    },
-    {
-        "name": "Slough of Despair (E3M2) - Red keycard",
-        "type": "toggle",
-        "img": "/images/items/redkeycard_2_2.png",
-        "codes": "e2m2_red"
-    },
-    {
-        "name": "Slough of Despair (E3M2) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e2m2_complete"
-    },
-    {
-        "name": "Refinery (E2M3) - Blue keycard",
-        "type": "toggle",
-        "img": "/images/items/bluekeycard_2_3.png",
-        "codes": "e2m3_blue"
-    },
-    {
-        "name": "Refinery (E2M3) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e2m3_complete"
-    },
-    {
-        "name": "Deimos Lab (E2M4) - Blue keycard",
-        "type": "toggle",
-        "img": "/images/items/bluekeycard_2_4.png",
-        "codes": "e2m4_blue"
-    },
-    {
-        "name": "Deimos Lab (E2M4) - Yellow keycard",
-        "type": "toggle",
-        "img": "/images/items/yellowkeycard_2_4.png",
-        "codes": "e2m4_yellow"
-    },
-    {
-        "name": "Deimos Lab (E2M4) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e2m4_complete"
-    },
-    {
-        "name": "Command Center (E2M5) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e2m5_complete"
-    },
-    {
-        "name": "Halls of the Damned (E2M6) - Blue skull key",
-        "type": "toggle",
-        "img": "/images/items/blueskullkey_2_6.png",
-        "codes": "e2m6_blue"
-    },
-    {
-        "name": "Halls of the Damned (E2M6) - Yellow skull key",
-        "type": "toggle",
-        "img": "/images/items/yellowskullkey_2_6.png",
-        "codes": "e2m6_yellow"
-    },
-    {
-        "name": "Halls of the Damned (E2M6) - Red skull key",
-        "type": "toggle",
-        "img": "/images/items/redskullkey_2_6.png",
-        "codes": "e2m6_red"
-    },
-    {
-        "name": "Halls of the Damned (E2M6) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e2m6_complete"
-    },
-    {
-        "name": "Spawning Vats (E2M7) - Blue keycard",
-        "type": "toggle",
-        "img": "/images/items/bluekeycard_2_7.png",
-        "codes": "e2m7_blue"
-    },
-    {
-        "name": "Spawning Vats (E2M7) - Yellow keycard",
-        "type": "toggle",
-        "img": "/images/items/yellowkeycard_2_7.png",
-        "codes": "e2m7_yellow"
-    },
-    {
-        "name": "Spawning Vats (E2M7) - Red keycard",
-        "type": "toggle",
-        "img": "/images/items/redkeycard_2_7.png",
-        "codes": "e2m7_red"
-    },
-    {
-        "name": "Spawning Vats (E2M7) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e2m7_complete"
-    },
-    {
-        "name": "Tower of Babel (E2M8) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e2m8_complete"
-    },
-    {
-        "name": "Fortress of Mystery (E2M9) - Blue skull key",
-        "type": "toggle",
-        "img": "/images/items/blueskullkey_2_9.png",
-        "codes": "e2m9_blue"
-    },
-    {
-        "name": "Fortress of Mystery (E2M9) - Yellow skull key",
-        "type": "toggle",
-        "img": "/images/items/yellowskullkey_2_9.png",
-        "codes": "e2m9_yellow"
-    },
-    {
-        "name": "Fortress of Mystery (E2M9) - Red skull key",
-        "type": "toggle",
-        "img": "/images/items/redskullkey_2_9.png",
-        "codes": "e2m9_red"
-    },
-    {
-        "name": "Fortress of Mystery (E2M9) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e2m9_complete"
-    },
+  // EPISODE 2 ITEMS
+  {
+    "name": "Deimos Anomaly (E2M1) - Blue keycard",
+    "type": "toggle",
+    "img": "/images/items/bluekeycard_2_1.png",
+    "codes": "e2m1_blue"
+  },
+  {
+    "name": "Deimos Anomaly (E2M1) - Red keycard",
+    "type": "toggle",
+    "img": "/images/items/redkeycard_2_1.png",
+    "codes": "e2m1_red"
+  },
+  {
+    "name": "Deimos Anomaly (E2M1) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e2m1_complete"
+  },
+  {
+    "name": "Slough of Despair (E3M2) - Blue keycard",
+    "type": "toggle",
+    "img": "/images/items/bluekeycard_2_2.png",
+    "codes": "e2m2_blue"
+  },
+  {
+    "name": "Slough of Despair (E3M2) - Yellow keycard",
+    "type": "toggle",
+    "img": "/images/items/yellowkeycard_2_2.png",
+    "codes": "e2m2_yellow"
+  },
+  {
+    "name": "Slough of Despair (E3M2) - Red keycard",
+    "type": "toggle",
+    "img": "/images/items/redkeycard_2_2.png",
+    "codes": "e2m2_red"
+  },
+  {
+    "name": "Slough of Despair (E3M2) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e2m2_complete"
+  },
+  {
+    "name": "Refinery (E2M3) - Blue keycard",
+    "type": "toggle",
+    "img": "/images/items/bluekeycard_2_3.png",
+    "codes": "e2m3_blue"
+  },
+  {
+    "name": "Refinery (E2M3) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e2m3_complete"
+  },
+  {
+    "name": "Deimos Lab (E2M4) - Blue keycard",
+    "type": "toggle",
+    "img": "/images/items/bluekeycard_2_4.png",
+    "codes": "e2m4_blue"
+  },
+  {
+    "name": "Deimos Lab (E2M4) - Yellow keycard",
+    "type": "toggle",
+    "img": "/images/items/yellowkeycard_2_4.png",
+    "codes": "e2m4_yellow"
+  },
+  {
+    "name": "Deimos Lab (E2M4) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e2m4_complete"
+  },
+  {
+    "name": "Command Center (E2M5) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e2m5_complete"
+  },
+  {
+    "name": "Halls of the Damned (E2M6) - Blue skull key",
+    "type": "toggle",
+    "img": "/images/items/blueskullkey_2_6.png",
+    "codes": "e2m6_blue"
+  },
+  {
+    "name": "Halls of the Damned (E2M6) - Yellow skull key",
+    "type": "toggle",
+    "img": "/images/items/yellowskullkey_2_6.png",
+    "codes": "e2m6_yellow"
+  },
+  {
+    "name": "Halls of the Damned (E2M6) - Red skull key",
+    "type": "toggle",
+    "img": "/images/items/redskullkey_2_6.png",
+    "codes": "e2m6_red"
+  },
+  {
+    "name": "Halls of the Damned (E2M6) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e2m6_complete"
+  },
+  {
+    "name": "Spawning Vats (E2M7) - Blue keycard",
+    "type": "toggle",
+    "img": "/images/items/bluekeycard_2_7.png",
+    "codes": "e2m7_blue"
+  },
+  {
+    "name": "Spawning Vats (E2M7) - Yellow keycard",
+    "type": "toggle",
+    "img": "/images/items/yellowkeycard_2_7.png",
+    "codes": "e2m7_yellow"
+  },
+  {
+    "name": "Spawning Vats (E2M7) - Red keycard",
+    "type": "toggle",
+    "img": "/images/items/redkeycard_2_7.png",
+    "codes": "e2m7_red"
+  },
+  {
+    "name": "Spawning Vats (E2M7) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e2m7_complete"
+  },
+  {
+    "name": "Tower of Babel (E2M8) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e2m8_complete"
+  },
+  {
+    "name": "Fortress of Mystery (E2M9) - Blue skull key",
+    "type": "toggle",
+    "img": "/images/items/blueskullkey_2_9.png",
+    "codes": "e2m9_blue"
+  },
+  {
+    "name": "Fortress of Mystery (E2M9) - Yellow skull key",
+    "type": "toggle",
+    "img": "/images/items/yellowskullkey_2_9.png",
+    "codes": "e2m9_yellow"
+  },
+  {
+    "name": "Fortress of Mystery (E2M9) - Red skull key",
+    "type": "toggle",
+    "img": "/images/items/redskullkey_2_9.png",
+    "codes": "e2m9_red"
+  },
+  {
+    "name": "Fortress of Mystery (E2M9) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e2m9_complete"
+  },
 
-// EPISODE 3 ACCESS
-    {
-        "name": "Hell Keep (E3M1)",
-        "type": "toggle",
-        "img": "/images/levels/3_1.png",
-        "codes": "e3m1_access",
-        "allow_disabled": false
-    },
-    {
-        "name": "Slough of Despair (E3M2)",
-        "type": "toggle",
-        "img": "/images/levels/3_2.png",
-        "codes": "e3m2_access"
-    },
-    {
-        "name": "Pandemonium (E3M3)",
-        "type": "toggle",
-        "img": "/images/levels/3_3.png",
-        "codes": "e3m3_access"
-    },
-    {
-        "name": "House of Pain (E3M4)",
-        "type": "toggle",
-        "img": "/images/levels/3_4.png",
-        "codes": "e3m4_access"
-    },
-    {
-        "name": "Unholy Cathedral (E3M5)",
-        "type": "toggle",
-        "img": "/images/levels/3_5.png",
-        "codes": "e3m5_access"
-    },
-    {
-        "name": "Mt. Erebus (E3M6)",
-        "type": "toggle",
-        "img": "/images/levels/3_6.png",
-        "codes": "e3m6_access"
-    },
-    {
-        "name": "Limbo (E3M7)",
-        "type": "toggle",
-        "img": "/images/levels/3_7.png",
-        "codes": "e3m7_access"
-    },
-    {
-        "name": "Dis (E3M8)",
-        "type": "toggle",
-        "img": "/images/levels/3_8.png",
-        "codes": "e3m8_access"
-    },
-    {
-        "name": "Warrens (E3M9)",
-        "type": "toggle",
-        "img": "/images/levels/3_9.png",
-        "codes": "e3m9_access"
-    },
+  // EPISODE 3 ACCESS
+  {
+    "name": "Hell Keep (E3M1)",
+    "type": "toggle",
+    "img": "/images/levels/3_1.png",
+    "codes": "e3m1_access",
+    "allow_disabled": false
+  },
+  {
+    "name": "Slough of Despair (E3M2)",
+    "type": "toggle",
+    "img": "/images/levels/3_2.png",
+    "codes": "e3m2_access"
+  },
+  {
+    "name": "Pandemonium (E3M3)",
+    "type": "toggle",
+    "img": "/images/levels/3_3.png",
+    "codes": "e3m3_access"
+  },
+  {
+    "name": "House of Pain (E3M4)",
+    "type": "toggle",
+    "img": "/images/levels/3_4.png",
+    "codes": "e3m4_access"
+  },
+  {
+    "name": "Unholy Cathedral (E3M5)",
+    "type": "toggle",
+    "img": "/images/levels/3_5.png",
+    "codes": "e3m5_access"
+  },
+  {
+    "name": "Mt. Erebus (E3M6)",
+    "type": "toggle",
+    "img": "/images/levels/3_6.png",
+    "codes": "e3m6_access"
+  },
+  {
+    "name": "Limbo (E3M7)",
+    "type": "toggle",
+    "img": "/images/levels/3_7.png",
+    "codes": "e3m7_access"
+  },
+  {
+    "name": "Dis (E3M8)",
+    "type": "toggle",
+    "img": "/images/levels/3_8.png",
+    "codes": "e3m8_access"
+  },
+  {
+    "name": "Warrens (E3M9)",
+    "type": "toggle",
+    "img": "/images/levels/3_9.png",
+    "codes": "e3m9_access"
+  },
 
-// EPISODE 3 ITEMS
-    {
-        "name": "Hell Keep (E3M1) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e3m1_complete"
-    },
-    {
-        "name": "Slough of Despair (E3M2) - Blue skull key",
-        "type": "toggle",
-        "img": "/images/items/blueskullkey_3_2.png",
-        "codes": "e3m2_blue"
-    },
-    {
-        "name": "Slough of Despair (E3M2) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e3m2_complete"
-    },
-    {
-        "name": "Pandemonium (E3M3) - Blue skull key",
-        "type": "toggle",
-        "img": "/images/items/blueskullkey_3_3.png",
-        "codes": "e3m3_blue"
-    },
-    {
-        "name": "Pandemonium (E3M3) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e3m3_complete"
-    },
-    {
-        "name": "House of Pain (E3M4) - Blue skull key",
-        "type": "toggle",
-        "img": "/images/items/blueskullkey_3_4.png",
-        "codes": "e3m4_blue"
-    },
-    {
-        "name": "House of Pain (E3M4) - Yellow skull key",
-        "type": "toggle",
-        "img": "/images/items/yellowskullkey_3_4.png",
-        "codes": "e3m4_yellow"
-    },
-    {
-        "name": "House of Pain (E3M4) - Red skull key",
-        "type": "toggle",
-        "img": "/images/items/redskullkey_3_4.png",
-        "codes": "e3m4_red"
-    },
-    {
-        "name": "House of Pain (E3M4) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e3m4_complete"
-    },
-    {
-        "name": "Unholy Cathedral (E3M5) - Blue skull key",
-        "type": "toggle",
-        "img": "/images/items/blueskullkey_3_5.png",
-        "codes": "e3m5_blue"
-    },
-    {
-        "name": "Unholy Cathedral (E3M5) - Yellow skull key",
-        "type": "toggle",
-        "img": "/images/items/yellowskullkey_3_5.png",
-        "codes": "e3m5_yellow"
-    },
-    {
-        "name": "Unholy Cathedral (E3M5) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e3m5_complete"
-    },
-    {
-        "name": "Mt. Erebus (E3M6) - Blue skull key",
-        "type": "toggle",
-        "img": "/images/items/blueskullkey_3_6.png",
-        "codes": "e3m6_blue"
-    },
-    {
-        "name": "Mt. Erebus (E3M6) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e3m6_complete"
-    },
-    {
-        "name": "Limbo (E3M7) - Blue skull key",
-        "type": "toggle",
-        "img": "/images/items/blueskullkey_3_7.png",
-        "codes": "e3m7_blue"
-    },
-    {
-        "name": "Limbo (E3M7) - Yellow skull key",
-        "type": "toggle",
-        "img": "/images/items/yellowskullkey_3_7.png",
-        "codes": "e3m7_yellow"
-    },
-    {
-        "name": "Limbo (E3M7) - Red skull key",
-        "type": "toggle",
-        "img": "/images/items/redskullkey_3_7.png",
-        "codes": "e3m7_red"
-    },
-    {
-        "name": "Limbo (E3M7) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e3m7_complete"
-    },
-    {
-        "name": "Dis (E3M8) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e3m8_complete"
-    },
-    {
-        "name": "Warrens (E3M9) - Blue skull key",
-        "type": "toggle",
-        "img": "/images/items/blueskullkey_3_9.png",
-        "codes": "e3m9_blue"
-    },
-    {
-        "name": "Warrens (E3M9) - Red skull key",
-        "type": "toggle",
-        "img": "/images/items/redskullkey_3_9.png",
-        "codes": "e3m9_red"
-    },
-    {
-        "name": "Warrens (E3M9) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e3m9_complete"
-    },
+  // EPISODE 3 ITEMS
+  {
+    "name": "Hell Keep (E3M1) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e3m1_complete"
+  },
+  {
+    "name": "Slough of Despair (E3M2) - Blue skull key",
+    "type": "toggle",
+    "img": "/images/items/blueskullkey_3_2.png",
+    "codes": "e3m2_blue"
+  },
+  {
+    "name": "Slough of Despair (E3M2) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e3m2_complete"
+  },
+  {
+    "name": "Pandemonium (E3M3) - Blue skull key",
+    "type": "toggle",
+    "img": "/images/items/blueskullkey_3_3.png",
+    "codes": "e3m3_blue"
+  },
+  {
+    "name": "Pandemonium (E3M3) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e3m3_complete"
+  },
+  {
+    "name": "House of Pain (E3M4) - Blue skull key",
+    "type": "toggle",
+    "img": "/images/items/blueskullkey_3_4.png",
+    "codes": "e3m4_blue"
+  },
+  {
+    "name": "House of Pain (E3M4) - Yellow skull key",
+    "type": "toggle",
+    "img": "/images/items/yellowskullkey_3_4.png",
+    "codes": "e3m4_yellow"
+  },
+  {
+    "name": "House of Pain (E3M4) - Red skull key",
+    "type": "toggle",
+    "img": "/images/items/redskullkey_3_4.png",
+    "codes": "e3m4_red"
+  },
+  {
+    "name": "House of Pain (E3M4) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e3m4_complete"
+  },
+  {
+    "name": "Unholy Cathedral (E3M5) - Blue skull key",
+    "type": "toggle",
+    "img": "/images/items/blueskullkey_3_5.png",
+    "codes": "e3m5_blue"
+  },
+  {
+    "name": "Unholy Cathedral (E3M5) - Yellow skull key",
+    "type": "toggle",
+    "img": "/images/items/yellowskullkey_3_5.png",
+    "codes": "e3m5_yellow"
+  },
+  {
+    "name": "Unholy Cathedral (E3M5) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e3m5_complete"
+  },
+  {
+    "name": "Mt. Erebus (E3M6) - Blue skull key",
+    "type": "toggle",
+    "img": "/images/items/blueskullkey_3_6.png",
+    "codes": "e3m6_blue"
+  },
+  {
+    "name": "Mt. Erebus (E3M6) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e3m6_complete"
+  },
+  {
+    "name": "Limbo (E3M7) - Blue skull key",
+    "type": "toggle",
+    "img": "/images/items/blueskullkey_3_7.png",
+    "codes": "e3m7_blue"
+  },
+  {
+    "name": "Limbo (E3M7) - Yellow skull key",
+    "type": "toggle",
+    "img": "/images/items/yellowskullkey_3_7.png",
+    "codes": "e3m7_yellow"
+  },
+  {
+    "name": "Limbo (E3M7) - Red skull key",
+    "type": "toggle",
+    "img": "/images/items/redskullkey_3_7.png",
+    "codes": "e3m7_red"
+  },
+  {
+    "name": "Limbo (E3M7) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e3m7_complete"
+  },
+  {
+    "name": "Dis (E3M8) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e3m8_complete"
+  },
+  {
+    "name": "Warrens (E3M9) - Blue skull key",
+    "type": "toggle",
+    "img": "/images/items/blueskullkey_3_9.png",
+    "codes": "e3m9_blue"
+  },
+  {
+    "name": "Warrens (E3M9) - Red skull key",
+    "type": "toggle",
+    "img": "/images/items/redskullkey_3_9.png",
+    "codes": "e3m9_red"
+  },
+  {
+    "name": "Warrens (E3M9) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e3m9_complete"
+  },
 
-// EPISODE 4 ACCESS
-    {
-        "name": "Hell Beneath (E4M1)",
-        "type": "toggle",
-        "img": "/images/levels/4_1.png",
-        "codes": "e4m1_access",
-        "allow_disabled": false
-    },
+  // EPISODE 4 ACCESS
+  {
+    "name": "Hell Beneath (E4M1)",
+    "type": "toggle",
+    "img": "/images/levels/4_1.png",
+    "codes": "e4m1_access",
+    "allow_disabled": false
+  },
 
-    {
-        "name": "Perfect Hatred (E4M2)",
-        "type": "toggle",
-        "img": "/images/levels/4_2.png",
-        "codes": "e4m2_access"
-    },
+  {
+    "name": "Perfect Hatred (E4M2)",
+    "type": "toggle",
+    "img": "/images/levels/4_2.png",
+    "codes": "e4m2_access"
+  },
 
-    {
-        "name": "Sever the Wicked (E4M3)",
-        "type": "toggle",
-        "img": "/images/levels/4_3.png",
-        "codes": "e4m3_access"
-    },
+  {
+    "name": "Sever the Wicked (E4M3)",
+    "type": "toggle",
+    "img": "/images/levels/4_3.png",
+    "codes": "e4m3_access"
+  },
 
-    {
-        "name": "Unruly Evil (E4M4)",
-        "type": "toggle",
-        "img": "/images/levels/4_4.png",
-        "codes": "e4m4_access"
-    },
+  {
+    "name": "Unruly Evil (E4M4)",
+    "type": "toggle",
+    "img": "/images/levels/4_4.png",
+    "codes": "e4m4_access"
+  },
 
-    {
-        "name": "They Will Repent (E4M5)",
-        "type": "toggle",
-        "img": "/images/levels/4_5.png",
-        "codes": "e4m5_access"
-    },
+  {
+    "name": "They Will Repent (E4M5)",
+    "type": "toggle",
+    "img": "/images/levels/4_5.png",
+    "codes": "e4m5_access"
+  },
 
-    {
-        "name": "Against Thee Wickedly (E4M6)",
-        "type": "toggle",
-        "img": "/images/levels/4_6.png",
-        "codes": "e4m6_access"
-    },
+  {
+    "name": "Against Thee Wickedly (E4M6)",
+    "type": "toggle",
+    "img": "/images/levels/4_6.png",
+    "codes": "e4m6_access"
+  },
 
-    {
-        "name": "And Hell Followed (E4M7)",
-        "type": "toggle",
-        "img": "/images/levels/4_7.png",
-        "codes": "e4m7_access"
-    },
+  {
+    "name": "And Hell Followed (E4M7)",
+    "type": "toggle",
+    "img": "/images/levels/4_7.png",
+    "codes": "e4m7_access"
+  },
 
-    {
-        "name": "Unto the Cruel (E4M8)",
-        "type": "toggle",
-        "img": "/images/levels/4_8.png",
-        "codes": "e4m8_access"
-    },
+  {
+    "name": "Unto the Cruel (E4M8)",
+    "type": "toggle",
+    "img": "/images/levels/4_8.png",
+    "codes": "e4m8_access"
+  },
 
-    {
-        "name": "Fear (E4M9)",
-        "type": "toggle",
-        "img": "/images/levels/4_9.png",
-        "codes": "e4m9_access"
-    },
+  {
+    "name": "Fear (E4M9)",
+    "type": "toggle",
+    "img": "/images/levels/4_9.png",
+    "codes": "e4m9_access"
+  },
 
-// EPISODE 4 ITEMS
-    {
-        "name": "Hell Beneath (E4M1) - Red skull key",
-        "type": "toggle",
-        "img": "/images/items/redskullkey_4_1.png",
-        "codes": "e4m1_red"
-    },
-    {
-        "name": "Hell Beneath (E4M1) - Blue skull key",
-        "type": "toggle",
-        "img": "/images/items/blueskullkey_4_1.png",
-        "codes": "e4m1_blue"
-    },
-    {
-        "name": "Hell Beneath (E4M1) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e4m1_complete"
-    },
+  // EPISODE 4 ITEMS
+  {
+    "name": "Hell Beneath (E4M1) - Red skull key",
+    "type": "toggle",
+    "img": "/images/items/redskullkey_4_1.png",
+    "codes": "e4m1_red"
+  },
+  {
+    "name": "Hell Beneath (E4M1) - Blue skull key",
+    "type": "toggle",
+    "img": "/images/items/blueskullkey_4_1.png",
+    "codes": "e4m1_blue"
+  },
+  {
+    "name": "Hell Beneath (E4M1) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e4m1_complete"
+  },
 
-    {
-        "name": "Perfect Hatred (E4M2) - Yellow skull key",
-        "type": "toggle",
-        "img": "/images/items/yellowskullkey_4_2.png",
-        "codes": "e4m2_yellow"
-    },
-    {
-        "name": "Perfect Hatred (E4M2) - Blue skull key",
-        "type": "toggle",
-        "img": "/images/items/blueskullkey_4_2.png",
-        "codes": "e4m2_blue"
-    },
-    {
-        "name": "Perfect Hatred (E4M2) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e4m2_complete"
-    },
+  {
+    "name": "Perfect Hatred (E4M2) - Yellow skull key",
+    "type": "toggle",
+    "img": "/images/items/yellowskullkey_4_2.png",
+    "codes": "e4m2_yellow"
+  },
+  {
+    "name": "Perfect Hatred (E4M2) - Blue skull key",
+    "type": "toggle",
+    "img": "/images/items/blueskullkey_4_2.png",
+    "codes": "e4m2_blue"
+  },
+  {
+    "name": "Perfect Hatred (E4M2) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e4m2_complete"
+  },
 
-    {
-        "name": "Sever the Wicked (E4M3) - Red skull key",
-        "type": "toggle",
-        "img": "/images/items/redskullkey_4_3.png",
-        "codes": "e4m3_red"
-    },
-    {
-        "name": "Sever the Wicked (E4M3) - Blue skull key",
-        "type": "toggle",
-        "img": "/images/items/blueskullkey_4_3.png",
-        "codes": "e4m3_blue"
-    },
-    {
-        "name": "Sever the Wicked (E4M3) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e4m3_complete"
-    },
+  {
+    "name": "Sever the Wicked (E4M3) - Red skull key",
+    "type": "toggle",
+    "img": "/images/items/redskullkey_4_3.png",
+    "codes": "e4m3_red"
+  },
+  {
+    "name": "Sever the Wicked (E4M3) - Blue skull key",
+    "type": "toggle",
+    "img": "/images/items/blueskullkey_4_3.png",
+    "codes": "e4m3_blue"
+  },
+  {
+    "name": "Sever the Wicked (E4M3) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e4m3_complete"
+  },
 
-    {
-        "name": "Unruly Evil (E4M4) - Red skull key",
-        "type": "toggle",
-        "img": "/images/items/redskullkey_4_4.png",
-        "codes": "e4m4_red"
-    },
-    {
-        "name": "Unruly Evil (E4M4) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e4m4_complete"
-    },
+  {
+    "name": "Unruly Evil (E4M4) - Red skull key",
+    "type": "toggle",
+    "img": "/images/items/redskullkey_4_4.png",
+    "codes": "e4m4_red"
+  },
+  {
+    "name": "Unruly Evil (E4M4) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e4m4_complete"
+  },
 
-    {
-        "name": "They Will Repent (E4M5) - Yellow skull key",
-        "type": "toggle",
-        "img": "/images/items/yellowskullkey_4_5.png",
-        "codes": "e4m5_yellow"
-    },
-    {
-        "name": "They Will Repent (E4M5) - Red skull key",
-        "type": "toggle",
-        "img": "/images/items/redskullkey_4_5.png",
-        "codes": "e4m5_red"
-    },
-    {
-        "name": "They Will Repent (E4M5) - Blue skull key",
-        "type": "toggle",
-        "img": "/images/items/blueskullkey_4_5.png",
-        "codes": "e4m5_blue"
-    },
-    {
-        "name": "They Will Repent (E4M5) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e4m5_complete"
-    },
+  {
+    "name": "They Will Repent (E4M5) - Yellow skull key",
+    "type": "toggle",
+    "img": "/images/items/yellowskullkey_4_5.png",
+    "codes": "e4m5_yellow"
+  },
+  {
+    "name": "They Will Repent (E4M5) - Red skull key",
+    "type": "toggle",
+    "img": "/images/items/redskullkey_4_5.png",
+    "codes": "e4m5_red"
+  },
+  {
+    "name": "They Will Repent (E4M5) - Blue skull key",
+    "type": "toggle",
+    "img": "/images/items/blueskullkey_4_5.png",
+    "codes": "e4m5_blue"
+  },
+  {
+    "name": "They Will Repent (E4M5) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e4m5_complete"
+  },
 
-    {
-        "name": "Against Thee Wickedly (E4M6) - Yellow skull key",
-        "type": "toggle",
-        "img": "/images/items/yellowskullkey_4_6.png",
-        "codes": "e4m6_yellow"
-    },
-    {
-        "name": "Against Thee Wickedly (E4M6) - Red skull key",
-        "type": "toggle",
-        "img": "/images/items/redskullkey_4_6.png",
-        "codes": "e4m6_red"
-    },
-    {
-        "name": "Against Thee Wickedly (E4M6) - Blue skull key",
-        "type": "toggle",
-        "img": "/images/items/blueskullkey_4_6.png",
-        "codes": "e4m6_blue"
-    },
-    {
-        "name": "Against Thee Wickedly (E4M6) - Complete",
-        "type": "toggle",
-        "img": "/images/items/levelcomplete.png",
-        "codes": "e4m6_complete"
-    },
-// SETTINGS
-    {
-        "name": "Death Logic",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/deathlogic_off.png",
-                "name": "Death Logic - Off",
-                "codes": "deathlogic",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/deathlogic_on.png",
-                "name": "Death Logic - On",
-                "codes": "deathlogic"
-            }
-        ]
-    },
-    {
-        "name": "Episode 1",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "initial_stage_idx": 1,
-        "stages": [
-            {
-                "img": "images/settings/ep1_off.png",
-                "name": "Episode 1 - Off",
-                "codes": "ep1,ep1_off",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/ep1_on.png",
-                "name": "Episode 1 - On",
-                "codes": "ep1,ep1_on"
-            }
-        ]
-    },
-    {
-        "name": "Episode 2",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "initial_stage_idx": 1,
-        "stages": [
-            {
-                "img": "images/settings/ep2_off.png",
-                "name": "Episode 2 - Off",
-                "codes": "ep2,ep2_off",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/ep2_on.png",
-                "name": "Episode 2 - On",
-                "codes": "ep2,ep2_on"
-            }
-        ]
-    },
-    {
-        "name": "Episode 3",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "initial_stage_idx": 1,
-        "stages": [
-            {
-                "img": "images/settings/ep3_off.png",
-                "name": "Episode 3 - Off",
-                "codes": "ep3,ep3_off",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/ep3_on.png",
-                "name": "Episode 3 - On",
-                "codes": "ep3,ep3_on"
-            }
-        ]
-    },
-    {
-        "name": "Episode 4",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "initial_stage_idx": 1,
-        "stages": [
-            {
-                "img": "images/settings/ep4_off.png",
-                "name": "Episode 4 - Off",
-                "codes": "ep4,ep4_off",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/settings/ep4_on.png",
-                "name": "Episode 4 - On",
-                "codes": "ep4,ep4_on"
-            }
-        ]
-    },
-    {
-        "name": "Difficulty",
-        "type": "progressive",
-        "loop": true,
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/settings/difficulty_baby.png",
-                "name": "Difficulty - Baby",
-                "codes": "difficulty,difficulty_b"
-            },
-            {
-                "img": "images/settings/difficulty_easy.png",
-                "name": "Difficulty - Easy",
-                "codes": "difficulty,difficulty_e"
-            },
-            {
-                "img": "images/settings/difficulty_medium.png",
-                "name": "Difficulty - Medium",
-                "codes": "difficulty,difficulty_m"
-            },
-            {
-                "img": "images/settings/difficulty_hard.png",
-                "name": "Difficulty - Hard",
-                "codes": "difficulty,difficulty_h"
-            },
-            {
-                "img": "images/settings/difficulty_nightmare.png",
-                "name": "Difficulty - Nightmare",
-                "codes": "difficulty,difficulty_n"
-            }
-        ]
-    }
+  {
+    "name": "Against Thee Wickedly (E4M6) - Yellow skull key",
+    "type": "toggle",
+    "img": "/images/items/yellowskullkey_4_6.png",
+    "codes": "e4m6_yellow"
+  },
+  {
+    "name": "Against Thee Wickedly (E4M6) - Red skull key",
+    "type": "toggle",
+    "img": "/images/items/redskullkey_4_6.png",
+    "codes": "e4m6_red"
+  },
+  {
+    "name": "Against Thee Wickedly (E4M6) - Blue skull key",
+    "type": "toggle",
+    "img": "/images/items/blueskullkey_4_6.png",
+    "codes": "e4m6_blue"
+  },
+  {
+    "name": "Against Thee Wickedly (E4M6) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e4m6_complete"
+  },
+  {
+    "name": "And Hell Followed (E4M7) - Blue skull key",
+    "type": "toggle",
+    "img": "/images/items/blueskullkey_4_7.png",
+    "codes": "e4m7_blue"
+  },
+  {
+    "name": "And Hell Followed (E4M7) - Yellow skull key",
+    "type": "toggle",
+    "img": "/images/items/yellowskullkey_4_7.png",
+    "codes": "e4m7_yellow"
+  },
+  {
+    "name": "And Hell Followed (E4M7) - Red skull key",
+    "type": "toggle",
+    "img": "/images/items/redskullkey_4_7.png",
+    "codes": "e4m7_red"
+  },
+  {
+    "name": "And Hell Followed (E4M7) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e4m7_complete"
+  },
+  {
+    "name": "Unto the Cruel (E4M8) - Yellow skull key",
+    "type": "toggle",
+    "img": "/images/items/yellowskullkey_4_8.png",
+    "codes": "e4m8_yellow"
+  },
+  {
+    "name": "Unto the Cruel (E4M8) - Red skull key",
+    "type": "toggle",
+    "img": "/images/items/redskullkey_4_8.png",
+    "codes": "e4m8_red"
+  },
+  {
+    "name": "Unto the Cruel (E4M8) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e4m8_complete"
+  },
+  {
+    "name": "Fear (E4M9) - Yellow skull key",
+    "type": "toggle",
+    "img": "/images/items/yellowskullkey_4_9.png",
+    "codes": "e4m9_yellow"
+  },
+  {
+    "name": "Fear (E4M9) - Complete",
+    "type": "toggle",
+    "img": "/images/items/levelcomplete.png",
+    "codes": "e4m9_complete"
+  },
+  // SETTINGS
+  {
+    "name": "Death Logic",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/deathlogic_off.png",
+        "name": "Death Logic - Off",
+        "codes": "deathlogic",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/deathlogic_on.png",
+        "name": "Death Logic - On",
+        "codes": "deathlogic"
+      }
+    ]
+  },
+  {
+    "name": "Episode 1",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/ep1_off.png",
+        "name": "Episode 1 - Off",
+        "codes": "ep1,ep1_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/ep1_on.png",
+        "name": "Episode 1 - On",
+        "codes": "ep1,ep1_on"
+      }
+    ]
+  },
+  {
+    "name": "Episode 2",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/ep2_off.png",
+        "name": "Episode 2 - Off",
+        "codes": "ep2,ep2_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/ep2_on.png",
+        "name": "Episode 2 - On",
+        "codes": "ep2,ep2_on"
+      }
+    ]
+  },
+  {
+    "name": "Episode 3",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/ep3_off.png",
+        "name": "Episode 3 - Off",
+        "codes": "ep3,ep3_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/ep3_on.png",
+        "name": "Episode 3 - On",
+        "codes": "ep3,ep3_on"
+      }
+    ]
+  },
+  {
+    "name": "Episode 4",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/ep4_off.png",
+        "name": "Episode 4 - Off",
+        "codes": "ep4,ep4_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/ep4_on.png",
+        "name": "Episode 4 - On",
+        "codes": "ep4,ep4_on"
+      }
+    ]
+  },
+  {
+    "name": "Difficulty",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/difficulty_baby.png",
+        "name": "Difficulty - Baby",
+        "codes": "difficulty,difficulty_b"
+      },
+      {
+        "img": "images/settings/difficulty_easy.png",
+        "name": "Difficulty - Easy",
+        "codes": "difficulty,difficulty_e"
+      },
+      {
+        "img": "images/settings/difficulty_medium.png",
+        "name": "Difficulty - Medium",
+        "codes": "difficulty,difficulty_m"
+      },
+      {
+        "img": "images/settings/difficulty_hard.png",
+        "name": "Difficulty - Hard",
+        "codes": "difficulty,difficulty_h"
+      },
+      {
+        "img": "images/settings/difficulty_nightmare.png",
+        "name": "Difficulty - Nightmare",
+        "codes": "difficulty,difficulty_n"
+      }
+    ]
+  }
 ]
