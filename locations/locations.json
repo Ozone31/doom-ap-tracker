@@ -6,23 +6,23 @@
     "children": [
       {
         "name": "Hangar (E1M1)",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "name": "Mega Armor",
-            "access_rules": [""]
+            "access_rules": [ "" ]
           },
           {
             "name": "Armor",
-            "access_rules": [""]
+            "access_rules": [ "" ]
           },
           {
             "name": "Shotgun",
-            "access_rules": [""]
+            "access_rules": [ "" ]
           },
           {
             "name": "Exit",
-            "access_rules": [""],
+            "access_rules": [ "" ],
             "hosted_item": "e1m1_complete"
           }
         ],
@@ -36,55 +36,55 @@
       },
       {
         "name": "Nuclear Plant (E1M2)",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "name": "Shotgun",
-            "access_rules": ["e1m2_access"]
+            "access_rules": [ "e1m2_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e1m2_access"]
+            "access_rules": [ "e1m2_access" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["e1m2_access"]
+            "access_rules": [ "e1m2_access" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["e1m2_access"]
+            "access_rules": [ "e1m2_access" ]
           },
           {
             "name": "Red Keycard",
-            "access_rules": ["e1m2_access"]
+            "access_rules": [ "e1m2_access" ]
           },
           {
             "name": "Armor 2",
-            "access_rules": ["e1m2_access"]
+            "access_rules": [ "e1m2_access" ]
           },
           {
             "name": "Backpack",
-            "access_rules": ["e1m2_access"]
+            "access_rules": [ "e1m2_access" ]
           },
           {
             "name": "Chainsaw",
-            "access_rules": ["$e1m2_redaccess"]
+            "access_rules": [ "$e1m2_redaccess" ]
           },
           {
             "name": "Armor 3",
-            "access_rules": ["$e1m2_redaccess"]
+            "access_rules": [ "$e1m2_redaccess" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["$e1m2_redaccess"]
+            "access_rules": [ "$e1m2_redaccess" ]
           },
           {
             "name": "Backpack 2",
-            "access_rules": ["$e1m2_redaccess"]
+            "access_rules": [ "$e1m2_redaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["$e1m2_redaccess"],
+            "access_rules": [ "$e1m2_redaccess" ],
             "hosted_item": "e1m2_complete"
           }
         ],
@@ -98,71 +98,71 @@
       },
       {
         "name": "Toxin Refinery (E1M3)",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "name": "Armor",
-            "access_rules": ["e1m3_access"]
+            "access_rules": [ "e1m3_access" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["e1m3_access"]
+            "access_rules": [ "e1m3_access" ]
           },
           {
             "name": "Yellow Keycard",
-            "access_rules": ["e1m3_access"]
+            "access_rules": [ "e1m3_access" ]
           },
           {
             "name": "Blue Keycard",
-            "access_rules": ["e1m3_access"]
+            "access_rules": [ "e1m3_access" ]
           },
           {
             "name": "Shotgun",
-            "access_rules": ["e1m3_access"]
+            "access_rules": [ "e1m3_access" ]
           },
           {
             "name": "Shotgun 2",
-            "access_rules": ["e1m3_access"]
+            "access_rules": [ "e1m3_access" ]
           },
           {
             "name": "Armor 2",
-            "access_rules": ["e1m3_access"]
+            "access_rules": [ "e1m3_access" ]
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": ["e1m3_access"]
+            "access_rules": [ "e1m3_access" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["e1m3_access"]
+            "access_rules": [ "e1m3_access" ]
           },
           {
             "name": "Backpack",
-            "access_rules": ["e1m3_access"]
+            "access_rules": [ "e1m3_access" ]
           },
           {
             "name": "Armor 3",
-            "access_rules": ["$e1m3_blueaccess"]
+            "access_rules": [ "$e1m3_blueaccess" ]
           },
           {
             "name": "Chainsaw",
-            "access_rules": ["$e1m3_blueaccess"]
+            "access_rules": [ "$e1m3_blueaccess" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["$e1m3_blueyellowaccess"]
+            "access_rules": [ "$e1m3_blueyellowaccess" ]
           },
           {
             "name": "Supercharge 2",
-            "access_rules": ["$e1m3_blueyellowaccess"]
+            "access_rules": [ "$e1m3_blueyellowaccess" ]
           },
           {
             "name": "Partial Invisibility",
-            "access_rules": ["$e1m3_blueyellowaccess"]
+            "access_rules": [ "$e1m3_blueyellowaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["$e1m3_blueaccess"],
+            "access_rules": [ "$e1m3_blueaccess" ],
             "hosted_item": "e1m3_complete"
           }
         ],
@@ -176,47 +176,47 @@
       },
       {
         "name": "Command Control (E1M4)",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "name": "Chaingun",
-            "access_rules": ["e1m4_access"]
+            "access_rules": [ "e1m4_access" ]
           },
           {
             "name": "Blue Keycard",
-            "access_rules": ["e1m4_access"]
+            "access_rules": [ "e1m4_access" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["e1m4_access"]
+            "access_rules": [ "e1m4_access" ]
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": ["e1m4_access"]
+            "access_rules": [ "e1m4_access" ]
           },
           {
             "name": "Backpack",
-            "access_rules": ["e1m4_access"]
+            "access_rules": [ "e1m4_access" ]
           },
           {
             "name": "Shotgun",
-            "access_rules": ["e1m4_access"]
+            "access_rules": [ "e1m4_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["$e1m4_blueyellowaccess"]
+            "access_rules": [ "$e1m4_blueyellowaccess" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["$e1m4_blueyellowaccess"]
+            "access_rules": [ "$e1m4_blueyellowaccess" ]
           },
           {
             "name": "Yellow Keycard",
-            "access_rules": ["$e1m4_blueyellowaccess"]
+            "access_rules": [ "$e1m4_blueyellowaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["e1m4_access"],
+            "access_rules": [ "e1m4_access" ],
             "hosted_item": "e1m4_complete"
           }
         ],
@@ -230,75 +230,75 @@
       },
       {
         "name": "Phobos Lab (E1M5)",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "name": "Yellow Keycard",
-            "access_rules": ["e1m5_access"]
+            "access_rules": [ "e1m5_access" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["e1m5_access"]
+            "access_rules": [ "e1m5_access" ]
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": ["e1m5_access"]
+            "access_rules": [ "e1m5_access" ]
           },
           {
             "name": "Shotgun",
-            "access_rules": ["e1m5_access"]
+            "access_rules": [ "e1m5_access" ]
           },
           {
             "name": "Shotgun 2",
-            "access_rules": ["e1m5_access"]
+            "access_rules": [ "e1m5_access" ]
           },
           {
             "name": "Shotgun 3",
-            "access_rules": ["e1m5_access"]
+            "access_rules": [ "e1m5_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e1m5_access"]
+            "access_rules": [ "e1m5_access" ]
           },
           {
             "name": "Blue Keycard",
-            "access_rules": ["$e1m5_yellowaccess"]
+            "access_rules": [ "$e1m5_yellowaccess" ]
           },
           {
             "name": "Mega Armor 2",
-            "access_rules": ["$e1m5_yellowaccess"]
+            "access_rules": [ "$e1m5_yellowaccess" ]
           },
           {
             "name": "Chainsaw",
-            "access_rules": ["$e1m5_yellowaccess"]
+            "access_rules": [ "$e1m5_yellowaccess" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["$e1m5_yellowaccess"]
+            "access_rules": [ "$e1m5_yellowaccess" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["$e1m5_yellowaccess"]
+            "access_rules": [ "$e1m5_yellowaccess" ]
           },
           {
             "name": "Computer Area Map",
-            "access_rules": ["$e1m5_yellowaccess"]
+            "access_rules": [ "$e1m5_yellowaccess" ]
           },
           {
             "name": "Partial Invisibility",
-            "access_rules": ["$e1m5_yellowaccess"]
+            "access_rules": [ "$e1m5_yellowaccess" ]
           },
           {
             "name": "Armor 2",
-            "access_rules": ["$e1m5_yellowaccess"]
+            "access_rules": [ "$e1m5_yellowaccess" ]
           },
           {
             "name": "Backpack",
-            "access_rules": ["$e1m5_yellowaccess"]
+            "access_rules": [ "$e1m5_yellowaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["$e1m5_blueyellowaccess"],
+            "access_rules": [ "$e1m5_blueyellowaccess" ],
             "hosted_item": "e1m5_complete"
           }
         ],
@@ -312,87 +312,87 @@
       },
       {
         "name": "Central Processing (E1M6)",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "name": "Red Keycard",
-            "access_rules": ["e1m6_access"]
+            "access_rules": [ "e1m6_access" ]
           },
           {
             "name": "Partial Invisibility",
-            "access_rules": ["e1m6_access"]
+            "access_rules": [ "e1m6_access" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["e1m6_access"]
+            "access_rules": [ "e1m6_access" ]
           },
           {
             "name": "Shotgun",
-            "access_rules": ["e1m6_access"]
+            "access_rules": [ "e1m6_access" ]
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": ["e1m6_access"]
+            "access_rules": [ "e1m6_access" ]
           },
           {
             "name": "Backpack",
-            "access_rules": ["e1m6_access"]
+            "access_rules": [ "e1m6_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e1m6_access"]
+            "access_rules": [ "e1m6_access" ]
           },
           {
             "name": "Armor 4",
-            "access_rules": ["e1m6_access"]
+            "access_rules": [ "e1m6_access" ]
           },
           {
             "name": "Supercharge 2",
-            "access_rules": ["$e1m6_blueaccess"]
+            "access_rules": [ "$e1m6_blueaccess" ]
           },
           {
             "name": "Yellow Keycard",
-            "access_rules": ["$e1m6_blueaccess"]
+            "access_rules": [ "$e1m6_blueaccess" ]
           },
           {
             "name": "Computer Area Map",
-            "access_rules": ["$e1m6_blueaccess"]
+            "access_rules": [ "$e1m6_blueaccess" ]
           },
           {
             "name": "Backpack 2",
-            "access_rules": ["$e1m6_blueaccess"]
+            "access_rules": [ "$e1m6_blueaccess" ]
           },
           {
             "name": "Backpack 3",
-            "access_rules": ["$e1m6_blueaccess"]
+            "access_rules": [ "$e1m6_blueaccess" ]
           },
           {
             "name": "Armor 2",
-            "access_rules": ["$e1m6_blueaccess"]
+            "access_rules": [ "$e1m6_blueaccess" ]
           },
           {
             "name": "Armor 3",
-            "access_rules": ["$e1m6_blueyellowaccess"]
+            "access_rules": [ "$e1m6_blueyellowaccess" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["$e1m6_redaccess"]
+            "access_rules": [ "$e1m6_redaccess" ]
           },
           {
             "name": "Blue Keycard",
-            "access_rules": ["$e1m6_redaccess"]
+            "access_rules": [ "$e1m6_redaccess" ]
           },
           {
             "name": "Partial Invisibility 2",
-            "access_rules": ["$e1m6_redaccess"]
+            "access_rules": [ "$e1m6_redaccess" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["$e1m6_redaccess"]
+            "access_rules": [ "$e1m6_redaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["$e1m6_blueyellowaccess"],
+            "access_rules": [ "$e1m6_blueyellowaccess" ],
             "hosted_item": "e1m6_complete"
           }
         ],
@@ -406,71 +406,71 @@
       },
       {
         "name": "Computer Station (E1M7)",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "name": "Shotgun 2",
-            "access_rules": ["e1m7_access"]
+            "access_rules": [ "e1m7_access" ]
           },
           {
             "name": "Yellow Keycard",
-            "access_rules": ["e1m7_access"]
+            "access_rules": [ "e1m7_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e1m7_access"]
+            "access_rules": [ "e1m7_access" ]
           },
           {
             "name": "Shotgun",
-            "access_rules": ["$e1m7_blueyellowaccess"]
+            "access_rules": [ "$e1m7_blueyellowaccess" ]
           },
           {
             "name": "Chainsaw",
-            "access_rules": ["$e1m7_yellowaccess"]
+            "access_rules": [ "$e1m7_yellowaccess" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["$e1m7_yellowaccess"]
+            "access_rules": [ "$e1m7_yellowaccess" ]
           },
           {
             "name": "Red Keycard",
-            "access_rules": ["$e1m7_yellowaccess"]
+            "access_rules": [ "$e1m7_yellowaccess" ]
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": ["$e1m7_yellowaccess"]
+            "access_rules": [ "$e1m7_yellowaccess" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["$e1m7_yellowaccess"]
+            "access_rules": [ "$e1m7_yellowaccess" ]
           },
           {
             "name": "Computer Area Map",
-            "access_rules": ["$e1m7_yellowaccess"]
+            "access_rules": [ "$e1m7_yellowaccess" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["$e1m7_yellowaccess"]
+            "access_rules": [ "$e1m7_yellowaccess" ]
           },
           {
             "name": "Backpack",
-            "access_rules": ["$e1m7_yellowaccess"]
+            "access_rules": [ "$e1m7_yellowaccess" ]
           },
           {
             "name": "Armor 2",
-            "access_rules": ["$e1m7_yellowaccess"]
+            "access_rules": [ "$e1m7_yellowaccess" ]
           },
           {
             "name": "Blue Keycard",
-            "access_rules": ["$e1m7_redaccess"]
+            "access_rules": [ "$e1m7_redaccess" ]
           },
           {
             "name": "Partial Invisibility",
-            "access_rules": ["$e1m7_yellowredaccess"]
+            "access_rules": [ "$e1m7_yellowredaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["$e1m7_blueyellowaccess"],
+            "access_rules": [ "$e1m7_blueyellowaccess" ],
             "hosted_item": "e1m7_complete"
           }
         ],
@@ -484,39 +484,39 @@
       },
       {
         "name": "Phobos Anomaly (E1M8)",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "name": "Supercharge",
-            "access_rules": ["e1m8_access"]
+            "access_rules": [ "e1m8_access" ]
           },
           {
             "name": "Shotgun",
-            "access_rules": ["e1m8_access"]
+            "access_rules": [ "e1m8_access" ]
           },
           {
             "name": "Shotgun 2",
-            "access_rules": ["e1m8_access"]
+            "access_rules": [ "e1m8_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e1m8_access"]
+            "access_rules": [ "e1m8_access" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["e1m8_access"]
+            "access_rules": [ "e1m8_access" ]
           },
           {
             "name": "Partial Invisibility",
-            "access_rules": ["e1m8_access"]
+            "access_rules": [ "e1m8_access" ]
           },
           {
             "name": "Computer Area Map",
-            "access_rules": ["e1m8_access"]
+            "access_rules": [ "e1m8_access" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["e1m8_access"],
+            "access_rules": [ "e1m8_access" ],
             "hosted_item": "e1m8_complete"
           }
         ],
@@ -530,47 +530,47 @@
       },
       {
         "name": "Military Base (E1M9)",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "name": "Yellow Keycard",
-            "access_rules": ["e1m9_access"]
+            "access_rules": [ "e1m9_access" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["e1m9_access"]
+            "access_rules": [ "e1m9_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e1m9_access"]
+            "access_rules": [ "e1m9_access" ]
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": ["e1m9_access"]
+            "access_rules": [ "e1m9_access" ]
           },
           {
             "name": "Backpack",
-            "access_rules": ["$e1m9_blueaccess"]
+            "access_rules": [ "$e1m9_blueaccess" ]
           },
           {
             "name": "Shotgun",
-            "access_rules": ["$e1m9_blueaccess"]
+            "access_rules": [ "$e1m9_blueaccess" ]
           },
           {
             "name": "Chainsaw",
-            "access_rules": ["$e1m9_blueaccess"]
+            "access_rules": [ "$e1m9_blueaccess" ]
           },
           {
             "name": "Red Keycard",
-            "access_rules": ["$e1m9_yellowaccess"]
+            "access_rules": [ "$e1m9_yellowaccess" ]
           },
           {
             "name": "Blue Keycard",
-            "access_rules": ["$e1m9_redaccess"]
+            "access_rules": [ "$e1m9_redaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["$e1m9_blueaccess"],
+            "access_rules": [ "$e1m9_blueaccess" ],
             "hosted_item": "e1m9_complete"
           }
         ],
@@ -584,43 +584,43 @@
       },
       {
         "name": "Deimos Anomaly (E2M1)",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "name": "Shotgun",
-            "access_rules": [""]
+            "access_rules": [ "" ]
           },
           {
             "name": "Shotgun 2",
-            "access_rules": [""]
+            "access_rules": [ "" ]
           },
           {
             "name": "Red Keycard",
-            "access_rules": [""]
+            "access_rules": [ "" ]
           },
           {
             "name": "Armor",
-            "access_rules": [""]
+            "access_rules": [ "" ]
           },
           {
             "name": "Blue Keycard",
-            "access_rules": [""]
+            "access_rules": [ "" ]
           },
           {
             "name": "Plasma Gun",
-            "access_rules": [""]
+            "access_rules": [ "" ]
           },
           {
             "name": "Computer Area Map",
-            "access_rules": ["e2m1_red"]
+            "access_rules": [ "e2m1_red" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["e2m1_red"]
+            "access_rules": [ "e2m1_red" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["e2m1_blue"],
+            "access_rules": [ "e2m1_blue" ],
             "hosted_item": "e2m1_complete"
           }
         ],
@@ -634,87 +634,87 @@
       },
       {
         "name": "Containment Area (E2M2)",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "name": "Shotgun",
-            "access_rules": ["e2m2_access"]
+            "access_rules": [ "e2m2_access" ]
           },
           {
             "name": "Shotgun 2",
-            "access_rules": ["e2m2_access"]
+            "access_rules": [ "e2m2_access" ]
           },
           {
             "name": "Berserk",
-            "access_rules": ["e2m2_access"]
+            "access_rules": [ "e2m2_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e2m2_access"]
+            "access_rules": [ "e2m2_access" ]
           },
           {
             "name": "Armor 2",
-            "access_rules": ["e2m2_access"]
+            "access_rules": [ "e2m2_access" ]
           },
           {
             "name": "Armor 3",
-            "access_rules": ["e2m2_access"]
+            "access_rules": [ "e2m2_access" ]
           },
           {
             "name": "Armor 4",
-            "access_rules": ["e2m2_access"]
+            "access_rules": [ "e2m2_access" ]
           },
           {
             "name": "Yellow Keycard",
-            "access_rules": ["e2m2_access"]
+            "access_rules": [ "e2m2_access" ]
           },
           {
             "name": "Backpack",
-            "access_rules": ["e2m2_access"]
+            "access_rules": [ "e2m2_access" ]
           },
           {
             "name": "Computer Area Map",
-            "access_rules": ["e2m2_access"]
+            "access_rules": [ "e2m2_access" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["e2m2_access"]
+            "access_rules": [ "e2m2_access" ]
           },
           {
             "name": "Plasma Gun",
-            "access_rules": ["e2m2_access"]
+            "access_rules": [ "e2m2_access" ]
           },
           {
             "name": "Chainsaw",
-            "access_rules": ["e2m2_access"]
+            "access_rules": [ "e2m2_access" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["e2m2_access"]
+            "access_rules": [ "e2m2_access" ]
           },
           {
             "name": "Blue Keycard",
-            "access_rules": ["e2m2_access"]
+            "access_rules": [ "e2m2_access" ]
           },
           {
             "name": "Red Keycard",
-            "access_rules": ["$e2m2_blueaccess"]
+            "access_rules": [ "$e2m2_blueaccess" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["$e2m2_yellowaccess"]
+            "access_rules": [ "$e2m2_yellowaccess" ]
           },
           {
             "name": "Backpack 2",
-            "access_rules": ["$e2m2_yellowaccess"]
+            "access_rules": [ "$e2m2_yellowaccess" ]
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": ["$e2m2_yellowaccess"]
+            "access_rules": [ "$e2m2_yellowaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["$e2m2_redaccess"],
+            "access_rules": [ "$e2m2_redaccess" ],
             "hosted_item": "e2m2_complete"
           }
         ],
@@ -728,55 +728,55 @@
       },
       {
         "name": "Refinery (E2M3)",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "name": "Chaingun",
-            "access_rules": ["e2m3_access"]
+            "access_rules": [ "e2m3_access" ]
           },
           {
             "name": "Shotgun",
-            "access_rules": ["e2m3_access"]
+            "access_rules": [ "e2m3_access" ]
           },
           {
             "name": "Berserk",
-            "access_rules": ["e2m3_access"]
+            "access_rules": [ "e2m3_access" ]
           },
           {
             "name": "Partial Invisibility 2",
-            "access_rules": ["e2m3_access"]
+            "access_rules": [ "e2m3_access" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["e2m3_access"]
+            "access_rules": [ "e2m3_access" ]
           },
           {
             "name": "Backpack",
-            "access_rules": ["e2m3_access"]
+            "access_rules": [ "e2m3_access" ]
           },
           {
             "name": "Plasma Gun",
-            "access_rules": ["e2m3_access"]
+            "access_rules": [ "e2m3_access" ]
           },
           {
             "name": "Blue Keycard",
-            "access_rules": ["e2m3_access"]
+            "access_rules": [ "e2m3_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e2m3_access"]
+            "access_rules": [ "e2m3_access" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["$e2m3_blueaccess"]
+            "access_rules": [ "$e2m3_blueaccess" ]
           },
           {
             "name": "Partial Invisibility",
-            "access_rules": ["$e2m3_blueaccess"]
+            "access_rules": [ "$e2m3_blueaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["$e2m3_blueaccess"],
+            "access_rules": [ "$e2m3_blueaccess" ],
             "hosted_item": "e2m3_complete"
           }
         ],
@@ -790,75 +790,75 @@
       },
       {
         "name": "Deimos Lab (E2M4)",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "name": "Shotgun",
-            "access_rules": ["e2m4_access"]
+            "access_rules": [ "e2m4_access" ]
           },
           {
             "name": "Computer Area Map",
-            "access_rules": ["e2m4_access"]
+            "access_rules": [ "e2m4_access" ]
           },
           {
             "name": "Armor 2",
-            "access_rules": ["e2m4_access"]
+            "access_rules": [ "e2m4_access" ]
           },
           {
             "name": "Partial Invisibility",
-            "access_rules": ["e2m4_access"]
+            "access_rules": [ "e2m4_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e2m4_access"]
+            "access_rules": [ "e2m4_access" ]
           },
           {
             "name": "Berserk",
-            "access_rules": ["e2m4_access"]
+            "access_rules": [ "e2m4_access" ]
           },
           {
             "name": "Backpack",
-            "access_rules": ["e2m4_access"]
+            "access_rules": [ "e2m4_access" ]
           },
           {
             "name": "Supercharge 2",
-            "access_rules": ["e2m4_access"]
+            "access_rules": [ "e2m4_access" ]
           },
           {
             "name": "Partial Invisibility 2",
-            "access_rules": ["e2m4_access"]
+            "access_rules": [ "e2m4_access" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["e2m4_access"]
+            "access_rules": [ "e2m4_access" ]
           },
           {
             "name": "Armor 3",
-            "access_rules": ["e2m4_access"]
+            "access_rules": [ "e2m4_access" ]
           },
           {
             "name": "Blue Keycard",
-            "access_rules": ["e2m4_access"]
+            "access_rules": [ "e2m4_access" ]
           },
           {
             "name": "Yellow Keycard",
-            "access_rules": ["$e2m4_blueaccess"]
+            "access_rules": [ "$e2m4_blueaccess" ]
           },
           {
             "name": "Plasma Gun",
-            "access_rules": ["$e2m4_blueyellowaccess"]
+            "access_rules": [ "$e2m4_blueyellowaccess" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["$e2m4_blueyellowaccess"]
+            "access_rules": [ "$e2m4_blueyellowaccess" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["$e2m4_blueyellowaccess"]
+            "access_rules": [ "$e2m4_blueyellowaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["$e2m4_blueyellowaccess"],
+            "access_rules": [ "$e2m4_blueyellowaccess" ],
             "hosted_item": "e2m4_complete"
           }
         ],
@@ -872,51 +872,51 @@
       },
       {
         "name": "Command Center (E2M5)",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "name": "Backpack",
-            "access_rules": ["e2m5_access"]
+            "access_rules": [ "e2m5_access" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["e2m5_access"]
+            "access_rules": [ "e2m5_access" ]
           },
           {
             "name": "Berserk",
-            "access_rules": ["e2m5_access"]
+            "access_rules": [ "e2m5_access" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["e2m5_access"]
+            "access_rules": [ "e2m5_access" ]
           },
           {
             "name": "Chainsaw",
-            "access_rules": ["e2m5_access"]
+            "access_rules": [ "e2m5_access" ]
           },
           {
             "name": "Plasma Gun",
-            "access_rules": ["e2m5_access"]
+            "access_rules": [ "e2m5_access" ]
           },
           {
             "name": "Computer Area Map",
-            "access_rules": ["e2m5_access"]
+            "access_rules": [ "e2m5_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e2m5_access"]
+            "access_rules": [ "e2m5_access" ]
           },
           {
             "name": "Armor 2",
-            "access_rules": ["e2m5_access"]
+            "access_rules": [ "e2m5_access" ]
           },
           {
             "name": "Partial Invisibility",
-            "access_rules": ["e2m5_access"]
+            "access_rules": [ "e2m5_access" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["e2m5_access"],
+            "access_rules": [ "e2m5_access" ],
             "hosted_item": "e2m5_complete"
           }
         ],
@@ -930,79 +930,79 @@
       },
       {
         "name": "Halls of the Damned (E2M6)",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "name": "Shotgun",
-            "access_rules": ["e2m6_access"]
+            "access_rules": [ "e2m6_access" ]
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": ["e2m6_access"]
+            "access_rules": [ "e2m6_access" ]
           },
           {
             "name": "Berserk",
-            "access_rules": ["e2m6_access"]
+            "access_rules": [ "e2m6_access" ]
           },
           {
             "name": "Chainsaw",
-            "access_rules": ["e2m6_access"]
+            "access_rules": [ "e2m6_access" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["e2m6_access"]
+            "access_rules": [ "e2m6_access" ]
           },
           {
             "name": "Backpack",
-            "access_rules": ["e2m6_access"]
+            "access_rules": [ "e2m6_access" ]
           },
           {
             "name": "Plasma Gun",
-            "access_rules": ["e2m6_access"]
+            "access_rules": [ "e2m6_access" ]
           },
           {
             "name": "Yellow Skull Key",
-            "access_rules": ["$e2m6_yellowaccess"]
+            "access_rules": [ "$e2m6_yellowaccess" ]
           },
           {
             "name": "Partial Invisibility 3",
-            "access_rules": ["e2m6_access"]
+            "access_rules": [ "e2m6_access" ]
           },
           {
             "name": "Partial Invisibility",
-            "access_rules": ["e2m6_access"]
+            "access_rules": [ "e2m6_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e2m6_access"]
+            "access_rules": [ "e2m6_access" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["e2m6_access"]
+            "access_rules": [ "e2m6_access" ]
           },
           {
             "name": "Red Skull Key",
-            "access_rules": ["e2m6_access"]
+            "access_rules": [ "e2m6_access" ]
           },
           {
             "name": "Blue Skull Key",
-            "access_rules": ["e2m6_access"]
+            "access_rules": [ "e2m6_access" ]
           },
           {
             "name": "Partial Invisibility 2",
-            "access_rules": ["$e2m6_yellowaccess"]
+            "access_rules": [ "$e2m6_yellowaccess" ]
           },
           {
             "name": "Computer Area Map",
-            "access_rules": ["$e2m6_yellowaccess"]
+            "access_rules": [ "$e2m6_yellowaccess" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["$e2m6_yellowaccess"]
+            "access_rules": [ "$e2m6_yellowaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["$e2m6_blueyellowredaccess"],
+            "access_rules": [ "$e2m6_blueyellowredaccess" ],
             "hosted_item": "e2m6_complete"
           }
         ],
@@ -1016,75 +1016,75 @@
       },
       {
         "name": "Spawning Vats (E2M7)",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "name": "Rocket Launcher",
-            "access_rules": ["e2m7_access"]
+            "access_rules": [ "e2m7_access" ]
           },
           {
             "name": "Partial Invisibility",
-            "access_rules": ["e2m7_access"]
+            "access_rules": [ "e2m7_access" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["e2m7_access"]
+            "access_rules": [ "e2m7_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e2m7_access"]
+            "access_rules": [ "e2m7_access" ]
           },
           {
             "name": "Blue Keycard",
-            "access_rules": ["e2m7_access"]
+            "access_rules": [ "e2m7_access" ]
           },
           {
             "name": "Invulnerability",
-            "access_rules": ["e2m7_access"]
+            "access_rules": [ "e2m7_access" ]
           },
           {
             "name": "Berserk",
-            "access_rules": ["e2m7_access"]
+            "access_rules": [ "e2m7_access" ]
           },
           {
             "name": "Chainsaw",
-            "access_rules": ["e2m7_access"]
+            "access_rules": [ "e2m7_access" ]
           },
           {
             "name": "Invulnerability 2",
-            "access_rules": ["e2m7_access"]
+            "access_rules": [ "e2m7_access" ]
           },
           {
             "name": "Computer Area Map",
-            "access_rules": ["e2m7_access"]
+            "access_rules": [ "e2m7_access" ]
           },
           {
             "name": "Plasma Gun",
-            "access_rules": ["e2m7_access"]
+            "access_rules": [ "e2m7_access" ]
           },
           {
             "name": "Yellow Keycard",
-            "access_rules": ["$e2m7_blueaccess"]
+            "access_rules": [ "$e2m7_blueaccess" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["$e2m7_blueaccess"]
+            "access_rules": [ "$e2m7_blueaccess" ]
           },
           {
             "name": "Backpack",
-            "access_rules": ["$e2m7_blueaccess"]
+            "access_rules": [ "$e2m7_blueaccess" ]
           },
           {
             "name": "Red Keycard",
-            "access_rules": ["$e2m7_yellowaccess"]
+            "access_rules": [ "$e2m7_yellowaccess" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["$e2m7_blueredaccess"]
+            "access_rules": [ "$e2m7_blueredaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["$e2m7_redaccess"],
+            "access_rules": [ "$e2m7_redaccess" ],
             "hosted_item": "e2m7_complete"
           }
         ],
@@ -1098,27 +1098,27 @@
       },
       {
         "name": "Tower of Babel (E2M8)",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "name": "Rocket Launcher",
-            "access_rules": ["e2m8_access"]
+            "access_rules": [ "e2m8_access" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["e2m8_access"]
+            "access_rules": [ "e2m8_access" ]
           },
           {
             "name": "Supercharge 2",
-            "access_rules": ["e2m8_access"]
+            "access_rules": [ "e2m8_access" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["e2m8_access"]
+            "access_rules": [ "e2m8_access" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["e2m8_access"],
+            "access_rules": [ "e2m8_access" ],
             "hosted_item": "e2m8_complete"
           }
         ],
@@ -1132,59 +1132,59 @@
       },
       {
         "name": "Fortress of Mystery (E2M9)",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "name": "Supercharge",
-            "access_rules": ["e2m9_access"]
+            "access_rules": [ "e2m9_access" ]
           },
           {
             "name": "Blue Skull Key",
-            "access_rules": ["e2m9_access"]
+            "access_rules": [ "e2m9_access" ]
           },
           {
             "name": "Backpack",
-            "access_rules": ["e2m9_access"]
+            "access_rules": [ "e2m9_access" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["e2m9_access"]
+            "access_rules": [ "e2m9_access" ]
           },
           {
             "name": "Plasma Gun",
-            "access_rules": ["e2m9_access"]
+            "access_rules": [ "e2m9_access" ]
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": ["e2m9_access"]
+            "access_rules": [ "e2m9_access" ]
           },
           {
             "name": "Shotgun",
-            "access_rules": ["e2m9_access"]
+            "access_rules": [ "e2m9_access" ]
           },
           {
             "name": "Chainsaw",
-            "access_rules": ["e2m9_access"]
+            "access_rules": [ "e2m9_access" ]
           },
           {
             "name": "Computer Area Map",
-            "access_rules": ["e2m9_access"]
+            "access_rules": [ "e2m9_access" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["e2m9_access"]
+            "access_rules": [ "e2m9_access" ]
           },
           {
             "name": "Red Skull Key",
-            "access_rules": ["$e2m9_blueaccess"]
+            "access_rules": [ "$e2m9_blueaccess" ]
           },
           {
             "name": "Yellow Skull Key",
-            "access_rules": ["$e2m9_redaccess"]
+            "access_rules": [ "$e2m9_redaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["$e2m9_yellowaccess"],
+            "access_rules": [ "$e2m9_yellowaccess" ],
             "hosted_item": "e2m9_complete"
           }
         ],
@@ -1198,19 +1198,19 @@
       },
       {
         "name": "Hell Keep (E3M1)",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "name": "Shotgun",
-            "access_rules": [""]
+            "access_rules": [ "" ]
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": [""]
+            "access_rules": [ "" ]
           },
           {
             "name": "Exit",
-            "access_rules": [""],
+            "access_rules": [ "" ],
             "hosted_item": "e3m1_complete"
           }
         ],
@@ -1224,47 +1224,47 @@
       },
       {
         "name": "Slough of Despair (E3M2)",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "name": "Chaingun",
-            "access_rules": ["e3m2_access"]
+            "access_rules": [ "e3m2_access" ]
           },
           {
             "name": "Berserk",
-            "access_rules": ["e3m2_access"]
+            "access_rules": [ "e3m2_access" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["e3m2_access"]
+            "access_rules": [ "e3m2_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e3m2_access"]
+            "access_rules": [ "e3m2_access" ]
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": ["e3m2_access"]
+            "access_rules": [ "e3m2_access" ]
           },
           {
             "name": "Plasma Gun",
-            "access_rules": ["e3m2_access"]
+            "access_rules": [ "e3m2_access" ]
           },
           {
             "name": "Computer Area Map",
-            "access_rules": ["e3m2_access"]
+            "access_rules": [ "e3m2_access" ]
           },
           {
             "name": "Blue Skull Key",
-            "access_rules": ["e3m2_access"]
+            "access_rules": [ "e3m2_access" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["e3m2_access"]
+            "access_rules": [ "e3m2_access" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["$e3m2_blueaccess"],
+            "access_rules": [ "$e3m2_blueaccess" ],
             "hosted_item": "e3m2_complete"
           }
         ],
@@ -1278,67 +1278,67 @@
       },
       {
         "name": "Pandemonium (E3M3)",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "name": "Berserk",
-            "access_rules": ["e3m3_access"]
+            "access_rules": [ "e3m3_access" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["e3m3_access"]
+            "access_rules": [ "e3m3_access" ]
           },
           {
             "name": "BFG9000",
-            "access_rules": ["e3m3_access"]
+            "access_rules": [ "e3m3_access" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["e3m3_access"]
+            "access_rules": [ "e3m3_access" ]
           },
           {
             "name": "Invulnerability",
-            "access_rules": ["e3m3_access"]
+            "access_rules": [ "e3m3_access" ]
           },
           {
             "name": "Blue Skull Key",
-            "access_rules": ["e3m3_access"]
+            "access_rules": [ "e3m3_access" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["e3m3_access"]
+            "access_rules": [ "e3m3_access" ]
           },
           {
             "name": "Shotgun",
-            "access_rules": ["e3m3_access"]
+            "access_rules": [ "e3m3_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e3m3_access"]
+            "access_rules": [ "e3m3_access" ]
           },
           {
             "name": "Backpack",
-            "access_rules": ["e3m3_access"]
+            "access_rules": [ "e3m3_access" ]
           },
           {
             "name": "Computer Area Map",
-            "access_rules": ["e3m3_access"]
+            "access_rules": [ "e3m3_access" ]
           },
           {
             "name": "Mega Armor 2",
-            "access_rules": ["e3m3_access"]
+            "access_rules": [ "e3m3_access" ]
           },
           {
             "name": "Shotgun 2",
-            "access_rules": ["e3m3_access"]
+            "access_rules": [ "e3m3_access" ]
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": ["e3m3_access"]
+            "access_rules": [ "e3m3_access" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["$e3m3_blueaccess"],
+            "access_rules": [ "$e3m3_blueaccess" ],
             "hosted_item": "e3m3_complete"
           }
         ],
@@ -1352,83 +1352,83 @@
       },
       {
         "name": "House of Pain (E3M4)",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "name": "Shotgun",
-            "access_rules": ["e3m4_access"]
+            "access_rules": [ "e3m4_access" ]
           },
           {
             "name": "Berserk",
-            "access_rules": ["e3m4_access"]
+            "access_rules": [ "e3m4_access" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["e3m4_access"]
+            "access_rules": [ "e3m4_access" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["e3m4_access"]
+            "access_rules": [ "e3m4_access" ]
           },
           {
             "name": "Invulnerability",
-            "access_rules": ["e3m4_access"]
+            "access_rules": [ "e3m4_access" ]
           },
           {
             "name": "Blue Skull Key",
-            "access_rules": ["e3m4_access"]
+            "access_rules": [ "e3m4_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e3m4_access"]
+            "access_rules": [ "e3m4_access" ]
           },
           {
             "name": "Armor 2",
-            "access_rules": ["e3m4_access"]
+            "access_rules": [ "e3m4_access" ]
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": ["e3m4_access"]
+            "access_rules": [ "e3m4_access" ]
           },
           {
             "name": "Yellow Skull Key",
-            "access_rules": ["$e3m4_blueaccess"]
+            "access_rules": [ "$e3m4_blueaccess" ]
           },
           {
             "name": "Partial Invisibility",
-            "access_rules": ["$e3m4_blueaccess"]
+            "access_rules": [ "$e3m4_blueaccess" ]
           },
           {
             "name": "BFG9000",
-            "access_rules": ["$e3m4_blueaccess"]
+            "access_rules": [ "$e3m4_blueaccess" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["$e3m4_blueaccess"]
+            "access_rules": [ "$e3m4_blueaccess" ]
           },
           {
             "name": "Invulnerability 2",
-            "access_rules": ["$e3m4_blueaccess"]
+            "access_rules": [ "$e3m4_blueaccess" ]
           },
           {
             "name": "Armor 3",
-            "access_rules": ["$e3m4_blueaccess"]
+            "access_rules": [ "$e3m4_blueaccess" ]
           },
           {
             "name": "Red Skull Key",
-            "access_rules": ["$e3m4_blueyellowaccess"]
+            "access_rules": [ "$e3m4_blueyellowaccess" ]
           },
           {
             "name": "Backpack",
-            "access_rules": ["$e3m4_blueredaccess"]
+            "access_rules": [ "$e3m4_blueredaccess" ]
           },
           {
             "name": "Mega Armor 2",
-            "access_rules": ["$e3m4_blueredaccess"]
+            "access_rules": [ "$e3m4_blueredaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["$e3m4_blueredaccess"],
+            "access_rules": [ "$e3m4_blueredaccess" ],
             "hosted_item": "e3m4_complete"
           }
         ],
@@ -1442,67 +1442,67 @@
       },
       {
         "name": "Unholy Cathedral (E3M5)",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "name": "Blue Skull Key",
-            "access_rules": ["e3m5_access"]
+            "access_rules": [ "e3m5_access" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["e3m5_access"]
+            "access_rules": [ "e3m5_access" ]
           },
           {
             "name": "Plasma Gun",
-            "access_rules": ["e3m5_access"]
+            "access_rules": [ "e3m5_access" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["e3m5_access"]
+            "access_rules": [ "e3m5_access" ]
           },
           {
             "name": "Yellow Skull Key",
-            "access_rules": ["e3m5_access"]
+            "access_rules": [ "e3m5_access" ]
           },
           {
             "name": "Invulnerability",
-            "access_rules": ["e3m5_access"]
+            "access_rules": [ "e3m5_access" ]
           },
           {
             "name": "Berserk",
-            "access_rules": ["e3m5_access"]
+            "access_rules": [ "e3m5_access" ]
           },
           {
             "name": "Partial Invisibility",
-            "access_rules": ["e3m5_access"]
+            "access_rules": [ "e3m5_access" ]
           },
           {
             "name": "Shotgun",
-            "access_rules": ["e3m5_access"]
+            "access_rules": [ "e3m5_access" ]
           },
           {
             "name": "Shotgun 2",
-            "access_rules": ["e3m5_access"]
+            "access_rules": [ "e3m5_access" ]
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": ["e3m5_access"]
+            "access_rules": [ "e3m5_access" ]
           },
           {
             "name": "BFG9000",
-            "access_rules": ["$e3m5_blueaccess"]
+            "access_rules": [ "$e3m5_blueaccess" ]
           },
           {
             "name": "Chainsaw",
-            "access_rules": ["$e3m5_yellowaccess"]
+            "access_rules": [ "$e3m5_yellowaccess" ]
           },
           {
             "name": "Supercharge 2",
-            "access_rules": ["$e3m5_yellowaccess"]
+            "access_rules": [ "$e3m5_yellowaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["$e3m5_blueaccess"],
+            "access_rules": [ "$e3m5_blueaccess" ],
             "hosted_item": "e3m5_complete"
           }
         ],
@@ -1516,79 +1516,79 @@
       },
       {
         "name": "Mt. Erebus (E3M6)",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "name": "Mega Armor",
-            "access_rules": ["e3m6_access"]
+            "access_rules": [ "e3m6_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e3m6_access"]
+            "access_rules": [ "e3m6_access" ]
           },
           {
             "name": "Backpack",
-            "access_rules": ["e3m6_access"]
+            "access_rules": [ "e3m6_access" ]
           },
           {
             "name": "Invulnerability",
-            "access_rules": ["e3m6_access"]
+            "access_rules": [ "e3m6_access" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["e3m6_access"]
+            "access_rules": [ "e3m6_access" ]
           },
           {
             "name": "Shotgun",
-            "access_rules": ["e3m6_access"]
+            "access_rules": [ "e3m6_access" ]
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": ["e3m6_access"]
+            "access_rules": [ "e3m6_access" ]
           },
           {
             "name": "Plasma Gun",
-            "access_rules": ["e3m6_access"]
+            "access_rules": [ "e3m6_access" ]
           },
           {
             "name": "Armor 2",
-            "access_rules": ["e3m6_access"]
+            "access_rules": [ "e3m6_access" ]
           },
           {
             "name": "Berserk",
-            "access_rules": ["e3m6_access"]
+            "access_rules": [ "e3m6_access" ]
           },
           {
             "name": "Invulnerability 2",
-            "access_rules": ["e3m6_access"]
+            "access_rules": [ "e3m6_access" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["e3m6_access"]
+            "access_rules": [ "e3m6_access" ]
           },
           {
             "name": "Blue Skull Key",
-            "access_rules": ["e3m6_access"]
+            "access_rules": [ "e3m6_access" ]
           },
           {
             "name": "Blue Skull Key 2",
-            "access_rules": ["e3m6_access"]
+            "access_rules": [ "e3m6_access" ]
           },
           {
             "name": "Computer Area Map",
-            "access_rules": ["e3m6_access"]
+            "access_rules": [ "e3m6_access" ]
           },
           {
             "name": "Chainsaw",
-            "access_rules": ["e3m6_access"]
+            "access_rules": [ "e3m6_access" ]
           },
           {
             "name": "Supercharge 2",
-            "access_rules": ["e3m6_access"]
+            "access_rules": [ "e3m6_access" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["$e3m6_blueaccess"],
+            "access_rules": [ "$e3m6_blueaccess" ],
             "hosted_item": "e3m6_complete"
           }
         ],
@@ -1602,55 +1602,55 @@
       },
       {
         "name": "Limbo (E3M7)",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "name": "Blue Skull Key",
-            "access_rules": ["e3m7_access"]
+            "access_rules": [ "e3m7_access" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["e3m7_access"]
+            "access_rules": [ "e3m7_access" ]
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": ["e3m7_access"]
+            "access_rules": [ "e3m7_access" ]
           },
           {
             "name": "Backpack",
-            "access_rules": ["e3m7_access"]
+            "access_rules": [ "e3m7_access" ]
           },
           {
             "name": "Armor 2",
-            "access_rules": ["e3m7_access"]
+            "access_rules": [ "e3m7_access" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["e3m7_access"]
+            "access_rules": [ "e3m7_access" ]
           },
           {
             "name": "BFG9000",
-            "access_rules": ["$e3m7_blueaccess"]
+            "access_rules": [ "$e3m7_blueaccess" ]
           },
           {
             "name": "Red Skull Key",
-            "access_rules": ["$e3m7_blueaccess"]
+            "access_rules": [ "$e3m7_blueaccess" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["$e3m7_redaccess"]
+            "access_rules": [ "$e3m7_redaccess" ]
           },
           {
             "name": "Yellow Skull Key",
-            "access_rules": ["$e3m7_redaccess"]
+            "access_rules": [ "$e3m7_redaccess" ]
           },
           {
             "name": "Plasma Gun",
-            "access_rules": ["$e3m7_redaccess"]
+            "access_rules": [ "$e3m7_redaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["$e3m7_yellowredaccess"],
+            "access_rules": [ "$e3m7_yellowredaccess" ],
             "hosted_item": "e3m7_complete"
           }
         ],
@@ -1664,23 +1664,23 @@
       },
       {
         "name": "Dis (E3M8)",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "name": "Rocket Launcher",
-            "access_rules": ["e3m8_access"]
+            "access_rules": [ "e3m8_access" ]
           },
           {
             "name": "Plasma Gun",
-            "access_rules": ["e3m8_access"]
+            "access_rules": [ "e3m8_access" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["e3m8_access"]
+            "access_rules": [ "e3m8_access" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["e3m8_access"],
+            "access_rules": [ "e3m8_access" ],
             "hosted_item": "e3m8_complete"
           }
         ],
@@ -1694,75 +1694,75 @@
       },
       {
         "name": "Warrens (E3M9)",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "name": "Shotgun",
-            "access_rules": ["e3m9_access"]
+            "access_rules": [ "e3m9_access" ]
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": ["e3m9_access"]
+            "access_rules": [ "e3m9_access" ]
           },
           {
             "name": "Rocket Launcher 2",
-            "access_rules": ["e3m9_access"]
+            "access_rules": [ "e3m9_access" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["e3m9_access"]
+            "access_rules": [ "e3m9_access" ]
           },
           {
             "name": "Blue Skull Key",
-            "access_rules": ["e3m9_access"]
+            "access_rules": [ "e3m9_access" ]
           },
           {
             "name": "Berserk",
-            "access_rules": ["e3m9_access"]
+            "access_rules": [ "e3m9_access" ]
           },
           {
             "name": "Invulnerability",
-            "access_rules": ["e3m9_access"]
+            "access_rules": [ "e3m9_access" ]
           },
           {
             "name": "Partial Invisibility",
-            "access_rules": ["e3m9_access"]
+            "access_rules": [ "e3m9_access" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["e3m9_access"]
+            "access_rules": [ "e3m9_access" ]
           },
           {
             "name": "Plasma Gun",
-            "access_rules": ["e3m9_access"]
+            "access_rules": [ "e3m9_access" ]
           },
           {
             "name": "Invulnerability 2",
-            "access_rules": ["e3m9_access"]
+            "access_rules": [ "e3m9_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e3m9_access"]
+            "access_rules": [ "e3m9_access" ]
           },
           {
             "name": "Chainsaw",
-            "access_rules": ["e3m9_access"]
+            "access_rules": [ "e3m9_access" ]
           },
           {
             "name": "BFG9000",
-            "access_rules": ["e3m9_access"]
+            "access_rules": [ "e3m9_access" ]
           },
           {
             "name": "Red Skull Key",
-            "access_rules": ["e3m9_access"]
+            "access_rules": [ "e3m9_access" ]
           },
           {
             "name": "Supercharge 2",
-            "access_rules": ["e3m9_access"]
+            "access_rules": [ "e3m9_access" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["$e3m9_redaccess"],
+            "access_rules": [ "$e3m9_redaccess" ],
             "hosted_item": "e3m9_complete"
           }
         ],
@@ -1776,35 +1776,35 @@
       },
       {
         "name": "Hell Beneath (E4M1)",
-        "visibility_rules": ["ep4_on"],
+        "visibility_rules": [ "ep4_on" ],
         "sections": [
           {
-            "name": "Red skull key",
-            "access_rules": ["e4m1_access"]
+            "name": "Red Skull Key",
+            "access_rules": [ "" ]
           },
           {
-            "name": "Rocket launcher",
-            "access_rules": ["e4m1_access"]
-          },
-          {
-            "name": "Blue skull key",
-            "access_rules": ["e4m1_access, e4m1_red"]
+            "name": "Rocket Launcher",
+            "access_rules": [ "" ]
           },
           {
             "name": "Shotgun",
-            "access_rules": ["e4m1_access"]
+            "access_rules": [ "" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e4m1_access"]
+            "access_rules": [ "" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["e4m1_access"]
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Blue Skull Key",
+            "access_rules": [ "e4m1_red" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["e4m1_access, e4m1_blue"],
+            "access_rules": [ "e4m1_blue" ],
             "hosted_item": "e4m1_complete"
           }
         ],
@@ -1818,68 +1818,59 @@
       },
       {
         "name": "Perfect Hatred (E4M2)",
-        "visibility_rules": ["ep4_on"],
+        "visibility_rules": [ "ep4_on" ],
         "sections": [
           {
-            "name": "Plasma gun",
-            "access_rules": ["e4m2_access"]
+            "name": "Plasma Gun",
+            "access_rules": [ "e4m2_access" ]
           },
           {
             "name": "Shotgun",
-            "access_rules": ["e4m2_access"]
+            "access_rules": [ "e4m2_access" ]
           },
           {
             "name": "Berserk",
-            "access_rules": ["e4m2_access"]
+            "access_rules": [ "e4m2_access" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["e4m2_access"]
+            "access_rules": [ "e4m2_access" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["e4m2_access"]
+            "access_rules": [ "e4m2_access" ]
           },
           {
-            "name": "Yellow skull key",
-            "access_rules": ["e4m2_access"]
+            "name": "Yellow Skull Key",
+            "access_rules": [ "e4m2_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e4m2_access"]
-          },
-          {
-            "name": "Rocket launcher",
-            "access_rules": ["e4m2_access, e4m2_yellow"]
-          },
-          {
-            "name": "Chainsaw",
-            "access_rules": [
-              "e4m2_access, e4m2_yellow",
-              "e4m2_access, e4m2_blue"
-            ]
-          },
-          {
-            "name": "Armor 2",
-            "access_rules": [
-              "e4m2_access, e4m2_yellow",
-              "e4m2_access, e4m2_blue"
-            ]
-          },
-          {
-            "name": "Blue skull key",
-            "access_rules": [
-              "e4m2_access, e4m2_yellow",
-              "e4m2_access, e4m2_blue"
-            ]
+            "access_rules": [ "e4m2_access" ]
           },
           {
             "name": "BFG9000",
-            "access_rules": ["e4m2_access, e4m2_blue"]
+            "access_rules": [ "$e4m2_blueaccess" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [ "$e4m2_yellowaccess" ]
+          },
+          {
+            "name": "Chainsaw",
+            "access_rules": [ "$e4m2_blueyellowaccess" ]
+          },
+          {
+            "name": "Armor 2",
+            "access_rules": [ "$e4m2_blueyellowaccess" ]
+          },
+          {
+            "name": "Blue skull key",
+            "access_rules": [ "$e4m2_blueyellowaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["e4m2_access, e4m2_blue"],
+            "access_rules": [ "$e4m2_blueaccess" ],
             "hosted_item": "e4m2_complete"
           }
         ],
@@ -1893,75 +1884,75 @@
       },
       {
         "name": "Sever the Wicked (E4M3)",
-        "visibility_rules": ["ep4_on"],
+        "visibility_rules": [ "ep4_on" ],
         "sections": [
           {
             "name": "Invulnerability",
-            "access_rules": ["e4m3_access"]
+            "access_rules": [ "e4m3_access" ]
           },
           {
             "name": "Berserk",
-            "access_rules": ["e4m3_access"]
+            "access_rules": [ "e4m3_access" ]
           },
           {
-            "name": "Partial invisibility",
-            "access_rules": ["e4m3_access"]
+            "name": "Partial Invisibility",
+            "access_rules": [ "e4m3_access" ]
           },
           {
             "name": "Backpack",
-            "access_rules": ["e4m3_access"]
+            "access_rules": [ "e4m3_access" ]
           },
           {
-            "name": "Plasma gun",
-            "access_rules": ["e4m3_access, e4m3_blue"]
+            "name": "Red Skull Key",
+            "access_rules": [ "e4m3_access" ]
           },
           {
-            "name": "Red skull key",
-            "access_rules": ["e4m3_access"]
-          },
-          {
-            "name": "Blue skull key",
-            "access_rules": ["e4m3_access"]
+            "name": "Blue Skull Key",
+            "access_rules": [ "e4m3_access" ]
           },
           {
             "name": "Backpack 2",
-            "access_rules": ["e4m3_access"]
+            "access_rules": [ "e4m3_access" ]
           },
           {
             "name": "Chainsaw",
-            "access_rules": ["e4m3_access"]
+            "access_rules": [ "e4m3_access" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["e4m3_access"]
+            "access_rules": [ "e4m3_access" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["e4m3_access"]
+            "access_rules": [ "e4m3_access" ]
           },
           {
-            "name": "Plasma gun 2",
-            "access_rules": ["e4m3_access"]
+            "name": "Plasma Gun 2",
+            "access_rules": [ "e4m3_access" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["e4m3_access"]
+            "access_rules": [ "e4m3_access" ]
           },
           {
             "name": "Shotgun",
-            "access_rules": ["e4m3_access"]
+            "access_rules": [ "e4m3_access" ]
           },
           {
-            "name": "Rocket launcher",
-            "access_rules": ["e4m3_access"]
+            "name": "Rocket Launcher",
+            "access_rules": [ "e4m3_access" ]
           },
           {
-            "name": "Partial invisibility 2",
-            "access_rules": ["e4m3_access"]
+            "name": "Partial Invisibility 2",
+            "access_rules": [ "e4m3_access" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "access_rules": [ "$e4m3_blueaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["e4m3_access, e4m3_blue"],
+            "access_rules": [ "$e4m3_blueaccess" ],
             "hosted_item": "e4m3_complete"
           }
         ],
@@ -1975,43 +1966,43 @@
       },
       {
         "name": "Unruly Evil (E4M4)",
-        "visibility_rules": ["ep4_on"],
+        "visibility_rules": [ "ep4_on" ],
         "sections": [
           {
-            "name": "Rocket launcher",
-            "access_rules": ["e4m4_access"]
+            "name": "Rocket Launcher",
+            "access_rules": [ "e4m4_access" ]
           },
           {
             "name": "Berserk",
-            "access_rules": ["e4m4_access"]
+            "access_rules": [ "e4m4_access" ]
           },
           {
-            "name": "Red skull key",
-            "access_rules": ["e4m4_access"]
+            "name": "Red Skull Key",
+            "access_rules": [ "e4m4_access" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["e4m4_access"]
+            "access_rules": [ "e4m4_access" ]
           },
           {
             "name": "Shotgun",
-            "access_rules": ["e4m4_access"]
+            "access_rules": [ "e4m4_access" ]
           },
           {
-            "name": "Partial invisibility",
-            "access_rules": ["e4m4_access"]
+            "name": "Partial Invisibility",
+            "access_rules": [ "e4m4_access" ]
           },
           {
             "name": "Invulnerability",
-            "access_rules": ["e4m4_access"]
+            "access_rules": [ "e4m4_access" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["e4m4_access"]
+            "access_rules": [ "e4m4_access" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["e4m4_access, e4m4_red"],
+            "access_rules": [ "$e4m4_redaccess" ],
             "hosted_item": "e4m4_complete"
           }
         ],
@@ -2025,55 +2016,55 @@
       },
       {
         "name": "They Will Repent (E4M5)",
-        "visibility_rules": ["ep4_on"],
+        "visibility_rules": [ "ep4_on" ],
         "sections": [
           {
-            "name": "Yellow skull key",
-            "access_rules": ["e4m5_access, e4m5_red"]
-          },
-          {
-            "name": "Red skull key",
-            "access_rules": ["e4m5_access"]
-          },
-          {
-            "name": "Blue skull key",
-            "access_rules": ["e4m5_access, e4m5_red"]
-          },
-          {
-            "name": "BFG9000",
-            "access_rules": ["e4m5_access, e4m5_red"]
+            "name": "Red Skull Key",
+            "access_rules": [ "e4m5_access" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["e4m5_access"]
+            "access_rules": [ "e4m5_access" ]
           },
           {
-            "name": "Rocket launcher",
-            "access_rules": ["e4m5_access"]
+            "name": "Rocket Launcher",
+            "access_rules": [ "e4m5_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e4m5_access"]
+            "access_rules": [ "e4m5_access" ]
           },
           {
-            "name": "Plasma gun",
-            "access_rules": ["e4m5_access, e4m5_red"]
+            "name": "Yellow Skull Key",
+            "access_rules": [ "$e4m5_redaccess" ]
+          },
+          {
+            "name": "Blue Skull Key",
+            "access_rules": [ "$e4m5_redaccess" ]
+          },
+          {
+            "name": "BFG9000",
+            "access_rules": [ "$e4m5_redaccess" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "access_rules": [ "$e4m5_redaccess" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["e4m5_access, e4m5_red"]
+            "access_rules": [ "$e4m5_redaccess" ]
           },
           {
             "name": "Invulnerability",
-            "access_rules": ["e4m5_access, e4m5_red"]
+            "access_rules": [ "$e4m5_redaccess" ]
           },
           {
             "name": "Berserk",
-            "access_rules": ["e4m5_access, e4m5_red"]
+            "access_rules": [ "$e4m5_redaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["e4m5_access, e4m5_red"],
+            "access_rules": [ "$e4m5_redaccess" ],
             "hosted_item": "e4m5_complete"
           }
         ],
@@ -2087,78 +2078,75 @@
       },
       {
         "name": "Against Thee Wickedly (E4M6)",
-        "visibility_rules": ["ep4_on"],
+        "visibility_rules": [ "ep4_on" ],
         "sections": [
           {
-            "name": "Plasma gun",
-            "access_rules": ["e4m6_access"]
+            "name": "Plasma Gun",
+            "access_rules": [ "e4m6_access" ]
           },
           {
-            "name": "Blue skull key",
-            "access_rules": ["e4m6_access"]
-          },
-          {
-            "name": "Yellow skull key",
-            "access_rules": ["e4m6_access, e4m6_blue"]
+            "name": "Blue Akull Key",
+            "access_rules": [ "e4m6_access" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": ["e4m6_access"]
+            "access_rules": [ "e4m6_access" ]
           },
           {
-            "name": "Rocket launcher",
-            "access_rules": ["e4m6_access"]
+            "name": "Rocket Launcher",
+            "access_rules": [ "e4m6_access" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": ["e4m6_access"]
+            "access_rules": [ "e4m6_access" ]
           },
           {
-            "name": "Partial invisibility",
-            "access_rules": ["e4m6_access"]
-          },
-          {
-            "name": "Red skull key",
-            "access_rules": [
-              "e4m6_access, e4m6_blue, e4m6_yellow",
-              "e4m6_access, e4m6_blue, e4m6_red"
-          ]
-          },
-          {
-            "name": "Invulnerability",
-            "access_rules": ["e4m6_access, e4m6_blue, e4m6_red"]
-          },
-          {
-            "name": "Invulnerability 2",
-            "access_rules": ["e4m6_access, e4m6_blue, e4m6_red"]
-          },
-          {
-            "name": "BFG9000",
-            "access_rules": ["e4m6_access, e4m6_blue, e4m6_red"]
-          },
-          {
-            "name": "Backpack",
-            "access_rules": ["e4m6_access, e4m6_blue, e4m6_red"]
-          },
-          {
-            "name": "Berserk",
-            "access_rules": ["e4m6_access, e4m6_blue, e4m6_red"]
+            "name": "Partial Invisibility",
+            "access_rules": [ "e4m6_access" ]
           },
           {
             "name": "Shotgun",
-            "access_rules": ["e4m6_access"]
+            "access_rules": [ "e4m6_access" ]
           },
           {
             "name": "Armor",
-            "access_rules": ["e4m6_access"]
+            "access_rules": [ "e4m6_access" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": ["e4m6_access"]
+            "access_rules": [ "e4m6_access" ]
+          },
+          {
+            "name": "Yellow Skull Key",
+            "access_rules": [ "$e4m6_blueaccess" ]
+          },
+          {
+            "name": "Red Skull Key",
+            "access_rules": [ "$e4m6_blueyellowredaccess" ]
+          },
+          {
+            "name": "Invulnerability",
+            "access_rules": [ "$e4m6_blueredaccess" ]
+          },
+          {
+            "name": "Invulnerability 2",
+            "access_rules": [ "$e4m6_blueredaccess" ]
+          },
+          {
+            "name": "BFG9000",
+            "access_rules": [ "$e4m6_blueredaccess" ]
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [ "$e4m6_blueredaccess" ]
+          },
+          {
+            "name": "Berserk",
+            "access_rules": [ "$e4m6_blueredaccessd" ]
           },
           {
             "name": "Exit",
-            "access_rules": ["e4m6_access, e4m6_blue, e4m6_red"],
+            "access_rules": [ "$e4m6_blueredaccess" ],
             "hosted_item": "e4m6_complete"
           }
         ],
@@ -2167,6 +2155,252 @@
             "map": "overworld",
             "x": 705,
             "y": 440
+          }
+        ]
+      },
+      {
+        "name": "And Hell Followed (E4M7)",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "name": "Chaingun",
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Blue Skull Key",
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Armor",
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Computer Area Map",
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Berserk",
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Red Skull Key",
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Chainsaw",
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Yellow Skull Key",
+            "access_rules": [ "$e4m7_blueaccess" ]
+          },
+          {
+            "name": "Shotgun",
+            "access_rules": [ "$e4m7_yellowaccess" ]
+          },
+          {
+            "name": "BFG9000",
+            "access_rules": [ "$e4m7_yellowaccess" ]
+          },
+          {
+            "name": "Mega Armor 2",
+            "access_rules": [ "$e4m7_yellowaccess" ]
+          },
+          {
+            "name": "Invulnerability",
+            "access_rules": [ "$e4m7_yellowaccess" ]
+          },
+          {
+            "name": "Invulnerability 2",
+            "access_rules": [ "$e4m7_yellowaccess" ]
+          },
+          {
+            "name": "Supercharge 2",
+            "access_rules": [ "$e4m7_yellowaccess" ]
+          },
+          {
+            "name": "Rocket Launcher 2",
+            "access_rules": [ "$e4m7_yellowaccess" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "access_rules": [ "$e4m7_redaccess" ]
+          },
+          {
+            "name": "Rocket Launcher 3",
+            "access_rules": [ "$e4m7_redaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e4m7_redaccess" ],
+            "hosted_item": "e4m7_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1160,
+            "y": 495
+          }
+        ]
+      },
+      {
+        "name": "Unto the Cruel (E4M8)",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "name": "Shotgun",
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Supercharge",
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Mega Armor 2",
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Yellow Skull Key",
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Berserk",
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Red SKull Key",
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Supercharge 3",
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Plasma Gun 2",
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": [ "$e4m8_yellowredaccess" ]
+          },
+          {
+            "name": "Supercharge 2",
+            "access_rules": [ "$e4m8_yellowredaccess" ]
+          },
+          {
+            "name": "BFG9000",
+            "access_rules": [ "$e4m8_yellowredaccess" ]
+          },
+          {
+            "name": "Rocket Launcher 2",
+            "access_rules": [ "$e4m8_yellowredaccess" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "access_rules": [ "$e4m8_yellowredaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e4m8_yellowredaccess" ],
+            "hosted_item": "e4m8_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1020,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Fear (E4M9)",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "name": "Yellow Skull Key",
+            "access_rules": [ "e4m9_access" ]
+          },
+          {
+            "name": "Shotgun",
+            "access_rules": [ "e4m9_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "access_rules": [ "e4m9_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "access_rules": [ "e4m9_access" ]
+          },
+          {
+            "name": "Rocket Launcher 2",
+            "access_rules": [ "e4m9_access" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "access_rules": [ "e4m9_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "access_rules": [ "e4m9_access" ]
+          },
+          {
+            "name": "Berserk",
+            "access_rules": [ "e4m9_access" ]
+          },
+          {
+            "name": "Backpack",
+            "access_rules": [ "$e4m9_yellowaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "$e4m9_yellowaccess" ],
+            "hosted_item": "e4m9_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 820,
+            "y": 510
           }
         ]
       }
@@ -2179,7 +2413,7 @@
     "children": [
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Hangar (E1M1)/Mega Armor",
@@ -2196,7 +2430,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Hangar (E1M1)/Armor",
@@ -2213,7 +2447,7 @@
       },
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Hangar (E1M1)/Shotgun",
@@ -2230,7 +2464,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Hangar (E1M1)/Exit",
@@ -2254,7 +2488,7 @@
     "children": [
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Nuclear Plant (E1M2)/Shotgun",
@@ -2271,7 +2505,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Nuclear Plant (E1M2)/Armor",
@@ -2288,7 +2522,7 @@
       },
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Nuclear Plant (E1M2)/Supercharge",
@@ -2305,7 +2539,7 @@
       },
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Nuclear Plant (E1M2)/Chaingun",
@@ -2322,7 +2556,7 @@
       },
       {
         "name": "Red Keycard",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Nuclear Plant (E1M2)/Red Keycard",
@@ -2339,7 +2573,7 @@
       },
       {
         "name": "Armor 2",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Nuclear Plant (E1M2)/Armor 2",
@@ -2356,7 +2590,7 @@
       },
       {
         "name": "Backpack",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Nuclear Plant (E1M2)/Backpack",
@@ -2373,7 +2607,7 @@
       },
       {
         "name": "Chainsaw",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Nuclear Plant (E1M2)/Chainsaw",
@@ -2390,7 +2624,7 @@
       },
       {
         "name": "Armor 3",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Nuclear Plant (E1M2)/Armor 3",
@@ -2407,7 +2641,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Nuclear Plant (E1M2)/Mega Armor",
@@ -2424,7 +2658,7 @@
       },
       {
         "name": "Backpack 2",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Nuclear Plant (E1M2)/Backpack 2",
@@ -2441,7 +2675,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Nuclear Plant (E1M2)/Exit",
@@ -2465,7 +2699,7 @@
     "children": [
       {
         "name": "Armor",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Toxin Refinery (E1M3)/Armor",
@@ -2482,7 +2716,7 @@
       },
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Toxin Refinery (E1M3)/Supercharge",
@@ -2499,7 +2733,7 @@
       },
       {
         "name": "Yellow Keycard",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Toxin Refinery (E1M3)/Yellow Keycard",
@@ -2516,7 +2750,7 @@
       },
       {
         "name": "Blue Keycard",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Toxin Refinery (E1M3)/Blue Keycard",
@@ -2533,7 +2767,7 @@
       },
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Toxin Refinery (E1M3)/Shotgun",
@@ -2550,7 +2784,7 @@
       },
       {
         "name": "Shotgun 2",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Toxin Refinery (E1M3)/Shotgun 2",
@@ -2567,7 +2801,7 @@
       },
       {
         "name": "Armor 2",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Toxin Refinery (E1M3)/Armor 2",
@@ -2584,7 +2818,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Toxin Refinery (E1M3)/Rocket Launcher",
@@ -2601,7 +2835,7 @@
       },
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Toxin Refinery (E1M3)/Chaingun",
@@ -2618,7 +2852,7 @@
       },
       {
         "name": "Backpack",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Toxin Refinery (E1M3)/Backpack",
@@ -2635,7 +2869,7 @@
       },
       {
         "name": "Armor 3",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Toxin Refinery (E1M3)/Armor 3",
@@ -2652,7 +2886,7 @@
       },
       {
         "name": "Chainsaw",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Toxin Refinery (E1M3)/Chainsaw",
@@ -2669,7 +2903,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Toxin Refinery (E1M3)/Mega Armor",
@@ -2686,7 +2920,7 @@
       },
       {
         "name": "Supercharge 2",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Toxin Refinery (E1M3)/Supercharge 2",
@@ -2703,7 +2937,7 @@
       },
       {
         "name": "Partial Invisibility",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Toxin Refinery (E1M3)/Partial Invisibility",
@@ -2720,7 +2954,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Toxin Refinery (E1M3)/Exit",
@@ -2744,7 +2978,7 @@
     "children": [
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Command Control (E1M4)/Chaingun",
@@ -2761,7 +2995,7 @@
       },
       {
         "name": "Blue Keycard",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Command Control (E1M4)/Blue Keycard",
@@ -2778,7 +3012,7 @@
       },
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Command Control (E1M4)/Supercharge",
@@ -2795,7 +3029,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Command Control (E1M4)/Rocket Launcher",
@@ -2812,7 +3046,7 @@
       },
       {
         "name": "Backpack",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Command Control (E1M4)/Backpack",
@@ -2829,7 +3063,7 @@
       },
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Command Control (E1M4)/Shotgun",
@@ -2846,7 +3080,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Command Control (E1M4)/Armor",
@@ -2863,7 +3097,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Command Control (E1M4)/Mega Armor",
@@ -2880,7 +3114,7 @@
       },
       {
         "name": "Yellow Keycard",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Command Control (E1M4)/Yellow Keycard",
@@ -2897,7 +3131,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Command Control (E1M4)/Exit",
@@ -2921,7 +3155,7 @@
     "children": [
       {
         "name": "Yellow Keycard",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Lab (E1M5)/Yellow Keycard",
@@ -2938,7 +3172,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Lab (E1M5)/Mega Armor",
@@ -2955,7 +3189,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Lab (E1M5)/Rocket Launcher",
@@ -2972,7 +3206,7 @@
       },
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Lab (E1M5)/Shotgun",
@@ -2989,7 +3223,7 @@
       },
       {
         "name": "Shotgun 2",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Lab (E1M5)/Shotgun 2",
@@ -3006,7 +3240,7 @@
       },
       {
         "name": "Shotgun 3",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Lab (E1M5)/Shotgun 3",
@@ -3023,7 +3257,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Lab (E1M5)/Armor",
@@ -3040,7 +3274,7 @@
       },
       {
         "name": "Blue Keycard",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Lab (E1M5)/Blue Keycard",
@@ -3057,7 +3291,7 @@
       },
       {
         "name": "Mega Armor 2",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Lab (E1M5)/Mega Armor 2",
@@ -3074,7 +3308,7 @@
       },
       {
         "name": "Chainsaw",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Lab (E1M5)/Chainsaw",
@@ -3091,7 +3325,7 @@
       },
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Lab (E1M5)/Supercharge",
@@ -3108,7 +3342,7 @@
       },
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Lab (E1M5)/Chaingun",
@@ -3125,7 +3359,7 @@
       },
       {
         "name": "Computer Area Map",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Lab (E1M5)/Computer Area Map",
@@ -3142,7 +3376,7 @@
       },
       {
         "name": "Partial Invisibility",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Lab (E1M5)/Partial Invisibility",
@@ -3159,7 +3393,7 @@
       },
       {
         "name": "Armor 2",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Lab (E1M5)/Armor 2",
@@ -3176,7 +3410,7 @@
       },
       {
         "name": "Backpack",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Lab (E1M5)/Backpack",
@@ -3193,7 +3427,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Lab (E1M5)/Exit",
@@ -3217,7 +3451,7 @@
     "children": [
       {
         "name": "Red Keycard",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Red Keycard",
@@ -3234,7 +3468,7 @@
       },
       {
         "name": "Partial Invisibility",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Partial Invisibility",
@@ -3251,7 +3485,7 @@
       },
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Chaingun",
@@ -3268,7 +3502,7 @@
       },
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Shotgun",
@@ -3285,7 +3519,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Rocket Launcher",
@@ -3302,7 +3536,7 @@
       },
       {
         "name": "Backpack",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Backpack",
@@ -3319,7 +3553,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Armor",
@@ -3336,7 +3570,7 @@
       },
       {
         "name": "Armor 4",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Armor 4",
@@ -3353,7 +3587,7 @@
       },
       {
         "name": "Supercharge 2",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Supercharge 2",
@@ -3370,7 +3604,7 @@
       },
       {
         "name": "Yellow Keycard",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Yellow Keycard",
@@ -3387,7 +3621,7 @@
       },
       {
         "name": "Computer Area Map",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Computer Area Map",
@@ -3404,7 +3638,7 @@
       },
       {
         "name": "Backpack 2",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Backpack 2",
@@ -3421,7 +3655,7 @@
       },
       {
         "name": "Backpack 3",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Backpack 3",
@@ -3438,7 +3672,7 @@
       },
       {
         "name": "Armor 2",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Armor 2",
@@ -3455,7 +3689,7 @@
       },
       {
         "name": "Armor 3",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Armor 3",
@@ -3472,7 +3706,7 @@
       },
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Supercharge",
@@ -3489,7 +3723,7 @@
       },
       {
         "name": "Blue Keycard",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Blue Keycard",
@@ -3506,7 +3740,7 @@
       },
       {
         "name": "Partial Invisibility 2",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Partial Invisibility 2",
@@ -3523,7 +3757,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Mega Armor",
@@ -3540,7 +3774,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Central Processing (E1M6)/Exit",
@@ -3564,7 +3798,7 @@
     "children": [
       {
         "name": "Shotgun 2",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Computer Station (E1M7)/Shotgun 2",
@@ -3581,7 +3815,7 @@
       },
       {
         "name": "Yellow Keycard",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Computer Station (E1M7)/Yellow Keycard",
@@ -3598,7 +3832,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Computer Station (E1M7)/Armor",
@@ -3615,7 +3849,7 @@
       },
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Computer Station (E1M7)/Shotgun",
@@ -3632,7 +3866,7 @@
       },
       {
         "name": "Chainsaw",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Computer Station (E1M7)/Chainsaw",
@@ -3649,7 +3883,7 @@
       },
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Computer Station (E1M7)/Chaingun",
@@ -3666,7 +3900,7 @@
       },
       {
         "name": "Red Keycard",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Computer Station (E1M7)/Red Keycard",
@@ -3683,7 +3917,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Computer Station (E1M7)/Rocket Launcher",
@@ -3700,7 +3934,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Computer Station (E1M7)/Mega Armor",
@@ -3717,7 +3951,7 @@
       },
       {
         "name": "Computer Area Map",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Computer Station (E1M7)/Computer Area Map",
@@ -3734,7 +3968,7 @@
       },
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Computer Station (E1M7)/Supercharge",
@@ -3751,7 +3985,7 @@
       },
       {
         "name": "Backpack",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Computer Station (E1M7)/Backpack",
@@ -3768,7 +4002,7 @@
       },
       {
         "name": "Armor 2",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Computer Station (E1M7)/Armor 2",
@@ -3785,7 +4019,7 @@
       },
       {
         "name": "Blue Keycard",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Computer Station (E1M7)/Blue Keycard",
@@ -3802,7 +4036,7 @@
       },
       {
         "name": "Partial Invisibility",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Computer Station (E1M7)/Partial Invisibility",
@@ -3819,7 +4053,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Computer Station (E1M7)/Exit",
@@ -3843,7 +4077,7 @@
     "children": [
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Anomaly (E1M8)/Supercharge",
@@ -3860,7 +4094,7 @@
       },
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Anomaly (E1M8)/Shotgun",
@@ -3877,7 +4111,7 @@
       },
       {
         "name": "Shotgun 2",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Anomaly (E1M8)/Shotgun 2",
@@ -3894,7 +4128,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Anomaly (E1M8)/Armor",
@@ -3911,7 +4145,7 @@
       },
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Anomaly (E1M8)/Chaingun",
@@ -3928,7 +4162,7 @@
       },
       {
         "name": "Partial Invisibility",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Anomaly (E1M8)/Partial Invisibility",
@@ -3945,7 +4179,7 @@
       },
       {
         "name": "Computer Area Map",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Anomaly (E1M8)/Computer Area Map",
@@ -3962,7 +4196,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Phobos Anomaly (E1M8)/Exit",
@@ -3986,7 +4220,7 @@
     "children": [
       {
         "name": "Yellow Keycard",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Military Base (E1M9)/Yellow Keycard",
@@ -4003,7 +4237,7 @@
       },
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Military Base (E1M9)/Chaingun",
@@ -4020,7 +4254,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Military Base (E1M9)/Armor",
@@ -4037,7 +4271,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Military Base (E1M9)/Rocket Launcher",
@@ -4054,7 +4288,7 @@
       },
       {
         "name": "Backpack",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Military Base (E1M9)/Backpack",
@@ -4071,7 +4305,7 @@
       },
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Military Base (E1M9)/Shotgun",
@@ -4088,7 +4322,7 @@
       },
       {
         "name": "Chainsaw",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Military Base (E1M9)/Chainsaw",
@@ -4105,7 +4339,7 @@
       },
       {
         "name": "Red Keycard",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Military Base (E1M9)/Red Keycard",
@@ -4122,7 +4356,7 @@
       },
       {
         "name": "Blue Keycard",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Military Base (E1M9)/Blue Keycard",
@@ -4139,7 +4373,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep1_on"],
+        "visibility_rules": [ "ep1_on" ],
         "sections": [
           {
             "ref": "Mars/Military Base (E1M9)/Exit",
@@ -4163,7 +4397,7 @@
     "children": [
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Anomaly (E2M1)/Shotgun",
@@ -4180,7 +4414,7 @@
       },
       {
         "name": "Shotgun 2",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Anomaly (E2M1)/Shotgun 2",
@@ -4197,7 +4431,7 @@
       },
       {
         "name": "Red Keycard",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Anomaly (E2M1)/Red Keycard",
@@ -4214,7 +4448,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Anomaly (E2M1)/Armor",
@@ -4231,7 +4465,7 @@
       },
       {
         "name": "Plasma Gun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Anomaly (E2M1)/Plasma Gun",
@@ -4248,7 +4482,7 @@
       },
       {
         "name": "Blue Keycard",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Anomaly (E2M1)/Blue Keycard",
@@ -4265,7 +4499,7 @@
       },
       {
         "name": "Computer Area Map",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Anomaly (E2M1)/Computer Area Map",
@@ -4282,7 +4516,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Anomaly (E2M1)/Mega Armor",
@@ -4299,7 +4533,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Anomaly (E2M1)/Exit",
@@ -4323,7 +4557,7 @@
     "children": [
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Shotgun",
@@ -4340,7 +4574,7 @@
       },
       {
         "name": "Shotgun 2",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Shotgun 2",
@@ -4357,7 +4591,7 @@
       },
       {
         "name": "Berserk",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Berserk",
@@ -4374,7 +4608,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Armor",
@@ -4391,7 +4625,7 @@
       },
       {
         "name": "Armor 2",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Armor 2",
@@ -4408,7 +4642,7 @@
       },
       {
         "name": "Armor 3",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Armor 3",
@@ -4425,7 +4659,7 @@
       },
       {
         "name": "Armor 4",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Armor 4",
@@ -4442,7 +4676,7 @@
       },
       {
         "name": "Yellow Keycard",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Yellow Keycard",
@@ -4459,7 +4693,7 @@
       },
       {
         "name": "Backpack",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Backpack",
@@ -4476,7 +4710,7 @@
       },
       {
         "name": "Computer Area Map",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Computer Area Map",
@@ -4493,7 +4727,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Mega Armor",
@@ -4510,7 +4744,7 @@
       },
       {
         "name": "Plasma Gun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Plasma Gun",
@@ -4527,7 +4761,7 @@
       },
       {
         "name": "Chainsaw",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Chainsaw",
@@ -4544,7 +4778,7 @@
       },
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Supercharge",
@@ -4561,7 +4795,7 @@
       },
       {
         "name": "Blue Keycard",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Blue Keycard",
@@ -4578,7 +4812,7 @@
       },
       {
         "name": "Red Keycard",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Red Keycard",
@@ -4595,7 +4829,7 @@
       },
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Chaingun",
@@ -4612,7 +4846,7 @@
       },
       {
         "name": "Backpack 2",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Backpack 2",
@@ -4629,7 +4863,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Rocket Launcher",
@@ -4646,7 +4880,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Containment Area (E2M2)/Exit",
@@ -4670,7 +4904,7 @@
     "children": [
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Refinery (E2M3)/Chaingun",
@@ -4687,7 +4921,7 @@
       },
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Refinery (E2M3)/Shotgun",
@@ -4704,7 +4938,7 @@
       },
       {
         "name": "Berserk",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Refinery (E2M3)/Berserk",
@@ -4721,7 +4955,7 @@
       },
       {
         "name": "Partial Invisibility 2",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Refinery (E2M3)/Partial Invisibility 2",
@@ -4738,7 +4972,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Refinery (E2M3)/Mega Armor",
@@ -4755,7 +4989,7 @@
       },
       {
         "name": "Backpack",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Refinery (E2M3)/Backpack",
@@ -4772,7 +5006,7 @@
       },
       {
         "name": "Plasma Gun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Refinery (E2M3)/Plasma Gun",
@@ -4789,7 +5023,7 @@
       },
       {
         "name": "Blue Keycard",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Refinery (E2M3)/Blue Keycard",
@@ -4806,7 +5040,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Refinery (E2M3)/Armor",
@@ -4823,7 +5057,7 @@
       },
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Refinery (E2M3)/Supercharge",
@@ -4840,7 +5074,7 @@
       },
       {
         "name": "Partial Invisibility",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Refinery (E2M3)/Partial Invisibility",
@@ -4857,7 +5091,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Refinery (E2M3)/Exit",
@@ -4881,7 +5115,7 @@
     "children": [
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Lab (E2M4)/Shotgun",
@@ -4898,7 +5132,7 @@
       },
       {
         "name": "Computer Area Map",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Lab (E2M4)/Computer Area Map",
@@ -4915,7 +5149,7 @@
       },
       {
         "name": "Armor 2",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Lab (E2M4)/Armor 2",
@@ -4932,7 +5166,7 @@
       },
       {
         "name": "Partial Invisibility",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Lab (E2M4)/Partial Invisibility",
@@ -4949,7 +5183,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Lab (E2M4)/Armor",
@@ -4966,7 +5200,7 @@
       },
       {
         "name": "Berserk",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Lab (E2M4)/Berserk",
@@ -4983,7 +5217,7 @@
       },
       {
         "name": "Backpack",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Lab (E2M4)/Backpack",
@@ -5000,7 +5234,7 @@
       },
       {
         "name": "Supercharge 2",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Lab (E2M4)/Supercharge 2",
@@ -5017,7 +5251,7 @@
       },
       {
         "name": "Partial Invisibility 2",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Lab (E2M4)/Partial Invisibility 2",
@@ -5034,7 +5268,7 @@
       },
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Lab (E2M4)/Chaingun",
@@ -5051,7 +5285,7 @@
       },
       {
         "name": "Armor 3",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Lab (E2M4)/Armor 3",
@@ -5068,7 +5302,7 @@
       },
       {
         "name": "Blue Keycard",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Lab (E2M4)/Blue Keycard",
@@ -5085,7 +5319,7 @@
       },
       {
         "name": "Yellow Keycard",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Lab (E2M4)/Yellow Keycard",
@@ -5102,7 +5336,7 @@
       },
       {
         "name": "Plasma Gun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Lab (E2M4)/Plasma Gun",
@@ -5119,7 +5353,7 @@
       },
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Lab (E2M4)/Supercharge",
@@ -5136,7 +5370,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Lab (E2M4)/Mega Armor",
@@ -5153,7 +5387,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Deimos Lab (E2M4)/Exit",
@@ -5177,7 +5411,7 @@
     "children": [
       {
         "name": "Backpack",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Command Center (E2M5)/Backpack",
@@ -5194,7 +5428,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Command Center (E2M5)/Mega Armor",
@@ -5211,7 +5445,7 @@
       },
       {
         "name": "Berserk",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Command Center (E2M5)/Berserk",
@@ -5228,7 +5462,7 @@
       },
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Command Center (E2M5)/Chaingun",
@@ -5245,7 +5479,7 @@
       },
       {
         "name": "Chainsaw",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Command Center (E2M5)/Chainsaw",
@@ -5262,7 +5496,7 @@
       },
       {
         "name": "Plasma Gun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Command Center (E2M5)/Plasma Gun",
@@ -5279,7 +5513,7 @@
       },
       {
         "name": "Computer Area Map",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Command Center (E2M5)/Computer Area Map",
@@ -5296,7 +5530,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Command Center (E2M5)/Armor",
@@ -5313,7 +5547,7 @@
       },
       {
         "name": "Armor 2",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Command Center (E2M5)/Armor 2",
@@ -5330,7 +5564,7 @@
       },
       {
         "name": "Partial Invisibility",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Command Center (E2M5)/Partial Invisibility",
@@ -5347,7 +5581,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Command Center (E2M5)/Exit",
@@ -5371,7 +5605,7 @@
     "children": [
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Shotgun",
@@ -5388,7 +5622,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Rocket Launcher",
@@ -5405,7 +5639,7 @@
       },
       {
         "name": "Berserk",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Berserk",
@@ -5422,7 +5656,7 @@
       },
       {
         "name": "Chainsaw",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Chainsaw",
@@ -5439,7 +5673,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Mega Armor",
@@ -5456,7 +5690,7 @@
       },
       {
         "name": "Backpack",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Backpack",
@@ -5473,7 +5707,7 @@
       },
       {
         "name": "Plasma Gun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Plasma Gun",
@@ -5490,7 +5724,7 @@
       },
       {
         "name": "Yellow Skull Key",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Yellow Skull Key",
@@ -5507,7 +5741,7 @@
       },
       {
         "name": "Partial Invisibility 3",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Partial Invisibility 3",
@@ -5524,7 +5758,7 @@
       },
       {
         "name": "Partial Invisibility",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Partial Invisibility",
@@ -5541,7 +5775,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Armor",
@@ -5558,7 +5792,7 @@
       },
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Chaingun",
@@ -5575,7 +5809,7 @@
       },
       {
         "name": "Red Skull Key",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Red Skull Key",
@@ -5592,7 +5826,7 @@
       },
       {
         "name": "Blue Skull Key",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Blue Skull Key",
@@ -5609,7 +5843,7 @@
       },
       {
         "name": "Partial Invisibility 2",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Partial Invisibility 2",
@@ -5626,7 +5860,7 @@
       },
       {
         "name": "Computer Area Map",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Computer Area Map",
@@ -5643,7 +5877,7 @@
       },
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Supercharge",
@@ -5660,7 +5894,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Exit",
@@ -5684,7 +5918,7 @@
     "children": [
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Spawning Vats (E2M7)/Rocket Launcher",
@@ -5701,7 +5935,7 @@
       },
       {
         "name": "Partial Invisibility",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Spawning Vats (E2M7)/Partial Invisibility",
@@ -5718,7 +5952,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Spawning Vats (E2M7)/Mega Armor",
@@ -5735,7 +5969,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Spawning Vats (E2M7)/Armor",
@@ -5752,7 +5986,7 @@
       },
       {
         "name": "Blue Keycard",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Spawning Vats (E2M7)/Blue Keycard",
@@ -5769,7 +6003,7 @@
       },
       {
         "name": "Invulnerability",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Spawning Vats (E2M7)/Invulnerability",
@@ -5786,7 +6020,7 @@
       },
       {
         "name": "Berserk",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Spawning Vats (E2M7)/Berserk",
@@ -5803,7 +6037,7 @@
       },
       {
         "name": "Chainsaw",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Spawning Vats (E2M7)/Chainsaw",
@@ -5820,7 +6054,7 @@
       },
       {
         "name": "Invulnerability 2",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Spawning Vats (E2M7)/Invulnerability 2",
@@ -5837,7 +6071,7 @@
       },
       {
         "name": "Computer Area Map",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Spawning Vats (E2M7)/Computer Area Map",
@@ -5854,7 +6088,7 @@
       },
       {
         "name": "Plasma Gun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Spawning Vats (E2M7)/Plasma Gun",
@@ -5871,7 +6105,7 @@
       },
       {
         "name": "Yellow Keycard",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Spawning Vats (E2M7)/Yellow Keycard",
@@ -5888,7 +6122,7 @@
       },
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Spawning Vats (E2M7)/Chaingun",
@@ -5905,7 +6139,7 @@
       },
       {
         "name": "Backpack",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Spawning Vats (E2M7)/Backpack",
@@ -5922,7 +6156,7 @@
       },
       {
         "name": "Red Keycard",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Spawning Vats (E2M7)/Red Keycard",
@@ -5939,7 +6173,7 @@
       },
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Spawning Vats (E2M7)/Supercharge",
@@ -5956,7 +6190,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Spawning Vats (E2M7)/Exit",
@@ -5980,7 +6214,7 @@
     "children": [
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Tower of Babel (E2M8)/Rocket Launcher",
@@ -5997,7 +6231,7 @@
       },
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Tower of Babel (E2M8)/Supercharge",
@@ -6014,7 +6248,7 @@
       },
       {
         "name": "Supercharge 2",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Tower of Babel (E2M8)/Supercharge 2",
@@ -6031,7 +6265,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Tower of Babel (E2M8)/Mega Armor",
@@ -6048,7 +6282,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Tower of Babel (E2M8)/Exit",
@@ -6072,7 +6306,7 @@
     "children": [
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Fortress of Mystery (E2M9)/Supercharge",
@@ -6089,7 +6323,7 @@
       },
       {
         "name": "Blue Skull Key",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Fortress of Mystery (E2M9)/Blue Skull Key",
@@ -6106,7 +6340,7 @@
       },
       {
         "name": "Backpack",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Fortress of Mystery (E2M9)/Backpack",
@@ -6123,7 +6357,7 @@
       },
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Fortress of Mystery (E2M9)/Chaingun",
@@ -6140,7 +6374,7 @@
       },
       {
         "name": "Plasma Gun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Fortress of Mystery (E2M9)/Plasma Gun",
@@ -6157,7 +6391,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Fortress of Mystery (E2M9)/Rocket Launcher",
@@ -6174,7 +6408,7 @@
       },
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Fortress of Mystery (E2M9)/Shotgun",
@@ -6191,7 +6425,7 @@
       },
       {
         "name": "Chainsaw",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Fortress of Mystery (E2M9)/Chainsaw",
@@ -6208,7 +6442,7 @@
       },
       {
         "name": "Computer Area Map",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Fortress of Mystery (E2M9)/Computer Area Map",
@@ -6225,7 +6459,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Fortress of Mystery (E2M9)/Mega Armor",
@@ -6242,7 +6476,7 @@
       },
       {
         "name": "Red Skull Key",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Fortress of Mystery (E2M9)/Red Skull Key",
@@ -6259,7 +6493,7 @@
       },
       {
         "name": "Yellow Skull Key",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Fortress of Mystery (E2M9)/Yellow Skull Key",
@@ -6276,7 +6510,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep2_on"],
+        "visibility_rules": [ "ep2_on" ],
         "sections": [
           {
             "ref": "Mars/Fortress of Mystery (E2M9)/Exit",
@@ -6300,7 +6534,7 @@
     "children": [
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Hell Keep (E3M1)/Shotgun",
@@ -6317,7 +6551,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Hell Keep (E3M1)/Rocket Launcher",
@@ -6334,7 +6568,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Hell Keep (E3M1)/Exit",
@@ -6358,7 +6592,7 @@
     "children": [
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Slough of Despair (E3M2)/Chaingun",
@@ -6375,7 +6609,7 @@
       },
       {
         "name": "Berserk",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Slough of Despair (E3M2)/Berserk",
@@ -6392,7 +6626,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Slough of Despair (E3M2)/Mega Armor",
@@ -6409,7 +6643,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Slough of Despair (E3M2)/Armor",
@@ -6426,7 +6660,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Slough of Despair (E3M2)/Rocket Launcher",
@@ -6443,7 +6677,7 @@
       },
       {
         "name": "Plasma Gun",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Slough of Despair (E3M2)/Plasma Gun",
@@ -6460,7 +6694,7 @@
       },
       {
         "name": "Computer Area Map",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Slough of Despair (E3M2)/Computer Area Map",
@@ -6477,7 +6711,7 @@
       },
       {
         "name": "Blue Skull Key",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Slough of Despair (E3M2)/Blue Skull Key",
@@ -6494,7 +6728,7 @@
       },
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Slough of Despair (E3M2)/Supercharge",
@@ -6511,7 +6745,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Slough of Despair (E3M2)/Exit",
@@ -6535,7 +6769,7 @@
     "children": [
       {
         "name": "Berserk",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Pandemonium (E3M3)/Berserk",
@@ -6552,7 +6786,7 @@
       },
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Pandemonium (E3M3)/Chaingun",
@@ -6569,7 +6803,7 @@
       },
       {
         "name": "BFG9000",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Pandemonium (E3M3)/BFG9000",
@@ -6586,7 +6820,7 @@
       },
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Pandemonium (E3M3)/Supercharge",
@@ -6603,7 +6837,7 @@
       },
       {
         "name": "Invulnerability",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Pandemonium (E3M3)/Invulnerability",
@@ -6620,7 +6854,7 @@
       },
       {
         "name": "Blue Skull Key",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Pandemonium (E3M3)/Blue Skull Key",
@@ -6637,7 +6871,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Pandemonium (E3M3)/Mega Armor",
@@ -6654,7 +6888,7 @@
       },
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Pandemonium (E3M3)/Shotgun",
@@ -6671,7 +6905,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Pandemonium (E3M3)/Armor",
@@ -6688,7 +6922,7 @@
       },
       {
         "name": "Backpack",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Pandemonium (E3M3)/Backpack",
@@ -6705,7 +6939,7 @@
       },
       {
         "name": "Computer Area Map",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Pandemonium (E3M3)/Computer Area Map",
@@ -6722,7 +6956,7 @@
       },
       {
         "name": "Mega Armor 2",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Pandemonium (E3M3)/Mega Armor 2",
@@ -6739,7 +6973,7 @@
       },
       {
         "name": "Shotgun 2",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Pandemonium (E3M3)/Shotgun 2",
@@ -6756,7 +6990,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Pandemonium (E3M3)/Rocket Launcher",
@@ -6773,7 +7007,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Pandemonium (E3M3)/Exit",
@@ -6797,7 +7031,7 @@
     "children": [
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/House of Pain (E3M4)/Shotgun",
@@ -6814,7 +7048,7 @@
       },
       {
         "name": "Berserk",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/House of Pain (E3M4)/Berserk",
@@ -6831,7 +7065,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/House of Pain (E3M4)/Mega Armor",
@@ -6848,7 +7082,7 @@
       },
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/House of Pain (E3M4)/Chaingun",
@@ -6865,7 +7099,7 @@
       },
       {
         "name": "Invulnerability",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/House of Pain (E3M4)/Invulnerability",
@@ -6882,7 +7116,7 @@
       },
       {
         "name": "Blue Skull Key",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/House of Pain (E3M4)/Blue Skull Key",
@@ -6899,7 +7133,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/House of Pain (E3M4)/Armor",
@@ -6916,7 +7150,7 @@
       },
       {
         "name": "Armor 2",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/House of Pain (E3M4)/Armor 2",
@@ -6933,7 +7167,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/House of Pain (E3M4)/Rocket Launcher",
@@ -6950,7 +7184,7 @@
       },
       {
         "name": "Yellow Skull Key",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/House of Pain (E3M4)/Yellow Skull Key",
@@ -6967,7 +7201,7 @@
       },
       {
         "name": "Partial Invisibility",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/House of Pain (E3M4)/Partial Invisibility",
@@ -6984,7 +7218,7 @@
       },
       {
         "name": "BFG9000",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/House of Pain (E3M4)/BFG9000",
@@ -7001,7 +7235,7 @@
       },
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/House of Pain (E3M4)/Supercharge",
@@ -7018,7 +7252,7 @@
       },
       {
         "name": "Invulnerability 2",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/House of Pain (E3M4)/Invulnerability 2",
@@ -7035,7 +7269,7 @@
       },
       {
         "name": "Armor 3",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/House of Pain (E3M4)/Armor 3",
@@ -7052,7 +7286,7 @@
       },
       {
         "name": "Red Skull Key",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/House of Pain (E3M4)/Red Skull Key",
@@ -7069,7 +7303,7 @@
       },
       {
         "name": "Backpack",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/House of Pain (E3M4)/Backpack",
@@ -7086,7 +7320,7 @@
       },
       {
         "name": "Mega Armor 2",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/House of Pain (E3M4)/Mega Armor 2",
@@ -7103,7 +7337,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/House of Pain (E3M4)/Exit",
@@ -7127,7 +7361,7 @@
     "children": [
       {
         "name": "Blue Skull Key",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Unholy Cathedral (E3M5)/Blue Skull Key",
@@ -7144,7 +7378,7 @@
       },
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Unholy Cathedral (E3M5)/Chaingun",
@@ -7161,7 +7395,7 @@
       },
       {
         "name": "Plasma Gun",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Unholy Cathedral (E3M5)/Plasma Gun",
@@ -7178,7 +7412,7 @@
       },
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Unholy Cathedral (E3M5)/Supercharge",
@@ -7195,7 +7429,7 @@
       },
       {
         "name": "Yellow Skull Key",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Unholy Cathedral (E3M5)/Yellow Skull Key",
@@ -7212,7 +7446,7 @@
       },
       {
         "name": "Invulnerability",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Unholy Cathedral (E3M5)/Invulnerability",
@@ -7229,7 +7463,7 @@
       },
       {
         "name": "Berserk",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Unholy Cathedral (E3M5)/Berserk",
@@ -7246,7 +7480,7 @@
       },
       {
         "name": "Partial Invisibility",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Unholy Cathedral (E3M5)/Partial Invisibility",
@@ -7263,7 +7497,7 @@
       },
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Unholy Cathedral (E3M5)/Shotgun",
@@ -7280,7 +7514,7 @@
       },
       {
         "name": "Shotgun 2",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Unholy Cathedral (E3M5)/Shotgun 2",
@@ -7297,7 +7531,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Unholy Cathedral (E3M5)/Rocket Launcher",
@@ -7314,7 +7548,7 @@
       },
       {
         "name": "BFG9000",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Unholy Cathedral (E3M5)/BFG9000",
@@ -7331,7 +7565,7 @@
       },
       {
         "name": "Chainsaw",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Unholy Cathedral (E3M5)/Chainsaw",
@@ -7348,7 +7582,7 @@
       },
       {
         "name": "Supercharge 2",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Unholy Cathedral (E3M5)/Supercharge 2",
@@ -7365,7 +7599,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Unholy Cathedral (E3M5)/Exit",
@@ -7389,7 +7623,7 @@
     "children": [
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Mt. Erebus (E3M6)/Mega Armor",
@@ -7406,7 +7640,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Mt. Erebus (E3M6)/Armor",
@@ -7423,7 +7657,7 @@
       },
       {
         "name": "Backpack",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Mt. Erebus (E3M6)/Backpack",
@@ -7440,7 +7674,7 @@
       },
       {
         "name": "Invulnerability",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Mt. Erebus (E3M6)/Invulnerability",
@@ -7457,7 +7691,7 @@
       },
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Mt. Erebus (E3M6)/Chaingun",
@@ -7474,7 +7708,7 @@
       },
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Mt. Erebus (E3M6)/Shotgun",
@@ -7491,7 +7725,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Mt. Erebus (E3M6)/Rocket Launcher",
@@ -7508,7 +7742,7 @@
       },
       {
         "name": "Plasma Gun",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Mt. Erebus (E3M6)/Plasma Gun",
@@ -7525,7 +7759,7 @@
       },
       {
         "name": "Armor 2",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Mt. Erebus (E3M6)/Armor 2",
@@ -7542,7 +7776,7 @@
       },
       {
         "name": "Berserk",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Mt. Erebus (E3M6)/Berserk",
@@ -7559,7 +7793,7 @@
       },
       {
         "name": "Invulnerability 2",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Mt. Erebus (E3M6)/Invulnerability 2",
@@ -7576,7 +7810,7 @@
       },
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Mt. Erebus (E3M6)/Supercharge",
@@ -7593,7 +7827,7 @@
       },
       {
         "name": "Blue Skull Key",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Mt. Erebus (E3M6)/Blue Skull Key",
@@ -7610,7 +7844,7 @@
       },
       {
         "name": "Blue Skull Key 2",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Mt. Erebus (E3M6)/Blue Skull Key 2",
@@ -7627,7 +7861,7 @@
       },
       {
         "name": "Computer Area Map",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Mt. Erebus (E3M6)/Computer Area Map",
@@ -7644,7 +7878,7 @@
       },
       {
         "name": "Chainsaw",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Mt. Erebus (E3M6)/Chainsaw",
@@ -7661,7 +7895,7 @@
       },
       {
         "name": "Supercharge 2",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Mt. Erebus (E3M6)/Supercharge 2",
@@ -7678,7 +7912,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Mt. Erebus (E3M6)/Exit",
@@ -7702,7 +7936,7 @@
     "children": [
       {
         "name": "Blue Skull Key",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Limbo (E3M7)/Blue Skull Key",
@@ -7719,7 +7953,7 @@
       },
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Limbo (E3M7)/Supercharge",
@@ -7736,7 +7970,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Limbo (E3M7)/Rocket Launcher",
@@ -7753,7 +7987,7 @@
       },
       {
         "name": "Backpack",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Limbo (E3M7)/Backpack",
@@ -7770,7 +8004,7 @@
       },
       {
         "name": "Armor 2",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Limbo (E3M7)/Armor 2",
@@ -7787,7 +8021,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Limbo (E3M7)/Mega Armor",
@@ -7804,7 +8038,7 @@
       },
       {
         "name": "BFG9000",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Limbo (E3M7)/BFG9000",
@@ -7821,7 +8055,7 @@
       },
       {
         "name": "Red Skull Key",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Limbo (E3M7)/Red Skull Key",
@@ -7838,7 +8072,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Limbo (E3M7)/Armor",
@@ -7855,7 +8089,7 @@
       },
       {
         "name": "Yellow Skull Key",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Limbo (E3M7)/Yellow Skull Key",
@@ -7872,7 +8106,7 @@
       },
       {
         "name": "Plasma Gun",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Limbo (E3M7)/Plasma Gun",
@@ -7889,7 +8123,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Limbo (E3M7)/Exit",
@@ -7913,7 +8147,7 @@
     "children": [
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Dis (E3M8)/Rocket Launcher",
@@ -7930,7 +8164,7 @@
       },
       {
         "name": "Plasma Gun",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Dis (E3M8)/Plasma Gun",
@@ -7947,7 +8181,7 @@
       },
       {
         "name": "Mega Armor",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Dis (E3M8)/Mega Armor",
@@ -7964,7 +8198,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Dis (E3M8)/Exit",
@@ -7988,7 +8222,7 @@
     "children": [
       {
         "name": "Shotgun",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Shotgun",
@@ -8005,7 +8239,7 @@
       },
       {
         "name": "Rocket Launcher",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Rocket Launcher",
@@ -8022,7 +8256,7 @@
       },
       {
         "name": "Rocket Launcher 2",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Rocket Launcher 2",
@@ -8039,7 +8273,7 @@
       },
       {
         "name": "Supercharge",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Supercharge",
@@ -8056,7 +8290,7 @@
       },
       {
         "name": "Blue Skull Key",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Blue Skull Key",
@@ -8073,7 +8307,7 @@
       },
       {
         "name": "Berserk",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Berserk",
@@ -8090,7 +8324,7 @@
       },
       {
         "name": "Invulnerability",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Invulnerability",
@@ -8107,7 +8341,7 @@
       },
       {
         "name": "Partial Invisibility",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Partial Invisibility",
@@ -8124,7 +8358,7 @@
       },
       {
         "name": "Chaingun",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Chaingun",
@@ -8141,7 +8375,7 @@
       },
       {
         "name": "Plasma Gun",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Plasma Gun",
@@ -8158,7 +8392,7 @@
       },
       {
         "name": "Invulnerability 2",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Invulnerability 2",
@@ -8175,7 +8409,7 @@
       },
       {
         "name": "Armor",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Armor",
@@ -8192,7 +8426,7 @@
       },
       {
         "name": "Chainsaw",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Chainsaw",
@@ -8209,7 +8443,7 @@
       },
       {
         "name": "BFG9000",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/BFG9000",
@@ -8226,7 +8460,7 @@
       },
       {
         "name": "Red Skull Key",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Red Skull Key",
@@ -8243,7 +8477,7 @@
       },
       {
         "name": "Supercharge 2",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Supercharge 2",
@@ -8260,7 +8494,7 @@
       },
       {
         "name": "Exit",
-        "visibility_rules": ["ep3_on"],
+        "visibility_rules": [ "ep3_on" ],
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Exit",
