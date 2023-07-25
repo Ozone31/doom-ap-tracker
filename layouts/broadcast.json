@@ -19,7 +19,11 @@
               [ "e2m6_yellow", "e2m6_red", "e2m7_blue", "e2m7_yellow", "e2m7_red", "e2m9_blue", "e2m9_yellow", "e2m9_red" ],
               [ "e3m1_access", "e3m2_access", "e3m3_access", "e3m4_access", "e3m5_access", "e3m6_access", "e3m7_access", "e3m8_access", "e3m9_access" ],
               [ "e3m2_blue", "e3m3_blue", "e3m4_blue", "e3m4_yellow", "e3m4_red", "e3m5_blue", "e3m5_yellow", "e3m6_blue", "e3m7_blue" ],
-              [ "e3m7_yellow", "e3m7_red", "e3m9_blue", "e3m9_red" ]
+              [ "e3m7_yellow", "e3m7_red", "e3m9_blue", "e3m9_red" ],
+              [ "e4m1_access", "e4m2_access", "e4m3_access", "e4m4_access", "e4m5_access", "e4m6_access", "e4m7_access", "e4m8_access", "e4m9_access" ],
+              [ "e4m1_blue", "e4m1_red", "e4m2_blue", "e4m2_yellow", "e4m3_blue", "e4m3_red", "e4m4_red", "e4m5_blue", "e4m5_yellow" ],
+              [ "e4m5_red", "e4m6_blue", "e4m6_yellow", "e4m6_red", "e4m7_blue", "e4m7_yellow", "e4m7_red", "e4m8_yellow", "e4m8_red" ],
+              [ "e4m9_yellow" ]
             ]
           }
         ]
