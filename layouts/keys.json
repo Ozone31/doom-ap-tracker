@@ -64,7 +64,8 @@
                                 "e3m5_blue",
                                 "e3m6_blue",
                                 "e3m7_blue",
-                                "e3m9_blue"
+                                "e3m9_blue",
+                                "e4m1_blue"
                             ],
                             [
                                 "e2m6_yellow",
@@ -76,7 +77,8 @@
                                 "e3m5_yellow",
                                 "",
                                 "e3m7_yellow",
-                                "e3m9_red"
+                                "e3m9_red",
+                                "e4m1_red"
                             ],
                             [
                                 "e2m6_red",
@@ -88,6 +90,37 @@
                                 "",
                                 "",
                                 "e3m7_red",
+                                "",
+                                ""
+                            ],
+                            [
+                                "e4m2_blue",
+                                "e4m3_blue",
+                                "e4m4_red",
+                                "e4m5_blue",
+                                "e4m6_blue",
+                                "e4m7_blue",
+                                "e4m8_yellow",
+                                "e4m9_yellow"
+                            ],
+                            [
+                                "e4m2_yellow",
+                                "e4m3_red",
+                                "",
+                                "e4m5_yellow",
+                                "e4m6_yellow",
+                                "e4m7_yellow",
+                                "e4m8_red",
+                                ""
+                            ],
+                            [
+                                "",
+                                "",
+                                "",
+                                "e4m5_red",
+                                "e4m6_red",
+                                "e4m7_red",
+                                "",
                                 ""
                             ]
                         ]
