@@ -652,6 +652,191 @@
         "codes": "e3m9_complete"
     },
 
+// EPISODE 4 ACCESS
+    {
+        "name": "Hell Beneath (E4M1)",
+        "type": "toggle",
+        "img": "/images/levels/4_1.png",
+        "codes": "e4m1_access",
+        "allow_disabled": false
+    },
+
+    {
+        "name": "Perfect Hatred (E4M2)",
+        "type": "toggle",
+        "img": "/images/levels/4_2.png",
+        "codes": "e4m2_access"
+    },
+
+    {
+        "name": "Sever the Wicked (E4M3)",
+        "type": "toggle",
+        "img": "/images/levels/4_3.png",
+        "codes": "e4m3_access"
+    },
+
+    {
+        "name": "Unruly Evil (E4M4)",
+        "type": "toggle",
+        "img": "/images/levels/4_4.png",
+        "codes": "e4m4_access"
+    },
+
+    {
+        "name": "They Will Repent (E4M5)",
+        "type": "toggle",
+        "img": "/images/levels/4_5.png",
+        "codes": "e4m5_access"
+    },
+
+    {
+        "name": "Against Thee Wickedly (E4M6)",
+        "type": "toggle",
+        "img": "/images/levels/4_6.png",
+        "codes": "e4m6_access"
+    },
+
+    {
+        "name": "And Hell Followed (E4M7)",
+        "type": "toggle",
+        "img": "/images/levels/4_7.png",
+        "codes": "e4m7_access"
+    },
+
+    {
+        "name": "Unto the Cruel (E4M8)",
+        "type": "toggle",
+        "img": "/images/levels/4_8.png",
+        "codes": "e4m8_access"
+    },
+
+    {
+        "name": "Fear (E4M9)",
+        "type": "toggle",
+        "img": "/images/levels/4_9.png",
+        "codes": "e4m9_access"
+    },
+
+// EPISODE 4 ITEMS
+    {
+        "name": "Hell Beneath (E4M1) - Red skull key",
+        "type": "toggle",
+        "img": "/images/items/redskullkey_4_1.png",
+        "codes": "e4m1_red"
+    },
+    {
+        "name": "Hell Beneath (E4M1) - Blue skull key",
+        "type": "toggle",
+        "img": "/images/items/blueskullkey_4_1.png",
+        "codes": "e4m1_blue"
+    },
+    {
+        "name": "Hell Beneath (E4M1) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e4m1_complete"
+    },
+
+    {
+        "name": "Perfect Hatred (E4M2) - Yellow skull key",
+        "type": "toggle",
+        "img": "/images/items/yellowskullkey_4_2.png",
+        "codes": "e4m2_yellow"
+    },
+    {
+        "name": "Perfect Hatred (E4M2) - Blue skull key",
+        "type": "toggle",
+        "img": "/images/items/blueskullkey_4_2.png",
+        "codes": "e4m2_blue"
+    },
+    {
+        "name": "Perfect Hatred (E4M2) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e4m2_complete"
+    },
+
+    {
+        "name": "Sever the Wicked (E4M3) - Red skull key",
+        "type": "toggle",
+        "img": "/images/items/redskullkey_4_3.png",
+        "codes": "e4m3_red"
+    },
+    {
+        "name": "Sever the Wicked (E4M3) - Blue skull key",
+        "type": "toggle",
+        "img": "/images/items/blueskullkey_4_3.png",
+        "codes": "e4m3_blue"
+    },
+    {
+        "name": "Sever the Wicked (E4M3) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e4m3_complete"
+    },
+
+    {
+        "name": "Unruly Evil (E4M4) - Red skull key",
+        "type": "toggle",
+        "img": "/images/items/redskullkey_4_4.png",
+        "codes": "e4m4_red"
+    },
+    {
+        "name": "Unruly Evil (E4M4) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e4m4_complete"
+    },
+
+    {
+        "name": "They Will Repent (E4M5) - Yellow skull key",
+        "type": "toggle",
+        "img": "/images/items/yellowskullkey_4_5.png",
+        "codes": "e4m5_yellow"
+    },
+    {
+        "name": "They Will Repent (E4M5) - Red skull key",
+        "type": "toggle",
+        "img": "/images/items/redskullkey_4_5.png",
+        "codes": "e4m5_red"
+    },
+    {
+        "name": "They Will Repent (E4M5) - Blue skull key",
+        "type": "toggle",
+        "img": "/images/items/blueskullkey_4_5.png",
+        "codes": "e4m5_blue"
+    },
+    {
+        "name": "They Will Repent (E4M5) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e4m5_complete"
+    },
+
+    {
+        "name": "Against Thee Wickedly (E4M6) - Yellow skull key",
+        "type": "toggle",
+        "img": "/images/items/yellowskullkey_4_6.png",
+        "codes": "e4m6_yellow"
+    },
+    {
+        "name": "Against Thee Wickedly (E4M6) - Red skull key",
+        "type": "toggle",
+        "img": "/images/items/redskullkey_4_6.png",
+        "codes": "e4m6_red"
+    },
+    {
+        "name": "Against Thee Wickedly (E4M6) - Blue skull key",
+        "type": "toggle",
+        "img": "/images/items/blueskullkey_4_6.png",
+        "codes": "e4m6_blue"
+    },
+    {
+        "name": "Against Thee Wickedly (E4M6) - Complete",
+        "type": "toggle",
+        "img": "/images/items/levelcomplete.png",
+        "codes": "e4m6_complete"
+    },
 // SETTINGS
     {
         "name": "Death Logic",
@@ -729,6 +914,26 @@
                 "img": "images/settings/ep3_on.png",
                 "name": "Episode 3 - On",
                 "codes": "ep3,ep3_on"
+            }
+        ]
+    },
+    {
+        "name": "Episode 4",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/ep4_off.png",
+                "name": "Episode 4 - Off",
+                "codes": "ep4,ep4_off",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/ep4_on.png",
+                "name": "Episode 4 - On",
+                "codes": "ep4,ep4_on"
             }
         ]
     },
