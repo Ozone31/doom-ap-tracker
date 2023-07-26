@@ -5,6 +5,7 @@ CUR_INDEX = -1
 --SLOT_DATA = nil
 
 FLAG_CODES = {
+    "e1m1_complete"
 }
 
 function has_value (t, val)
@@ -83,6 +84,9 @@ function onClear(slot_data)
         return
     end
 
+    PLAYER_ID = Archipelago.PlayerNumber or -1
+    TEAM_NUMBER = Archipelago.TeamNumber or 0
+
     if slot_data['allow_death_logic'] then
         local obj = Tracker:FindObjectForCode("deathlogic")
         local stage = slot_data['allow_death_logic']
@@ -127,6 +131,17 @@ function onClear(slot_data)
         end
     end
 
+    if slot_data['episode4'] then
+        local obj = Tracker:FindObjectForCode("ep4")
+        local stage = slot_data['episode4']
+        if (stage >=2) then
+            stage = 2
+        end
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+
     if slot_data['difficulty'] then
         local obj = Tracker:FindObjectForCode("difficulty")
         local stage = slot_data['difficulty']
@@ -136,6 +151,12 @@ function onClear(slot_data)
     end
 
     --print(dump_table(slot_data))
+
+    if PLAYER_ID>-1 then
+        local eventId="doom1993_events_"..TEAM_NUMBER.."_"..PLAYER_ID
+        Archipelago:SetNotify({eventId})
+        Archipelago:Get({eventId})
+    end
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -186,6 +207,14 @@ function onLocation(location_id, location_name)
     else
         print(string.format("onLocation: could not find object for code %s", v[1]))
     end
+end
+
+function onEvent(key, value, old_value)
+    updateEvents(value)
+end
+
+function onEventsLaunch(key, value)
+    updateEvents(value)
 end
 
 Archipelago:AddClearHandler("clear handler", onClear)
