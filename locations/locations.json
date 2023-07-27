@@ -1865,7 +1865,7 @@
             "access_rules": [ "$e4m2_blueyellowaccess" ]
           },
           {
-            "name": "Blue skull key",
+            "name": "Blue Skull Key",
             "access_rules": [ "$e4m2_blueyellowaccess" ]
           },
           {
@@ -2085,7 +2085,7 @@
             "access_rules": [ "e4m6_access" ]
           },
           {
-            "name": "Blue Akull Key",
+            "name": "Blue Skull Key",
             "access_rules": [ "e4m6_access" ]
           },
           {
@@ -2125,11 +2125,11 @@
             "access_rules": [ "$e4m6_blueyellowredaccess" ]
           },
           {
-            "name": "Invulnerability",
-            "access_rules": [ "$e4m6_blueredaccess" ]
+            "name": "Invulnerability 2",
+            "access_rules": [ "$e4m6_blueyellowredaccess" ]
           },
           {
-            "name": "Invulnerability 2",
+            "name": "Invulnerability",
             "access_rules": [ "$e4m6_blueredaccess" ]
           },
           {
@@ -2142,7 +2142,7 @@
           },
           {
             "name": "Berserk",
-            "access_rules": [ "$e4m6_blueredaccessd" ]
+            "access_rules": [ "$e4m6_blueredaccess" ]
           },
           {
             "name": "Exit",
@@ -2293,7 +2293,7 @@
             "access_rules": [ "e4m8_access" ]
           },
           {
-            "name": "Red SKull Key",
+            "name": "Red Skull Key",
             "access_rules": [ "e4m8_access" ]
           },
           {
@@ -8506,6 +8506,2211 @@
             "map": "e3m9",
             "x": 299,
             "y": 554
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E4M1",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Red Skull Key",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Hell Beneath (E4M1)/Red Skull Key",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "x": 390,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Hell Beneath (E4M1)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "x": 520,
+            "y": 308
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Hell Beneath (E4M1)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "x": 657,
+            "y": 152
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Hell Beneath (E4M1)/Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "x": 509,
+            "y": 205
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Hell Beneath (E4M1)/Chaingun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "x": 297,
+            "y": 385
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Hell Beneath (E4M1)/Blue Skull Key",
+            "name": "Requires Red Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "x": 1018,
+            "y": 266
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Hell Beneath (E4M1)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m1",
+            "x": 23,
+            "y": 266
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E4M2",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Plasma Gun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Perfect Hatred (E4M2)/Plasma Gun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 151,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Perfect Hatred (E4M2)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 296,
+            "y": 712
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Perfect Hatred (E4M2)/Berserk",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 63,
+            "y": 305
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Perfect Hatred (E4M2)/Supercharge",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 295,
+            "y": 435
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Perfect Hatred (E4M2)/Mega Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 119,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull Key",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Perfect Hatred (E4M2)/Yellow Skull Key",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 151,
+            "y": 462
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Perfect Hatred (E4M2)/Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 332,
+            "y": 510
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Perfect Hatred (E4M2)/BFG9000",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 182,
+            "y": 251
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Perfect Hatred (E4M2)/Rocket Launcher",
+            "name": "Requires Yellow Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 360,
+            "y": 425
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Perfect Hatred (E4M2)/Chainsaw",
+            "name": "Requires Blue or Yellow Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 495,
+            "y": 365
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Perfect Hatred (E4M2)/Armor 2",
+            "name": "Requires Blue or Yellow Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 495,
+            "y": 320
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Perfect Hatred (E4M2)/Blue Skull Key",
+            "name": "Requires Blue or Yellow Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 490,
+            "y": 770
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Perfect Hatred (E4M2)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m2",
+            "x": 286,
+            "y": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E4M3",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Invulnerability",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Sever the Wicked (E4M3)/Invulnerability",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 667,
+            "y": 281
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Sever the Wicked (E4M3)/Berserk",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 511,
+            "y": 265
+          }
+        ]
+      },
+      {
+        "name": "Partial Invisibility",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Sever the Wicked (E4M3)/Partial Invisibility",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 511,
+            "y": 245
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Sever the Wicked (E4M3)/Backpack",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 470,
+            "y": 240
+          }
+        ]
+      },
+      {
+        "name": "Red Skull Key",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Sever the Wicked (E4M3)/Red Skull Key",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 257,
+            "y": 585
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Sever the Wicked (E4M3)/Blue Skull Key",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 451,
+            "y": 105
+          }
+        ]
+      },
+      {
+        "name": "Backpack 2",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Sever the Wicked (E4M3)/Backpack 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 313,
+            "y": 391
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Sever the Wicked (E4M3)/Chainsaw",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 289,
+            "y": 415
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Sever the Wicked (E4M3)/Mega Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 301,
+            "y": 403
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Sever the Wicked (E4M3)/Supercharge",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 225,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun 2",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Sever the Wicked (E4M3)/Plasma Gun 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 512,
+            "y": 348
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Sever the Wicked (E4M3)/Chaingun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 733,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Sever the Wicked (E4M3)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 438,
+            "y": 257
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Sever the Wicked (E4M3)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 145,
+            "y": 675
+          }
+        ]
+      },
+      {
+        "name": "Partial Invisibility 2",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Sever the Wicked (E4M3)/Partial Invisibility 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 180,
+            "y": 230
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Sever the Wicked (E4M3)/Plasma Gun",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 650,
+            "y": 413
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Sever the Wicked (E4M3)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m3",
+            "x": 624,
+            "y": 413
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E4M4",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unruly Evil (E4M4)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m4",
+            "x": 110,
+            "y": 400
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unruly Evil (E4M4)/Berserk",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m4",
+            "x": 50,
+            "y": 460
+          }
+        ]
+      },
+      {
+        "name": "Red Skull Key",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unruly Evil (E4M4)/Red Skull Key",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m4",
+            "x": 318,
+            "y": 392
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unruly Evil (E4M4)/Chaingun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m4",
+            "x": 385,
+            "y": 735
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unruly Evil (E4M4)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m4",
+            "x": 150,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Partial Invisibility",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unruly Evil (E4M4)/Partial Invisibility",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m4",
+            "x": 555,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unruly Evil (E4M4)/Invulnerability",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m4",
+            "x": 850,
+            "y": 670
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unruly Evil (E4M4)/Supercharge",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m4",
+            "x": 850,
+            "y": 627
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unruly Evil (E4M4)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m4",
+            "x": 456,
+            "y": 28
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E4M5",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Red Skull Key",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/They Will Repent (E4M5)/Red Skull Key",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m5",
+            "x": 575,
+            "y": 345
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/They Will Repent (E4M5)/Chaingun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m5",
+            "x": 620,
+            "y": 610
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/They Will Repent (E4M5)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m5",
+            "x": 713,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/They Will Repent (E4M5)/Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m5",
+            "x": 460,
+            "y": 775
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull Key",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/They Will Repent (E4M5)/Yellow Skull Key",
+            "name": "Requires Red Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m5",
+            "x": 415,
+            "y": 35
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/They Will Repent (E4M5)/Blue Skull Key",
+            "name": "Requires Red Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m5",
+            "x": 59,
+            "y": 412
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/They Will Repent (E4M5)/BFG9000",
+            "name": "Requires Red Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m5",
+            "x": 473,
+            "y": 38
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/They Will Repent (E4M5)/Plasma Gun",
+            "name": "Requires Red Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m5",
+            "x": 257,
+            "y": 430
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/They Will Repent (E4M5)/Supercharge",
+            "name": "Requires Red Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m5",
+            "x": 223,
+            "y": 330
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/They Will Repent (E4M5)/Invulnerability",
+            "name": "Requires Red Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m5",
+            "x": 570,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/They Will Repent (E4M5)/Berserk",
+            "name": "Requires Red Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m5",
+            "x": 430,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/They Will Repent (E4M5)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m5",
+            "x": 488,
+            "y": 95
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E4M6",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Plasma Gun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Against Thee Wickedly (E4M6)/Plasma Gun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 365,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Against Thee Wickedly (E4M6)/Blue Skull Key",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 292,
+            "y": 398
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Against Thee Wickedly (E4M6)/Supercharge",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 402,
+            "y": 468
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Against Thee Wickedly (E4M6)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 515,
+            "y": 215
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Against Thee Wickedly (E4M6)/Chaingun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 548,
+            "y": 398
+          }
+        ]
+      },
+      {
+        "name": "Partial Invisibility",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Against Thee Wickedly (E4M6)/Partial Invisibility",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 427,
+            "y": 502
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Against Thee Wickedly (E4M6)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 148,
+            "y": 358
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Against Thee Wickedly (E4M6)/Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 420,
+            "y": 398
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Against Thee Wickedly (E4M6)/Mega Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 310,
+            "y": 245
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull Key",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Against Thee Wickedly (E4M6)/Yellow Skull Key",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 624,
+            "y": 112
+          }
+        ]
+      },
+      {
+        "name": "Red Skull Key",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Against Thee Wickedly (E4M6)/Red Skull Key",
+            "name": "Requires Blue & Yellow/Red Skull Keys"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 818,
+            "y": 410
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability 2",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Against Thee Wickedly (E4M6)/Invulnerability 2",
+            "name": "Requires Blue & Yellow/Red Skull Keys"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 628,
+            "y": 587
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Against Thee Wickedly (E4M6)/Invulnerability",
+            "name": "Requires Blue & Red Skull Keys"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 570,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Against Thee Wickedly (E4M6)/BFG9000",
+            "name": "Requires Blue & Red Skull Keys"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 848,
+            "y": 467
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Against Thee Wickedly (E4M6)/Backpack",
+            "name": "Requires Blue & Red Skull Keys"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 556,
+            "y": 614
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Against Thee Wickedly (E4M6)/Berserk",
+            "name": "Requires Blue & Red Skull Keys"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 848,
+            "y": 430
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Against Thee Wickedly (E4M6)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m6",
+            "x": 668,
+            "y": 683
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E4M7",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Chaingun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 402,
+            "y": 558
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 180,
+            "y": 517
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Backpack",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 462,
+            "y": 372
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Supercharge",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 459,
+            "y": 464
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Blue Skull Key",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 427,
+            "y": 464
+          }
+        ]
+      },
+      {
+        "name": "Partial Invisibility",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Partial Invisibility",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 110,
+            "y": 517
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Mega Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 489,
+            "y": 394
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 224,
+            "y": 558
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Computer Area Map",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 313,
+            "y": 558
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Berserk",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 373,
+            "y": 527
+          }
+        ]
+      },
+      {
+        "name": "Red Skull Key",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Red Skull Key",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 110,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Chainsaw",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 110,
+            "y": 317
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull Key",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Yellow Skull Key",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 536,
+            "y": 543
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Shotgun",
+            "name": "Requires Yellow Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 313,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/BFG9000",
+            "name": "Requires Yellow Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 312,
+            "y": 735
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor 2",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Mega Armor 2",
+            "name": "Requires Yellow Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 402,
+            "y": 675
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Invulnerability",
+            "name": "Requires Yellow Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 324,
+            "y": 759
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability 2",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Invulnerability 2",
+            "name": "Requires Yellow Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 335,
+            "y": 749
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Supercharge 2",
+            "name": "Requires Yellow Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 300,
+            "y": 759
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher 2",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Rocket Launcher 2",
+            "name": "Requires Yellow Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 312,
+            "y": 759
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Plasma Gun",
+            "name": "Requires Red Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 448,
+            "y": 215
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher 3",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Rocket Launcher 3",
+            "name": "Requires Red Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 180,
+            "y": 215
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/And Hell Followed (E4M7)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m7",
+            "x": 304,
+            "y": 139
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E4M8",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unto the Cruel (E4M8)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m8",
+            "x": 595,
+            "y": 145
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unto the Cruel (E4M8)/Supercharge",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m8",
+            "x": 345,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unto the Cruel (E4M8)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m8",
+            "x": 305,
+            "y": 30
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor 2",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unto the Cruel (E4M8)/Mega Armor 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m8",
+            "x": 499,
+            "y": 435
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull Key",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unto the Cruel (E4M8)/Yellow Skull Key",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m8",
+            "x": 521,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unto the Cruel (E4M8)/Berserk",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m8",
+            "x": 471,
+            "y": 650
+          }
+        ]
+      },
+      {
+        "name": "Red Skull Key",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unto the Cruel (E4M8)/Red Skull Key",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m8",
+            "x": 328,
+            "y": 30
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unto the Cruel (E4M8)/Chaingun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m8",
+            "x": 616,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 3",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unto the Cruel (E4M8)/Supercharge 3",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m8",
+            "x": 578,
+            "y": 745
+          }
+        ]
+      },
+      {
+        "name": "Partial Invisibility",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unto the Cruel (E4M8)/Partial Invisibility",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m8",
+            "x": 585,
+            "y": 543
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unto the Cruel (E4M8)/Backpack",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m8",
+            "x": 527,
+            "y": 669
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun 2",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unto the Cruel (E4M8)/Plasma Gun 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m8",
+            "x": 480,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unto the Cruel (E4M8)/Mega Armor",
+            "name": "Requires Yellow & Red Skull Keys"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m8",
+            "x": 202,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unto the Cruel (E4M8)/Supercharge 2",
+            "name": "Requires Yellow & Red Skull Keys"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m8",
+            "x": 202,
+            "y": 187
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unto the Cruel (E4M8)/BFG9000",
+            "name": "Requires Yellow & Red Skull Keys"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m8",
+            "x": 57,
+            "y": 143
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher 2",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unto the Cruel (E4M8)/Rocket Launcher 2",
+            "name": "Requires Yellow & Red Skull Keys"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m8",
+            "x": 67,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unto the Cruel (E4M8)/Plasma Gun",
+            "name": "Requires Yellow & Red Skull Keys"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m8",
+            "x": 67,
+            "y": 165
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unto the Cruel (E4M8)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m8",
+            "x": 168,
+            "y": 143
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E4M9",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Yellow Skull Key",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Fear (E4M9)/Yellow Skull Key",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 312,
+            "y": 419
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Fear (E4M9)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 202,
+            "y": 430
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Fear (E4M9)/Mega Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 122,
+            "y": 446
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Fear (E4M9)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 163,
+            "y": 685
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher 2",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Fear (E4M9)/Rocket Launcher 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 196,
+            "y": 611
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Fear (E4M9)/Plasma Gun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 81,
+            "y": 422
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Fear (E4M9)/Chaingun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 202,
+            "y": 247
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Fear (E4M9)/Berserk",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 84,
+            "y": 617
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Fear (E4M9)/Backpack",
+            "name": "Requires Yellow Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 202,
+            "y": 34
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Fear (E4M9)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e4m9",
+            "x": 202,
+            "y": 5
           }
         ]
       }
