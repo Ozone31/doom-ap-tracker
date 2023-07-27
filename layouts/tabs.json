@@ -280,6 +280,96 @@
                         "e3m9"
                     ]
                 }
+            },
+            {
+                "title": "Hell Beneath",
+                "icon": "images/levels/4_1.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "e4m1"
+                    ]
+                }
+            },
+            {
+                "title": "Perfect Hatred",
+                "icon": "images/levels/4_2.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "e4m2"
+                    ]
+                }
+            },
+            {
+                "title": "Sever the Wicked",
+                "icon": "images/levels/4_3.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "e4m3"
+                    ]
+                }
+            },
+            {
+                "title": "Unruly Evil",
+                "icon": "images/levels/4_4.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "e4m4"
+                    ]
+                }
+            },
+            {
+                "title": "They Will Repent",
+                "icon": "images/levels/4_5.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "e4m5"
+                    ]
+                }
+            },
+            {
+                "title": "Against Thee Wickedly",
+                "icon": "images/levels/4_6.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "e4m6"
+                    ]
+                }
+            },
+            {
+                "title": "And Hell Followed",
+                "icon": "images/levels/4_7.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "e4m7"
+                    ]
+                }
+            },
+            {
+                "title": "Unto the Cruel",
+                "icon": "images/levels/4_8.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "e4m8"
+                    ]
+                }
+            },
+            {
+                "title": "Fear",
+                "icon": "images/levels/4_9.png",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "e4m9"
+                    ]
+                }
             }
         ]
     }
