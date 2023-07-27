@@ -166,5 +166,59 @@
         "location_size": 12,
         "location_border_thickness": 1,
         "img": "images/maps/e3m9_map.png"
+    },
+    {
+        "name": "e4m1",
+        "location_size": 12,
+        "location_border_thickness": 1,
+        "img": "images/maps/e4m1_map.png"
+    },
+    {
+        "name": "e4m2",
+        "location_size": 12,
+        "location_border_thickness": 1,
+        "img": "images/maps/e4m2_map.png"
+    },
+    {
+        "name": "e4m3",
+        "location_size": 12,
+        "location_border_thickness": 1,
+        "img": "images/maps/e4m3_map.png"
+    },
+    {
+        "name": "e4m4",
+        "location_size": 12,
+        "location_border_thickness": 1,
+        "img": "images/maps/e4m4_map.png"
+    },
+    {
+        "name": "e4m5",
+        "location_size": 12,
+        "location_border_thickness": 1,
+        "img": "images/maps/e4m5_map.png"
+    },
+    {
+        "name": "e4m6",
+        "location_size": 12,
+        "location_border_thickness": 1,
+        "img": "images/maps/e4m6_map.png"
+    },
+    {
+        "name": "e4m7",
+        "location_size": 12,
+        "location_border_thickness": 1,
+        "img": "images/maps/e4m7_map.png"
+    },
+    {
+        "name": "e4m8",
+        "location_size": 12,
+        "location_border_thickness": 1,
+        "img": "images/maps/e4m8_map.png"
+    },
+    {
+        "name": "e4m9",
+        "location_size": 12,
+        "location_border_thickness": 1,
+        "img": "images/maps/e4m9_map.png"
     }
 ]
