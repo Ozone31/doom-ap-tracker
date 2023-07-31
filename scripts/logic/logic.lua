@@ -194,12 +194,6 @@ function e2m9_yellowaccess()
     )
 end
 
-function narrow_access()
-    return (
-        has("shotgun") or has("chaingun")
-    )
-end
-
 function e3m2_blueaccess()
     return (
         has("e3m2_access") and has("e3m2_blue")
@@ -263,6 +257,12 @@ end
 function e3m7_yellowredaccess()
     return (
         has("e3m7_access") and (has("e3m7_yellow") and has("e3m7_red"))
+    )
+end
+
+function e3m9_blueaccess()
+    return (
+        has("e3m9_access") and has("e3m9_blue")
     )
 end
 
