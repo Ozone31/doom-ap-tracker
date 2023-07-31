@@ -961,10 +961,6 @@
             "access_rules": [ "e2m6_access" ]
           },
           {
-            "name": "Yellow Skull Key",
-            "access_rules": [ "$e2m6_yellowaccess" ]
-          },
-          {
             "name": "Partial Invisibility 3",
             "access_rules": [ "e2m6_access" ]
           },
@@ -987,6 +983,10 @@
           {
             "name": "Blue Skull Key",
             "access_rules": [ "e2m6_access" ]
+          },
+          {
+            "name": "Yellow Skull Key",
+            "access_rules": [ "$e2m6_yellowaccess" ]
           },
           {
             "name": "Partial Invisibility 2",
@@ -1702,63 +1702,63 @@
           },
           {
             "name": "Rocket Launcher",
-            "access_rules": [ "e3m9_access" ]
+            "access_rules": [ "$e3m9_blueaccess" ]
           },
           {
             "name": "Rocket Launcher 2",
-            "access_rules": [ "e3m9_access" ]
+            "access_rules": [ "$e3m9_blueaccess" ]
           },
           {
             "name": "Supercharge",
-            "access_rules": [ "e3m9_access" ]
+            "access_rules": [ "$e3m9_blueaccess" ]
           },
           {
             "name": "Blue Skull Key",
-            "access_rules": [ "e3m9_access" ]
+            "access_rules": [ "$e3m9_blueaccess" ]
           },
           {
             "name": "Berserk",
-            "access_rules": [ "e3m9_access" ]
+            "access_rules": [ "$e3m9_blueaccess" ]
           },
           {
             "name": "Invulnerability",
-            "access_rules": [ "e3m9_access" ]
+            "access_rules": [ "$e3m9_blueaccess" ]
           },
           {
             "name": "Partial Invisibility",
-            "access_rules": [ "e3m9_access" ]
+            "access_rules": [ "$e3m9_blueaccess" ]
           },
           {
             "name": "Chaingun",
-            "access_rules": [ "e3m9_access" ]
+            "access_rules": [ "$e3m9_blueaccess" ]
           },
           {
             "name": "Plasma Gun",
-            "access_rules": [ "e3m9_access" ]
+            "access_rules": [ "$e3m9_blueaccess" ]
           },
           {
             "name": "Invulnerability 2",
-            "access_rules": [ "e3m9_access" ]
+            "access_rules": [ "$e3m9_blueaccess" ]
           },
           {
             "name": "Armor",
-            "access_rules": [ "e3m9_access" ]
+            "access_rules": [ "$e3m9_blueaccess" ]
           },
           {
             "name": "Chainsaw",
-            "access_rules": [ "e3m9_access" ]
+            "access_rules": [ "$e3m9_blueaccess" ]
           },
           {
             "name": "BFG9000",
-            "access_rules": [ "e3m9_access" ]
+            "access_rules": [ "$e3m9_blueaccess" ]
           },
           {
             "name": "Red Skull Key",
-            "access_rules": [ "e3m9_access" ]
+            "access_rules": [ "$e3m9_blueaccess" ]
           },
           {
             "name": "Supercharge 2",
-            "access_rules": [ "e3m9_access" ]
+            "access_rules": [ "$e3m9_blueaccess" ]
           },
           {
             "name": "Exit",
@@ -5728,7 +5728,7 @@
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Yellow Skull Key",
-            "name": "Item"
+            "name": "Requires Yellow Skull Key"
           }
         ],
         "map_locations": [
@@ -5847,7 +5847,7 @@
         "sections": [
           {
             "ref": "Mars/Halls of the Damned (E2M6)/Partial Invisibility 2",
-            "name": "Item"
+            "name": "Requires Yellow Skull Key"
           }
         ],
         "map_locations": [
@@ -8243,7 +8243,7 @@
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Rocket Launcher",
-            "name": "Item"
+            "name": "Requires Blue Skull Key"
           }
         ],
         "map_locations": [
@@ -8260,7 +8260,7 @@
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Rocket Launcher 2",
-            "name": "Item"
+            "name": "Requires Blue Skull Key"
           }
         ],
         "map_locations": [
@@ -8277,7 +8277,7 @@
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Supercharge",
-            "name": "Item"
+            "name": "Requires Blue Skull Key"
           }
         ],
         "map_locations": [
@@ -8294,7 +8294,7 @@
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Blue Skull Key",
-            "name": "Item"
+            "name": "Requires Blue Skull Key"
           }
         ],
         "map_locations": [
@@ -8311,7 +8311,7 @@
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Berserk",
-            "name": "Item"
+            "name": "Requires Blue Skull Key"
           }
         ],
         "map_locations": [
@@ -8328,7 +8328,7 @@
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Invulnerability",
-            "name": "Item"
+            "name": "Requires Blue Skull Key"
           }
         ],
         "map_locations": [
@@ -8345,7 +8345,7 @@
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Partial Invisibility",
-            "name": "Item"
+            "name": "Requires Blue Skull Key"
           }
         ],
         "map_locations": [
@@ -8362,7 +8362,7 @@
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Chaingun",
-            "name": "Item"
+            "name": "Requires Blue Skull Key"
           }
         ],
         "map_locations": [
@@ -8379,7 +8379,7 @@
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Plasma Gun",
-            "name": "Item"
+            "name": "Requires Blue Skull Key"
           }
         ],
         "map_locations": [
@@ -8396,7 +8396,7 @@
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Invulnerability 2",
-            "name": "Item"
+            "name": "Requires Blue Skull Key"
           }
         ],
         "map_locations": [
@@ -8413,7 +8413,7 @@
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Armor",
-            "name": "Item"
+            "name": "Requires Blue Skull Key"
           }
         ],
         "map_locations": [
@@ -8430,7 +8430,7 @@
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Chainsaw",
-            "name": "Item"
+            "name": "Requires Blue Skull Key"
           }
         ],
         "map_locations": [
@@ -8447,7 +8447,7 @@
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/BFG9000",
-            "name": "Item"
+            "name": "Requires Blue Skull Key"
           }
         ],
         "map_locations": [
@@ -8464,7 +8464,7 @@
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Red Skull Key",
-            "name": "Item"
+            "name": "Requires Blue Skull Key"
           }
         ],
         "map_locations": [
@@ -8481,7 +8481,7 @@
         "sections": [
           {
             "ref": "Mars/Warrens (E3M9)/Supercharge 2",
-            "name": "Item"
+            "name": "Requires Blue Skull Key"
           }
         ],
         "map_locations": [
