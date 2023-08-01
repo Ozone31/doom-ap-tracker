@@ -216,7 +216,7 @@
           },
           {
             "name": "Exit",
-            "access_rules": [ "e1m4_access" ],
+            "access_rules": [ "$e1m4_blueyellowaccess" ],
             "hosted_item": "e1m4_complete"
           }
         ],
