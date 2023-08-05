@@ -12,363 +12,395 @@
                 }
             },
             {
-                "title": "Hangar",
-                "icon": "images/levels/1_1.png",
+                "title": "Episode 1",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "e1m1"
-                    ]
+                    "type": "tabbed",
+                  "tabs": [
+                    {
+                      "title": "Hangar",
+                      "icon": "images/levels/1_1.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e1m1"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Nuclear Plant",
+                      "icon": "images/levels/1_2.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e1m2"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Toxin Refinery",
+                      "icon": "images/levels/1_3.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e1m3"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Command Control",
+                      "icon": "images/levels/1_4.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e1m4"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Phobos Lab",
+                      "icon": "images/levels/1_5.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e1m5"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Central Processing",
+                      "icon": "images/levels/1_6.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e1m6"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Computer Station",
+                      "icon": "images/levels/1_7.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e1m7"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Phobos Anomaly",
+                      "icon": "images/levels/1_8.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e1m8"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Military Base",
+                      "icon": "images/levels/1_9.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e1m9"
+                        ]
+                      }
+                    }
+                  ]
                 }
             },
             {
-                "title": "Nuclear Plant",
-                "icon": "images/levels/1_2.png",
+                "title": "Episode 2",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "e1m2"
-                    ]
+                    "type": "tabbed",
+                  "tabs": [
+                    {
+                      "title": "Deimos Anomaly",
+                      "icon": "images/levels/2_1.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e2m1"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Containment Area",
+                      "icon": "images/levels/2_2.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e2m2"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Refinery",
+                      "icon": "images/levels/2_3.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e2m3"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Deimos Lab",
+                      "icon": "images/levels/2_4.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e2m4"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Command Center",
+                      "icon": "images/levels/2_5.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e2m5"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Halls of the Damned",
+                      "icon": "images/levels/2_6.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e2m6"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Spawning Vats",
+                      "icon": "images/levels/2_7.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e2m7"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Tower of Babel",
+                      "icon": "images/levels/2_8.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e2m8"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Fortress of Mystery",
+                      "icon": "images/levels/2_9.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e2m9"
+                        ]
+                      }
+                    }
+                  ]
                 }
             },
             {
-                "title": "Toxin Refinery",
-                "icon": "images/levels/1_3.png",
+                "title": "Episode 3",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "e1m3"
-                    ]
+                    "type": "tabbed",
+                  "tabs": [
+                    {
+                      "title": "Hell Keep",
+                      "icon": "images/levels/3_1.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e3m1"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Slough of Despair",
+                      "icon": "images/levels/3_2.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e3m2"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Pandemonium",
+                      "icon": "images/levels/3_3.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e3m3"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "House of Pain",
+                      "icon": "images/levels/3_4.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e3m4"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Unholy Cathedral",
+                      "icon": "images/levels/3_5.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e3m5"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Mt. Erebus",
+                      "icon": "images/levels/3_6.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e3m6"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Limbo",
+                      "icon": "images/levels/3_7.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e3m7"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Dis",
+                      "icon": "images/levels/3_8.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e3m8"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Warrens",
+                      "icon": "images/levels/3_9.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e3m9"
+                        ]
+                      }
+                    }
+                  ]
                 }
             },
             {
-                "title": "Command Control",
-                "icon": "images/levels/1_4.png",
+                "title": "Episode 4",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "e1m4"
-                    ]
-                }
-            },
-            {
-                "title": "Phobos Lab",
-                "icon": "images/levels/1_5.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e1m5"
-                    ]
-                }
-            },
-            {
-                "title": "Central Processing",
-                "icon": "images/levels/1_6.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e1m6"
-                    ]
-                }
-            },
-            {
-                "title": "Computer Station",
-                "icon": "images/levels/1_7.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e1m7"
-                    ]
-                }
-            },
-            {
-                "title": "Phobos Anomaly",
-                "icon": "images/levels/1_8.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e1m8"
-                    ]
-                }
-            },
-            {
-                "title": "Military Base",
-                "icon": "images/levels/1_9.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e1m9"
-                    ]
-                }
-            },
-            {
-                "title": "Deimos Anomaly",
-                "icon": "images/levels/2_1.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e2m1"
-                    ]
-                }
-            },
-            {
-                "title": "Containment Area",
-                "icon": "images/levels/2_2.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e2m2"
-                    ]
-                }
-            },
-            {
-                "title": "Refinery",
-                "icon": "images/levels/2_3.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e2m3"
-                    ]
-                }
-            },
-            {
-                "title": "Deimos Lab",
-                "icon": "images/levels/2_4.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e2m4"
-                    ]
-                }
-            },
-            {
-                "title": "Command Center",
-                "icon": "images/levels/2_5.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e2m5"
-                    ]
-                }
-            },
-            {
-                "title": "Halls of the Damned",
-                "icon": "images/levels/2_6.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e2m6"
-                    ]
-                }
-            },
-            {
-                "title": "Spawning Vats",
-                "icon": "images/levels/2_7.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e2m7"
-                    ]
-                }
-            },
-            {
-                "title": "Tower of Babel",
-                "icon": "images/levels/2_8.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e2m8"
-                    ]
-                }
-            },
-            {
-                "title": "Fortress of Mystery",
-                "icon": "images/levels/2_9.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e2m9"
-                    ]
-                }
-            },
-            {
-                "title": "Hell Keep",
-                "icon": "images/levels/3_1.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e3m1"
-                    ]
-                }
-            },
-            {
-                "title": "Slough of Despair",
-                "icon": "images/levels/3_2.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e3m2"
-                    ]
-                }
-            },
-            {
-                "title": "Pandemonium",
-                "icon": "images/levels/3_3.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e3m3"
-                    ]
-                }
-            },
-            {
-                "title": "House of Pain",
-                "icon": "images/levels/3_4.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e3m4"
-                    ]
-                }
-            },
-            {
-                "title": "Unholy Cathedral",
-                "icon": "images/levels/3_5.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e3m5"
-                    ]
-                }
-            },
-            {
-                "title": "Mt. Erebus",
-                "icon": "images/levels/3_6.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e3m6"
-                    ]
-                }
-            },
-            {
-                "title": "Limbo",
-                "icon": "images/levels/3_7.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e3m7"
-                    ]
-                }
-            },
-            {
-                "title": "Dis",
-                "icon": "images/levels/3_8.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e3m8"
-                    ]
-                }
-            },
-            {
-                "title": "Warrens",
-                "icon": "images/levels/3_9.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e3m9"
-                    ]
-                }
-            },
-            {
-                "title": "Hell Beneath",
-                "icon": "images/levels/4_1.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e4m1"
-                    ]
-                }
-            },
-            {
-                "title": "Perfect Hatred",
-                "icon": "images/levels/4_2.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e4m2"
-                    ]
-                }
-            },
-            {
-                "title": "Sever the Wicked",
-                "icon": "images/levels/4_3.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e4m3"
-                    ]
-                }
-            },
-            {
-                "title": "Unruly Evil",
-                "icon": "images/levels/4_4.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e4m4"
-                    ]
-                }
-            },
-            {
-                "title": "They Will Repent",
-                "icon": "images/levels/4_5.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e4m5"
-                    ]
-                }
-            },
-            {
-                "title": "Against Thee Wickedly",
-                "icon": "images/levels/4_6.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e4m6"
-                    ]
-                }
-            },
-            {
-                "title": "And Hell Followed",
-                "icon": "images/levels/4_7.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e4m7"
-                    ]
-                }
-            },
-            {
-                "title": "Unto the Cruel",
-                "icon": "images/levels/4_8.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e4m8"
-                    ]
-                }
-            },
-            {
-                "title": "Fear",
-                "icon": "images/levels/4_9.png",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "e4m9"
-                    ]
+                    "type": "tabbed",
+                  "tabs": [
+                    {
+                      "title": "Hell Beneath",
+                      "icon": "images/levels/4_1.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e4m1"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Perfect Hatred",
+                      "icon": "images/levels/4_2.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e4m2"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Sever the Wicked",
+                      "icon": "images/levels/4_3.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e4m3"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Unruly Evil",
+                      "icon": "images/levels/4_4.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e4m4"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "They Will Repent",
+                      "icon": "images/levels/4_5.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e4m5"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Against Thee Wickedly",
+                      "icon": "images/levels/4_6.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e4m6"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "And Hell Followed",
+                      "icon": "images/levels/4_7.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e4m7"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Unto the Cruel",
+                      "icon": "images/levels/4_8.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e4m8"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Fear",
+                      "icon": "images/levels/4_9.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e4m9"
+                        ]
+                      }
+                    }
+                  ]
                 }
             }
         ]
