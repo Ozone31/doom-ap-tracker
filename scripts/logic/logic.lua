@@ -272,6 +272,12 @@ function e3m9_redaccess()
     )
 end
 
+function e3m9_blueredaccess()
+    return (
+        has("e3m9_access") and (has("e3m9_blue") and has("e3m9_red"))
+    )
+end
+
 function e4m2_blueaccess()
     return (
         has("e4m2_access") and has("e4m2_blue")
