@@ -1762,7 +1762,7 @@
           },
           {
             "name": "Exit",
-            "access_rules": [ "$e3m9_redaccess" ],
+            "access_rules": [ "$e3m9_blueredaccess" ],
             "hosted_item": "e3m9_complete"
           }
         ],
