@@ -204,19 +204,19 @@
           },
           {
             "name": "Armor",
-            "access_rules": [ "$e1m4_blueyellowaccess" ]
+            "access_rules": [ "[$e1m4_blueyellow], e1m4_access" ]
           },
           {
             "name": "Mega Armor",
-            "access_rules": [ "$e1m4_blueyellowaccess" ]
+            "access_rules": [ "[$e1m4_blueyellow], e1m4_access" ]
           },
           {
             "name": "Yellow Keycard",
-            "access_rules": [ "$e1m4_blueyellowaccess" ]
+            "access_rules": [ "[$e1m4_blueyellow], e1m4_access" ]
           },
           {
             "name": "Exit",
-            "access_rules": [ "$e1m4_blueyellowaccess" ],
+            "access_rules": [ "[$e1m4_blueyellow], e1m4_access" ],
             "hosted_item": "e1m4_complete"
           }
         ],
@@ -714,7 +714,7 @@
           },
           {
             "name": "Exit",
-            "access_rules": [ "$e2m2_redaccess" ],
+            "access_rules": [ "[e2m2_red], e2m2_access" ],
             "hosted_item": "e2m2_complete"
           }
         ],
@@ -1084,7 +1084,7 @@
           },
           {
             "name": "Exit",
-            "access_rules": [ "$e2m7_redaccess" ],
+            "access_rules": [ "[e2m7_red], e2m7_access" ],
             "hosted_item": "e2m7_complete"
           }
         ],
@@ -2122,15 +2122,15 @@
           },
           {
             "name": "Red Skull Key",
-            "access_rules": [ "$e4m6_blueyellowredaccess" ]
+            "access_rules": [ "[e4m6_yellow], e4m6_blue, e4m6_red, e4m6_access", "e4m6_yellow, e4m6_blue, e4m6_access" ]
           },
           {
             "name": "Invulnerability 2",
-            "access_rules": [ "$e4m6_blueyellowredaccess" ]
+            "access_rules": [ "[e4m6_yellow], e4m6_blue, e4m6_red, e4m6_access", "e4m6_yellow, e4m6_blue, e4m6_access" ]
           },
           {
             "name": "Invulnerability",
-            "access_rules": [ "$e4m6_blueredaccess" ]
+            "access_rules": [ "[$e4m6_bluered], e4m6_access" ]
           },
           {
             "name": "BFG9000",
@@ -2138,7 +2138,7 @@
           },
           {
             "name": "Backpack",
-            "access_rules": [ "$e4m6_blueredaccess" ]
+            "access_rules": [ "[$e4m6_bluered], e4m6_access" ]
           },
           {
             "name": "Berserk",
@@ -2146,7 +2146,7 @@
           },
           {
             "name": "Exit",
-            "access_rules": [ "$e4m6_blueredaccess" ],
+            "access_rules": [ "[e4m6_yellow], e4m6_blue, e4m6_red, e4m6_access", "e4m6_yellow, e4m6_blue, e4m6_access" ],
             "hosted_item": "e4m6_complete"
           }
         ],
