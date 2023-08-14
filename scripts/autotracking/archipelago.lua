@@ -98,6 +98,17 @@ function onClear(slot_data)
         end
     end
 
+    if slot_data['pro'] then
+        local obj = Tracker:FindObjectForCode("promoves")
+        local stage = slot_data['pro']
+        if (stage >=2) then
+            stage = 2
+        end
+        if obj then
+            obj.CurrentStage = stage
+        end
+    end
+
     if slot_data['episode1'] then
         local obj = Tracker:FindObjectForCode("ep1")
         local stage = slot_data['episode1']
