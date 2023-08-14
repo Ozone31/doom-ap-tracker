@@ -26,9 +26,9 @@ function e1m3_blueyellowaccess()
     )
 end
 
-function e1m4_blueyellowaccess()
+function e1m4_blueyellow()
     return (
-        has("e1m4_access") and (has("e1m4_blue") or has("e1m4_yellow"))
+        has("e1m4_blue") or has("e1m4_yellow")
     )
 end
 
@@ -116,12 +116,6 @@ function e2m2_yellowaccess()
     )
 end
 
-function e2m2_redaccess()
-    return (
-        has("e2m2_access") and has("e2m2_red")
-    )
-end
-
 function e2m3_blueaccess()
     return (
         has("e2m3_access") and has("e2m3_blue")
@@ -167,12 +161,6 @@ end
 function e2m7_blueredaccess()
     return (
         has("e2m7_access") and (has("e2m7_blue") and has("e2m7_red"))
-    )
-end
-
-function e2m7_redaccess()
-    return (
-        has("e2m7_access") and has("e2m7_red")
     )
 end
 
@@ -326,9 +314,9 @@ function e4m6_blueredaccess()
     )
 end
 
-function e4m6_blueyellowredaccess()
+function e4m6_bluered()
     return (
-        has("e4m6_access") and ((has("e4m6_blue") and has("e4m6_yellow")) or (has("e4m6_blue") and has("e4m6_red")))
+        has("e4m6_blue") and has("e4m6_red")
     )
 end
 
