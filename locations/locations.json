@@ -1948,11 +1948,11 @@
           },
           {
             "name": "Plasma Gun",
-            "access_rules": [ "$e4m3_blueaccess" ]
+            "access_rules": [ "$e4m3_blueredaccess" ]
           },
           {
             "name": "Exit",
-            "access_rules": [ "$e4m3_blueaccess" ],
+            "access_rules": [ "$e4m3_blueredaccess" ],
             "hosted_item": "e4m3_complete"
           }
         ],
