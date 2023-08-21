@@ -284,9 +284,9 @@ function e4m2_blueyellowaccess()
     )
 end
 
-function e4m3_blueaccess()
+function e4m3_blueredaccess()
     return (
-        has("e4m3_access") and has("e4m3_blue")
+        has("e4m3_access") and (has("e4m3_blue") and has("e4m3_red"))
     )
 end
 
