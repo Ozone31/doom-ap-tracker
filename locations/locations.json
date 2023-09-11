@@ -203,11 +203,11 @@
             "access_rules": [ "e1m4_access" ]
           },
           {
-            "name": "Armor",
-            "access_rules": [ "[$e1m4_blueyellow], e1m4_access" ]
+            "name": "Mega Armor",
+            "access_rules": [ "e1m4_access" ]
           },
           {
-            "name": "Mega Armor",
+            "name": "Armor",
             "access_rules": [ "[$e1m4_blueyellow], e1m4_access" ]
           },
           {
@@ -3101,7 +3101,7 @@
         "sections": [
           {
             "ref": "Mars/Command Control (E1M4)/Mega Armor",
-            "name": "Requires Blue or Yellow Keycard"
+            "name": "Item"
           }
         ],
         "map_locations": [
