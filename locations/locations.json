@@ -2163,6 +2163,10 @@
         "visibility_rules": [ "ep4_on" ],
         "sections": [
           {
+            "name": "Shotgun",
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
             "name": "Chaingun",
             "access_rules": [ "e4m7_access" ]
           },
@@ -2213,10 +2217,6 @@
           {
             "name": "Yellow Skull Key",
             "access_rules": [ "$e4m7_blueaccess" ]
-          },
-          {
-            "name": "Shotgun",
-            "access_rules": [ "$e4m7_yellowaccess" ]
           },
           {
             "name": "BFG9000",
@@ -10060,7 +10060,7 @@
         "sections": [
           {
             "ref": "Mars/And Hell Followed (E4M7)/Shotgun",
-            "name": "Requires Yellow Skull Key"
+            "name": "Item"
           }
         ],
         "map_locations": [
