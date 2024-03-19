@@ -323,25 +323,25 @@
     "codes": "e2m1_complete"
   },
   {
-    "name": "Slough of Despair (E3M2) - Blue keycard",
+    "name": "Containment Area (E2M2) - Blue keycard",
     "type": "toggle",
     "img": "/images/items/bluekeycard_2_2.png",
     "codes": "e2m2_blue"
   },
   {
-    "name": "Slough of Despair (E3M2) - Yellow keycard",
+    "name": "Containment Area (E2M2) - Yellow keycard",
     "type": "toggle",
     "img": "/images/items/yellowkeycard_2_2.png",
     "codes": "e2m2_yellow"
   },
   {
-    "name": "Slough of Despair (E3M2) - Red keycard",
+    "name": "Containment Area (E2M2) - Red keycard",
     "type": "toggle",
     "img": "/images/items/redkeycard_2_2.png",
     "codes": "e2m2_red"
   },
   {
-    "name": "Slough of Despair (E3M2) - Complete",
+    "name": "Containment Area (E2M2) - Complete",
     "type": "toggle",
     "img": "/images/items/levelcomplete.png",
     "codes": "e2m2_complete"
