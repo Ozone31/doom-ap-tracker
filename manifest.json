@@ -1,12 +1,16 @@
 {
     "name": "DOOM 1993",
     "game_name": "DOOM 1993",
-    "package_version": "0.0.2.10",
+    "package_version": "0.0.2.8",
     "package_uid": "ap_doom",
     "author": "Ozone",
     "variants": {
         "standard": {
-            "display_name": "Map Tracker",
+            "display_name": "Map and Item Tracker",
+            "flags": ["ap"]
+        },
+		"var_maponly": {
+            "display_name": "Map Only (Items in Broadcast View)",
             "flags": ["ap"]
         }
     },
