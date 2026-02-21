@@ -1042,5 +1042,26 @@
         "codes": "difficulty,difficulty_n"
       }
     ]
+  },
+  {
+    "name": "Auto Map Switching",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/automap_on.png",
+        "name": "Auto Map Switching - On",
+        "codes": "automap,automap_on",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/automap_off.png",
+        "name": "Auto Map Switching - Off",
+        "codes": "automap,automap_off",
+        "inherit_codes": false
+      }
+    ]
   }
 ]

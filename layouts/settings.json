@@ -24,7 +24,8 @@
               [
                 "deathlogic",
                 "promoves",
-                "difficulty"
+                "difficulty",
+                "automap"
               ]
             ]
           }

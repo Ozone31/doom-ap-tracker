@@ -1,7 +1,7 @@
 {
     "name": "DOOM 1993",
     "game_name": "DOOM 1993",
-    "package_version": "0.0.2.10",
+    "package_version": "1.0.0",
     "package_uid": "ap_doom",
     "author": "Ozone",
     "variants": {
@@ -14,5 +14,5 @@
 			"flags": ["ap"]
 		}
     },
-    "versions_url": ""
+    "versions_url": "https://raw.githubusercontent.com/Ozone31/doom-ap-tracker/versions/versions.json"
 }
