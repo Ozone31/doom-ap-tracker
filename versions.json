@@ -3,7 +3,7 @@
 		 {
 			"package_version": "1.1.0",
 			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v1.1.0",
-			"sha256": "F60FA5D1374A0BC3FD52E3D12F6CB6E1F74665985C5AF28AD10D0002344EF291",
+			"sha256": "385d22994c12252f828a6dce0a04031aad14a82c566d53e5c7b5c81d56d37a74",
 			"changelog": [
 				"Enabled auto map swapping",
 				"Fixed logic on E2M7 exit",
