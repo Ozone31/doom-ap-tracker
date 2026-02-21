@@ -1,0 +1,13 @@
+{
+	"versions": [
+		 {
+			"package_version": "1.0.0",
+			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v1.0.0",
+			"sha256": "F60FA5D1374A0BC3FD52E3D12F6CB6E1F74665985C5AF28AD10D0002344EF291",
+			"changelog": [
+				"TBA"
+			]
+		}
+	]
+}
+
