@@ -1,8 +1,17 @@
 {
 	"versions": [
+		{
+			"package_version": "1.2.0",
+			"download_url": "https://codeload.github.com/Ozone31/doom-ap-tracker/zip/refs/tags/v1.2.0",
+			"sha256": "385d22994c12252f828a6dce0a04031aad14a82c566d53e5c7b5c81d56d37a74",
+			"changelog": [
+				"Support for AP Doom 2.0 Beta (toggle between main release and the beta under settings)",
+				"Beta locations include expected weapons in the logic"
+			]
+		},
 		 {
 			"package_version": "1.1.0",
-			"download_url": "https://codeload.github.com/Ozone31/banjo-tooie-ap-tracker/zip/refs/tags/v1.1.0",
+			"download_url": "https://codeload.github.com/Ozone31/doom-ap-tracker/zip/refs/tags/v1.1.0",
 			"sha256": "385d22994c12252f828a6dce0a04031aad14a82c566d53e5c7b5c81d56d37a74",
 			"changelog": [
 				"Enabled auto map swapping",
