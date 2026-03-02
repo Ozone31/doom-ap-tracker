@@ -1,0 +1,3754 @@
+[
+  {
+    "name": "E1M1",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Mega Armor",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Hangar (E1M1)/Mega Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "x": 585,
+            "y": 290
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Hangar (E1M1)/Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "x": 131,
+            "y": 281
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Hangar (E1M1)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "x": 910,
+            "y": 435
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor (Nukage Pool)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Hangar (E1M1)/Mega Armor (Nukage Pool)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "x": 585,
+            "y": 290
+          }
+        ]
+      },
+      {
+        "name": "Armor (Lookout Tower)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Hangar (E1M1)/Armor (Lookout Tower)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "x": 131,
+            "y": 281
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Zigzag Closet)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Hangar (E1M1)/Shotgun (Zigzag Closet)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "x": 910,
+            "y": 435
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Hangar (E1M1)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m1",
+            "x": 833,
+            "y": 625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E1M2",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 505,
+            "y": 451
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 590,
+            "y": 465
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Supercharge",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 910,
+            "y": 480
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Chaingun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 725,
+            "y": 608
+          }
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Red Keycard",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 765,
+            "y": 480
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Armor 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 543,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Backpack",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 570,
+            "y": 451
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Chainsaw",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 142,
+            "y": 372
+          }
+        ]
+      },
+      {
+        "name": "Armor 3",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Armor 3",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 130,
+            "y": 620
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Mega Armor",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 265,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Backpack 2",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Backpack 2",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 678,
+            "y": 720
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Enclosed Elevator)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Shotgun (Enclosed Elevator)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 505,
+            "y": 451
+          }
+        ]
+      },
+      {
+        "name": "Armor (Courtyard Switch Closet)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Armor (Courtyard Switch Closet)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 590,
+            "y": 465
+          }
+        ]
+      },
+      {
+        "name": "Supercharge (Courtyard)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Supercharge (Courtyard)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 910,
+            "y": 480
+          }
+        ]
+      },
+      {
+        "name": "Chaingun (Courtyard)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Chaingun (Courtyard)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 725,
+            "y": 608
+          }
+        ]
+      },
+      {
+        "name": "Red keycard (Panopticon)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Red keycard (Panopticon)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 765,
+            "y": 480
+          }
+        ]
+      },
+      {
+        "name": "Armor (Computer Alcove)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Armor (Computer Alcove)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 543,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Backpack (Courtyard Switch Closet)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Backpack (Courtyard Switch Closet)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 570,
+            "y": 451
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw (Balcony Pillar)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Chainsaw (Balcony Pillar)",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 142,
+            "y": 372
+          }
+        ]
+      },
+      {
+        "name": "Armor (Maze)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Armor (Maze)",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 130,
+            "y": 620
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor (Fight Pit)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Mega Armor (Fight Pit)",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 265,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Backpack (Secret Maze Closet)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Backpack (Secret Maze Closet)",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 678,
+            "y": 720
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Nuclear Plant (E1M2)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m2",
+            "x": 495,
+            "y": 97
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E1M3",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 82,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Supercharge",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 248,
+            "y": 529
+          }
+        ]
+      },
+      {
+        "name": "Yellow Keycard",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Yellow Keycard",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 163,
+            "y": 351
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Blue Keycard",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 775,
+            "y": 142
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 450,
+            "y": 715
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 2",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Shotgun 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 320,
+            "y": 305
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Armor 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 293,
+            "y": 358
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 90,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Chaingun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 310,
+            "y": 265
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Backpack",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 206,
+            "y": 160
+          }
+        ]
+      },
+      {
+        "name": "Armor 3",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Armor 3",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 495,
+            "y": 453
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Chainsaw",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 790,
+            "y": 522
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Mega Armor",
+            "name": "Requires Blue & Yellow Keycards"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 880,
+            "y": 565
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Supercharge 2",
+            "name": "Requires Blue & Yellow Keycards"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 900,
+            "y": 580
+          }
+        ]
+      },
+      {
+        "name": "Partial Invisibility",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Partial Invisibility",
+            "name": "Requires Blue & Yellow Keycards"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 880,
+            "y": 595
+          }
+        ]
+      },
+      {
+        "name": "Armor (Sewer Secret)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Armor (Sewer Secret)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 82,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Supercharge (Pillar Secret)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Supercharge (Pillar Secret)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 248,
+            "y": 529
+          }
+        ]
+      },
+      {
+        "name": "Yellow keycard (Mainframe)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Yellow keycard (Mainframe)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 163,
+            "y": 351
+          }
+        ]
+      },
+      {
+        "name": "Blue keycard (Lights Off)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Blue keycard (Lights Off)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 775,
+            "y": 142
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Spawn)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Shotgun (Spawn)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 450,
+            "y": 715
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Elevator Corridor)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Shotgun (Elevator Corridor)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 320,
+            "y": 305
+          }
+        ]
+      },
+      {
+        "name": "Armor (Elevator)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Armor (Elevator)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 293,
+            "y": 358
+          }
+        ]
+      },
+      {
+        "name": "Rocket launcher (Sewer Secret)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Rocket launcher (Sewer Secret)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 90,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Chaingun (Sewer Back Hallway)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Chaingun (Sewer Back Hallway)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 310,
+            "y": 265
+          }
+        ]
+      },
+      {
+        "name": "Backpack (Sewer Switch)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Backpack (Sewer Switch)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 206,
+            "y": 160
+          }
+        ]
+      },
+      {
+        "name": "Armor (By Blue Door)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Armor (By Blue Door)",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 495,
+            "y": 453
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw (Secret Mezzanine)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Chainsaw (Secret Mezzanine)",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 790,
+            "y": 522
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor (Yellow Secret)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Mega Armor (Yellow Secret)",
+            "name": "Requires Blue & Yellow Keycards"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 880,
+            "y": 565
+          }
+        ]
+      },
+      {
+        "name": "Supercharge (Yellow Secret)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Supercharge (Yellow Secret)",
+            "name": "Requires Blue & Yellow Keycards"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 900,
+            "y": 580
+          }
+        ]
+      },
+      {
+        "name": "Partial invisibility (Yellow Secret)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Partial invisibility (Yellow Secret)",
+            "name": "Requires Blue & Yellow Keycards"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 880,
+            "y": 595
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Toxin Refinery (E1M3)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m3",
+            "x": 986,
+            "y": 352
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E1M4",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Chaingun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 490,
+            "y": 465
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Blue Keycard",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 500,
+            "y": 403
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Supercharge",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 881,
+            "y": 540
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 888,
+            "y": 610
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Backpack",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 985,
+            "y": 345
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 817,
+            "y": 401
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Armor",
+            "name": "Requires Blue or Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 97,
+            "y": 310
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Mega Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 735,
+            "y": 95
+          }
+        ]
+      },
+      {
+        "name": "Yellow Keycard",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Yellow Keycard",
+            "name": "Requires Blue or Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 115,
+            "y": 268
+          }
+        ]
+      },
+      {
+        "name": "Chaingun (Control Room)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Chaingun (Control Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 490,
+            "y": 465
+          }
+        ]
+      },
+      {
+        "name": "Blue keycard (Control Room)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Blue keycard (Control Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 500,
+            "y": 403
+          }
+        ]
+      },
+      {
+        "name": "Supercharge (Skylight Room Tease)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Supercharge (Skylight Room Tease)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 881,
+            "y": 540
+          }
+        ]
+      },
+      {
+        "name": "Rocket launcher (Nukage Canal, Exit)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Rocket launcher (Nukage Canal, Exit)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 888,
+            "y": 610
+          }
+        ]
+      },
+      {
+        "name": "Backpack (Spawn Secret)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Backpack (Spawn Secret)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 985,
+            "y": 345
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Middle Corridor)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Shotgun (Middle Corridor)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 817,
+            "y": 401
+          }
+        ]
+      },
+      {
+        "name": "Armor (Maze Exit)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Armor (Maze Exit)",
+            "name": "Requires Blue or Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 97,
+            "y": 310
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor (Mezzanine)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Mega Armor (Mezzanine)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 735,
+            "y": 95
+          }
+        ]
+      },
+      {
+        "name": "Yellow keycard (Maze Exit)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Yellow keycard (Maze Exit)",
+            "name": "Requires Blue or Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 115,
+            "y": 268
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Command Control (E1M4)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m4",
+            "x": 20,
+            "y": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E1M5",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Yellow Keycard",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Yellow Keycard",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 715,
+            "y": 418
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Mega Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 861,
+            "y": 585
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 861,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 620,
+            "y": 528
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 2",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Shotgun 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 757,
+            "y": 537
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 3",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Shotgun 3",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 482,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 455,
+            "y": 645
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Blue Keycard",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 595,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor 2",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Mega Armor 2",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 255,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Chainsaw",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 101,
+            "y": 427
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Supercharge",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 112,
+            "y": 505
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Chaingun",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 953,
+            "y": 465
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Computer Area Map",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 910,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Partial Invisibility",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Partial Invisibility",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 325,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Armor 2",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 577,
+            "y": 385
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Backpack",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 953,
+            "y": 449
+          }
+        ]
+      },
+      {
+        "name": "Yellow keycard (Candelabra Room)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Yellow keycard (Candelabra Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 715,
+            "y": 418
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor (Nukage Escape)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Mega Armor (Nukage Escape)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 861,
+            "y": 585
+          }
+        ]
+      },
+      {
+        "name": "Rocket launcher (Nukage Escape)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Rocket launcher (Nukage Escape)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 861,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Barrels Closet)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Shotgun (Barrels Closet)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 620,
+            "y": 528
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Dock)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Shotgun (Dock)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 757,
+            "y": 537
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Spawn)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Shotgun (Spawn)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 482,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "Armor (Spawn)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Armor (Spawn)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 455,
+            "y": 645
+          }
+        ]
+      },
+      {
+        "name": "Blue keycard (Grimy Switch Room)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Blue keycard (Grimy Switch Room)",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 595,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor (Pillar Jump)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Mega Armor (Pillar Jump)",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 255,
+            "y": 344
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw (Exit to Courtyard)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Chainsaw (Exit to Courtyard)",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 101,
+            "y": 427
+          }
+        ]
+      },
+      {
+        "name": "Supercharge (Courtyard)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Supercharge (Courtyard)",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 112,
+            "y": 505
+          }
+        ]
+      },
+      {
+        "name": "Chaingun (Lab Secret)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Chaingun (Lab Secret)",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 953,
+            "y": 465
+          }
+        ]
+      },
+      {
+        "name": "Computer area map (Lab Secret)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Computer area map (Lab Secret)",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 910,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Partial invisibility (Pentagram)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Partial invisibility (Pentagram)",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 325,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "Armor (Grimy Switch Room)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Armor (Grimy Switch Room)",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 577,
+            "y": 385
+          }
+        ]
+      },
+      {
+        "name": "Backpack (Lab Secret)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Backpack (Lab Secret)",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 953,
+            "y": 449
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Lab (E1M5)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m5",
+            "x": 477,
+            "y": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E1M6",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Red Keycard",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Red Keycard",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 649,
+            "y": 623
+          }
+        ]
+      },
+      {
+        "name": "Partial Invisibility",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Partial Invisibility",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 522,
+            "y": 557
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Chaingun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 590,
+            "y": 655
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 296,
+            "y": 625
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 539,
+            "y": 557
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Backpack",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 505,
+            "y": 557
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 386,
+            "y": 428
+          }
+        ]
+      },
+      {
+        "name": "Armor 4",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Armor 4",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 250,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Supercharge 2",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 424,
+            "y": 128
+          }
+        ]
+      },
+      {
+        "name": "Yellow Keycard",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Yellow Keycard",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 557,
+            "y": 506
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Computer Area Map",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 935,
+            "y": 654
+          }
+        ]
+      },
+      {
+        "name": "Backpack 2",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Backpack 2",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 572,
+            "y": 492
+          }
+        ]
+      },
+      {
+        "name": "Backpack 3",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Backpack 3",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 478,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Armor 2",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 542,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Armor 3",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Armor 3",
+            "name": "Requires Blue or Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 230,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Supercharge",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 46,
+            "y": 788
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Blue Keycard",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 131,
+            "y": 686
+          }
+        ]
+      },
+      {
+        "name": "Partial Invisibility 2",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Partial Invisibility 2",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 337,
+            "y": 654
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Mega Armor",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 195,
+            "y": 685
+          }
+        ]
+      },
+      {
+        "name": "Red keycard (Mainframe Trap Room)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Red keycard (Mainframe Trap Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 649,
+            "y": 623
+          }
+        ]
+      },
+      {
+        "name": "Partial invisibility (Bridge Secret Hall)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Partial invisibility (Bridge Secret Hall)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 522,
+            "y": 557
+          }
+        ]
+      },
+      {
+        "name": "Chaingun (Mainframe Trap Room)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Chaingun (Mainframe Trap Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 590,
+            "y": 655
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Spawn)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Shotgun (Spawn)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 296,
+            "y": 625
+          }
+        ]
+      },
+      {
+        "name": "Rocket launcher (Bridge Secret Hall)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Rocket launcher (Bridge Secret Hall)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 539,
+            "y": 557
+          }
+        ]
+      },
+      {
+        "name": "Backpack (Bridge Secret Hall)Backpack",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Backpack (Bridge Secret Hall)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 505,
+            "y": 557
+          }
+        ]
+      },
+      {
+        "name": "Armor (Computer Nook)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Armor (Computer Nook)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 386,
+            "y": 428
+          }
+        ]
+      },
+      {
+        "name": "Armor (Supply Room)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Armor (Supply Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 250,
+            "y": 470
+          }
+        ]
+      },
+      {
+        "name": "Supercharge (Courtyard)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Supercharge (Courtyard)",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 424,
+            "y": 128
+          }
+        ]
+      },
+      {
+        "name": "Yellow keycard (Bridge Overview Room)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Yellow keycard (Bridge Overview Room)",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 557,
+            "y": 506
+          }
+        ]
+      },
+      {
+        "name": "Computer area map (Blue Halls, Secret Compartment)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Computer area map (Blue Halls, Secret Compartment)",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 935,
+            "y": 654
+          }
+        ]
+      },
+      {
+        "name": "Backpack (Bridge Overview Room)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Backpack (Bridge Overview Room)",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 572,
+            "y": 492
+          }
+        ]
+      },
+      {
+        "name": "Backpack (Nukage Canal)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Backpack (Nukage Canal)",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 478,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "Armor (Bridge Overview Room)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Armor (Bridge Overview Room)",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 542,
+            "y": 520
+          }
+        ]
+      },
+      {
+        "name": "Armor (Tri-Stairs Landing)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Armor (Tri-Stairs Landing)",
+            "name": "Requires Blue or Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 230,
+            "y": 200
+          }
+        ]
+      },
+      {
+        "name": "Supercharge (Nukage Pool, Elevator)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Supercharge (Nukage Pool, Elevator)",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 46,
+            "y": 788
+          }
+        ]
+      },
+      {
+        "name": "Blue keycard (Nukage Pool)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Blue keycard (Nukage Pool)",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 131,
+            "y": 686
+          }
+        ]
+      },
+      {
+        "name": "Partial invisibility (Nukage Pool, Escape)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Partial invisibility (Nukage Pool, Escape)",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 337,
+            "y": 654
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor (Nukage Pool, Escape)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Mega Armor (Nukage Pool, Escape)",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 195,
+            "y": 685
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Central Processing (E1M6)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m6",
+            "x": 75,
+            "y": 83
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E1M7",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Shotgun 2",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Shotgun 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 440,
+            "y": 63
+          }
+        ]
+      },
+      {
+        "name": "Yellow Keycard",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Yellow Keycard",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 717,
+            "y": 196
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 459,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Shotgun",
+            "name": "Requires Blue & Yellow Keycards"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 513,
+            "y": 577
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Chainsaw",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 122,
+            "y": 748
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Chaingun",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 370,
+            "y": 657
+          }
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Red Keycard",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 100,
+            "y": 68
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Rocket Launcher",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 543,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Mega Armor",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 340,
+            "y": 454
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Computer Area Map",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 407,
+            "y": 547
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Supercharge",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 280,
+            "y": 174
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Backpack",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 450,
+            "y": 653
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Armor 2",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 160,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Blue Keycard",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 193,
+            "y": 93
+          }
+        ]
+      },
+      {
+        "name": "Partial Invisibility",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Partial Invisibility",
+            "name": "Requires Yellow & Red Keycards"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 696,
+            "y": 403
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Spawn)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Shotgun (Spawn)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 440,
+            "y": 63
+          }
+        ]
+      },
+      {
+        "name": "Yellow keycard (Elevator Dark Room)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Yellow keycard (Elevator Dark Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 717,
+            "y": 196
+          }
+        ]
+      },
+      {
+        "name": "Armor (Lobby)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Armor (Lobby)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 459,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Green Button Room)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Shotgun (Green Button Room)",
+            "name": "Requires Blue & Yellow Keycards"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 513,
+            "y": 577
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw (Mainframe 8)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Chainsaw (Mainframe 8)",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 122,
+            "y": 748
+          }
+        ]
+      },
+      {
+        "name": "Chaingun (Pillar Dive, South Ledge)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Chaingun (Pillar Dive, South Ledge)",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 370,
+            "y": 657
+          }
+        ]
+      },
+      {
+        "name": "Red keycard (Dock Overview)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Red keycard (Dock Overview)",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 100,
+            "y": 68
+          }
+        ]
+      },
+      {
+        "name": "Rocket launcher (Computer Mezzanine)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Rocket launcher (Computer Mezzanine)",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 543,
+            "y": 370
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor (Pillar Dive, North Canal)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Mega Armor (Pillar Dive, North Canal)",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 340,
+            "y": 454
+          }
+        ]
+      },
+      {
+        "name": "Computer area map (Pillar Dive, North Ledge)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Computer area map (Pillar Dive, North Ledge)",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 407,
+            "y": 547
+          }
+        ]
+      },
+      {
+        "name": "Supercharge (Pillar Dive, North Canal)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Supercharge (Pillar Dive, North Canal)",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 280,
+            "y": 174
+          }
+        ]
+      },
+      {
+        "name": "Backpack (Pillar Dive, South Ledge)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Backpack (Pillar Dive, South Ledge)",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 450,
+            "y": 653
+          }
+        ]
+      },
+      {
+        "name": "Armor (Donut Room)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Armor (Donut Room)",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 160,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Blue keycard (Dock Ledge)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Blue keycard (Dock Ledge)",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 193,
+            "y": 93
+          }
+        ]
+      },
+      {
+        "name": "Partial invisibility (Courtyard)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Partial invisibility (Courtyard)",
+            "name": "Requires Yellow & Red Keycards"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 696,
+            "y": 403
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Computer Station (E1M7)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m7",
+            "x": 848,
+            "y": 666
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E1M8",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Anomaly (E1M8)/Supercharge",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "x": 385,
+            "y": 695
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Anomaly (E1M8)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "x": 313,
+            "y": 645
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 2",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Anomaly (E1M8)/Shotgun 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "x": 434,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Anomaly (E1M8)/Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "x": 370,
+            "y": 640
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Anomaly (E1M8)/Chaingun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "x": 425,
+            "y": 645
+          }
+        ]
+      },
+      {
+        "name": "Partial Invisibility",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Anomaly (E1M8)/Partial Invisibility",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "x": 278,
+            "y": 381
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Anomaly (E1M8)/Computer Area Map",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "x": 424,
+            "y": 760
+          }
+        ]
+      },
+      {
+        "name": "Supercharge (Stair Secret)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Anomaly (E1M8)/Supercharge (Stair Secret)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "x": 385,
+            "y": 695
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (West Side Room)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Anomaly (E1M8)/Shotgun (West Side Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "x": 313,
+            "y": 645
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Pentagram)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Anomaly (E1M8)/Shotgun (Pentagram)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "x": 434,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "name": "Armor (Central Room)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Anomaly (E1M8)/Armor (Central Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "x": 370,
+            "y": 640
+          }
+        ]
+      },
+      {
+        "name": "Chaingun (East Side Room)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Anomaly (E1M8)/Chaingun (East Side Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "x": 425,
+            "y": 645
+          }
+        ]
+      },
+      {
+        "name": "Partial invisibility (Pentagram)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Anomaly (E1M8)/Partial invisibility (Pentagram)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "x": 278,
+            "y": 381
+          }
+        ]
+      },
+      {
+        "name": "Computer area map (Spawn Elevator)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Anomaly (E1M8)/Computer area map (Spawn Elevator)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "x": 424,
+            "y": 760
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Phobos Anomaly (E1M8)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m8",
+            "x": 390,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E1M9",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Yellow Keycard",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Yellow Keycard",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 45,
+            "y": 410
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Chaingun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 492,
+            "y": 549
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 777,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 100,
+            "y": 172
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Backpack",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 577,
+            "y": 188
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Shotgun",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 569,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Chainsaw",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 614,
+            "y": 197
+          }
+        ]
+      },
+      {
+        "name": "Red Keycard",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Red Keycard",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 631,
+            "y": 688
+          }
+        ]
+      },
+      {
+        "name": "Blue Keycard",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Blue Keycard",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 355,
+            "y": 672
+          }
+        ]
+      },
+      {
+        "name": "Yellow keycard (Western Flashing Lights)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Yellow keycard (Western Flashing Lights)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 45,
+            "y": 410
+          }
+        ]
+      },
+      {
+        "name": "Chaingun (Secret Tunnel)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Chaingun (Secret Tunnel)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 492,
+            "y": 549
+          }
+        ]
+      },
+      {
+        "name": "Armor (Toxic Pillar Room)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Armor (Toxic Pillar Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 777,
+            "y": 280
+          }
+        ]
+      },
+      {
+        "name": "Rocket launcher (Pentagram)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Rocket launcher (Pentagram)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 100,
+            "y": 172
+          }
+        ]
+      },
+      {
+        "name": "Backpack (Pillar Jumps)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Backpack (Pillar Jumps)",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 577,
+            "y": 188
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Pillar Jumps)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Shotgun (Pillar Jumps)",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 569,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw (Pillar Jumps)Chainsaw",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Chainsaw (Pillar Jumps)",
+            "name": "Requires Blue Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 614,
+            "y": 197
+          }
+        ]
+      },
+      {
+        "name": "Red keycard (Yellow Trap Room)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Red keycard (Yellow Trap Room)",
+            "name": "Requires Yellow Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 631,
+            "y": 688
+          }
+        ]
+      },
+      {
+        "name": "Blue keycard (Southern Demon Cage)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Blue keycard (Southern Demon Cage)",
+            "name": "Requires Red Keycard"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 355,
+            "y": 672
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Military Base (E1M9)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e1m9",
+            "x": 290,
+            "y": 100
+          }
+        ]
+      }
+    ]
+  }
+]

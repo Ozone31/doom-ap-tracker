@@ -1,0 +1,5037 @@
+[
+  {
+    "name": "Mars",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Hangar (E1M1)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Mega Armor (Nukage Pool)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Armor (Lookout Tower)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Shotgun (Zigzag Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "" ],
+            "hosted_item": "e1m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 365,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Nuclear Plant (E1M2)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m2_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m2_access" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m2_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m2_access" ]
+          },
+          {
+            "name": "Red Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m2_access" ]
+          },
+          {
+            "name": "Armor 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m2_access" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m2_access" ]
+          },
+          {
+            "name": "Chainsaw",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m2_redaccess" ]
+          },
+          {
+            "name": "Armor 3",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m2_redaccess" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m2_redaccess" ]
+          },
+          {
+            "name": "Backpack 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m2_redaccess" ]
+          },
+          {
+            "name": "Shotgun (Enclosed Elevator)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m2_access, [$e1m2_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Courtyard Switch Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m2_access, [$e1m2_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Courtyard)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m2_access, [$e1m2_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Courtyard)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m2_access, [$e1m2_gunaccess]" ]
+          },
+          {
+            "name": "Red keycard (Panopticon)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m2_access, [$e1m2_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Computer Alcove)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m2_access, [$e1m2_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Courtyard Switch Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m2_access, [$e1m2_gunaccess]" ]
+          },
+          {
+            "name": "Chainsaw (Balcony Pillar)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m2_access, e1m2_red, [$e1m2_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Maze)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m2_access, e1m2_red, [$e1m2_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Fight Pit)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m2_access, e1m2_red, [$e1m2_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Secret Maze Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m2_access, e1m2_red, [$e1m2_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e1m2_redaccess", "beta_on, e1m2_access, e1m2_red, [$e1m2_gunaccess]" ],
+            "hosted_item": "e1m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 295,
+            "y": 290
+          }
+        ]
+      },
+      {
+        "name": "Toxin Refinery (E1M3)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m3_access" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m3_access" ]
+          },
+          {
+            "name": "Yellow Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m3_access" ]
+          },
+          {
+            "name": "Blue Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m3_access" ]
+          },
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m3_access" ]
+          },
+          {
+            "name": "Shotgun 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m3_access" ]
+          },
+          {
+            "name": "Armor 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m3_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m3_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m3_access" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m3_access" ]
+          },
+          {
+            "name": "Armor 3",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m3_blueaccess" ]
+          },
+          {
+            "name": "Chainsaw",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m3_blueaccess" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m3_blueyellowaccess" ]
+          },
+          {
+            "name": "Supercharge 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m3_blueyellowaccess" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m3_blueyellowaccess" ]
+          },
+          {
+            "name": "Armor (Sewer Secret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m3_access, [$e1m3_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Pillar Secret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m3_access, [$e1m3_gunaccess]" ]
+          },
+          {
+            "name": "Yellow keycard (Mainframe)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m3_access, [$e1m3_gunaccess]" ]
+          },
+          {
+            "name": "Blue keycard (Lights Off)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m3_access, [$e1m3_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m3_access" ]
+          },
+          {
+            "name": "Shotgun (Elevator Corridor)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m3_access, [$e1m3_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Elevator)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m3_access, [$e1m3_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Sewer Secret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m3_access, [$e1m3_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Sewer Back Hallway)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m3_access, [$e1m3_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Sewer Switch)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m3_access, [$e1m3_gunaccess]" ]
+          },
+          {
+            "name": "Armor (By Blue Door)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m3_access, e1m3_blue, [$e1m3_gunaccess]" ]
+          },
+          {
+            "name": "Chainsaw (Secret Mezzanine)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m3_access, e1m3_blue, [$e1m3_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Yellow Secret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m3_blueyellowaccess, [$e1m3_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Yellow Secret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m3_blueyellowaccess, [$e1m3_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Yellow Secret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m3_blueyellowaccess, [$e1m3_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e1m3_blueaccess", "beta_on, e1m3_access, e1m3_blue, [$e1m3_gunaccess]" ],
+            "hosted_item": "e1m3_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 139,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "Command Control (E1M4)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m4_access" ]
+          },
+          {
+            "name": "Blue Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m4_access" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m4_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m4_access" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m4_access" ]
+          },
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m4_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m4_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "[$e1m4_blueyellow], e1m4_access" ]
+          },
+          {
+            "name": "Yellow Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "[$e1m4_blueyellow], e1m4_access" ]
+          },
+          {
+            "name": "Chaingun (Control Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m4_access, [$e1m4_gunaccess]" ]
+          },
+          {
+            "name": "Blue keycard (Control Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m4_access, [$e1m4_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Skylight Room Tease)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m4_access, [$e1m4_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Nukage Canal, Exit)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m4_access, [$e1m4_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Spawn Secret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m4_access" ]
+          },
+          {
+            "name": "Shotgun (Middle Corridor)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m4_access, [$e1m4_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Mezzanine)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m4_access, [$e1m4_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Maze Exit)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m4_access, [$e1m4_blueyellow], [$e1m4_gunaccess]", "e1m4_access, [tricks_pro], [$e1m4_gunaccess]" ]
+          },
+          {
+            "name": "Yellow keycard (Maze Exit)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m4_access, [$e1m4_blueyellow], [$e1m4_gunaccess]", "e1m4_access, [tricks_pro], [$e1m4_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, [$e1m4_blueyellow], e1m4_access", "beta_on, e1m4_access, [$e1m4_blueyellow], [$e1m4_gunaccess]", "beta_on, e1m4_access, [tricks_pro], [$e1m4_gunaccess]" ],
+            "hosted_item": "e1m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 460,
+            "y": 215
+          }
+        ]
+      },
+      {
+        "name": "Phobos Lab (E1M5)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "name": "Yellow Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m5_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m5_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m5_access" ]
+          },
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m5_access" ]
+          },
+          {
+            "name": "Shotgun 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m5_access" ]
+          },
+          {
+            "name": "Shotgun 3",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m5_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m5_access" ]
+          },
+          {
+            "name": "Blue Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m5_yellowaccess" ]
+          },
+          {
+            "name": "Mega Armor 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m5_yellowaccess" ]
+          },
+          {
+            "name": "Chainsaw",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m5_yellowaccess" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m5_yellowaccess" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m5_yellowaccess" ]
+          },
+          {
+            "name": "Computer Area Map",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m5_yellowaccess" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m5_yellowaccess" ]
+          },
+          {
+            "name": "Armor 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m5_yellowaccess" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m5_yellowaccess" ]
+          },
+          {
+            "name": "Yellow keycard (Candelabra Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m5_access, [$e1m5_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Nukage Escape)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m5_access, [$e1m5_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Nukage Escape)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m5_access, [$e1m5_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (Barrels Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m5_access, [$e1m5_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (Dock)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m5_access, [$e1m5_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m5_access, [$e1m5_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m5_access, [$e1m5_gunaccess]" ]
+          },
+          {
+            "name": "Blue keycard (Grimy Switch Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m5_yellowaccess, [$e1m5_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Pillar Jump)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m5_yellowaccess, [$e1m5_gunaccess]" ]
+          },
+          {
+            "name": "Chainsaw (Exit to Courtyard)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m5_yellowaccess, [$e1m5_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Courtyard)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m5_yellowaccess, [$e1m5_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Lab Secret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m5_yellowaccess, [$e1m5_gunaccess]" ]
+          },
+          {
+            "name": "Computer area map (Lab Secret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m5_yellowaccess, [$e1m5_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Pentagram)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m5_yellowaccess, [$e1m5_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Grimy Switch Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m5_yellowaccess, [$e1m5_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Lab Secret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m5_yellowaccess, [$e1m5_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e1m5_blueyellowaccess", "beta_on, $e1m5_blueyellowaccess, [$e1m5_gunaccess]" ],
+            "hosted_item": "e1m5_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 232,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "Central Processing (E1M6)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "name": "Red Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m6_access" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m6_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m6_access" ]
+          },
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m6_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m6_access" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m6_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m6_access" ]
+          },
+          {
+            "name": "Armor 4",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m6_access" ]
+          },
+          {
+            "name": "Supercharge 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m6_blueaccess" ]
+          },
+          {
+            "name": "Yellow Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m6_blueaccess" ]
+          },
+          {
+            "name": "Computer Area Map",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m6_blueaccess" ]
+          },
+          {
+            "name": "Backpack 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m6_blueaccess" ]
+          },
+          {
+            "name": "Backpack 3",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m6_blueaccess" ]
+          },
+          {
+            "name": "Armor 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m6_blueaccess" ]
+          },
+          {
+            "name": "Armor 3",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m6_blueyellowaccess" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m6_redaccess" ]
+          },
+          {
+            "name": "Blue Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m6_redaccess" ]
+          },
+          {
+            "name": "Partial Invisibility 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m6_redaccess" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m6_redaccess" ]
+          },
+          {
+            "name": "Red keycard (Mainframe Trap Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m6_access, [$e1m6_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Bridge Secret Hall)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m6_access, [$e1m6_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Mainframe Trap Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m6_access, [$e1m6_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m6_access, [$e1m6_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Bridge Secret Hall)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m6_access, [$e1m6_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Bridge Secret Hall)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m6_access, [$e1m6_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Computer Nook)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m6_access, [$e1m6_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Supply Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m6_access, [$e1m6_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Courtyard)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m6_blueaccess, [$e1m6_gunaccess]" ]
+          },
+          {
+            "name": "Yellow keycard (Bridge Overview Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m6_blueaccess, [$e1m6_gunaccess]" ]
+          },
+          {
+            "name": "Computer area map (Blue Halls, Secret Compartment)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m6_blueaccess, [$e1m6_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Bridge Overview Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m6_blueaccess, [$e1m6_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Nukage Canal)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m6_blueaccess, [$e1m6_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Bridge Overview Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m6_blueaccess, [$e1m6_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Tri-Stairs Landing)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m6_blueyellowaccess, [$e1m6_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Nukage Pool, Elevator)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m6_redaccess, [$e1m6_gunaccess]" ]
+          },
+          {
+            "name": "Blue keycard (Nukage Pool)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m6_redaccess, [$e1m6_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Nukage Pool, Escape)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m6_redaccess, [$e1m6_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Nukage Pool, Escape)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m6_redaccess, [$e1m6_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e1m6_blueyellowaccess", "beta_on, $e1m6_blueyellowaccess, [$e1m6_gunaccess]" ],
+            "hosted_item": "e1m6_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 357,
+            "y": 105
+          }
+        ]
+      },
+      {
+        "name": "Computer Station (E1M7)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "name": "Shotgun 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m7_access" ]
+          },
+          {
+            "name": "Yellow Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m7_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m7_access" ]
+          },
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m7_blueyellowaccess" ]
+          },
+          {
+            "name": "Chainsaw",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m7_yellowaccess" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m7_yellowaccess" ]
+          },
+          {
+            "name": "Red Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m7_yellowaccess" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m7_yellowaccess" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m7_yellowaccess" ]
+          },
+          {
+            "name": "Computer Area Map",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m7_yellowaccess" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m7_yellowaccess" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m7_yellowaccess" ]
+          },
+          {
+            "name": "Armor 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m7_yellowaccess" ]
+          },
+          {
+            "name": "Blue Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m7_redaccess" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m7_yellowredaccess" ]
+          },
+          {
+            "name": "Shotgun (Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m7_access" ]
+          },
+          {
+            "name": "Yellow keycard (Elevator Dark Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m7_access, [$e1m7_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Lobby)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m7_access, [$e1m7_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (Green Button Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m7_blueyellowaccess, [$e1m7_gunaccess]" ]
+          },
+          {
+            "name": "Chainsaw (Mainframe 8)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m7_yellowaccess, [$e1m7_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Pillar Dive, South Ledge)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m7_yellowaccess, [$e1m7_gunaccess]" ]
+          },
+          {
+            "name": "Red keycard (Dock Overview)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m7_yellowaccess, [$e1m7_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Computer Mezzanine)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m7_yellowaccess, [$e1m7_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Pillar Dive, North Canal)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m7_yellowaccess, [$e1m7_gunaccess]" ]
+          },
+          {
+            "name": "Computer area map (Pillar Dive, North Ledge)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m7_yellowaccess, [$e1m7_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Pillar Dive, North Canal)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m7_yellowaccess, [$e1m7_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Pillar Dive, South Ledge)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m7_yellowaccess, [$e1m7_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Donut Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m7_yellowaccess, [$e1m7_gunaccess]" ]
+          },
+          {
+            "name": "Blue keycard (Dock Ledge)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m7_redaccess, [$e1m7_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Courtyard)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m7_yellowredaccess, [$e1m7_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e1m7_blueyellowaccess", "beta_on, $e1m7_blueyellowaccess, [$e1m7_gunaccess]" ],
+            "hosted_item": "e1m7_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 150,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Phobos Anomaly (E1M8)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m8_access" ]
+          },
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m8_access" ]
+          },
+          {
+            "name": "Shotgun 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m8_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m8_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m8_access" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m8_access" ]
+          },
+          {
+            "name": "Computer Area Map",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m8_access" ]
+          },
+          {
+            "name": "Supercharge (Stair Secret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m8_access, [$e1m8_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (West Side Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m8_access, [$e1m8_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (Pentagram)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m8_access, [$e1m8_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Central Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m8_access, [$e1m8_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (East Side Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m8_access, [$e1m8_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Pentagram)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m8_access, [$e1m8_gunaccess]" ]
+          },
+          {
+            "name": "Computer area map (Spawn Elevator)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m8_access, [$e1m8_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, e1m8_access", "beta_on, e1m8_access, [$e1m8_gunaccess]" ],
+            "hosted_item": "e1m8_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 271,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Military Base (E1M9)",
+        "visibility_rules": [ "ep1_on" ],
+        "sections": [
+          {
+            "name": "Yellow Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m9_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m9_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m9_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e1m9_access" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m9_blueaccess" ]
+          },
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m9_blueaccess" ]
+          },
+          {
+            "name": "Chainsaw",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m9_blueaccess" ]
+          },
+          {
+            "name": "Red Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m9_yellowaccess" ]
+          },
+          {
+            "name": "Blue Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e1m9_redaccess" ]
+          },
+          {
+            "name": "Yellow keycard (Western Flashing Lights)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m9_access, [$e1m9_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Secret Tunnel)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m9_access, [$e1m9_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Toxic Pillar Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m9_access, [$e1m9_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Pentagram)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e1m9_access, [$e1m9_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Pillar Jumps)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m9_blueaccess, [$e1m9_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (Pillar Jumps)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m9_blueaccess, [$e1m9_gunaccess]" ]
+          },
+          {
+            "name": "Chainsaw (Pillar Jumps)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m9_blueaccess, [$e1m9_gunaccess]" ]
+          },
+          {
+            "name": "Red keycard (Yellow Trap Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m9_yellowaccess, [$e1m9_gunaccess]" ]
+          },
+          {
+            "name": "Blue keycard (Southern Demon Cage)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e1m9_redaccess, [$e1m9_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e1m9_blueaccess", "beta_on, $e1m9_blueaccess, [$e1m9_gunaccess]" ],
+            "hosted_item": "e1m9_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 150,
+            "y": 50
+          }
+        ]
+      },
+      {
+        "name": "Deimos Anomaly (E2M1)",
+        "visibility_rules": [ "ep2_on" ],
+        "sections": [
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Shotgun 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Red Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Blue Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Computer Area Map",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m1_red" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m1_red" ]
+          },
+          {
+            "name": "Shotgun (Devil's Triangle)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Shotgun (Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Red keycard (Secret Corridor)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Armor (Blood River)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Blue keycard (Panopticon)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Plasma gun (Secret Catacomb)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Computer area map (Blood Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m1_red" ]
+          },
+          {
+            "name": "Mega Armor (Blood Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m1_red" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "e2m1_blue" ],
+            "hosted_item": "e2m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1149,
+            "y": 42
+          }
+        ]
+      },
+      {
+        "name": "Containment Area (E2M2)",
+        "visibility_rules": [ "ep2_on" ],
+        "sections": [
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Shotgun 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Armor 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Armor 3",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Armor 4",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Yellow Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Computer Area Map",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Chainsaw",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Blue Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Red Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m2_blueaccess" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m2_yellowaccess" ]
+          },
+          {
+            "name": "Backpack 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m2_yellowaccess" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m2_yellowaccess" ]
+          },
+          {
+            "name": "Shotgun (Warehouse, Top of Spawn Crate)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Shotgun (Warehouse, Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Berserk (Warehouse, Shadow Corner)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Armor (Warehouse, East Crate Maze)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Armor (Warehouse, Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Armor (Room Before Exit)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Armor 2 (Warehouse, East Crate Maze)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Yellow keycard (Ceiling Path Blood Pool)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Backpack (Nested Secret Rooms)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Computer area map (Nested Secret Rooms)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Mega Armor (Side Room Shelf)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Plasma gun (Mainframe, One-Time Switch)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Chainsaw (Crusher Secret Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Supercharge (Lit Corner Secret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Blue keycard (Two Island Nukage Pool)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m2_access" ]
+          },
+          {
+            "name": "Red keycard (Behind Blue Door)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m2_blueaccess" ]
+          },
+          {
+            "name": "Chaingun (Nukage Pool Pillar)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m2_yellowaccess" ]
+          },
+          {
+            "name": "Backpack (Showroom, Pillar)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m2_yellowaccess" ]
+          },
+          {
+            "name": "Rocket launcher (Showroom, Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m2_yellowaccess" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "[e2m2_red], e2m2_access", "[tricks_pro], e2m2_access" ],
+            "hosted_item": "e2m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 833,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "Refinery (E2M3)",
+        "visibility_rules": [ "ep2_on" ],
+        "sections": [
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m3_access" ]
+          },
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m3_access" ]
+          },
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m3_access" ]
+          },
+          {
+            "name": "Partial Invisibility 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m3_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m3_access" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m3_access" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m3_access" ]
+          },
+          {
+            "name": "Blue Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m3_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m3_access" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m3_blueaccess" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m3_blueaccess" ]
+          },
+          {
+            "name": "Chaingun (UAC Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m3_access, [$e2m3_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (FIREBLU Pedestal)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m3_access, [$e2m3_gunaccess]" ]
+          },
+          {
+            "name": "Berserk (UAC Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m3_access, [$e2m3_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Behind Prison)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m3_access, [$e2m3_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Nukage Poolside)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m3_access, [$e2m3_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Vine Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m3_access, [$e2m3_gunaccess]" ]
+          },
+          {
+            "name": "Plasma gun (Blood Pool Staircase)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m3_access, [$e2m3_gunaccess]" ]
+          },
+          {
+            "name": "Blue keycard (Green Marble Fireplace)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m3_access, [$e2m3_gunaccess]" ]
+          },
+          {
+            "name": "Armor (UAC Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m3_access, [$e2m3_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Deep Nukage Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m3_blueaccess, [$e2m3_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Wall Marquee Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m3_blueaccess, [$e2m3_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e2m3_blueaccess", "beta_on, $e2m3_blueaccess, [$e2m3_gunaccess]" ],
+            "hosted_item": "e2m3_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1022,
+            "y": 135
+          }
+        ]
+      },
+      {
+        "name": "Deimos Lab (E2M4)",
+        "visibility_rules": [ "ep2_on" ],
+        "sections": [
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m4_access" ]
+          },
+          {
+            "name": "Computer Area Map",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m4_access" ]
+          },
+          {
+            "name": "Armor 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m4_access" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m4_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m4_access" ]
+          },
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m4_access" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m4_access" ]
+          },
+          {
+            "name": "Supercharge 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m4_access" ]
+          },
+          {
+            "name": "Partial Invisibility 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m4_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m4_access" ]
+          },
+          {
+            "name": "Armor 3",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m4_access" ]
+          },
+          {
+            "name": "Blue Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m4_access" ]
+          },
+          {
+            "name": "Yellow Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m4_blueaccess" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m4_blueyellowaccess" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m4_blueyellowaccess" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m4_blueyellowaccess" ]
+          },
+          {
+            "name": "Shotgun (Spawn Secret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m4_access" ]
+          },
+          {
+            "name": "Computer area map (Pillar Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m4_access, [$e2m4_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Pillar Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m4_access, [$e2m4_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Nukage Moat, Nook)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m4_access, [$e2m4_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Nukage Moat, Nook)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m4_access, [$e2m4_gunaccess]" ]
+          },
+          {
+            "name": "Berserk (Zigzag Bridge)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m4_access, [$e2m4_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Mainframe Nook)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m4_access, [$e2m4_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Nukage Moat, Secret Side Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m4_access, [$e2m4_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Secret Server Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m4_access, [$e2m4_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Secret Server Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m4_access, [$e2m4_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Crusher Lab)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m4_access, [$e2m4_gunaccess]" ]
+          },
+          {
+            "name": "Blue keycard (Chest High Wall)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m4_access, [$e2m4_gunaccess]" ]
+          },
+          {
+            "name": "Yellow keycard (Crusher Trap)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m4_blueaccess, [$e2m4_gunaccess]" ]
+          },
+          {
+            "name": "Plasma gun (Temple, Secret Crawl Space)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m4_blueyellowaccess, [$e2m4_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (End Bridge Alcove)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m4_blueyellowaccess, [$e2m4_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Barrel Storage)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m4_blueyellowaccess, [$e2m4_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e2m4_blueyellowaccess", "beta_on, $e2m4_blueyellowaccess, [$e2m4_gunaccess]" ],
+            "hosted_item": "e2m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 898,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Command Center (E2M5)",
+        "visibility_rules": [ "ep2_on" ],
+        "sections": [
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m5_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m5_access" ]
+          },
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m5_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m5_access" ]
+          },
+          {
+            "name": "Chainsaw",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m5_access" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m5_access" ]
+          },
+          {
+            "name": "Computer Area Map",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m5_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m5_access" ]
+          },
+          {
+            "name": "Armor 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m5_access" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m5_access" ]
+          },
+          {
+            "name": "Backpack (Central Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m5_access, [$e2m5_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Ending Tech Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m5_access, [$e2m5_gunaccess]" ]
+          },
+          {
+            "name": "Berserk (Central Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m5_access, [$e2m5_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Battle Bridge Pillars)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m5_access, [$e2m5_gunaccess]" ]
+          },
+          {
+            "name": "Chainsaw (Skull Candle Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m5_access, [$e2m5_gunaccess]" ]
+          },
+          {
+            "name": "Plasma gun (Satanic Door)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m5_access, [$e2m5_gunaccess]" ]
+          },
+          {
+            "name": "Computer area map (Battle Bridge Pillars)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m5_access, [$e2m5_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Scepter Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m5_access, [$e2m5_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Grime Brick Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m5_access, [$e2m5_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Grime Brick Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m5_access, [$e2m5_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, e2m5_access", "beta_on, e2m5_access, [$e2m5_gunaccess]" ],
+            "hosted_item": "e2m5_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1070,
+            "y": 190
+          }
+        ]
+      },
+      {
+        "name": "Halls of the Damned (E2M6)",
+        "visibility_rules": [ "ep2_on" ],
+        "sections": [
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m6_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m6_access" ]
+          },
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m6_access" ]
+          },
+          {
+            "name": "Chainsaw",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m6_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m6_access" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m6_access" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m6_access" ]
+          },
+          {
+            "name": "Partial Invisibility 3",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m6_access" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m6_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m6_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m6_access" ]
+          },
+          {
+            "name": "Red Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m6_access" ]
+          },
+          {
+            "name": "Blue Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m6_access" ]
+          },
+          {
+            "name": "Yellow Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m6_yellowaccess" ]
+          },
+          {
+            "name": "Partial Invisibility 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m6_yellowaccess" ]
+          },
+          {
+            "name": "Computer Area Map",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m6_yellowaccess" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m6_yellowaccess" ]
+          },
+          {
+            "name": "Shotgun (Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m6_access, [$e2m6_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m6_access, [$e2m6_gunaccess]" ]
+          },
+          {
+            "name": "Berserk (Outdoor Switch)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m6_access, [$e2m6_gunaccess]" ]
+          },
+          {
+            "name": "Chainsaw (Grimy Halls, Secret Compartment)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m6_access, [$e2m6_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Dark Maze, Front Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m6_access, [$e2m6_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Dark Maze, Front Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m6_access, [$e2m6_gunaccess]" ]
+          },
+          {
+            "name": "Plasma gun (Dark Maze, Back Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m6_access, [$e2m6_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Dark Maze, Back Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m6_access, [$e2m6_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Gear Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m6_access, [$e2m6_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Gear Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m6_access, [$e2m6_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Crusher Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m6_access, [$e2m6_gunaccess]" ]
+          },
+          {
+            "name": "Red skull key (Dark Maze, Back Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m6_access, [$e2m6_gunaccess]" ]
+          },
+          {
+            "name": "Blue skull key (Grimy Halls)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m6_access, [$e2m6_gunaccess]" ]
+          },
+          {
+            "name": "Yellow skull key (Yellow Key Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m6_yellowaccess, [$e2m6_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Yellow Key Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m6_yellowaccess, [$e2m6_gunaccess]" ]
+          },
+          {
+            "name": "Computer area map (Fake Exit)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m6_yellowaccess, [$e2m6_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Fake Exit)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m6_yellowaccess, [$e2m6_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e2m6_blueyellowredaccess", "beta_on, $e2m6_blueyellowredaccess, [$e2m6_gunaccess]", "beta_on, [tricks_extreme], e2m6_access, [$e2m6_gunaccess]" ],
+            "hosted_item": "e2m6_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 907,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Spawning Vats (E2M7)",
+        "visibility_rules": [ "ep2_on" ],
+        "sections": [
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m7_access" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m7_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m7_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m7_access" ]
+          },
+          {
+            "name": "Blue Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m7_access" ]
+          },
+          {
+            "name": "Invulnerability",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m7_access" ]
+          },
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m7_access" ]
+          },
+          {
+            "name": "Chainsaw",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m7_access" ]
+          },
+          {
+            "name": "Invulnerability 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m7_access" ]
+          },
+          {
+            "name": "Computer Area Map",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m7_access" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m7_access" ]
+          },
+          {
+            "name": "Yellow Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m7_blueaccess" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m7_blueaccess" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m7_blueaccess" ]
+          },
+          {
+            "name": "Red Keycard",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m7_yellowaccess" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m7_blueredaccess" ]
+          },
+          {
+            "name": "Rocket launcher (Secret Teleporter)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m7_access, [$e2m7_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Mainframe Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m7_access, [$e2m7_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Server Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m7_access, [$e2m7_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Secret Courtyard)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m7_access, [$e2m7_gunaccess]" ]
+          },
+          {
+            "name": "Blue keycard (Z Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m7_access, [$e2m7_gunaccess]" ]
+          },
+          {
+            "name": "Invulnerability (Storage Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m7_access, [$e2m7_gunaccess]" ]
+          },
+          {
+            "name": "Berserk (Storage Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m7_access, [$e2m7_gunaccess]" ]
+          },
+          {
+            "name": "Chainsaw (Secret Courtyard, Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m7_access, [$e2m7_gunaccess]" ]
+          },
+          {
+            "name": "Invulnerability (Cloning Tank Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m7_access, [$e2m7_gunaccess]" ]
+          },
+          {
+            "name": "Computer area map (Mainframe Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m7_access, [$e2m7_gunaccess]" ]
+          },
+          {
+            "name": "Plasma gun (Secret Courtyard)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m7_access, [$e2m7_gunaccess]" ]
+          },
+          {
+            "name": "Yellow keycard (Display Peninsula)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m7_blueaccess, [$e2m7_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Stairs to Displays)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m7_blueaccess, [$e2m7_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Mezzanine)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m7_blueaccess, [$e2m7_gunaccess]" ]
+          },
+          {
+            "name": "Red keycard (Computer Showcase)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m7_yellowaccess, [$e2m7_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Spawn Secret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m7_blueredaccess, [$e2m7_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, e2m7_red, e2m7_access", "beta_off, rocketlauncher, [e2m7_red], e2m7_access", "beta_on, e2m7_red, e2m7_access, [$e2m7_gunaccess]", "beta_on, rocketlauncher, [tricks_extreme], e2m7_access, [$e2m7_gunaccess]" ],
+            "hosted_item": "e2m7_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1053,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "Tower of Babel (E2M8)",
+        "visibility_rules": [ "ep2_on" ],
+        "sections": [
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m8_access" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m8_access" ]
+          },
+          {
+            "name": "Supercharge 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m8_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m8_access" ]
+          },
+          {
+            "name": "Rocket launcher (East Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m8_access, [$e2m8_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (South Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m8_access, [$e2m8_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (West Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m8_access, [$e2m8_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m8_access, [$e2m8_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, e2m8_access", "beta_on, e2m8_access, [$e2m8_gunaccess]" ],
+            "hosted_item": "e2m8_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 940,
+            "y": 320
+          }
+        ]
+      },
+      {
+        "name": "Fortress of Mystery (E2M9)",
+        "visibility_rules": [ "ep2_on" ],
+        "sections": [
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m9_access" ]
+          },
+          {
+            "name": "Blue Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m9_access" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m9_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m9_access" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m9_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m9_access" ]
+          },
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m9_access" ]
+          },
+          {
+            "name": "Chainsaw",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m9_access" ]
+          },
+          {
+            "name": "Computer Area Map",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m9_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e2m9_access" ]
+          },
+          {
+            "name": "Red Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m9_blueaccess" ]
+          },
+          {
+            "name": "Yellow Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e2m9_redaccess" ]
+          },
+          {
+            "name": "Supercharge (Central Cross)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m9_access, [$e2m9_gunaccess]" ]
+          },
+          {
+            "name": "Blue skull key (North Skull Door)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m9_access, [$e2m9_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Spawn Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m9_access, [$e2m9_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Spawn Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m9_access, [$e2m9_gunaccess]" ]
+          },
+          {
+            "name": "Plasma gun (Spawn Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m9_access, [$e2m9_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Spawn Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m9_access, [$e2m9_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (Spawn Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m9_access, [$e2m9_gunaccess]" ]
+          },
+          {
+            "name": "Chainsaw (Spawn Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m9_access, [$e2m9_gunaccess]" ]
+          },
+          {
+            "name": "Computer area map (Spawn Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m9_access, [$e2m9_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Spawn Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e2m9_access, [$e2m9_gunaccess]" ]
+          },
+          {
+            "name": "Red skull key (South Skull Door)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m9_blueaccess, [$e2m9_gunaccess]", "[tricks_pro], e2m9_access, [$e2m9_gunaccess]" ]
+          },
+          {
+            "name": "Yellow skull key (East Skull Door)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e2m9_redaccess, [$e2m9_gunaccess]", "[tricks_pro], e2m9_access, [$e2m9_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e2m9_yellowaccess", "beta_on, $e2m9_yellowaccess, [$e2m9_gunaccess]" ],
+            "hosted_item": "e2m9_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1110,
+            "y": 320
+          }
+        ]
+      },
+      {
+        "name": "Hell Keep (E3M1)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Shotgun (Blood Bridge)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Rocket launcher (Exit Secret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "[$e3m1_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off", "beta_on, [$e3m1_gunaccess]" ],
+            "hosted_item": "e3m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 311,
+            "y": 725
+          }
+        ]
+      },
+      {
+        "name": "Slough of Despair (E3M2)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m2_access" ]
+          },
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m2_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m2_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m2_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m2_access" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m2_access" ]
+          },
+          {
+            "name": "Computer Area Map",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m2_access" ]
+          },
+          {
+            "name": "Blue Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m2_access" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m2_access" ]
+          },
+          {
+            "name": "Chaingun (Thumb)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m2_access, [$e3m2_gunaccess]" ]
+          },
+          {
+            "name": "Berserk (Palm Nooks)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m2_access, [$e3m2_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Palm Nooks)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m2_access, [$e3m2_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Wrist)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m2_access, [$e3m2_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Palm Nooks)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m2_access, [$e3m2_gunaccess]" ]
+          },
+          {
+            "name": "Plasma gun (Palm Nooks, Arrow Secret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m2_access, [$e3m2_gunaccess]" ]
+          },
+          {
+            "name": "Computer area map (Pinky)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m2_access, [$e3m2_gunaccess]" ]
+          },
+          {
+            "name": "Blue skull key (Pinky)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m2_access, [$e3m2_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Middle Finger)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m2_access, [$e3m2_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e3m2_blueaccess", "beta_on, $e3m2_blueaccess, [$e3m2_gunaccess]" ],
+            "hosted_item": "e3m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 95,
+            "y": 705
+          }
+        ]
+      },
+      {
+        "name": "Pandemonium (E3M3)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m3_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m3_access" ]
+          },
+          {
+            "name": "BFG9000",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m3_access" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m3_access" ]
+          },
+          {
+            "name": "Invulnerability",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m3_access" ]
+          },
+          {
+            "name": "Blue Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m3_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m3_access" ]
+          },
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m3_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m3_access" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m3_access" ]
+          },
+          {
+            "name": "Computer Area Map",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m3_access" ]
+          },
+          {
+            "name": "Mega Armor 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m3_access" ]
+          },
+          {
+            "name": "Shotgun 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m3_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m3_access" ]
+          },
+          {
+            "name": "Berserk (Lava Bridge Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m3_access, [$e3m3_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Nukage Nook)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m3_access, [$e3m3_gunaccess]" ]
+          },
+          {
+            "name": "BFG9000 (Bloody Maze)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m3_access, [$e3m3_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Bloody Maze, Lava Nook)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m3_access, [$e3m3_gunaccess]" ]
+          },
+          {
+            "name": "Invulnerability (Spicy Water Stairs)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m3_access, [$e3m3_gunaccess]" ]
+          },
+          {
+            "name": "Blue skull key (Steel Basement)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m3_access, [$e3m3_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Hellstone Overlook)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m3_access, [$e3m3_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (Temple Pillar)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m3_access, [$e3m3_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Jester Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m3_access, [$e3m3_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Jester Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m3_access, [$e3m3_gunaccess]" ]
+          },
+          {
+            "name": "Computer area map (Sit on the Throne)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m3_access, [$e3m3_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Candle Balcony)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m3_access, [$e3m3_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (Spawn Alcoves)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m3_access, [$e3m3_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Jester Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m3_access, [$e3m3_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e3m3_blueaccess", "beta_on, $e3m3_blueaccess, [$e3m3_gunaccess]" ],
+            "hosted_item": "e3m3_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 352,
+            "y": 600
+          }
+        ]
+      },
+      {
+        "name": "House of Pain (E3M4)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m4_access" ]
+          },
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m4_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m4_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m4_access" ]
+          },
+          {
+            "name": "Invulnerability",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m4_access" ]
+          },
+          {
+            "name": "Blue Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m4_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m4_access" ]
+          },
+          {
+            "name": "Armor 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m4_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m4_access" ]
+          },
+          {
+            "name": "Yellow Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m4_blueaccess" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m4_blueaccess" ]
+          },
+          {
+            "name": "BFG9000",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m4_blueaccess" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m4_blueaccess" ]
+          },
+          {
+            "name": "Invulnerability 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m4_blueaccess" ]
+          },
+          {
+            "name": "Armor 3",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m4_blueaccess" ]
+          },
+          {
+            "name": "Red Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m4_blueyellowaccess" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m4_blueredaccess" ]
+          },
+          {
+            "name": "Mega Armor 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m4_blueredaccess" ]
+          },
+          {
+            "name": "Shotgun (Flesh Creek Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m4_access, [$e3m4_gunaccess]" ]
+          },
+          {
+            "name": "Berserk (Jester Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m4_access, [$e3m4_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Jester Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m4_access, [$e3m4_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Crusher Pits, West)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m4_access, [$e3m4_gunaccess]" ]
+          },
+          {
+            "name": "Invulnerability (Crusher Pits, East)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m4_access, [$e3m4_gunaccess]" ]
+          },
+          {
+            "name": "Blue skull key (Forked Hallway)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m4_access, [$e3m4_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Forked Hallway, Left Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m4_access, [$e3m4_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m4_access, [$e3m4_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m4_access, [$e3m4_gunaccess]" ]
+          },
+          {
+            "name": "Yellow skull key (Skull Switch Chambers)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m4_blueaccess, [$e3m4_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Dull Hallway)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m4_blueaccess, [$e3m4_gunaccess]" ]
+          },
+          {
+            "name": "BFG9000 (Lava Drop Nook)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m4_blueaccess, [$e3m4_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Blood Altar)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m4_blueaccess, [$e3m4_gunaccess]" ]
+          },
+          {
+            "name": "Invulnerability (Skull Switch Chambers)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m4_blueaccess, [$e3m4_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Double Door Puzzle Secret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m4_blueaccess, [$e3m4_gunaccess]" ]
+          },
+          {
+            "name": "Red skull key (Skull Switch Chambers, Yellow Door)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m4_blueyellowaccess, [$e3m4_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Hell Windows)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m4_blueredaccess, [$e3m4_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Four Pillar Switch Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m4_blueredaccess, [$e3m4_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e3m4_blueredaccess", "beta_on, $e3m4_blueredaccess, [$e3m4_gunaccess]" ],
+            "hosted_item": "e3m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 532,
+            "y": 560
+          }
+        ]
+      },
+      {
+        "name": "Unholy Cathedral (E3M5)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "name": "Blue Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m5_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m5_access" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m5_access" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m5_access" ]
+          },
+          {
+            "name": "Yellow Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m5_access" ]
+          },
+          {
+            "name": "Invulnerability",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m5_access" ]
+          },
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m5_access" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m5_access" ]
+          },
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m5_access" ]
+          },
+          {
+            "name": "Shotgun 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m5_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m5_access" ]
+          },
+          {
+            "name": "BFG9000",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m5_blueaccess" ]
+          },
+          {
+            "name": "Chainsaw",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m5_yellowaccess" ]
+          },
+          {
+            "name": "Supercharge 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m5_yellowaccess" ]
+          },
+          {
+            "name": "Blue skull key (Cathedral, Altars)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m5_access, [$e3m5_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Cathedral, Altars)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m5_access, [$e3m5_gunaccess]" ]
+          },
+          {
+            "name": "Plasma gun (Snowflake Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m5_access, [$e3m5_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Snowflake Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m5_access, [$e3m5_gunaccess]" ]
+          },
+          {
+            "name": "Yellow skull key (Central Cross Chambers, South)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m5_access, [$e3m5_gunaccess]" ]
+          },
+          {
+            "name": "Invulnerability (Central Cross Chambers, West)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m5_access, [$e3m5_gunaccess]" ]
+          },
+          {
+            "name": "Berserk (Teleport Exit Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m5_access, [$e3m5_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Teleport Exit Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m5_access, [$e3m5_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m5_access, [$e3m5_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (Impaled Zombie)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m5_access, [$e3m5_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Cathedral, East Alcove)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m5_access, [$e3m5_gunaccess]" ]
+          },
+          {
+            "name": "BFG9000 (Teleporter Trap Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m5_blueaccess, [$e3m5_gunaccess]" ]
+          },
+          {
+            "name": "Chainsaw (Yellow Secret Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m5_yellowaccess, [$e3m5_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Yellow Secret Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m5_yellowaccess, [$e3m5_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e3m5_blueaccess", "beta_on $e3m5_blueaccess, [$e3m5_gunaccess]" ],
+            "hosted_item": "e3m5_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 265,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "name": "Mt. Erebus (E3M6)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m6_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m6_access" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m6_access" ]
+          },
+          {
+            "name": "Invulnerability",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m6_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m6_access" ]
+          },
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m6_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m6_access" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m6_access" ]
+          },
+          {
+            "name": "Armor 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m6_access" ]
+          },
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m6_access" ]
+          },
+          {
+            "name": "Invulnerability 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m6_access" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m6_access" ]
+          },
+          {
+            "name": "Blue Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m6_access" ]
+          },
+          {
+            "name": "Blue Skull Key 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m6_access" ]
+          },
+          {
+            "name": "Computer Area Map",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m6_access" ]
+          },
+          {
+            "name": "Chainsaw",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m6_access" ]
+          },
+          {
+            "name": "Supercharge 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m6_access" ]
+          },
+          {
+            "name": "Mega Armor (Outer Lava Structures, South)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m6_access, [$e3m6_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Central Skull Pile)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m6_access, [$e3m6_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Outer Lava Structures, East Building)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m6_access, [$e3m6_gunaccess]" ]
+          },
+          {
+            "name": "Invulnerability (Central Red Stone Nook)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m6_access, [$e3m6_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Outdoor Altar)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m6_access, [$e3m6_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (Outdoor Altar)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m6_access, [$e3m6_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Outdoor Altar)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m6_access, [$e3m6_gunaccess]" ]
+          },
+          {
+            "name": "Plasma gun (Vine Building)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m6_access, [$e3m6_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Vine Building)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m6_access, [$e3m6_gunaccess]" ]
+          },
+          {
+            "name": "Berserk (Lyceum)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m6_access, [$e3m6_gunaccess]" ]
+          },
+          {
+            "name": "Invulnerability (Outdoor Altar, Behind Stairs)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m6_access, [$e3m6_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Outer Lava Structures, West)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m6_access, [$e3m6_gunaccess]" ]
+          },
+          {
+            "name": "Blue skull key (Tri-Directional Breezeway)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m6_access, [$e3m6_gunaccess]" ]
+          },
+          {
+            "name": "Blue skull key (Lyceum)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m6_access, [$e3m6_gunaccess]" ]
+          },
+          {
+            "name": "Computer area map (Outer Lava Structures, Northwest)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m6_access, [$e3m6_gunaccess]" ]
+          },
+          {
+            "name": "Chainsaw (Red Pillar Dias)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m6_access, [$e3m6_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Outer Lava Structures, North-northwest)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m6_access, [$e3m6_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e3m6_blueaccess", "beta_on, $e3m6_blueaccess, [$e3m6_gunaccess" ],
+            "hosted_item": "e3m6_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 558,
+            "y": 443
+          }
+        ]
+      },
+      {
+        "name": "Limbo (E3M7)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "name": "Blue Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m7_access" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m7_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m7_access" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m7_access" ]
+          },
+          {
+            "name": "Armor 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m7_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m7_access" ]
+          },
+          {
+            "name": "BFG9000",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m7_blueaccess" ]
+          },
+          {
+            "name": "Red Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m7_blueaccess" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m7_redaccess" ]
+          },
+          {
+            "name": "Yellow Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m7_redaccess" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m7_redaccess" ]
+          },
+          {
+            "name": "Blue skull key (Blood Bridge Corner)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m7_access, [$e3m7_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Pentagram)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m7_access, [$e3m7_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Pentagram)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m7_access, [$e3m7_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Behind Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m7_access, [$e3m7_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Supply Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m7_access, [$e3m7_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Monster Cage)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m7_access, [$e3m7_gunaccess]" ]
+          },
+          {
+            "name": "BFG9000 (Bloody Maze, East Exit)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m7_blueaccess, [$e3m7_gunaccess]" ]
+          },
+          {
+            "name": "Red skull key (Bloody Maze, West Exit)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m7_blueaccess, [$e3m7_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Blood Sauna, North Platform)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m7_redaccess, [$e3m7_gunaccess]" ]
+          },
+          {
+            "name": "Yellow skull key (Blood Sauna, East Platform)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m7_redaccess, [$e3m7_gunaccess]" ]
+          },
+          {
+            "name": "Plasma gun (Blood Sauna, North Platform)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m7_redaccess, [$e3m7_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e3m7_yellowredaccess", "beta_on, $e3m7_yellowredaccess, [$e3m7_gunaccess]" ],
+            "hosted_item": "e3m7_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 400,
+            "y": 505
+          }
+        ]
+      },
+      {
+        "name": "Dis (E3M8)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m8_access" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m8_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m8_access" ]
+          },
+          {
+            "name": "Rocket launcher (Spawn Corridor)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m8_access, [$e3m8_gunaccess]" ]
+          },
+          {
+            "name": "Plasma gun (Center Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m8_access, [$e3m8_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Center Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m8_access, [$e3m8_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, e3m8_access", "beta_on, e3m8_access, [$e3m8_gunaccess]" ],
+            "hosted_item": "e3m8_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 280,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Warrens (E3M9)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e3m9_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m9_blueaccess" ]
+          },
+          {
+            "name": "Rocket Launcher 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m9_blueaccess" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m9_blueaccess" ]
+          },
+          {
+            "name": "Blue Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m9_blueaccess" ]
+          },
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m9_blueaccess" ]
+          },
+          {
+            "name": "Invulnerability",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m9_blueaccess" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m9_blueaccess" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m9_blueaccess" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m9_blueaccess" ]
+          },
+          {
+            "name": "Invulnerability 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m9_blueaccess" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m9_blueaccess" ]
+          },
+          {
+            "name": "Chainsaw",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m9_blueaccess" ]
+          },
+          {
+            "name": "BFG9000",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m9_blueaccess" ]
+          },
+          {
+            "name": "Red Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m9_blueaccess" ]
+          },
+          {
+            "name": "Supercharge 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e3m9_blueaccess" ]
+          },
+          {
+            "name": "Shotgun (Blood Bridge)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e3m9_access, [$e3m9_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Exit Secret...?)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m9_blueaccess, [$e3m9_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Cyberdemon's Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m9_blueaccess, [$e3m9_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Cyberdemon's Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m9_blueaccess, [$e3m9_gunaccess]" ]
+          },
+          {
+            "name": "Blue skull key (Cyberdemon's Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m9_blueaccess, [$e3m9_gunaccess]" ]
+          },
+          {
+            "name": "Berserk (Blood Cobblestone Nook)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m9_blueaccess, [$e3m9_gunaccess]" ]
+          },
+          {
+            "name": "Invulnerability (Cyberdemon's Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m9_blueaccess, [$e3m9_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Cyberdemon's Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m9_blueaccess, [$e3m9_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Blood Cobblestone Nook)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m9_blueaccess, [$e3m9_gunaccess]" ]
+          },
+          {
+            "name": "Plasma gun (Tree Courtyard, Secret Corner)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m9_blueaccess, [$e3m9_gunaccess]" ]
+          },
+          {
+            "name": "Invulnerability (Outdoor Runway)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m9_blueaccess, [$e3m9_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Outdoor Runway)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m9_blueaccess, [$e3m9_gunaccess]" ]
+          },
+          {
+            "name": "Chainsaw (Outdoor Runway)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m9_blueaccess, [$e3m9_gunaccess]" ]
+          },
+          {
+            "name": "BFG9000 (Blood Bridge, Secret Corner)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m9_blueaccess, [$e3m9_gunaccess]" ]
+          },
+          {
+            "name": "Red skull key (Zipper Hallway)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m9_blueaccess, [$e3m9_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Zipper Hallway)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e3m9_blueaccess, [$e3m9_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e3m9_blueredaccess", "beta_on, $e3m9_blueredaccess, [$e3m9_gunaccess]" ],
+            "hosted_item": "e3m9_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 565,
+            "y": 680
+          }
+        ]
+      },
+      {
+        "name": "Hell Beneath (E4M1)",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "name": "Red Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Blue Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m1_red" ]
+          },
+          {
+            "name": "Red skull key (Prison)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Rocket launcher (Hidden Nukage Nook)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Shotgun (Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Armor (Central Corridor)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Chaingun (Prison)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "" ]
+          },
+          {
+            "name": "Blue skull key (Nine Inch Nails)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m1_red, [$e4m1_redgunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, e4m1_blue", "beta_on, e4m1_blue, [$e4m1_bluegunaccess]" ],
+            "hosted_item": "e4m1_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 840,
+            "y": 755
+          }
+        ]
+      },
+      {
+        "name": "Perfect Hatred (E4M2)",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m2_access" ]
+          },
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m2_access" ]
+          },
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m2_access" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m2_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m2_access" ]
+          },
+          {
+            "name": "Yellow Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m2_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m2_access" ]
+          },
+          {
+            "name": "BFG9000",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m2_blueaccess" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m2_yellowaccess" ]
+          },
+          {
+            "name": "Chainsaw",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m2_blueyellowaccess" ]
+          },
+          {
+            "name": "Armor 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m2_blueyellowaccess" ]
+          },
+          {
+            "name": "Blue Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m2_blueyellowaccess" ]
+          },
+          {
+            "name": "Plasma gun (Balcony Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m2_access, [$e4m2_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m2_access, [$e4m2_gunaccess]" ]
+          },
+          {
+            "name": "Berserk (Path to Northwest Perch)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m2_access, [$e4m2_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Central Lava Pool)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m2_access, [$e4m2_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Northwest Perch)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m2_access, [$e4m2_gunaccess]" ]
+          },
+          {
+            "name": "Yellow skull key (Balcony Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m2_access, [$e4m2_gunaccess]" ]
+          },
+          {
+            "name": "Armor (East Platforms)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m2_access, [$e4m2_gunaccess]" ]
+          },
+          {
+            "name": "BFG9000 (Cyberdemon Enclosure)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m2_blueaccess, [$e4m2_gunaccess]", "e4m2_access, [tricks_pro], [$e4m2_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (East Platforms, Yellow Key Locked)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m2_yellowaccess, [$e4m2_gunaccess]" ]
+          },
+          {
+            "name": "Chainsaw (Cave)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m2_blueyellowaccess, [$e4m2_gunaccess]", "e4m2_access, [tricks_pro], [$e4m2_gunaccess]", "e4m2_access, $e4m2_blueaccess, [tricks_basic], [$e4m2_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Cave)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m2_blueyellowaccess, [$e4m2_gunaccess]", "e4m2_access, [tricks_pro], [$e4m2_gunaccess]", "e4m2_access, $e4m2_blueaccess, [tricks_basic], [$e4m2_gunaccess]" ]
+          },
+          {
+            "name": "Blue skull key (Cave, Near Exit Teleporter)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m2_blueyellowaccess, [$e4m2_gunaccess]", "e4m2_access, [tricks_pro], [$e4m2_gunaccess]", "e4m2_access, $e4m2_blueaccess, [tricks_basic], [$e4m2_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e4m2_blueaccess", "beta_on, $e4m2_blueaccess, [$e4m2_gunaccess]", "beta_on, e4m2_access, [tricks_pro], [$e4m2_gunaccess]" ],
+            "hosted_item": "e4m2_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1010,
+            "y": 705
+          }
+        ]
+      },
+      {
+        "name": "Sever the Wicked (E4M3)",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "name": "Invulnerability",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m3_access" ]
+          },
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m3_access" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m3_access" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m3_access" ]
+          },
+          {
+            "name": "Red Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m3_access" ]
+          },
+          {
+            "name": "Blue Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m3_access" ]
+          },
+          {
+            "name": "Backpack 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m3_access" ]
+          },
+          {
+            "name": "Chainsaw",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m3_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m3_access" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m3_access" ]
+          },
+          {
+            "name": "Plasma Gun 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m3_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m3_access" ]
+          },
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m3_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m3_access" ]
+          },
+          {
+            "name": "Partial Invisibility 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m3_access" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m3_blueredaccess" ]
+          },
+          {
+            "name": "Invulnerability (Spawn Platform, Corner)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m3_access, [$e4m3_gunaccess]" ]
+          },
+          {
+            "name": "Berserk (Spawn Platform Dive)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m3_access, [$e4m3_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Spawn Platform Dive)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m3_access, [$e4m3_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Spawn Platform Dive)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m3_access, [$e4m3_gunaccess]" ]
+          },
+          {
+            "name": "Red skull key (Lava Room Platform)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m3_access, [$e4m3_gunaccess]" ]
+          },
+          {
+            "name": "Blue skull key (Across the Bridge)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m3_access, [$e4m3_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Upstairs Secret Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m3_access, [$e4m3_gunaccess]" ]
+          },
+          {
+            "name": "Chainsaw (Upstairs Secret Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m3_access, [$e4m3_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Upstairs Secret Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m3_access, [$e4m3_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Secret Stairway Supply)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m3_access, [$e4m3_gunaccess]" ]
+          },
+          {
+            "name": "Plasma gun (Hidden Window)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m3_access, [$e4m3_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Main Outdoor Deadend)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m3_access, [$e4m3_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (Spawn Platform)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m3_access, [$e4m3_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Double Secret Hub)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m3_access, [$e4m3_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Ledge Crawl)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m3_access, [$e4m3_gunaccess]" ]
+          },
+          {
+            "name": "Plasma gun (Exit)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m3_blueredaccess, [$e4m3_gunaccess]", "e4m3_access, [tricks_pro], [$e4m3_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e4m3_blueredaccess", "beta_on, $e4m3_blueredaccess, [$e4m3_gunaccess]", "beta_on, e4m3_access, [tricks_pro], [$e4m3_gunaccess]" ],
+            "hosted_item": "e4m3_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 995,
+            "y": 590
+          }
+        ]
+      },
+      {
+        "name": "Unruly Evil (E4M4)",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m4_access" ]
+          },
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m4_access" ]
+          },
+          {
+            "name": "Red Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m4_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m4_access" ]
+          },
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m4_access" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m4_access" ]
+          },
+          {
+            "name": "Invulnerability",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m4_access" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m4_access" ]
+          },
+          {
+            "name": "Rocket launcher (Torch Chambers, East)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m4_access, [$e4m4_gunaccess]" ]
+          },
+          {
+            "name": "Berserk (Torch Chambers, West)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m4_access, [$e4m4_gunaccess]" ]
+          },
+          {
+            "name": "Red skull key (Flesh Altar)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m4_access, [$e4m4_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Lower Hall)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m4_access, [$e4m4_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (Spawn Foyer)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m4_access, [$e4m4_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Lava Teleporter Alcove)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m4_access, [$e4m4_gunaccess]" ]
+          },
+          {
+            "name": "Invulnerability (Lava Islands Harbor)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m4_access, [$e4m4_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Lava Islands Harbor)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m4_access, [$e4m4_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e4m4_redaccess", "beta_on, $e4m4_redaccess, [$e4m4_gunaccess]" ],
+            "hosted_item": "e4m4_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 800,
+            "y": 580
+          }
+        ]
+      },
+      {
+        "name": "They Will Repent (E4M5)",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "name": "Red Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m5_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m5_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m5_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m5_access" ]
+          },
+          {
+            "name": "Yellow Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m5_redaccess" ]
+          },
+          {
+            "name": "Blue Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m5_redaccess" ]
+          },
+          {
+            "name": "BFG9000",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m5_redaccess" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m5_redaccess" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m5_redaccess" ]
+          },
+          {
+            "name": "Invulnerability",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m5_redaccess" ]
+          },
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m5_redaccess" ]
+          },
+          {
+            "name": "Red skull key (Blood River Corner)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m5_access, [$e4m5_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Upper Concourse)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m5_access, [$e4m5_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Teleporter Balcony)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m5_access, [$e4m5_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Teleporter Balcony)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m5_access, [$e4m5_gunaccess]" ]
+          },
+          {
+            "name": "Yellow skull key (Exit Room, Balance Test)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m5_blueredaccess, [$e4m5_gunaccess]", "$e4m5_redaccess, [tricks_basic], [$e4m5_gunaccess]" ]
+          },
+          {
+            "name": "Blue skull key (Sanguineduct Lift)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m5_redaccess, [$e4m5_gunaccess]" ]
+          },
+          {
+            "name": "BFG9000 (Exit Room, Acrobatics Test)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m5_blueredaccess, [$e4m5_gunaccess]", "$e4m5_redaccess, [tricks_basic], [$e4m5_gunaccess]" ]
+          },
+          {
+            "name": "Plasma gun (Blood Reservoir Lookout)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m5_redaccess, [$e4m5_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Bloodfalls)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m5_blueredaccess, [$e4m5_gunaccess]", "$e4m5_redaccess, [tricks_basic], [$e4m5_gunaccess]" ]
+          },
+          {
+            "name": "Invulnerability (Exit Room, Corner)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m5_blueredaccess, [$e4m5_gunaccess]", "$e4m5_redaccess, [tricks_basic], [$e4m5_gunaccess]" ]
+          },
+          {
+            "name": "Berserk (Blood Canal Alcove)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m5_blueredaccess, [$e4m5_gunaccess]", "$e4m5_redaccess, [tricks_basic], [$e4m5_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e4m5_redaccess", "beta_on, $e4m5_blueredaccess, e4m5_yellow, [$e4m5_gunaccess]", "beta_on, $e4m5_redaccess, [tricks_basic], [$e4m5_gunaccess]" ],
+            "hosted_item": "e4m5_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1140,
+            "y": 570
+          }
+        ]
+      },
+      {
+        "name": "Against Thee Wickedly (E4M6)",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m6_access" ]
+          },
+          {
+            "name": "Blue Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m6_access" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m6_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m6_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m6_access" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m6_access" ]
+          },
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m6_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m6_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m6_access" ]
+          },
+          {
+            "name": "Yellow Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m6_blueaccess" ]
+          },
+          {
+            "name": "Red Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "[e4m6_yellow], e4m6_blue, e4m6_red, e4m6_access", "e4m6_yellow, e4m6_blue, e4m6_access" ]
+          },
+          {
+            "name": "Invulnerability 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "[e4m6_yellow], e4m6_blue, e4m6_red, e4m6_access", "e4m6_yellow, e4m6_blue, e4m6_access" ]
+          },
+          {
+            "name": "Invulnerability",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "[$e4m6_bluered], e4m6_access" ]
+          },
+          {
+            "name": "BFG9000",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m6_blueredaccess" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "[$e4m6_bluered], e4m6_access" ]
+          },
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m6_blueredaccess" ]
+          },
+          {
+            "name": "Plasma gun (Secret Cliff Stairs)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m6_access, [$e4m6_gunaccess]" ]
+          },
+          {
+            "name": "Blue skull key (Turret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m6_access, [$e4m6_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Cliff Perch)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m6_access, [$e4m6_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (North Pinnacle, Switch)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m6_access, [$e4m6_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (West Teleport Landing)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m6_access, [$e4m6_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (South Moat Secret Chamber)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m6_access, [$e4m6_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m6_access, [$e4m6_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Western Dive)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m6_access, [$e4m6_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Secret Cliff Stairs)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m6_access, [$e4m6_gunaccess]" ]
+          },
+          {
+            "name": "Yellow skull key (North Pinnacle)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m6_blueaccess, [$e4m6_gunaccess]" ]
+          },
+          {
+            "name": "Red skull key (Arcade)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m6_bluered, e4m6_yellow, e4m6_access, [$e4m6_gunaccess]", "$e4m6_bluered, [tricks_pro], e4m6_access, [$e4m6_gunaccess]" ]
+          },
+          {
+            "name": "Invulnerability (Cyberdemon's Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m6_bluered, e4m6_yellow, e4m6_access, [$e4m6_gunaccess]", "$e4m6_bluered, [tricks_pro], e4m6_access, [$e4m6_gunaccess]" ]
+          },
+          {
+            "name": "Invulnerability (Red Pillars)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m6_bluered, e4m6_access, [$e4m6_gunaccess]", "[tricks_pro], [deathlogic_on], e4m6_access, [$e4m6_gunaccess]" ]
+          },
+          {
+            "name": "BFG9000 (Arcade Balcony)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m6_blueredaccess, [$e4m6_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Red Pillars)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m6_bluered, e4m6_access, [$e4m6_gunaccess]", "[tricks_pro], [deathlogic_on], e4m6_access, [$e4m6_gunaccess]" ]
+          },
+          {
+            "name": "Berserk (Arcade Balcony)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m6_blueredaccess, [$e4m6_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, [e4m6_yellow], e4m6_blue, e4m6_red, e4m6_access", "beta_off, e4m6_yellow, e4m6_blue, e4m6_access", "beta_on, $e4m6_bluered, e4m6_yellow, e4m6_access, [$e4m6_gunaccess]", "beta_on, $e4m6_bluered, [tricks_pro], e4m6_access, [$e4m6_gunaccess]" ],
+            "hosted_item": "e4m6_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 705,
+            "y": 440
+          }
+        ]
+      },
+      {
+        "name": "And Hell Followed (E4M7)",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Blue Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Computer Area Map",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Red Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Chainsaw",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m7_access" ]
+          },
+          {
+            "name": "Yellow Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m7_blueaccess" ]
+          },
+          {
+            "name": "BFG9000",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m7_yellowaccess" ]
+          },
+          {
+            "name": "Mega Armor 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m7_yellowaccess" ]
+          },
+          {
+            "name": "Invulnerability",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m7_yellowaccess" ]
+          },
+          {
+            "name": "Invulnerability 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m7_yellowaccess" ]
+          },
+          {
+            "name": "Supercharge 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m7_yellowaccess" ]
+          },
+          {
+            "name": "Rocket Launcher 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m7_yellowaccess" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m7_redaccess" ]
+          },
+          {
+            "name": "Rocket Launcher 3",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m7_redaccess" ]
+          },
+          {
+            "name": "Shotgun (Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m7_access, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Narthex)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m7_access, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Blood Crosswalk)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m7_access, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Window Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m7_access, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Dark Room, Showcase)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m7_access, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Blue skull key (Dark Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m7_access, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Chapel)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m7_access, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Window Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m7_access, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Armor (Blood Crosswalk)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m7_access, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Computer area map (Demon Hall)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m7_access, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Berserk (Narthex)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m7_access, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Red skull key (Chapel)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m7_access, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Chainsaw (Gallery)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m7_access, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Yellow skull key (Showroom)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m7_blueaccess, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "BFG9000 (Cyberdemon Summoning Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m7_yellowaccess, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Cyberdemon Summoning Escape Chamber)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m7_yellowaccess, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Invulnerability (Cyberdemon Summoning Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m7_yellowaccess, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Invulnerability (Cyberdemon Summoning Room, Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m7_yellowaccess, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Cyberdemon Summoning Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m7_yellowaccess, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Cyberdemon Summoning Room)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m7_yellowaccess, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Plasma gun (Exit Courtyard Turrets, East)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m7_redaccess, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Exit Courtyard Turrets, West)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m7_redaccess, [$e4m7_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e4m7_redaccess", "beta_on, $e4m7_redaccess, [$e4m7_gunaccess]" ],
+            "hosted_item": "e4m7_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1160,
+            "y": 495
+          }
+        ]
+      },
+      {
+        "name": "Unto the Cruel (E4M8)",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Supercharge",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Mega Armor 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Yellow Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Red Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Supercharge 3",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Partial Invisibility",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Plasma Gun 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m8_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m8_yellowredaccess" ]
+          },
+          {
+            "name": "Supercharge 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m8_yellowredaccess" ]
+          },
+          {
+            "name": "BFG9000",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m8_yellowredaccess" ]
+          },
+          {
+            "name": "Rocket Launcher 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m8_yellowredaccess" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m8_yellowredaccess" ]
+          },
+          {
+            "name": "Shotgun (Spawn)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m8_access, [$e4m8_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Secondary Chambers)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m8_access, [$e4m8_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Dual Key Room, North Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m8_access, [$e4m8_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Left Tower, Showcase)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m8_access, [$e4m8_gunaccess]" ]
+          },
+          {
+            "name": "Yellow skull key (Secondary Chambers, Showcase)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m8_access, [$e4m8_gunaccess]" ]
+          },
+          {
+            "name": "Berserk (Waterfall Pillars)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m8_access, [$e4m8_gunaccess]" ]
+          },
+          {
+            "name": "Red skull key (Dual Key Room, North Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m8_access, [$e4m8_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (Spawn Secret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m8_access, [$e4m8_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Waterfall Pillars)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m8_access, [$e4m8_gunaccess]" ]
+          },
+          {
+            "name": "Partial invisibility (Secret Balcony from Chambers)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m8_access, [$e4m8_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Waterfall Pillars)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m8_access, [$e4m8_gunaccess]" ]
+          },
+          {
+            "name": "Plasma gun (Left Tower, Base)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m8_access, [$e4m8_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Spiderdemon's Lair, Pillars)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m8_yellowredaccess, [$e4m8_gunaccess]" ]
+          },
+          {
+            "name": "Supercharge (Spiderdemon's Lair, Pillars)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m8_yellowredaccess, [$e4m8_gunaccess]" ]
+          },
+          {
+            "name": "BFG9000 (Spiderdemon's Lair, Secret Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m8_yellowredaccess, [$e4m8_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Spiderdemon's Lair, Perch)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m8_yellowredaccess, [$e4m8_gunaccess]" ]
+          },
+          {
+            "name": "Plasma gun (Spiderdemon's Lair, Perch)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m8_yellowredaccess, [$e4m8_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e4m8_yellowredaccess", "beta_on, $e4m8_yellowredaccess, [$e4m8_gunaccess]" ],
+            "hosted_item": "e4m8_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 1020,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Fear (E4M9)",
+        "visibility_rules": [ "ep4_on" ],
+        "sections": [
+          {
+            "name": "Yellow Skull Key",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m9_access" ]
+          },
+          {
+            "name": "Shotgun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m9_access" ]
+          },
+          {
+            "name": "Mega Armor",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m9_access" ]
+          },
+          {
+            "name": "Rocket Launcher",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m9_access" ]
+          },
+          {
+            "name": "Rocket Launcher 2",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m9_access" ]
+          },
+          {
+            "name": "Plasma Gun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m9_access" ]
+          },
+          {
+            "name": "Chaingun",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m9_access" ]
+          },
+          {
+            "name": "Berserk",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "e4m9_access" ]
+          },
+          {
+            "name": "Backpack",
+            "visibility_rules": [ "beta_off" ],
+            "access_rules": [ "$e4m9_yellowaccess" ]
+          },
+          {
+            "name": "Yellow skull key (Balance Test, East)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m9_access, [$e4m9_gunaccess]" ]
+          },
+          {
+            "name": "Shotgun (Goop Pile)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m9_access, [$e4m9_gunaccess]" ]
+          },
+          {
+            "name": "Mega Armor (Box Jump)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m9_access, [$e4m9_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Diaphragm)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m9_access, [$e4m9_gunaccess]" ]
+          },
+          {
+            "name": "Rocket launcher (Bronchial)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m9_access, [$e4m9_gunaccess]" ]
+          },
+          {
+            "name": "Plasma gun (Balance Test, West)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m9_access, [$e4m9_gunaccess]" ]
+          },
+          {
+            "name": "Chaingun (North Teleporter Stairs)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m9_access, [$e4m9_gunaccess]" ]
+          },
+          {
+            "name": "Berserk (Southern Secret Closet)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "e4m9_access, [$e4m9_gunaccess]" ]
+          },
+          {
+            "name": "Backpack (Exit Secret)",
+            "visibility_rules": [ "beta_on" ],
+            "access_rules": [ "$e4m9_yellowaccess, [$e4m9_gunaccess]" ]
+          },
+          {
+            "name": "Exit",
+            "access_rules": [ "beta_off, $e4m9_yellowaccess", "beta_on, $e4m9_yellowaccess, [$e4m9_gunaccess]" ],
+            "hosted_item": "e4m9_complete"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "overworld",
+            "x": 820,
+            "y": 510
+          }
+        ]
+      }
+    ]
+  }
+]

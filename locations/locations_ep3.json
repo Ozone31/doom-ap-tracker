@@ -1,0 +1,3754 @@
+[
+  {
+    "name": "E3M1",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Hell Keep (E3M1)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m1",
+            "x": 115,
+            "y": 390
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Hell Keep (E3M1)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m1",
+            "x": 52,
+            "y": 95
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Blood Bridge)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Hell Keep (E3M1)/Shotgun (Blood Bridge)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m1",
+            "x": 115,
+            "y": 390
+          }
+        ]
+      },
+      {
+        "name": "Rocket launcher (Exit Secret)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Hell Keep (E3M1)/Rocket launcher (Exit Secret)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m1",
+            "x": 52,
+            "y": 95
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Hell Keep (E3M1)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m1",
+            "x": 77,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E3M2",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Chaingun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 433,
+            "y": 256
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Berserk",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 263,
+            "y": 582
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Mega Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 215,
+            "y": 486
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 330,
+            "y": 632
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 280,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Plasma Gun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 218,
+            "y": 388
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Computer Area Map",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 27,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Blue Skull Key",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 27,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Supercharge",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 224,
+            "y": 78
+          }
+        ]
+      },
+      {
+        "name": "Chaingun (Thumb)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Chaingun (Thumb)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 433,
+            "y": 256
+          }
+        ]
+      },
+      {
+        "name": "Berserk (Palm Nooks)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Berserk (Palm Nooks)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 263,
+            "y": 582
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor (Palm Nooks)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Mega Armor (Palm Nooks)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 215,
+            "y": 486
+          }
+        ]
+      },
+      {
+        "name": "Armor (Wrist)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Armor (Wrist)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 330,
+            "y": 632
+          }
+        ]
+      },
+      {
+        "name": "Rocket launcher (Palm Nooks)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Rocket launcher (Palm Nooks)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 280,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Plasma gun (Palm Nooks, Arrow Secret)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Plasma gun (Palm Nooks, Arrow Secret)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 218,
+            "y": 388
+          }
+        ]
+      },
+      {
+        "name": "Computer area map (Pinky)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Computer area map (Pinky)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 27,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Blue skull key (Pinky)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Blue skull key (Pinky)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 27,
+            "y": 300
+          }
+        ]
+      },
+      {
+        "name": "Supercharge (Middle Finger)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Supercharge (Middle Finger)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 224,
+            "y": 78
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Slough of Despair (E3M2)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m2",
+            "x": 108,
+            "y": 162
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E3M3",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Berserk",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Berserk",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 812,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Chaingun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 552,
+            "y": 335
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/BFG9000",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 378,
+            "y": 398
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Supercharge",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 318,
+            "y": 308
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Invulnerability",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 206,
+            "y": 390
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Blue Skull Key",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 420,
+            "y": 645
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Mega Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 447,
+            "y": 522
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 346,
+            "y": 522
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 705,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Backpack",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 705,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Computer Area Map",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 355,
+            "y": 212
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor 2",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Mega Armor 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 270,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 2",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Shotgun 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 362,
+            "y": 765
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 734,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Berserk (Lava Bridge Room)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Berserk (Lava Bridge Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 812,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Chaingun (Nukage Nook)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Chaingun (Nukage Nook)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 552,
+            "y": 335
+          }
+        ]
+      },
+      {
+        "name": "BFG9000 (Bloody Maze)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/BFG9000 (Bloody Maze)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 378,
+            "y": 398
+          }
+        ]
+      },
+      {
+        "name": "Supercharge (Bloody Maze, Lava Nook)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Supercharge (Bloody Maze, Lava Nook)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 318,
+            "y": 308
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability (Spicy Water Stairs)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Invulnerability (Spicy Water Stairs)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 206,
+            "y": 390
+          }
+        ]
+      },
+      {
+        "name": "Blue skull key (Steel Basement)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Blue skull key (Steel Basement)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 420,
+            "y": 645
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor (Hellstone Overlook)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Mega Armor (Hellstone Overlook)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 447,
+            "y": 522
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Temple Pillar)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Shotgun (Temple Pillar)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 346,
+            "y": 522
+          }
+        ]
+      },
+      {
+        "name": "Armor (Jester Room)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Armor (Jester Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 705,
+            "y": 110
+          }
+        ]
+      },
+      {
+        "name": "Backpack (Jester Room)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Backpack (Jester Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 705,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Computer area map (Sit on the Throne)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Computer area map (Sit on the Throne)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 355,
+            "y": 212
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor (Candle Balcony)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Mega Armor (Candle Balcony)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 270,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Spawn Alcoves)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Shotgun (Spawn Alcoves)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 362,
+            "y": 765
+          }
+        ]
+      },
+      {
+        "name": "Rocket launcher (Jester Room)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Rocket launcher (Jester Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 734,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Pandemonium (E3M3)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m3",
+            "x": 525,
+            "y": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E3M4",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 368,
+            "y": 205
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Berserk",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 615,
+            "y": 165
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Mega Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 600,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Chaingun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 402,
+            "y": 308
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Invulnerability",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 461,
+            "y": 347
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Blue Skull Key",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 471,
+            "y": 738
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 500,
+            "y": 570
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Armor 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 422,
+            "y": 57
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 417,
+            "y": 42
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull Key",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Yellow Skull Key",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 612,
+            "y": 263
+          }
+        ]
+      },
+      {
+        "name": "Partial Invisibility",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Partial Invisibility",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 549,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/BFG9000",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 408,
+            "y": 405
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Supercharge",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 309,
+            "y": 468
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability 2",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Invulnerability 2",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 600,
+            "y": 293
+          }
+        ]
+      },
+      {
+        "name": "Armor 3",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Armor 3",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 635,
+            "y": 570
+          }
+        ]
+      },
+      {
+        "name": "Red Skull Key",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Red Skull Key",
+            "name": "Requires Blue & Yellow Skull Keys"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 732,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Backpack",
+            "name": "Requires Blue & Red Skull Keys"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 820,
+            "y": 235
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor 2",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Mega Armor 2",
+            "name": "Requires Blue & Red Skull Keys"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 742,
+            "y": 226
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Flesh Creek Closet)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Shotgun (Flesh Creek Closet)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 368,
+            "y": 205
+          }
+        ]
+      },
+      {
+        "name": "Berserk (Jester Room)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Berserk (Jester Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 615,
+            "y": 165
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor (Jester Room)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Mega Armor (Jester Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 600,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Chaingun (Crusher Pits, West)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Chaingun (Crusher Pits, West)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 402,
+            "y": 308
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability (Crusher Pits, East)Invulnerability",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Invulnerability (Crusher Pits, East)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 461,
+            "y": 347
+          }
+        ]
+      },
+      {
+        "name": "Blue skull key (Forked Hallway)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Blue skull key (Forked Hallway)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 471,
+            "y": 738
+          }
+        ]
+      },
+      {
+        "name": "Armor (Forked Hallway, Left Closet",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Armor (Forked Hallway, Left Closet",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 500,
+            "y": 570
+          }
+        ]
+      },
+      {
+        "name": "Armor (Spawn)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Armor (Spawn)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 422,
+            "y": 57
+          }
+        ]
+      },
+      {
+        "name": "Rocket launcher (Spawn)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Rocket launcher (Spawn)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 417,
+            "y": 42
+          }
+        ]
+      },
+      {
+        "name": "Yellow skull key (Skull Switch Chambers)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Yellow skull key (Skull Switch Chambers)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 612,
+            "y": 263
+          }
+        ]
+      },
+      {
+        "name": "Partial invisibility (Dull Hallway)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Partial invisibility (Dull Hallway)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 549,
+            "y": 490
+          }
+        ]
+      },
+      {
+        "name": "BFG9000 (Lava Drop Nook)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/BFG9000 (Lava Drop Nook)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 408,
+            "y": 405
+          }
+        ]
+      },
+      {
+        "name": "Supercharge (Blood Altar)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Supercharge (Blood Altar)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 309,
+            "y": 468
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability (Skull Switch Chambers)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Invulnerability (Skull Switch Chambers)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 600,
+            "y": 293
+          }
+        ]
+      },
+      {
+        "name": "Armor (Double Door Puzzle Secret)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Armor (Double Door Puzzle Secret)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 635,
+            "y": 570
+          }
+        ]
+      },
+      {
+        "name": "Red skull key (Skull Switch Chambers, Yellow Door)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Red skull key (Skull Switch Chambers, Yellow Door)",
+            "name": "Requires Blue & Yellow Skull Keys"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 732,
+            "y": 248
+          }
+        ]
+      },
+      {
+        "name": "Backpack (Hell Windows)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Backpack (Hell Windows)",
+            "name": "Requires Blue & Red Skull Keys"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 820,
+            "y": 235
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor (Four Pillar Switch Closet)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Mega Armor (Four Pillar Switch Closet)",
+            "name": "Requires Blue & Red Skull Keys"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 742,
+            "y": 226
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/House of Pain (E3M4)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m4",
+            "x": 835,
+            "y": 60
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E3M5",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Blue Skull Key",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Blue Skull Key",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 350,
+            "y": 18
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Chaingun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 478,
+            "y": 18
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Plasma Gun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 26,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Supercharge",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 26,
+            "y": 365
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull Key",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Yellow Skull Key",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 415,
+            "y": 492
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Invulnerability",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 345,
+            "y": 403
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Berserk",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 535,
+            "y": 257
+          }
+        ]
+      },
+      {
+        "name": "Partial Invisibility",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Partial Invisibility",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 555,
+            "y": 240
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 415,
+            "y": 715
+          }
+        ]
+      },
+      {
+        "name": "Shotgun 2",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Shotgun 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 560,
+            "y": 405
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 532,
+            "y": 83
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/BFG9000",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 793,
+            "y": 332
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Chainsaw",
+            "name": "Requires Yellow Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 577,
+            "y": 444
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Supercharge 2",
+            "name": "Requires Yellow Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 582,
+            "y": 428
+          }
+        ]
+      },
+      {
+        "name": "Blue skull key (Cathedral, Altars)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Blue skull key (Cathedral, Altars)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 350,
+            "y": 18
+          }
+        ]
+      },
+      {
+        "name": "Chaingun (Cathedral, Altars)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Chaingun (Cathedral, Altars)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 478,
+            "y": 18
+          }
+        ]
+      },
+      {
+        "name": "Plasma gun (Snowflake Room)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Plasma gun (Snowflake Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 26,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Supercharge (Snowflake Room)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Supercharge (Snowflake Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 26,
+            "y": 365
+          }
+        ]
+      },
+      {
+        "name": "Yellow skull key (Central Cross Chambers, South)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Yellow skull key (Central Cross Chambers, South)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 415,
+            "y": 492
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability (Central Cross Chambers, West)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Invulnerability (Central Cross Chambers, West)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 345,
+            "y": 403
+          }
+        ]
+      },
+      {
+        "name": "Berserk (Teleport Exit Room)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Berserk (Teleport Exit Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 535,
+            "y": 257
+          }
+        ]
+      },
+      {
+        "name": "Partial invisibility (Teleport Exit Room)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Partial invisibility (Teleport Exit Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 555,
+            "y": 240
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Spawn)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Shotgun (Spawn)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 415,
+            "y": 715
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Impaled Zombie)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Shotgun (Impaled Zombie)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 560,
+            "y": 405
+          }
+        ]
+      },
+      {
+        "name": "Rocket launcher (Cathedral, East Alcove)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Rocket launcher (Cathedral, East Alcove)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 532,
+            "y": 83
+          }
+        ]
+      },
+      {
+        "name": "BFG9000 (Teleporter Trap Closet)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/BFG9000 (Teleporter Trap Closet)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 793,
+            "y": 332
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw (Yellow Secret Closet)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Chainsaw (Yellow Secret Closet)",
+            "name": "Requires Yellow Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 577,
+            "y": 444
+          }
+        ]
+      },
+      {
+        "name": "Supercharge (Yellow Secret Closet)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Supercharge (Yellow Secret Closet)",
+            "name": "Requires Yellow Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 582,
+            "y": 428
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Unholy Cathedral (E3M5)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m5",
+            "x": 659,
+            "y": 346
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E3M6",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Mega Armor",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Mega Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 485,
+            "y": 735
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 350,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Backpack",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 646,
+            "y": 435
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Invulnerability",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 416,
+            "y": 430
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Chaingun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 181,
+            "y": 515
+          }
+        ]
+      },
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 199,
+            "y": 523
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 199,
+            "y": 505
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Plasma Gun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 538,
+            "y": 347
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Armor 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 522,
+            "y": 347
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Berserk",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 393,
+            "y": 314
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability 2",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Invulnerability 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 237,
+            "y": 510
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Supercharge",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 181,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Blue Skull Key",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 283,
+            "y": 377
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull Key 2",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Blue Skull Key 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 425,
+            "y": 347
+          }
+        ]
+      },
+      {
+        "name": "Computer Area Map",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Computer Area Map",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 190,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Chainsaw",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 348,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Supercharge 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 246,
+            "y": 108
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor (Outer Lava Structures, South)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Mega Armor (Outer Lava Structures, South)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 485,
+            "y": 735
+          }
+        ]
+      },
+      {
+        "name": "Armor (Central Skull Pile)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Armor (Central Skull Pile)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 350,
+            "y": 450
+          }
+        ]
+      },
+      {
+        "name": "Backpack (Outer Lava Structures, East Building)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Backpack (Outer Lava Structures, East Building)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 646,
+            "y": 435
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability (Central Red Stone Nook)Invulnerability",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Invulnerability (Central Red Stone Nook)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 416,
+            "y": 430
+          }
+        ]
+      },
+      {
+        "name": "Chaingun (Outdoor Altar)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Chaingun (Outdoor Altar)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 181,
+            "y": 515
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Outdoor Altar)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Shotgun (Outdoor Altar)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 199,
+            "y": 523
+          }
+        ]
+      },
+      {
+        "name": "Rocket launcher (Outdoor Altar)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Rocket launcher (Outdoor Altar)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 199,
+            "y": 505
+          }
+        ]
+      },
+      {
+        "name": "Plasma gun (Vine Building)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Plasma gun (Vine Building)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 538,
+            "y": 347
+          }
+        ]
+      },
+      {
+        "name": "Armor (Vine Building)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Armor (Vine Building)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 522,
+            "y": 347
+          }
+        ]
+      },
+      {
+        "name": "Berserk (Lyceum)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Berserk (Lyceum)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 393,
+            "y": 314
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability (Outdoor Altar, Behind Stairs)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Invulnerability (Outdoor Altar, Behind Stairs)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 237,
+            "y": 510
+          }
+        ]
+      },
+      {
+        "name": "Supercharge (Outer Lava Structures, West)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Supercharge (Outer Lava Structures, West)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 181,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "Blue skull key (Tri-Directional Breezeway)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Blue skull key (Tri-Directional Breezeway)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 283,
+            "y": 377
+          }
+        ]
+      },
+      {
+        "name": "Blue skull key (Lyceum)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Blue skull key (Lyceum)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 425,
+            "y": 347
+          }
+        ]
+      },
+      {
+        "name": "Computer area map (Outer Lava Structures, Northwest)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Computer area map (Outer Lava Structures, Northwest)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 190,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw (Red Pillar Dias)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Chainsaw (Red Pillar Dias)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 348,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "Supercharge (Outer Lava Structures, North-northwest)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Supercharge (Outer Lava Structures, North-northwest)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 246,
+            "y": 108
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Mt. Erebus (E3M6)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m6",
+            "x": 163,
+            "y": 356
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E3M7",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Blue Skull Key",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Blue Skull Key",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 389,
+            "y": 757
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Supercharge",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 124,
+            "y": 516
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 136,
+            "y": 498
+          }
+        ]
+      },
+      {
+        "name": "Backpack",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Backpack",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 443,
+            "y": 759
+          }
+        ]
+      },
+      {
+        "name": "Armor 2",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Armor 2",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 250,
+            "y": 695
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Mega Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 216,
+            "y": 611
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/BFG9000",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 740,
+            "y": 158
+          }
+        ]
+      },
+      {
+        "name": "Red Skull Key",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Red Skull Key",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 270,
+            "y": 77
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Armor",
+            "name": "Requires Red Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 249,
+            "y": 57
+          }
+        ]
+      },
+      {
+        "name": "Yellow Skull Key",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Yellow Skull Key",
+            "name": "Requires Red Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 247,
+            "y": 127
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Plasma Gun",
+            "name": "Requires Red Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 235,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Blue skull key (Blood Bridge Corner)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Blue skull key (Blood Bridge Corner)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 389,
+            "y": 757
+          }
+        ]
+      },
+      {
+        "name": "Supercharge (Pentagram)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Supercharge (Pentagram)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 124,
+            "y": 516
+          }
+        ]
+      },
+      {
+        "name": "Rocket launcher (Pentagram)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Rocket launcher (Pentagram)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 136,
+            "y": 498
+          }
+        ]
+      },
+      {
+        "name": "Backpack (Behind Spawn)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Backpack (Behind Spawn)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 443,
+            "y": 759
+          }
+        ]
+      },
+      {
+        "name": "Armor (Supply Room)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Armor (Supply Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 250,
+            "y": 695
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor (Monster Cage)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Mega Armor (Monster Cage)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 216,
+            "y": 611
+          }
+        ]
+      },
+      {
+        "name": "BFG9000 (Bloody Maze, East Exit)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/BFG9000 (Bloody Maze, East Exit)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 740,
+            "y": 158
+          }
+        ]
+      },
+      {
+        "name": "Red skull key (Bloody Maze, West Exit)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Red skull key (Bloody Maze, West Exit)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 270,
+            "y": 77
+          }
+        ]
+      },
+      {
+        "name": "Armor (Blood Sauna, North Platform)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Armor (Blood Sauna, North Platform)",
+            "name": "Requires Red Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 249,
+            "y": 57
+          }
+        ]
+      },
+      {
+        "name": "Yellow skull key (Blood Sauna, East Platform)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Yellow skull key (Blood Sauna, East Platform)",
+            "name": "Requires Red Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 247,
+            "y": 127
+          }
+        ]
+      },
+      {
+        "name": "Plasma gun (Blood Sauna, North Platform)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Plasma gun (Blood Sauna, North Platform)",
+            "name": "Requires Red Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 235,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Limbo (E3M7)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m7",
+            "x": 136,
+            "y": 92
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E3M8",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Dis (E3M8)/Rocket Launcher",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m8",
+            "x": 381,
+            "y": 570
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Dis (E3M8)/Plasma Gun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m8",
+            "x": 395,
+            "y": 377
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Dis (E3M8)/Mega Armor",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m8",
+            "x": 367,
+            "y": 349
+          }
+        ]
+      },
+      {
+        "name": "Rocket launcher (Spawn Corridor)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Dis (E3M8)/Rocket launcher (Spawn Corridor)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m8",
+            "x": 381,
+            "y": 570
+          }
+        ]
+      },
+      {
+        "name": "Plasma gun (Center Room)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Dis (E3M8)/Plasma gun (Center Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m8",
+            "x": 395,
+            "y": 377
+          }
+        ]
+      },
+      {
+        "name": "Mega Armor (Center Room)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Dis (E3M8)/Mega Armor (Center Room)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m8",
+            "x": 367,
+            "y": 349
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Dis (E3M8)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m8",
+            "x": 670,
+            "y": 640
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "E3M9",
+    "chest_unopened_img": "/images/items/cacodemon.png",
+    "chest_opened_img": "/images/items/cacodemon_dead.png",
+    "children": [
+      {
+        "name": "Shotgun",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Shotgun",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 180,
+            "y": 493
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Rocket Launcher",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 127,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "Rocket Launcher 2",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Rocket Launcher 2",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 150,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Supercharge",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 120,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Blue Skull Key",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Blue Skull Key",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 150,
+            "y": 45
+          }
+        ]
+      },
+      {
+        "name": "Berserk",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Berserk",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 195,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Invulnerability",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 150,
+            "y": 30
+          }
+        ]
+      },
+      {
+        "name": "Partial Invisibility",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Partial Invisibility",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 20,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Chaingun",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Chaingun",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 195,
+            "y": 245
+          }
+        ]
+      },
+      {
+        "name": "Plasma Gun",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Plasma Gun",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 357,
+            "y": 505
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability 2",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Invulnerability 2",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 299,
+            "y": 284
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Armor",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 299,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Chainsaw",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 299,
+            "y": 256
+          }
+        ]
+      },
+      {
+        "name": "BFG9000",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/BFG9000",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 108,
+            "y": 545
+          }
+        ]
+      },
+      {
+        "name": "Red Skull Key",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Red Skull Key",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 675,
+            "y": 485
+          }
+        ]
+      },
+      {
+        "name": "Supercharge 2",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Supercharge 2",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 730,
+            "y": 485
+          }
+        ]
+      },
+      {
+        "name": "Shotgun (Blood Bridge)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Shotgun (Blood Bridge)",
+            "name": "Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 180,
+            "y": 493
+          }
+        ]
+      },
+      {
+        "name": "Rocket launcher (Exit Secret...?)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Rocket launcher (Exit Secret...?)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 127,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "Rocket launcher (Cyberdemon's Room)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Rocket launcher (Cyberdemon's Room)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 150,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Supercharge (Cyberdemon's Room)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Supercharge (Cyberdemon's Room)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 120,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Blue skull key (Cyberdemon's Room)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Blue skull key (Cyberdemon's Room)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 150,
+            "y": 45
+          }
+        ]
+      },
+      {
+        "name": "Berserk (Blood Cobblestone Nook)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Berserk (Blood Cobblestone Nook)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 195,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability (Cyberdemon's Room)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Invulnerability (Cyberdemon's Room)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 150,
+            "y": 30
+          }
+        ]
+      },
+      {
+        "name": "Partial invisibility (Cyberdemon's Room)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Partial invisibility (Cyberdemon's Room)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 20,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "Chaingun (Blood Cobblestone Nook)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Chaingun (Blood Cobblestone Nook)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 195,
+            "y": 245
+          }
+        ]
+      },
+      {
+        "name": "Plasma gun (Tree Courtyard, Secret Corner)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Plasma gun (Tree Courtyard, Secret Corner)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 357,
+            "y": 505
+          }
+        ]
+      },
+      {
+        "name": "Invulnerability (Outdoor Runway)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Invulnerability (Outdoor Runway)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 299,
+            "y": 284
+          }
+        ]
+      },
+      {
+        "name": "Armor (Outdoor Runway)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Armor (Outdoor Runway)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 299,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "Chainsaw (Outdoor Runway)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Chainsaw (Outdoor Runway)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 299,
+            "y": 256
+          }
+        ]
+      },
+      {
+        "name": "BFG9000 (Blood Bridge, Secret Corner)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/BFG9000 (Blood Bridge, Secret Corner)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 108,
+            "y": 545
+          }
+        ]
+      },
+      {
+        "name": "Red skull key (Zipper Hallway)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Red skull key (Zipper Hallway)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 675,
+            "y": 485
+          }
+        ]
+      },
+      {
+        "name": "Supercharge (Zipper Hallway)",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Supercharge (Zipper Hallway)",
+            "name": "Requires Blue Skull Key"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 730,
+            "y": 485
+          }
+        ]
+      },
+      {
+        "name": "Exit",
+        "visibility_rules": [ "ep3_on" ],
+        "sections": [
+          {
+            "ref": "Mars/Warrens (E3M9)/Exit",
+            "name": "Level Completed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "e3m9",
+            "x": 299,
+            "y": 554
+          }
+        ]
+      }
+    ]
+  }
+]

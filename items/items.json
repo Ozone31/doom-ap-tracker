@@ -901,32 +901,46 @@
       {
         "img": "images/settings/deathlogic_off.png",
         "name": "Death Logic - Off",
-        "codes": "deathlogic",
+        "codes": "deathlogic,deathlogic_off",
         "inherit_codes": false
       },
       {
         "img": "images/settings/deathlogic_on.png",
         "name": "Death Logic - On",
-        "codes": "deathlogic"
+        "codes": "deathlogic,deathlogic_on",
+        "inherit_codes": false
       }
     ]
   },
   {
-    "name": "Pro",
+    "name": "Tricks",
     "type": "progressive",
     "loop": true,
     "allow_disabled": false,
     "stages": [
       {
-        "img": "images/settings/pro_off.png",
-        "name": "Pro - Off",
-        "codes": "promoves",
-        "inherit_codes": false
+        "img": "images/settings/trick_off.png",
+        "name": "Tricks - None",
+        "codes": "tricks,tricks_off",
+        "inherit_codes": true
       },
       {
-        "img": "images/settings/pro_on.png",
-        "name": "Pro - On",
-        "codes": "promoves"
+        "img": "images/settings/trick_basic.png",
+        "name": "Trick - Basic",
+        "codes": "tricks,tricks_basic",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/settings/trick_pro.png",
+        "name": "Trick - Pro",
+        "codes": "tricks,tricks_pro",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/settings/trick_extreme.png",
+        "name": "Trick - Extreme",
+        "codes": "tricks,tricks_extreme",
+        "inherit_codes": true
       }
     ]
   },
@@ -1060,6 +1074,27 @@
         "img": "images/settings/automap_off.png",
         "name": "Auto Map Switching - Off",
         "codes": "automap,automap_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Beta Locations",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/beta_off.png",
+        "name": "Beta Locations - Off",
+        "codes": "beta,beta_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/beta_on.png",
+        "name": "Beta Locations - On",
+        "codes": "beta,beta_on",
         "inherit_codes": false
       }
     ]

@@ -23,9 +23,12 @@
               ],
               [
                 "deathlogic",
-                "promoves",
+                "tricks",
                 "difficulty",
                 "automap"
+              ],
+              [
+                "beta"
               ]
             ]
           }

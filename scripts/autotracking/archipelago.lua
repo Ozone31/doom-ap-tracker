@@ -100,8 +100,17 @@ function onClear(slot_data)
     end
 
     if slot_data['pro'] then
-        local obj = Tracker:FindObjectForCode("promoves")
+        local obj = Tracker:FindObjectForCode("tricks")
         local stage = slot_data['pro']
+        if stage >= 1 then
+            obj.CurrentStage = 2
+        end
+    end
+
+    -- Beta Tricks Support
+    if slot_data['trick_difficulty'] then
+        local obj = Tracker:FindObjectForCode("tricks")
+        local stage = slot_data['trick_difficulty']
         if (stage >=2) then
             stage = 2
         end
@@ -151,6 +160,29 @@ function onClear(slot_data)
         end
         if obj then
             obj.CurrentStage = stage
+        end
+    end
+
+    -- Beta Episode Support
+    if slot_data['episodes'] then
+        local ep1 = Tracker:FindObjectForCode("ep1")
+        local ep2 = Tracker:FindObjectForCode("ep2")
+        local ep3 = Tracker:FindObjectForCode("ep3")
+        local ep4 = Tracker:FindObjectForCode("ep4")
+        ep1.CurrentStage = 0
+        ep2.CurrentStage = 0
+        ep3.CurrentStage = 0
+        ep4.CurrentStage = 0
+        for k,v in pairs(slot_data.episodes) do
+            if v == 1 then
+                ep1.CurrentStage = 1
+            elseif v == 2 then
+                ep2.CurrentStage = 1
+            elseif v == 3 then
+                ep3.CurrentStage = 1
+            elseif v == 4 then
+                ep4.CurrentStage = 1
+            end
         end
     end
 
