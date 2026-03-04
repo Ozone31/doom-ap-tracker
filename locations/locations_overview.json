@@ -2103,7 +2103,7 @@
           {
             "name": "Computer area map (Fake Exit)",
             "visibility_rules": [ "beta_on" ],
-            "access_rules": [ "$e2m6_yellowaccess, [$e2m6_gunaccess]" ]
+            "access_rules": [ "$e2m6_yellowaccess, [$e2m6_gunaccess]", "e2m6_access, [tricks_extreme], [$e2m6_gunaccess]" ]
           },
           {
             "name": "Supercharge (Fake Exit)",
@@ -2344,7 +2344,7 @@
           {
             "name": "Mega Armor (Spawn)",
             "visibility_rules": [ "beta_on" ],
-            "access_rules": [ "e2m8_access, [$e2m8_gunaccess]" ]
+            "access_rules": [ "e2m8_access" ]
           },
           {
             "name": "Exit",
@@ -3117,7 +3117,7 @@
           {
             "name": "Shotgun (Spawn)",
             "visibility_rules": [ "beta_on" ],
-            "access_rules": [ "e3m5_access, [$e3m5_gunaccess]" ]
+            "access_rules": [ "e3m5_access" ]
           },
           {
             "name": "Shotgun (Impaled Zombie)",
@@ -3448,7 +3448,7 @@
           {
             "name": "Armor (Blood Sauna, North Platform)",
             "visibility_rules": [ "beta_on" ],
-            "access_rules": [ "$e3m7_redaccess, [$e3m7_gunaccess]" ]
+            "access_rules": [ "$e3m7_blueredaccess, [$e3m7_gunaccess]", "$e3m7_redaccess, [$e3m7_gunaccess], [tricks_basic]" ]
           },
           {
             "name": "Yellow skull key (Blood Sauna, East Platform)",
@@ -3458,7 +3458,7 @@
           {
             "name": "Plasma gun (Blood Sauna, North Platform)",
             "visibility_rules": [ "beta_on" ],
-            "access_rules": [ "$e3m7_redaccess, [$e3m7_gunaccess]" ]
+            "access_rules": [ "$e3m7_blueredaccess, [$e3m7_gunaccess]", "$e3m7_redaccess, [$e3m7_gunaccess], [tricks_basic]" ]
           },
           {
             "name": "Exit",

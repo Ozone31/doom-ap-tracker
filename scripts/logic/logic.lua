@@ -374,6 +374,12 @@ function e3m7_redaccess()
     )
 end
 
+function e3m7_blueredaccess()
+    return (
+        has("e3m7_access") and (has("e3m7_blue") and has("e3m7_red"))
+    )
+end
+
 function e3m7_yellowredaccess()
     return (
         has("e3m7_access") and (has("e3m7_yellow") and has("e3m7_red"))
