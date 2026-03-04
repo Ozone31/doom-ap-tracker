@@ -412,13 +412,13 @@ end
 
 function e4m1_bluegunaccess()
     return (
-        has("e4m1_access") and has("e4m2_blue") and (has("shotgun") or has("chaingun"))
+        has("e4m1_access") and has("e4m1_blue") and (has("shotgun") or has("chaingun"))
     )
 end
 
 function e4m1_redgunaccess()
     return (
-        has("e4m1_access") and has("e4m2_red") and has("shotgun") and has("chaingun") and (has("plasmagun") or has("bfg9000"))
+        has("e4m1_access") and has("e4m1_red") and has("shotgun") and has("chaingun") and (has("plasmagun") or has("bfg9000"))
     )
 end
 
