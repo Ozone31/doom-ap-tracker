@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "1.2.1",
+			"download_url": "https://codeload.github.com/Ozone31/doom-ap-tracker/zip/refs/tags/v1.2.1",
+			"sha256": "42a60ae377fee9c25ffce10bda4e0e466916beffed096def152f5f64f2725887",
+			"changelog": [
+				"Fixed logic error with E3M5 and E3M6 exits when using the beta locations."
+			]
+		},
+		{
 			"package_version": "1.2.0",
 			"download_url": "https://codeload.github.com/Ozone31/doom-ap-tracker/zip/refs/tags/v1.2.0",
 			"sha256": "d3f4abf8b9c98de81c25e9a5f6649c69213b7ab5d00d2c60e2a789677a926ac7",
