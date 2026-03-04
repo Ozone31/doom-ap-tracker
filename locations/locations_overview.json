@@ -3146,7 +3146,7 @@
           },
           {
             "name": "Exit",
-            "access_rules": [ "beta_off, $e3m5_blueaccess", "beta_on $e3m5_blueaccess, [$e3m5_gunaccess]" ],
+            "access_rules": [ "beta_off, $e3m5_blueaccess", "beta_on, $e3m5_blueaccess, [$e3m5_gunaccess]" ],
             "hosted_item": "e3m5_complete"
           }
         ],
@@ -3334,7 +3334,7 @@
           },
           {
             "name": "Exit",
-            "access_rules": [ "beta_off, $e3m6_blueaccess", "beta_on, $e3m6_blueaccess, [$e3m6_gunaccess" ],
+            "access_rules": [ "beta_off, $e3m6_blueaccess", "beta_on, $e3m6_blueaccess, [$e3m6_gunaccess]" ],
             "hosted_item": "e3m6_complete"
           }
         ],
