@@ -1,6 +1,14 @@
 {
 	"versions": [
 		{
+			"package_version": "1.2.2",
+			"download_url": "https://codeload.github.com/Ozone31/doom-ap-tracker/zip/refs/tags/v1.2.2",
+			"sha256": "6b452f6742ebabda8e05517a2013bbe46d6ff9c1c568ea1f150d11a551b197d7",
+			"changelog": [
+				"Additional logic fixes for beta locations in E2M6, E2M8, E3M5, E3M7, and E4M1."
+			]
+		},
+		{
 			"package_version": "1.2.1",
 			"download_url": "https://codeload.github.com/Ozone31/doom-ap-tracker/zip/refs/tags/v1.2.1",
 			"sha256": "42a60ae377fee9c25ffce10bda4e0e466916beffed096def152f5f64f2725887",
