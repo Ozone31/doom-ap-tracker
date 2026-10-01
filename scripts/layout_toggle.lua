@@ -7,52 +7,36 @@ function OnChangeEpisodes()
 
     if ep1.CurrentStage == 0 and ep2.CurrentStage == 0 and ep3.CurrentStage == 0 and ep4.CurrentStage == 0 then
      Tracker:AddLayouts("layouts/Map/Overworld.json")
-     Tracker:AddLayouts("layouts/broadcast/no.json")
 elseif ep1.CurrentStage == 1 and ep2.CurrentStage == 0 and ep3.CurrentStage == 0 and ep4.CurrentStage == 0 then
      Tracker:AddLayouts("layouts/Map/ep1.json")
-     Tracker:AddLayouts("layouts/broadcast/ep1.json")
 elseif ep1.CurrentStage == 0 and ep2.CurrentStage == 1 and ep3.CurrentStage == 0 and ep4.CurrentStage == 0 then
      Tracker:AddLayouts("layouts/Map/ep2.json")
-     Tracker:AddLayouts("layouts/broadcast/ep2.json")
 elseif ep1.CurrentStage == 0 and ep2.CurrentStage == 0 and ep3.CurrentStage == 1 and ep4.CurrentStage == 0 then
      Tracker:AddLayouts("layouts/Map/ep3.json")
-     Tracker:AddLayouts("layouts/broadcast/ep3.json")
 elseif ep1.CurrentStage == 0 and ep2.CurrentStage == 0 and ep3.CurrentStage == 0 and ep4.CurrentStage == 1 then
      Tracker:AddLayouts("layouts/Map/ep4.json")
-     Tracker:AddLayouts("layouts/broadcast/ep4.json")
 elseif ep1.CurrentStage == 1 and ep2.CurrentStage == 1 and ep3.CurrentStage == 0 and ep4.CurrentStage == 0 then
      Tracker:AddLayouts("layouts/Map/ep1+2.json")
-     Tracker:AddLayouts("layouts/broadcast/ep1+2.json")
 elseif ep1.CurrentStage == 1 and ep2.CurrentStage == 0 and ep3.CurrentStage == 1 and ep4.CurrentStage == 0 then
      Tracker:AddLayouts("layouts/Map/ep1+3.json")
-     Tracker:AddLayouts("layouts/broadcast/ep1+3.json")
 elseif ep1.CurrentStage == 1 and ep2.CurrentStage == 0 and ep3.CurrentStage == 0 and ep4.CurrentStage == 1 then
      Tracker:AddLayouts("layouts/Map/ep1+4.json")
-     Tracker:AddLayouts("layouts/broadcast/ep1+4.json")
 elseif ep1.CurrentStage == 0 and ep2.CurrentStage == 1 and ep3.CurrentStage == 1 and ep4.CurrentStage == 0 then
      Tracker:AddLayouts("layouts/Map/ep2+3.json")
-     Tracker:AddLayouts("layouts/broadcast/ep2+3.json")
 elseif ep1.CurrentStage == 0 and ep2.CurrentStage == 1 and ep3.CurrentStage == 0 and ep4.CurrentStage == 1 then
      Tracker:AddLayouts("layouts/Map/ep2+4.json")
-     Tracker:AddLayouts("layouts/broadcast/ep2+4.json")
 elseif ep1.CurrentStage == 0 and ep2.CurrentStage == 0 and ep3.CurrentStage == 1 and ep4.CurrentStage == 1 then
      Tracker:AddLayouts("layouts/Map/ep3+4.json")
-     Tracker:AddLayouts("layouts/broadcast/ep3+4.json")
 elseif ep1.CurrentStage == 1 and ep2.CurrentStage == 1 and ep3.CurrentStage == 1 and ep4.CurrentStage == 0 then
      Tracker:AddLayouts("layouts/Map/ep1+2+3.json")
-     Tracker:AddLayouts("layouts/broadcast/ep1+2+3.json")
 elseif ep1.CurrentStage == 1 and ep2.CurrentStage == 1 and ep3.CurrentStage == 0 and ep4.CurrentStage == 1 then
      Tracker:AddLayouts("layouts/Map/ep1+2+4.json")
-     Tracker:AddLayouts("layouts/broadcast/ep1+2+4.json")
 elseif ep1.CurrentStage == 1 and ep2.CurrentStage == 0 and ep3.CurrentStage == 1 and ep4.CurrentStage == 1 then
      Tracker:AddLayouts("layouts/Map/ep1+3+4.json")
-     Tracker:AddLayouts("layouts/broadcast/ep1+3+4.json")
 elseif ep1.CurrentStage == 0 and ep2.CurrentStage == 1 and ep3.CurrentStage == 1 and ep4.CurrentStage == 1 then
      Tracker:AddLayouts("layouts/Map/ep2+3+4.json")
-     Tracker:AddLayouts("layouts/broadcast/ep2+3+4.json")
 elseif ep1.CurrentStage == 1 and ep2.CurrentStage == 1 and ep3.CurrentStage == 1 and ep4.CurrentStage == 1 then
      Tracker:AddLayouts("layouts/tabs.json")
-     Tracker:AddLayouts("layouts/broadcast.json")
 end
 
     -- 2. Verify all item objects exist before checking stages
