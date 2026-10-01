@@ -40,23 +40,6 @@
       },
       {
         "type": "group",
-        "header": "Level and Key Access Episode 2",
-        "margin": "0,0,0,0",
-        "content": {
-          "type": "itemgrid",
-          "h_alignment": "center",
-          "item_margin": "1,1",
-          "item_h_alignment": "center",
-          "rows": [
-            [ "e2m1_access", "e2m2_access", "e2m3_access", "e2m4_access", "e2m5_access", "e2m6_access", "e2m7_access", "e2m8_access", "e2m9_access" ],
-            [ "e2m1_blue",   "e2m2_blue",   "e2m3_blue",   "e2m4_blue",   "",            "e2m6_blue",   "e2m7_blue",   "",            "e2m9_blue" ],
-            [ "",            "e2m2_yellow", "",            "e2m4_yellow", "",            "e2m6_yellow", "e2m7_yellow", "",            "e2m9_yellow" ],
-            [ "e2m1_red",    "e2m2_red",    "",            "",            "",            "e2m6_red",    "e2m7_red",    "",            "e2m9_red" ]
-          ]
-        }
-      },
-      {
-        "type": "group",
         "header": "Level and Key Access Episode 3",
         "margin": "0,0,0,0",
         "content": {

@@ -1,0 +1,27 @@
+{
+  "tracker_broadcast": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "2,2",
+    "background": "#000000",
+    "content": [
+      {
+        "type": "group",
+        "header": "Weapons",
+        "margin": "0,0,0,0",
+        "content": {
+          "type": "itemgrid",
+          "item_width": 40,
+          "item_height": 40,
+          "h_alignment": "center",
+          "item_margin": "1,1",
+          "item_h_alignment": "center",
+          "rows": [
+            [ "chainsaw", "shotgun", "chaingun", "rocketlauncher", "plasmagun", "bfg9000" ]
+          ]
+        }
+      },
+            { "type": "dock", "dock": "left", "margin": "0,0,3,0", "content": [ { "type": "layout", "key": "key and level_bc" } ] }
+    ]
+  }
+}

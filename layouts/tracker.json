@@ -1,4 +1,4 @@
-﻿{
+{
   "tracker_default": {
     "type": "container",
     "background": "#000000",
@@ -8,67 +8,15 @@
       "content": [
         {
           "type": "dock",
+          "background": "#000000",
           "dock": "bottom",
           "content": [
-            {
-              "type": "group",
-              "header": "Weapons",
-              "dock": "left",
-              "margin": "0,0,3,0",
-              "content": {
-                "type": "layout",
-                "h_alignment": "center",
-                "v_alignment": "center",
-                "key": "weapons_grid"
-              }
-            },
-            {
-              "type": "group",
-              "header": "Level Access",
-              "dock": "left",
-              "margin": "0,0,3,0",
-              "content": {
-                "type": "layout",
-                "h_alignment": "center",
-                "v_alignment": "center",
-                "key": "levels_grid"
-              }
-            },
-            {
-              "type": "group",
-              "header": "Keys",
-              "dock": "left",
-              "margin": "0,0,3,0",
-              "content": {
-                "type": "layout",
-                "h_alignment": "center",
-                "v_alignment": "center",
-                "key": "keys_grid"
-              }
-            },
-            {
-              "type": "group",
-              "header": "Settings",
-              "dock": "left",
-              "margin": "0,0,3,0",
-              "content": {
-                "type": "layout",
-                "h_alignment": "center",
-                "v_alignment": "center",
-                "key": "setting_grid"
-              }
-            }
+            { "type": "group", "header": "Weapons", "dock": "left", "margin": "0,0,3,0", "content": { "type": "layout", "key": "weapons_grid" } },
+            { "type": "group", "header": "Settings", "dock": "right", "margin": "0,0,3,0", "content": { "type": "layout", "key": "setting_grid" } },
+            { "type": "dock", "dock": "left", "margin": "0,0,3,0", "content": [ { "type": "layout", "key": "key and level" } ] }
           ]
         },
-        {
-          "type": "dock",
-          "content": [
-            {
-              "type": "layout",
-              "key": "tabbed_maps"
-            }
-          ]
-        }
+        { "type": "dock", "content": [ { "type": "layout", "key": "tabbed_maps" } ] }
       ]
     }
   }

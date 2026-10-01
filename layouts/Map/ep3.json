@@ -1,0 +1,114 @@
+{
+    "tabbed_maps": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Overworld",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "overworld"
+                    ]
+                }
+            },
+            {
+                "title": "Episode 3",
+                "content": {
+                    "type": "tabbed",
+                  "tabs": [
+                    {
+                      "title": "Hell Keep",
+                      "icon": "images/levels/3_1.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e3m1"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Slough of Despair",
+                      "icon": "images/levels/3_2.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e3m2"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Pandemonium",
+                      "icon": "images/levels/3_3.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e3m3"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "House of Pain",
+                      "icon": "images/levels/3_4.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e3m4"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Unholy Cathedral",
+                      "icon": "images/levels/3_5.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e3m5"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Mt. Erebus",
+                      "icon": "images/levels/3_6.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e3m6"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Limbo",
+                      "icon": "images/levels/3_7.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e3m7"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Dis",
+                      "icon": "images/levels/3_8.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e3m8"
+                        ]
+                      }
+                    },
+                    {
+                      "title": "Warrens",
+                      "icon": "images/levels/3_9.png",
+                      "content": {
+                        "type": "map",
+                        "maps": [
+                          "e3m9"
+                        ]
+                      }
+                    }
+                  ]
+                }
+            }
+        ]
+    }
+}
