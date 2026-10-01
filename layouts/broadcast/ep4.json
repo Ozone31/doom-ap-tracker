@@ -1,0 +1,43 @@
+{
+  "tracker_broadcast": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "2,2",
+    "background": "#000000",
+    "content": [
+      {
+        "type": "group",
+        "header": "Weapons",
+        "margin": "0,0,0,0",
+        "content": {
+          "type": "itemgrid",
+          "item_width": 40,
+          "item_height": 40,
+          "h_alignment": "center",
+          "item_margin": "1,1",
+          "item_h_alignment": "center",
+          "rows": [
+            [ "chainsaw", "shotgun", "chaingun", "rocketlauncher", "plasmagun", "bfg9000" ]
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "header": "Level and Key Access Episode 4",
+        "margin": "0,0,0,0",
+        "content": {
+          "type": "itemgrid",
+          "h_alignment": "center",
+          "item_margin": "1,1",
+          "item_h_alignment": "center",
+          "rows": [
+            [ "e4m1_access", "e4m2_access", "e4m3_access", "e4m4_access", "e4m5_access", "e4m6_access", "e4m7_access", "e4m8_access", "e4m9_access" ],
+            [ "e4m1_blue",   "e4m2_blue",   "e4m3_blue",   "",            "e4m5_blue",   "e4m6_blue",   "e4m7_blue",   "",            "" ],
+            [ "",            "e4m2_yellow", "",            "",            "e4m5_yellow", "e4m6_yellow", "e4m7_yellow", "e4m8_yellow", "e4m9_yellow" ],
+            [ "e4m1_red",    "",            "e4m3_red",    "e4m4_red",    "e4m5_red",    "e4m6_red",    "e4m7_red",    "e4m8_red",    "" ]
+          ]
+        }
+      }
+    ]
+  }
+}

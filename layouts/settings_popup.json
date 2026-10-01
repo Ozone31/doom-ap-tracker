@@ -1,6 +1,7 @@
 {
-  "setting_grid": {
+  "settings_popup": {
     "type": "array",
+    "background": "#000000",
     "orientation": "vertical",
     "margin": "0,0",
     "content": [
@@ -12,20 +13,14 @@
           {
             "type": "itemgrid",
             "h_alignment": "center",
-            "item_margin": "0,1",
+            "item_margin": "2,2",
             "item_h_alignment": "center",
             "item_width": 30,
             "item_height": 30,
             "rows": [
-              ["ep1"],
-              ["ep2"],
-              ["ep3"],
-              ["ep4"],
-              ["deathlogic"],
-              ["tricks"],
-              ["difficulty"],
-              ["automap"],
-              ["beta"]
+              ["ep1","ep2","ep3","ep4"],
+              ["deathlogic","tricks","difficulty"],
+              ["automap" ,"beta"]
             ]
           }
         ]

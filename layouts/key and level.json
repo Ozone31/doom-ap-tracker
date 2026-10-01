@@ -1,0 +1,24 @@
+{
+  "key and level": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "layout",
+        "key": "Episode 1_grid"
+      },
+      {
+        "type": "layout",
+        "key": "Episode 2_grid"
+      },
+      {
+        "type": "layout",
+        "key": "Episode 3_grid"
+      },
+      {
+        "type": "layout",
+        "key": "Episode 4_grid"
+      }
+    ]
+  }
+}
