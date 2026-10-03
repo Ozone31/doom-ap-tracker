@@ -1,6 +1,15 @@
 {
 	"versions": [
 		{
+			"package_version": "1.2.3",
+			"download_url": "https://codeload.github.com/Ozone31/doom-ap-tracker/zip/refs/tags/v1.2.3",
+			"sha256": "299c5185e0ca3f36a7e5d2cd3107f353eed7ebc8f518674b8af4583cdab2c415",
+			"changelog": [
+				"Level access and key access for each episode are under their own layout instead of one big one for all level access and keys",
+				"When you toggle a episodes on/off their layout will be displayed or hidden same with showing/hiding episode tabs at the top of the map view"
+			]
+		},
+		{
 			"package_version": "1.2.2",
 			"download_url": "https://codeload.github.com/Ozone31/doom-ap-tracker/zip/refs/tags/v1.2.2",
 			"sha256": "6b452f6742ebabda8e05517a2013bbe46d6ff9c1c568ea1f150d11a551b197d7",
