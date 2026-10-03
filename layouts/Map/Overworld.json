@@ -1,0 +1,7 @@
+{
+  "tabbed_maps": {
+    "title": "Overworld",
+      "type": "map",
+      "maps": ["overworld"]
+    }
+}

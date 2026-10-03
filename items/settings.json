@@ -1,0 +1,213 @@
+[
+  {
+    "name": "Death Logic",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/deathlogic_off.png",
+        "name": "Death Logic - Off",
+        "codes": "deathlogic,deathlogic_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/deathlogic_on.png",
+        "name": "Death Logic - On",
+        "codes": "deathlogic,deathlogic_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Tricks",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/trick_off.png",
+        "name": "Tricks - None",
+        "codes": "tricks,tricks_off",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/settings/trick_basic.png",
+        "name": "Trick - Basic",
+        "codes": "tricks,tricks_basic",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/settings/trick_pro.png",
+        "name": "Trick - Pro",
+        "codes": "tricks,tricks_pro",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/settings/trick_extreme.png",
+        "name": "Trick - Extreme",
+        "codes": "tricks,tricks_extreme",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Episode 1",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/ep1_off.png",
+        "name": "Episode 1 - Off",
+        "codes": "ep1,ep1_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/ep1_on.png",
+        "name": "Episode 1 - On",
+        "codes": "ep1,ep1_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Episode 2",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/ep2_off.png",
+        "name": "Episode 2 - Off",
+        "codes": "ep2,ep2_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/ep2_on.png",
+        "name": "Episode 2 - On",
+        "codes": "ep2,ep2_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Episode 3",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/ep3_off.png",
+        "name": "Episode 3 - Off",
+        "codes": "ep3,ep3_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/ep3_on.png",
+        "name": "Episode 3 - On",
+        "codes": "ep3,ep3_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Episode 4",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "images/settings/ep4_off.png",
+        "name": "Episode 4 - Off",
+        "codes": "ep4,ep4_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/ep4_on.png",
+        "name": "Episode 4 - On",
+        "codes": "ep4,ep4_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Difficulty",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "stages": [
+      {
+        "img": "images/settings/difficulty_baby.png",
+        "name": "Difficulty - Baby",
+        "codes": "difficulty,difficulty_b"
+      },
+      {
+        "img": "images/settings/difficulty_easy.png",
+        "name": "Difficulty - Easy",
+        "codes": "difficulty,difficulty_e"
+      },
+      {
+        "img": "images/settings/difficulty_medium.png",
+        "name": "Difficulty - Medium",
+        "codes": "difficulty,difficulty_m"
+      },
+      {
+        "img": "images/settings/difficulty_hard.png",
+        "name": "Difficulty - Hard",
+        "codes": "difficulty,difficulty_h"
+      },
+      {
+        "img": "images/settings/difficulty_nightmare.png",
+        "name": "Difficulty - Nightmare",
+        "codes": "difficulty,difficulty_n"
+      }
+    ]
+  },
+  {
+    "name": "Auto Map Switching",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/automap_on.png",
+        "name": "Auto Map Switching - On",
+        "codes": "automap,automap_on",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/automap_off.png",
+        "name": "Auto Map Switching - Off",
+        "codes": "automap,automap_off",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Beta Locations",
+    "type": "progressive",
+    "loop": true,
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/settings/beta_off.png",
+        "name": "Beta Locations - Off",
+        "codes": "beta,beta_off",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/beta_on.png",
+        "name": "Beta Locations - On",
+        "codes": "beta,beta_on",
+        "inherit_codes": false
+      }
+    ]
+  }
+]
